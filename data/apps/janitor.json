@@ -1,0 +1,96 @@
+{
+  "key": "janitor",
+  "versions": [
+    {
+      "version": "2.5.0",
+      "date": "2026-09-15",
+      "notes": "• Scripts (lorebooks + advanced scripts)\n• Web links open the right screen with its page state\n• Notification taps now open the right chat\n• Bug fixes and performance improvements"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-22",
+      "version": "2.5.0",
+      "rating": 4.47,
+      "ratingCount": 3829,
+      "ranks": {
+        "us/Book/free": 14,
+        "us/Book/grossing": 39,
+        "cn/Book/grossing": 81
+      }
+    }
+  ],
+  "reviews": [
+    "e5affa5d6dae",
+    "5f91f0475da6",
+    "28d813d7acd8",
+    "90661d2db4d2",
+    "d93c04d8f8dd",
+    "27b124071b70",
+    "0b454bd1ea03",
+    "9e7364c405e9"
+  ],
+  "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/14/70/c6147042-684b-674e-a409-7c157e09b143/Screenshot_19_U002c5_9.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/b6/f6/b9b6f687-01ef-d0d1-fb4d-728af9967e63/Screenshot_19_U002c5_9_163.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/1e/fc/f31efccd-5dbf-6ed0-f85a-dbef47b865b9/Screenshot_19_U002c5_9_164.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/76/c5/6b76c5fe-71c2-e97f-b791-988dc500f335/Screenshot_19_U002c5_9_162.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/76/f0/d076f07f-00ea-10e3-bfbe-132ef2629519/Screenshot_19_U002c5_9_166.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/65/71/626571a2-086a-da5e-3959-dffdd0a1075a/Screenshot_19_U002c5_9_168.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/3a/12/8d3a12d5-004c-ff6d-e422-544a5234c6a8/Screenshot_19_U002c5_9_167.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/5b/c5/6d5bc545-5efe-837d-e820-ba558998dccb/Screenshot_19_U002c5_9_165.png/320x480bb.jpg"
+  ],
+  "description": "Janitor is where you step inside stories instead of just reading them. It's like if your favorite book let you talk to the characters and shape what happens next.\n\nBuilt for our diverse community – people who love romantasy, fanfiction, and interactive stories. Whether you're into arranged marriages with brooding bodyguards, enemies-to-lovers slow burns, or epic fantasy adventures, Janitor gives you the tools to create worlds and live inside them.\n\nTHE JANITORVERSE Millions of readers and writers building interactive fiction together. Romance writers crafting slow burns. Fantasy creators building entire universes. LGBTQ+ stories, fanfiction, original worlds – whatever you're into, it's here.\n\nPick a genre. Find content. Tap chat and see where it goes.\n\nWe'd love your feedback.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+  "reviewSample": [
+    {
+      "h": "e5affa5d6dae",
+      "text": "I like most of it but i do have three issues with it one being hopefully a bug. First the none bug, i find it very annoying that when i open the app my last chat isn’t at the top of the screen anymore. It’s very inconvenient and annoying especially if I was in the middle of a chat but had to set my phone down for a moment so the app reloads. Another issue also not the bug, I hate when i open the chat area in the app i can’t sort it or search for characters like i used to be able to. Plus if i am obsessively chatting with one character and make a bunch of chats with said character it isn’t all ",
+      "rating": 4
+    },
+    {
+      "h": "5f91f0475da6",
+      "text": "Before writing my review I just want y’all to know english isn’t my first language so if there’s any grammatical errors, it’s bc of that :’vv. I’m here after the last update where Janitor+ was finally added, the app has been really nice to be honest, it is the best alternative if you don’t want to use c.ai Bv but here’s my little concern: I’m glad that the Janitor+ is out but I’m worried bc all the other ai apps I tried before and had a subscription were very greedy and the free version had poor memory, length response, etc. I rlly don’t like spending money on ai especially if it’s just for ch",
+      "rating": 5
+    },
+    {
+      "h": "28d813d7acd8",
+      "text": "Love this app which is why I want to bring attention to the recent bugs like others have.\n\nI was awake when the new update dropped, and noticed the changes in bugs immediately. Text from bot responses seeming to go off the screen and can only be seen if you sometimes reload or go to edit, not even just for ending paragraphs, like could be multiple middle sections.\n\nThen there’s a bug with the text box staying the same size as the response you typed after the message is sent. Closing and reopening the chat works to get rid of it, but also going in, typing a letter, then backspacing also gets ri",
+      "rating": 4
+    },
+    {
+      "h": "90661d2db4d2",
+      "text": "I loveee the fact that we finally got an app for j.ai and for the most part it’s great. Mostly, I am so glad about the “branch into a new chat” option, it’s been so helpful. I will say, though, it’s super buggy. Sometimes it works okay, but there’s been a couple of issues for me. Many times when I select the option, it takes me to the new chat but as I type in a response, it’ll show an error message and not do anything. Most recently, it branches the chat but starts from the message it was branched from, rather than the beginning. And now, the branched chat is so buggy that every time I try to",
+      "rating": 4
+    },
+    {
+      "h": "d93c04d8f8dd",
+      "text": "Overall: I do think this is the best AI Chatbot app, especially since you have the option to pay for the membership or not. \n\nThe pros:\nI like this app enough to pay for the membership. I know I list a lot of cons below, but I do still really like it. The app is updated regularly, and I notice when they make improvements. For example, within the past few days, the chat memory ‘full summary,’ option is working for me for the first time consistently and I am VERY happy with that. It’s helping a lot since I have at least 50 chats open. That summary is as much for me as the bot frankly. I like tha",
+      "rating": 4
+    },
+    {
+      "h": "27b124071b70",
+      "text": "So far the UI is really nice, runs very smoothly, replies seem to be faster, overall layout of everything is clean! I know this is a brand new app so some things are still buggy. For instance, if you have a theme on, the border of your pfp in chat runs into the persona name. Another is there’s no way to customize the background of the chat like on the website. Also if you want to customize the text color there’s no hex number option. And lastly, when a reply is generated it outputs the complete message and stops, but the little red pause button never stops. It acts as if the message is still g",
+      "rating": 5
+    },
+    {
+      "h": "0b454bd1ea03",
+      "text": "I like the app a lot. It’s dominantly free, no filters, no limitations on how many messages you can send, and no ads I hope none of this changes but I do have a problem. It’s not about the new payment system. It’s about the new recent chat system. I don’t like it if the developers of Janitor see this can y’all return the old system back the one where it would compile all of the different things you had and also the I wish it wouldn’t just immediately go back to the top when I exit out of it. I love this app, but I just want them to return the other recent chat system and also the same with the",
+      "rating": 4
+    },
+    {
+      "h": "9e7364c405e9",
+      "text": "They just added the their Janitor ai + and it is the most annoying pop up I’ve ever seen. Rating would be higher up but the constant pop up is frustrating, I get needing to keep the lights on but after starting free I still think just adding some ads in a test run and seeing how much is to much would be received better. Depending on the ad they could make more sustainable money then when most are broke too but the subscription always leads to looking for more money and this was one of the best out there and people will find another, go to fanfics or something then give 15 different companies m",
+      "rating": 3
+    }
+  ],
+  "meta": {
+    "trackName": "Janitor: Interactive Stories",
+    "seller": "JanitorAI, INC",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/d7/85/b6d785c3-e71c-4b78-37b1-b0d95ff111b4/AppIcon-0-0-1x_U007ephone-0-8-0-85-220.png/512x512bb.jpg",
+    "url": "https://apps.apple.com/us/app/janitor-interactive-stories/id6692609366?uo=4",
+    "genre": "Book",
+    "price": "Free",
+    "released": "2025-11-29",
+    "country": "us"
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "_doc": "tier: core=直接竞品(AI互动剧/互动影院), adjacent=相邻(AI互动小说/角色扮演)。appstore.country: us|cn。youtube: 官方频道 channelId。xhs: 小红书搜索词。",
+  "competitors": [
+    {
+      "key": "inplay",
+      "name": "InPlay",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6773279322
+      },
+      "youtube": [
+        "UCcKbVbRuNFlG81FNSY3_Z_g"
+      ],
+      "site": "https://inplay.art/en/",
+      "xhs": [
+        "InPlay AI"
+      ]
+    },
+    {
+      "key": "lunaverse",
+      "name": "Lunaverse",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6779913017
+      },
+      "site": "https://playlunaverse.com/",
+      "xhs": [
+        "Lunaverse"
+      ]
+    },
+    {
+      "key": "saganova",
+      "name": "SagaNova",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6759779782
+      }
+    },
+    {
+      "key": "yoroll",
+      "name": "Yoroll",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6763028735
+      },
+      "site": "https://app.yoroll.ai/",
+      "xhs": [
+        "Yoroll"
+      ]
+    },
+    {
+      "key": "castloop",
+      "name": "CastLoop",
+      "tier": "core",
+      "market": "海外(元象)",
+      "appstore": {
+        "country": "us",
+        "id": 6790343232
+      },
+      "xhs": [
+        "CastLoop"
+      ]
+    },
+    {
+      "key": "ooc",
+      "name": "OOC: The Playable Anime",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6761247061
+      }
+    },
+    {
+      "key": "storyverse",
+      "name": "StoryVerse",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6780932935
+      },
+      "site": "https://www.storyverse.club/en"
+    },
+    {
+      "key": "saylo",
+      "name": "Saylo",
+      "tier": "adjacent",
+      "market": "海外(元象)",
+      "appstore": {
+        "country": "us",
+        "id": 6479835900
+      }
+    },
+    {
+      "key": "talefy",
+      "name": "Talefy",
+      "tier": "adjacent",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6504186435
+      }
+    },
+    {
+      "key": "roletopia",
+      "name": "Roletopia",
+      "tier": "adjacent",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6738599104
+      }
+    },
+    {
+      "key": "storyzone",
+      "name": "StoryZone",
+      "tier": "adjacent",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6737759861
+      }
+    },
+    {
+      "key": "janitor",
+      "name": "Janitor: Interactive Stories",
+      "tier": "adjacent",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6692609366
+      }
+    },
+    {
+      "key": "sagaland",
+      "name": "Sagaland",
+      "tier": "adjacent",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6748543926
+      }
+    },
+    {
+      "key": "wapoo",
+      "name": "Wapoo",
+      "tier": "adjacent",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6752590312
+      }
+    },
+    {
+      "key": "talia",
+      "name": "Talia – Interactive Cinema",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6762088478
+      }
+    },
+    {
+      "key": "orbittoon",
+      "name": "Orbittoon",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6795973037
+      }
+    },
+    {
+      "key": "picktwist",
+      "name": "PickTwist",
+      "tier": "core",
+      "market": "海外(MeChat 同厂)",
+      "appstore": {
+        "country": "us",
+        "id": 6772954863
+      }
+    },
+    {
+      "key": "cuddli",
+      "name": "Cuddli AI",
+      "tier": "adjacent",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6777919302
+      }
+    },
+    {
+      "key": "xiaoshijie",
+      "name": "小世界-AI互动故事",
+      "tier": "core",
+      "market": "大陆",
+      "appstore": {
+        "country": "cn",
+        "id": 6797379691
+      },
+      "xhs": [
+        "小世界 AI互动故事"
+      ]
+    },
+    {
+      "key": "wolaiyan",
+      "name": "我来演",
+      "tier": "adjacent",
+      "market": "大陆",
+      "appstore": {
+        "country": "cn",
+        "id": 6759898255
+      },
+      "xhs": [
+        "我来演 AI"
+      ]
+    },
+    {
+      "key": "huyingpai",
+      "name": "互影派",
+      "tier": "core",
+      "market": "大陆",
+      "appstore": {
+        "country": "cn",
+        "id": 6756259201
+      },
+      "xhs": [
+        "互影派"
+      ]
+    },
+    {
+      "key": "maoxiang",
+      "name": "猫箱",
+      "tier": "adjacent",
+      "market": "大陆(字节)",
+      "appstore": {
+        "country": "cn",
+        "id": 6475000292
+      },
+      "xhs": [
+        "猫箱 剧情"
+      ]
+    },
+    {
+      "key": "diandian",
+      "name": "点点穿书",
+      "tier": "adjacent",
+      "market": "大陆",
+      "appstore": {
+        "country": "cn",
+        "id": 1661119750
+      }
+    },
+    {
+      "key": "zhoubao",
+      "name": "宙包",
+      "tier": "adjacent",
+      "market": "大陆",
+      "appstore": {
+        "country": "cn",
+        "id": 6759592778
+      }
+    },
+    {
+      "key": "dreamnow",
+      "name": "探梦 DreamNow",
+      "tier": "core",
+      "market": "大陆(腾讯)",
+      "site": "",
+      "xhs": [
+        "探梦DreamNow",
+        "造化工坊"
+      ]
+    },
+    {
+      "key": "tdream",
+      "name": "TDream",
+      "tier": "core",
+      "market": "大陆(腾讯)",
+      "xhs": [
+        "TDream 互动"
+      ]
+    },
+    {
+      "key": "fanqie",
+      "name": "番茄/红果 AI互动剧",
+      "tier": "core",
+      "market": "大陆(字节)",
+      "xhs": [
+        "番茄 AI互动剧",
+        "诡舍 互动剧"
+      ]
+    },
+    {
+      "key": "mangguo",
+      "name": "芒果TV AI互动影游",
+      "tier": "core",
+      "market": "大陆(芒果)",
+      "xhs": [
+        "芒果 互动影游"
+      ]
+    }
+  ]
+}

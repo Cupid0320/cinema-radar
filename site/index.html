@@ -1,0 +1,509 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>互动影院竞品雷达</title>
+<style>
+:root{--bg:#f6f5f2;--panel:#fff;--ink:#1c1b19;--muted:#77736b;--line:#e6e2da;--accent:#b4452f;--accent-soft:#f6e3dd;--chip:#efece6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121110;--panel:#1c1b19;--ink:#ecebe7;--muted:#9a958c;--line:#2e2c29;--accent:#e2765d;--accent-soft:#3a231d;--chip:#282623}}
+:root[data-theme="dark"]{--bg:#121110;--panel:#1c1b19;--ink:#ecebe7;--muted:#9a958c;--line:#2e2c29;--accent:#e2765d;--accent-soft:#3a231d;--chip:#282623}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 -apple-system,"PingFang SC","Helvetica Neue",sans-serif}
+a{color:inherit}main{max-width:1180px;margin:0 auto;padding:28px 16px 80px}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:-.01em}.sub{color:var(--muted);margin:0 0 28px}
+h2.sec{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:40px 0 14px;border-top:1px solid var(--line);padding-top:18px}
+.muted{color:var(--muted)}.small{font-size:13px}
+.dtabs{display:flex;gap:6px;overflow-x:auto;margin-bottom:10px}.dtab{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:4px 12px;font-size:13px;cursor:pointer;white-space:nowrap}.dtab.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.digest{display:none;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:8px 26px 20px}.digest.on{display:block}
+.digest h2{font-size:21px;margin:22px 0 8px}.digest h3{font-size:19px;margin:30px 0 6px;color:var(--accent)}.digest h4{font-size:17px;margin:26px 0 8px}
+.digest img{max-height:340px;max-width:100%;border-radius:10px;margin:6px 6px 0 0;border:1px solid var(--line);vertical-align:top}
+.digest blockquote{margin:8px 0;padding:6px 14px;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 8px 8px 0}
+.digest table{border-collapse:collapse;font-size:13px;margin:10px 0;display:block;overflow-x:auto}.digest td{border:1px solid var(--line);padding:5px 9px;vertical-align:top}.digest tr:first-child td{font-weight:600;background:var(--chip)}
+.filters{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0}.card.core{border-top:3px solid var(--accent)}
+.card header{display:flex;gap:12px;align-items:center}.card h3{margin:0;font-size:16px}.card h3 a{text-decoration:none}
+.icon{width:48px;height:48px;border-radius:12px;flex:none;border:1px solid var(--line)}.icon.ph{display:grid;place-items:center;background:var(--chip);font-weight:700}
+.tags{display:flex;gap:4px;flex-wrap:wrap;margin-top:3px}.tag{font-size:11px;background:var(--chip);border-radius:5px;padding:1px 6px;color:var(--muted);margin-left:4px}.tags .tag{margin:0}.t-core{background:var(--accent-soft);color:var(--accent)}
+.one{margin:10px 0 0;font-size:13.5px}
+.stats{display:flex;gap:18px;margin-top:12px}.stats small{display:block;color:var(--muted);font-size:11px}.stats b{font-size:15px}.spark{display:block;color:var(--accent);margin-top:2px}
+.ranks{margin-top:10px;display:flex;flex-wrap:wrap;gap:4px}.rank{font-size:12px;background:var(--chip);border-radius:6px;padding:2px 7px}
+.shots{display:flex;gap:6px;overflow-x:auto;margin-top:12px;padding-bottom:4px}.shots img{height:150px;border-radius:8px;border:1px solid var(--line)}
+details{margin-top:10px;font-size:13px}summary{cursor:pointer;color:var(--muted)}.vers{padding-left:16px;margin:6px 0}.notes{white-space:pre-wrap;color:var(--muted);font-size:12.5px}
+.vids{display:grid;gap:6px;margin-top:10px}.vid{display:flex;gap:8px;text-decoration:none;font-size:12.5px;align-items:center}.vid img{width:96px;border-radius:6px;flex:none}
+.cands{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px}.cand{display:flex;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px}.cand img{width:40px;height:40px;border-radius:10px;flex:none}
+.xhsg{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}.xhs{display:flex;gap:10px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px;text-decoration:none}.xhs img{width:72px;height:96px;object-fit:cover;border-radius:8px;flex:none}
+@media (max-width:420px){.grid{grid-template-columns:1fr}.digest{padding:4px 14px 14px}}
+</style></head><body><main>
+<h1>互动影院竞品雷达</h1>
+<p class="sub">追踪 28 个竞品（16 个直接竞品）· 更新于 2026-09-22 06:52 UTC</p>
+
+<h2 class="sec">日报</h2>
+<div class="dtabs"><button class="dtab on" data-d="0">2026-09-22</button></div><div class="digest on" data-d="0"><h2>互动影院竞品日报 · 2026-09-22（首期）</h2>
+<blockquote><strong>今天最值得看的三件事</strong><br>1. <strong>Yoroll 推出 YoLive</strong>：一种直播形式的互动剧，观众用弹幕投票决定下一幕，AI 当场生成视频，号称 4 秒出 10 秒 768p 带声画面。实时生成视频第一次被做成了能玩的产品。<br>2. <strong>OOC 已经是赛道里最赚钱的产品</strong>：母公司 Wrtn 9 月完成 C 轮融资，估值超过 1 万亿韩元。OOC 美区月收入约 770 万美元，而它几乎只有文字加插画。<br>3. <strong>新冒出 6 个直接竞品</strong>，已经纳入追踪：Talia、Orbittoon、PickTwist、Cuddli、小世界、我来演。</blockquote>
+<p>首期先建立基线：记录每个竞品当前的版本、截图、排名和评分。从明天起，日报只报变化。</p>
+<hr>
+<h3>一、竞品动态</h3>
+<h4>Yoroll：YoLive 把实时生成视频做成了直播玩法</h4>
+<p><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/86/66/cc8666c0-f1f9-59ea-854e-c38456edd3e7/ios-_U82f1-1.jpg/320x480bb.jpg" alt="Yoroll 首页" loading="lazy"> <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/18/32/6a1832e0-e59d-a8c6-5382-d9abe0a9af49/ios-_U82f1-3.jpg/320x480bb.jpg" alt="Yoroll 片库" loading="lazy"></p>
+<ul>
+<li><strong>发生了什么</strong>：约 9 月初上线 <a href="https://yo.live/" target="_blank" rel="noopener">YoLive</a>。观众在弹幕里提议剧情走向，得票最高的那一条由 AI 结合前情、人物关系和当前任务状态续写成下一幕视频。视频由自研的 H3 Superfast 模型生成，号称 4 秒出 10 秒、768p、24fps，自带对白和配乐，用 8 张 B200 跑到 2.5 倍实时。首个频道是《丧尸清道夫》，同时在 Yoroll App 和抖音直播间上线。</li>
+<li><strong>背景</strong>：Yoroll 的母公司 LinearGame 总部在新加坡和旧金山，拿过数百万美元的种子前轮融资。7 月有创作者用 Yoroll 花两天、约 250 美元做出《AI Odyssey》，包含 140 多段视频、11 个结局，在 TikTok 小游戏上玩了 10 万次以上。《丧尸清道夫》参展了科隆 gamescom，试玩的平均时长超过半小时。</li>
+<li><strong>对我们</strong>：我们 Director 的核心判断是&quot;这一拍值不值得生成视频&quot;。Yoroll 证明，只要生成速度快过播放速度，视频就可以作为默认输出，而不只在关键时刻才用。另外，&quot;多人投票决定一部剧&quot;是一种我们还没考虑过的社交形态，值得评估能不能做成直播或群体玩法。</li>
+</ul>
+<p>来源：<a href="https://ai-bot.cn/yolive/" target="_blank" rel="noopener">AI工具集</a> · <a href="https://news.qq.com/rain/a/20260908A09QH700" target="_blank" rel="noopener">腾讯新闻</a> · <a href="https://finance.yahoo.com/technology/ai/articles/yoroll-launches-ai-odyssey-playable-131900430.html" target="_blank" rel="noopener">Yahoo Finance</a></p>
+<h4>OOC: The Playable Anime：赛道收入标杆，同时上线&quot;会话分叉&quot;功能</h4>
+<p><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/6d/67/d76d6765-e894-6483-508f-c8bfc43a0dd8/iOS6.5_1_U00281_U0029.png/320x480bb.jpg" alt="OOC 截图" loading="lazy"> <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/6b/35/816b3549-71a4-b755-15e0-2d20aa964dfe/iOS6.5_1_U00282_U0029.png/320x480bb.jpg" alt="OOC 截图" loading="lazy"></p>
+<ul>
+<li><strong>发生了什么</strong>：Wrtn（韩国）9 月完成 C 轮融资，估值超过 1 万亿韩元（约 7.7 亿美元）。OOC 4 月才在美国上线，现在月收入约 100 亿韩元（约 770 万美元）。公司整体年化收入 2 亿美元，付费用户平均每月花 100 美元以上。App Store 美区娱乐畅销榜第 <strong>41</strong> 名，评分 4.64，共 6121 条评分。</li>
+<li><strong>9/18 发布 0.1.20</strong>，新功能叫 <strong>Session Branching</strong>：可以从任意一条消息分叉出新剧情线，之前的上下文会全部带过去，而且分叉免费。这正好回应了用户评论里&quot;重新生成后没选的版本就丢了&quot;的抱怨。</li>
+<li><strong>用户口碑</strong>：好评集中在&quot;选剧情再控制走向&quot;这个玩法本身。差评集中在额度墙，免费用量不够用，但也有人明确说&quot;这是第一个我觉得值得付钱的&quot;。</li>
+<li><strong>对我们</strong>：OOC 的内容主要是文字加插画，就做到了单用户每月 100 美元的付费。这说明用户买单的是&quot;剧情由我决定&quot;，画面豪华不是必需的。另外，&quot;从任意节点重开&quot;这类存档和分支管理的能力，正在成为这个品类的标配。</li>
+</ul>
+<p>来源：<a href="https://ionanalytics.com/insights/mergermarket/wrtns-valuation-soars-as-investors-latch-onto-global-appeal-of-playable-anime/" target="_blank" rel="noopener">ION Analytics</a> · <a href="https://www.gamigion.com/ooc-playable-anime-is-generating-around-100k-day-in-iaps/" target="_blank" rel="noopener">Gamigion</a> · <a href="https://apps.apple.com/us/app/ooc-the-playable-anime/id6761247061" target="_blank" rel="noopener">App Store</a></p>
+<h4>SagaNova：扫一次脸、克隆声音，让用户当主演</h4>
+<p><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/da/4f/98da4fa4-6c8e-e9fc-d69e-34cb568c271c/03.png/320x480bb.jpg" alt="扫脸" loading="lazy"> <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/af/1e/c1af1e37-c769-af14-c53e-4e2949e0da02/04.png/320x480bb.jpg" alt="选择肖像风格" loading="lazy"></p>
+<ul>
+<li><strong>是什么</strong>：定位&quot;AI 互动剧影院&quot;，有三层功能。Watch：原创互动剧，比如《Seven Ways to Be Loved》，456 个场景、23 个结局。Binge：AI 短剧。Star：扫一次脸、克隆声音，就能把自己放进任意场景当主演，甚至选角、写故事，让 AI 来拍。</li>
+<li><strong>近况</strong>：8/31 发布 1.0.4，改版了商店页，评分数还只有个位数，属于早期产品。</li>
+<li><strong>对我们</strong>：它把&quot;代入感&quot;做到了字面意义：主角直接长着用户的脸、说着用户的声音。这比第二人称文案强得多，但合规成本也高，涉及人脸和声纹的授权与存储。后续值得观察它的留存。</li>
+</ul>
+<h4>其他直接竞品本期要点</h4>
+<ul>
+<li><strong>InPlay</strong> 2.0.3（9/7），更新说明是&quot;More stories / Faster&quot;。卖点是 AI 给出选项之外，用户还能<strong>自己打字写第三个选择</strong>。评论里的差评几乎都是<strong>生成失败和进度丢失</strong>：&quot;AI is having trouble generating, please retry&quot;、卡在某一页一直转圈、退出后进度没保存。这和我们在封控方案里要解决的问题是同一类：生成失败时，用户的体验就断了。</li>
+<li><strong>CastLoop</strong>（元象，也是 Saylo 的母公司）1.3（9/15），新增&quot;在游玩记录里看到剧情更新并继续&quot;。商店截图里可以看到&quot;✎ I want to do…&quot;自由输入加 More Branches，还有可视化的剧情树 Story Tree。它是和我们形态最接近的一家：电影化画面、选项加自由输入、AI 续写分支。</li>
+<li><strong>Lunaverse</strong> 1.0.5（8/31），常规修复。它的玩法是分集剧情，加上检定、小游戏，再加角色私聊和角色朋友圈，重心在运营角色关系。</li>
+<li><strong>StoryVerse</strong> 1.0.9（9/21），新增私密故事、导出 TXT 或配音 MP3，并加强了&quot;Write Your Own Path&quot;。</li>
+</ul>
+<hr>
+<h3>二、新发现：建议纳入追踪（已加入）</h3>
+<p><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/aa/7a/3baa7abd-3c4a-bd44-fe15-c5a6902da8ad/IMG_1874-asc.PNG/320x480bb.jpg" alt="Talia 剧情地图" loading="lazy"> <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/82/3f/76823f69-1c9f-c24e-ddea-6ec573697e9a/_U5fae_U4fe1_U56fe_U7247_20260918142810_677_54.png/320x480bb.jpg" alt="Orbittoon" loading="lazy"> <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/ae/83/07ae830a-66e4-cd26-aee9-a07d2fa49aff/1.png/320x480bb.jpg" alt="小世界" loading="lazy"></p>
+<table><tr><td>产品</td><td>市场</td><td>一句话</td><td>为什么值得追</td></tr><tr><td><a href="https://apps.apple.com/us/app/talia-interactive-cinema/id6762088478" target="_blank" rel="noopener">Talia – Interactive Cinema</a></td><td>美区</td><td>&quot;口袋互动影院&quot;，由独立创作者设计分支世界，采用短视频信息流形态，自带剧情地图</td><td>名字和定位几乎和我们一模一样，而且走 UGC 创作者路线</td></tr><tr><td><a href="https://apps.apple.com/us/app/orbittoon-interactive-drama/id6795973037" target="_blank" rel="noopener">Orbittoon</a></td><td>美区</td><td>电影感的互动剧，主推剧《Moon Rain》共 10 集，每周一、三更新，角色可以私聊</td><td>&quot;追剧节奏加互动&quot;的运营模式</td></tr><tr><td><a href="https://apps.apple.com/us/app/picktwist-interactive-drama/id6772954863" target="_blank" rel="noopener">PickTwist</a></td><td>美区</td><td>竖屏互动短剧，关键节点让用户选，订阅或金币解锁</td><td>开发商和 <strong>MeChat</strong>（近 10 万条评分）是同一家，老牌大厂进场</td></tr><tr><td><a href="https://apps.apple.com/us/app/cuddli-ai-character-stories/id6777919302" target="_blank" rel="noopener">Cuddli AI</a></td><td>美区</td><td>角色卡带动态视频背景、配音和分支剧情</td><td>&quot;角色卡加视频背景&quot;是一种轻量的视觉化方案</td></tr><tr><td><a href="https://apps.apple.com/cn/app/id6797379691" target="_blank" rel="noopener">小世界-AI互动故事</a></td><td>国区</td><td>AI 动态生成剧情和<strong>配图</strong>，题材有悬疑、武侠、盗墓，另有 AI 换装</td><td>国内版的&quot;实时生成剧情加画面&quot;，8/29 刚上架</td></tr><tr><td><a href="https://apps.apple.com/cn/app/id6759898255" target="_blank" rel="noopener">我来演</a></td><td>国区</td><td>以职场、情感、家庭等现实题材为主的 AI 互动剧情</td><td>现实题材是一个差异化方向</td></tr></table>
+<p><strong>观察名单</strong>（暂不追踪，有动静再报）：Plot Twist、Loopit（AI 可玩内容制作）、FlickReels（AI Story &amp; Drama）、VibeShort（AI 短剧）、My Muse（Holywater）、BagelChat（用图像和动图回应聊天）、Popia；国区还有莫比乌斯之恋、浪漫租约、情感反诈模拟器。国区这三部是真人实拍的互动影像，不是 AI 生成，但题材可以参考。</p>
+<p><strong>行业动态（没有 App Store 页面，靠小红书和网页追踪）</strong>：腾讯两个月内推出 4 款相关产品：探梦 DreamNow、代号 Craft、造化工坊、TDream。番茄小说做了 AI 仿真人互动剧《诡舍》。芒果 TV 做了《公主请自重》《马上来财》，后者播放量超过 1500 万。抖音小游戏《华君传：翻牌吧女帝》上线 3 周，玩家接近 200 万。</p>
+<hr>
+<h3>三、格局速览</h3>
+<table><tr><td>形态</td><td>代表</td><td>画面</td><td>用户规模信号</td></tr><tr><td>实时生成视频</td><td>Yoroll / YoLive</td><td>AI 视频，号称 2.5 倍实时</td><td>单部作品 10 万次以上游玩</td></tr><tr><td>预制 AI 视频加分支</td><td>SagaNova、Orbittoon、PickTwist、Talia</td><td>AI 视频</td><td>大多是早期产品，评分只有个位数</td></tr><tr><td>电影化画面、选项加自由输入</td><td>CastLoop、InPlay</td><td>AI 插画和视频</td><td>InPlay 有 333 条评分</td></tr><tr><td>文字加插画的&quot;可玩动漫&quot;</td><td>OOC</td><td>插画</td><td><strong>月收入约 770 万美元</strong>，美区娱乐畅销榜第 41</td></tr><tr><td>真人或仿真人互动影游</td><td>互影派、芒果、番茄</td><td>实拍或仿真人</td><td>芒果单部播放 1500 万以上</td></tr></table>
+<hr>
+<h3>四、小红书</h3>
+<p>⏳ 本期未抓取：Chrome 里的小红书处于未登录状态，搜索结果必须登录才能看。扫码登录后，下一期起会追踪这些关键词：AI互动剧、AI互动影游、各竞品名。</p></div>
+
+<h2 class="sec">竞品一览</h2>
+<div class="filters"><button class="dtab on" data-f="all">全部</button><button class="dtab" data-f="core">直接竞品</button><button class="dtab" data-f="global">海外</button><button class="dtab" data-f="cn">大陆</button></div>
+<div class="grid"><article class="card core" data-market="global" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/9a/b8/169ab8cf-81e1-afea-0599-2bcc32caaa86/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/inplay-interctive-stories/id6773279322?uo=4" target="_blank">InPlay</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">海外</span><span class="tag">上架 2026-07-06</span></div></div>
+  </header>
+  <p class="one">AI 实时生成选项 + 可自由打字写「第三个选择」，Remix 社区；差评集中在生成失败/进度丢失</p>
+  <div class="stats"><div><small>版本</small><b>2.0.3</b></div><div><small>评分</small><b>4.62</b></div><div><small>评分数</small><b>333</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/28/74/0b2874b5-eec3-8679-a2dd-f56310f8bff7/app_store1.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/28/74/0b2874b5-eec3-8679-a2dd-f56310f8bff7/app_store1.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/88/7c/c1887c4a-4e5d-adcb-0e20-d4223095aaa6/app_store2.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/88/7c/c1887c4a-4e5d-adcb-0e20-d4223095aaa6/app_store2.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/8b/fb/528bfbc7-3146-083b-a1d4-ffa33df11f32/app_store3.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/8b/fb/528bfbc7-3146-083b-a1d4-ffa33df11f32/app_store3.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/a5/42/50a542fd-5e85-543b-13e1-47d64753408b/app_store4.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/a5/42/50a542fd-5e85-543b-13e1-47d64753408b/app_store4.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/db/4d/b0db4d10-c288-4a16-5b86-bf94a84cfbf9/app_store5.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/db/4d/b0db4d10-c288-4a16-5b86-bf94a84cfbf9/app_store5.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>2.0.3</b> <span class="muted">2026-09-07</span><div class="notes">1. More stories
+2. Faster</div></li></ul></details>
+  <div class="vids"><a class="vid" href="https://www.youtube.com/watch?v=-aZKRsU9Ses" target="_blank"><img src="https://i.ytimg.com/vi/-aZKRsU9Ses/mqdefault.jpg" loading="lazy" alt=""><span>InPlay | When Two Choices Are Not Enough, Type the Third</span></a></div>
+</article>
+<article class="card core" data-market="global" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/ac/70/35ac70f4-0f7f-15ed-ede1-0a52568f9721/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/lunaverse-stories/id6779913017?uo=4" target="_blank">Lunaverse</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">海外</span><span class="tag">上架 2026-07-22</span></div></div>
+  </header>
+  <p class="one">分集分支剧 + 检定/小游戏 + 角色私聊(Bubble)与角色朋友圈(Moments)</p>
+  <div class="stats"><div><small>版本</small><b>1.0.5</b></div><div><small>评分</small><b>—</b></div><div><small>评分数</small><b>0</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/26/a7/9226a723-315f-a0a8-db8e-946c06ec1300/appstore-1.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/26/a7/9226a723-315f-a0a8-db8e-946c06ec1300/appstore-1.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/79/3d/68793d54-a77d-084d-a406-1afbaf78354f/appstore-2.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/79/3d/68793d54-a77d-084d-a406-1afbaf78354f/appstore-2.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a0/18/1a/a0181aab-ed43-9993-eff2-a6eee2be0a80/appstore-3.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a0/18/1a/a0181aab-ed43-9993-eff2-a6eee2be0a80/appstore-3.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/eb/ad/28ebad50-2685-c123-6d01-30c8d98a39c8/appstore-4.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/eb/ad/28ebad50-2685-c123-6d01-30c8d98a39c8/appstore-4.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/53/4d/9e534db7-4c1e-7cee-cd90-e5d5738b5a77/appstore-5.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/53/4d/9e534db7-4c1e-7cee-cd90-e5d5738b5a77/appstore-5.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.0.5</b> <span class="muted">2026-08-31</span><div class="notes">Improved the overall user experience
+Fixed known issues
+Enhanced app stability and performance</div></li></ul></details>
+  
+</article>
+<article class="card core" data-market="global" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b3/81/d2b381aa-f8d0-760c-c5d0-7b9c2b22bf27/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/saganova-ai-interactive-drama/id6759779782?uo=4" target="_blank">SagaNova</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">海外</span><span class="tag">上架 2026-07-08</span></div></div>
+  </header>
+  <p class="one">AI 互动剧影院：原创互动剧（456 场景/23 结局）+ AI 短剧 + 扫脸克隆声音自己当主演</p>
+  <div class="stats"><div><small>版本</small><b>1.0.4</b></div><div><small>评分</small><b>5</b></div><div><small>评分数</small><b>1</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/79/81/7a79814a-70c9-22e6-3da1-5ff779f8aacd/01.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/79/81/7a79814a-70c9-22e6-3da1-5ff779f8aacd/01.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/ea/ac/6deaacba-a59f-1e59-d4f6-4109c76bfb1d/02.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/ea/ac/6deaacba-a59f-1e59-d4f6-4109c76bfb1d/02.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/da/4f/98da4fa4-6c8e-e9fc-d69e-34cb568c271c/03.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/da/4f/98da4fa4-6c8e-e9fc-d69e-34cb568c271c/03.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/af/1e/c1af1e37-c769-af14-c53e-4e2949e0da02/04.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/af/1e/c1af1e37-c769-af14-c53e-4e2949e0da02/04.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/5c/d2/425cd277-72aa-8bae-9e17-4e0ee080032f/05.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/5c/d2/425cd277-72aa-8bae-9e17-4e0ee080032f/05.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/56/f7/8e56f76c-c488-068e-5de5-69a0c7c333f5/06.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/56/f7/8e56f76c-c488-068e-5de5-69a0c7c333f5/06.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.0.4</b> <span class="muted">2026-08-31</span><div class="notes">A brand-new look on the App Store, plus performance and stability improvements throughout the app.</div></li></ul></details>
+  
+</article>
+<article class="card core" data-market="global" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/4c/8a/c64c8af1-64b2-04f3-a898-dbd8bf548804/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/yoroll-playable-video/id6763028735?uo=4" target="_blank">Yoroll</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">海外</span><span class="tag">上架 2026-07-13</span></div></div>
+  </header>
+  <p class="one">「可玩视频」平台 + 创作工具；9 月上线 YoLive：弹幕投票、AI 实时生成视频的直播互动剧</p>
+  <div class="stats"><div><small>版本</small><b>1.0.7</b></div><div><small>评分</small><b>—</b></div><div><small>评分数</small><b>0</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/86/66/cc8666c0-f1f9-59ea-854e-c38456edd3e7/ios-_U82f1-1.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/86/66/cc8666c0-f1f9-59ea-854e-c38456edd3e7/ios-_U82f1-1.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/41/3b/ce413b30-cc6a-73cb-36d9-1f206d79ca33/ios-_U82f1-2.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/41/3b/ce413b30-cc6a-73cb-36d9-1f206d79ca33/ios-_U82f1-2.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/18/32/6a1832e0-e59d-a8c6-5382-d9abe0a9af49/ios-_U82f1-3.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/18/32/6a1832e0-e59d-a8c6-5382-d9abe0a9af49/ios-_U82f1-3.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/63/b9/e763b93e-55fd-b6e8-a658-e4de743d8459/ios-_U82f1-4.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/63/b9/e763b93e-55fd-b6e8-a658-e4de743d8459/ios-_U82f1-4.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/33/da/9a33da40-5ba1-7903-6ec9-c8b4ec435fc2/ios-_U82f1-5.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/33/da/9a33da40-5ba1-7903-6ec9-c8b4ec435fc2/ios-_U82f1-5.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/f9/36/a4f9363e-e51c-32fb-d781-da603cdf604b/ios-_U82f1-6.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/f9/36/a4f9363e-e51c-32fb-d781-da603cdf604b/ios-_U82f1-6.jpg/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.0.7</b> <span class="muted">2026-09-07</span><div class="notes">Bug fixes and stability improvements.</div></li></ul></details>
+  
+</article>
+<article class="card core" data-market="global" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/2a/e3/442ae3cf-529c-b0e1-6922-dd65eaf3f8ea/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/castloop/id6790343232?uo=4" target="_blank">CastLoop</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">海外(元象)</span><span class="tag">上架 2026-08-24</span></div></div>
+  </header>
+  <p class="one">元象（Saylo 母公司）出品：电影化画面、选项 + 自由输入生成新分支、剧情树</p>
+  <div class="stats"><div><small>版本</small><b>1.3</b></div><div><small>评分</small><b>4.67</b></div><div><small>评分数</small><b>3</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/94/90/8e9490dc-7a70-e5c9-5bfc-2272271df566/Property_1_U003d_U65b0_U5267_U4e0a_U7ebf.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/94/90/8e9490dc-7a70-e5c9-5bfc-2272271df566/Property_1_U003d_U65b0_U5267_U4e0a_U7ebf.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/15/11/a8151178-a3d9-d819-5078-bee0447e192f/_U6545_U4e8b_U5165_U53e3.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/15/11/a8151178-a3d9-d819-5078-bee0447e192f/_U6545_U4e8b_U5165_U53e3.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/bf/e8/c3bfe8b4-0e81-0139-efda-ab3a31e286d4/_U5267_U60c5_U9009_U62e9_U8282_U70b9.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/bf/e8/c3bfe8b4-0e81-0139-efda-ab3a31e286d4/_U5267_U60c5_U9009_U62e9_U8282_U70b9.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/2a/fa/f02afa4a-ff75-d0f0-0200-05d9767d2e0a/_U5206_U652f.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/2a/fa/f02afa4a-ff75-d0f0-0200-05d9767d2e0a/_U5206_U652f.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/28/db/3c28db57-08c0-cfac-aab2-2598a0913260/opencasting.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/28/db/3c28db57-08c0-cfac-aab2-2598a0913260/opencasting.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/61/f1/2c61f1c1-3aa3-776e-d579-2d990e8e4af6/Visual_Story.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/61/f1/2c61f1c1-3aa3-776e-d579-2d990e8e4af6/Visual_Story.jpg/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.3</b> <span class="muted">2026-09-15</span><div class="notes">1. Spot new story updates in your play history and continue your adventure.
+2. Bug fixes and improvements for smoother play.</div></li></ul></details>
+  
+</article>
+<article class="card core" data-market="global" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/e7/26/95e72672-68d2-425f-e4f9-a0474dfe4258/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/ooc-the-playable-anime/id6761247061?uo=4" target="_blank">OOC: The Playable Anime</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">海外</span><span class="tag">上架 2026-04-15</span></div></div>
+  </header>
+  <p class="one">Wrtn 的「可玩动漫」：文字+插画的 AI 叙事，月收入约 $7.7M，赛道收入标杆</p>
+  <div class="stats"><div><small>版本</small><b>0.1.20</b></div><div><small>评分</small><b>4.64</b></div><div><small>评分数</small><b>6,121</b></div></div>
+  <div class="ranks"><span class="rank">美区 娱乐 畅销榜 <b>#41</b></span></div>
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/6d/67/d76d6765-e894-6483-508f-c8bfc43a0dd8/iOS6.5_1_U00281_U0029.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/6d/67/d76d6765-e894-6483-508f-c8bfc43a0dd8/iOS6.5_1_U00281_U0029.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/6b/35/816b3549-71a4-b755-15e0-2d20aa964dfe/iOS6.5_1_U00282_U0029.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/6b/35/816b3549-71a4-b755-15e0-2d20aa964dfe/iOS6.5_1_U00282_U0029.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/31/01/6a310169-a544-746f-47ef-b9ec64cd0cf8/iOS6.5_1_U00284_U0029.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/31/01/6a310169-a544-746f-47ef-b9ec64cd0cf8/iOS6.5_1_U00284_U0029.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/72/b4/9a72b408-3d18-f54c-16a7-9f6330bdd7f9/iOS6.5_1_U00285_U0029.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/72/b4/9a72b408-3d18-f54c-16a7-9f6330bdd7f9/iOS6.5_1_U00285_U0029.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/51/e0/a951e0a4-a695-0dd7-515c-cf06530e48e8/iOS6.5_1_U00286_U0029.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/51/e0/a951e0a4-a695-0dd7-515c-cf06530e48e8/iOS6.5_1_U00286_U0029.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>0.1.20</b> <span class="muted">2026-09-18</span><div class="notes">Session Branching is here
+Branch off any message and start a new path from that exact point — everything up to then comes with you.
+
+- Go back to a turning point and try something new
+- Chase a different ending
+- Rescue a session that went sideways
+
+Branch as often as you like. B</div></li></ul></details>
+  <div class="vids"><a class="vid" href="https://www.youtube.com/watch?v=4roIJeCNRzM" target="_blank"><img src="https://i.ytimg.com/vi/4roIJeCNRzM/mqdefault.jpg" loading="lazy" alt=""><span>OOC: The Playable Anime | Official Reveal Trailer (273 万播放)</span></a></div>
+</article>
+<article class="card core" data-market="global" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/15/50/6f15504b-cd9a-4356-0afa-51f0d174c559/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/storyverse-interactive-stories/id6780932935?uo=4" target="_blank">StoryVerse</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">海外</span><span class="tag">上架 2026-06-24</span></div></div>
+  </header>
+  <p class="one">AI 选择冒险故事 + AI 朗读，可导入 PDF、导出配音 MP3</p>
+  <div class="stats"><div><small>版本</small><b>1.0.9</b></div><div><small>评分</small><b>—</b></div><div><small>评分数</small><b>0</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/ff/ef/aaffef84-c3dd-acef-8add-0d86915cb1b0/Home_1.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/ff/ef/aaffef84-c3dd-acef-8add-0d86915cb1b0/Home_1.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/9f/b6/179fb681-e870-5b5c-3137-2243d5e73316/Explore.PNG/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/9f/b6/179fb681-e870-5b5c-3137-2243d5e73316/Explore.PNG/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/a2/d7/daa2d71e-24cc-b7dc-fdf3-b848819fccd3/Listening_1.PNG/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/a2/d7/daa2d71e-24cc-b7dc-fdf3-b848819fccd3/Listening_1.PNG/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/bc/c2/c4bcc284-d850-d694-b49f-b0650d20c05c/Create_your_next.PNG/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/bc/c2/c4bcc284-d850-d694-b49f-b0650d20c05c/Create_your_next.PNG/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/5c/8d/955c8d0e-1d86-25a2-50cc-bb4060574e92/Library_-_listening.PNG/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/5c/8d/955c8d0e-1d86-25a2-50cc-bb4060574e92/Library_-_listening.PNG/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/7c/00/f47c00ab-0c4f-d328-e2c7-871d74b482fe/Create_your_own_story.PNG/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/7c/00/f47c00ab-0c4f-d328-e2c7-871d74b482fe/Create_your_own_story.PNG/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.0.9</b> <span class="muted">2026-09-21</span><div class="notes">Create stories your way—now with more privacy and control.
+
+• Keep stories private while continuing to read, play, and expand them  
+• Export your complete main storyline as TXT or premium narrated MP3  
+• Improved “Write Your Own Path” reliability  
+• Jump directly to newly crea</div></li></ul></details>
+  
+</article>
+<article class="card core" data-market="global" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/91/89/db918936-94b4-5fd1-8102-c4a051e5ded7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/talia-interactive-cinema/id6762088478?uo=4" target="_blank">Talia – Interactive Cinema</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">海外</span><span class="tag">上架 2026-05-18</span></div></div>
+  </header>
+  <p class="one">「口袋互动影院」：独立创作者设计分支世界，短视频信息流 + 剧情地图</p>
+  <div class="stats"><div><small>版本</small><b>1.1.2</b></div><div><small>评分</small><b>—</b></div><div><small>评分数</small><b>0</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/01/b4/2901b471-7bb2-47b1-6c06-f435ec9ef4d1/IMG_1871-asc.PNG/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/01/b4/2901b471-7bb2-47b1-6c06-f435ec9ef4d1/IMG_1871-asc.PNG/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/aa/7a/3baa7abd-3c4a-bd44-fe15-c5a6902da8ad/IMG_1874-asc.PNG/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/aa/7a/3baa7abd-3c4a-bd44-fe15-c5a6902da8ad/IMG_1874-asc.PNG/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/2e/bc/712ebc82-6d1e-49e4-618c-68bbc07fa9ff/IMG_1872-asc.PNG/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/2e/bc/712ebc82-6d1e-49e4-618c-68bbc07fa9ff/IMG_1872-asc.PNG/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/2f/31/862f311d-c25d-0564-3153-4116646fc6ae/IMG_1876-asc.PNG/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/2f/31/862f311d-c25d-0564-3153-4116646fc6ae/IMG_1876-asc.PNG/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/97/89/1c9789a9-a32d-3883-4cc7-111dc2b9dd68/IMG_1875-asc.PNG/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/97/89/1c9789a9-a32d-3883-4cc7-111dc2b9dd68/IMG_1875-asc.PNG/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.1.2</b> <span class="muted">2026-09-17</span><div class="notes">Explore your stories in a whole new way:
+
+• Pinch to zoom the story map — node titles stay crisp and readable at any scale
+• Story titles now appear beneath each node, hidden until you unlock them (no spoilers)
+• Creators can give a project its own gradient theme — carried across</div></li></ul></details>
+  
+</article>
+<article class="card core" data-market="global" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/26/d5/6f26d5dc-7cf0-1ebd-4d99-b4a567a9167e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/orbittoon-interactive-drama/id6795973037?uo=4" target="_blank">Orbittoon</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">海外</span><span class="tag">上架 2026-09-02</span></div></div>
+  </header>
+  <p class="one">电影感互动剧，《Moon Rain》10 集周更，角色可私聊</p>
+  <div class="stats"><div><small>版本</small><b>1.1.0</b></div><div><small>评分</small><b>5</b></div><div><small>评分数</small><b>2</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/82/3f/76823f69-1c9f-c24e-ddea-6ec573697e9a/_U5fae_U4fe1_U56fe_U7247_20260918142810_677_54.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/82/3f/76823f69-1c9f-c24e-ddea-6ec573697e9a/_U5fae_U4fe1_U56fe_U7247_20260918142810_677_54.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/54/1d/29541d11-bb13-891d-78fe-8147d68894e7/_U5fae_U4fe1_U56fe_U7247_20260918142811_679_54.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/54/1d/29541d11-bb13-891d-78fe-8147d68894e7/_U5fae_U4fe1_U56fe_U7247_20260918142811_679_54.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/4b/8e/a44b8e7c-66d9-701f-1e52-4d62a88af5b9/_U5fae_U4fe1_U56fe_U7247_20260918142812_680_54.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/4b/8e/a44b8e7c-66d9-701f-1e52-4d62a88af5b9/_U5fae_U4fe1_U56fe_U7247_20260918142812_680_54.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/89/27/44892768-7764-4403-54d8-8b69a5da2601/_U5fae_U4fe1_U56fe_U7247_20260918142814_685_54.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/89/27/44892768-7764-4403-54d8-8b69a5da2601/_U5fae_U4fe1_U56fe_U7247_20260918142814_685_54.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/cb/74/d7cb7441-2d26-827e-ad50-46cd0296d141/_U5fae_U4fe1_U56fe_U7247_20260918142814_684_54.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/cb/74/d7cb7441-2d26-827e-ad50-46cd0296d141/_U5fae_U4fe1_U56fe_U7247_20260918142814_684_54.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/91/c6/3a91c6b1-5260-28c0-a304-7634f53f972a/_U5fae_U4fe1_U56fe_U7247_20260918142811_678_54.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/91/c6/3a91c6b1-5260-28c0-a304-7634f53f972a/_U5fae_U4fe1_U56fe_U7247_20260918142811_678_54.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.1.0</b> <span class="muted">2026-09-18</span><div class="notes">- Added photo support to story and news comments.
+- Improved the comment composer and photo previews.
+- Refined gift pack layouts with larger card previews.
+- Added read counts to news articles.
+- Added tap-to-pause controls for news videos and improved buffering indicators and c</div></li></ul></details>
+  
+</article>
+<article class="card core" data-market="global" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/a1/d3/6da1d38c-c4c5-a5a8-a30b-0c7d03599cab/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/picktwist-interactive-drama/id6772954863?uo=4" target="_blank">PickTwist</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">海外(MeChat 同厂)</span><span class="tag">上架 2026-07-06</span></div></div>
+  </header>
+  <p class="one">竖屏互动短剧，关键节点选择；MeChat 同厂</p>
+  <div class="stats"><div><small>版本</small><b>1.3.7</b></div><div><small>评分</small><b>3</b></div><div><small>评分数</small><b>1</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/8b/bc/698bbc3d-a509-3ec9-2973-4b78c2b50e27/01.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/8b/bc/698bbc3d-a509-3ec9-2973-4b78c2b50e27/01.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/19/f3/0019f394-674a-fd10-628a-d8a946e00656/02.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/19/f3/0019f394-674a-fd10-628a-d8a946e00656/02.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/12/59/b1125977-76da-e8a1-5498-24a474d7af68/03.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/12/59/b1125977-76da-e8a1-5498-24a474d7af68/03.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/3b/ab/583bab9d-4b1d-7f1d-90b2-8a3a4b6baf01/04.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/3b/ab/583bab9d-4b1d-7f1d-90b2-8a3a4b6baf01/04.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/49/da/8349da27-1995-17b5-9d92-a96ee693e32d/05.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/49/da/8349da27-1995-17b5-9d92-a96ee693e32d/05.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.3.7</b> <span class="muted">2026-09-18</span><div class="notes">Bugs fixes</div></li></ul></details>
+  
+</article>
+<article class="card core" data-market="cn" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/7b/ed/277bed28-e582-bac4-204c-35980a4a0885/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/cn/app/%E5%B0%8F%E4%B8%96%E7%95%8C-ai%E4%BA%92%E5%8A%A8%E6%95%85%E4%BA%8B/id6797379691?uo=4" target="_blank">小世界-AI互动故事</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">大陆</span><span class="tag">上架 2026-08-29</span></div></div>
+  </header>
+  <p class="one">AI 动态生成剧情与配图的互动故事，8/29 上架</p>
+  <div class="stats"><div><small>版本</small><b>1.3.0</b></div><div><small>评分</small><b>—</b></div><div><small>评分数</small><b>0</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/97/93/40979347-4f30-ab58-0d9c-a01313ba4aab/0.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/97/93/40979347-4f30-ab58-0d9c-a01313ba4aab/0.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/ae/83/07ae830a-66e4-cd26-aee9-a07d2fa49aff/1.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/ae/83/07ae830a-66e4-cd26-aee9-a07d2fa49aff/1.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/f7/e8/76f7e8cb-71a0-3934-d9d8-9c29c70c8792/2.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/f7/e8/76f7e8cb-71a0-3934-d9d8-9c29c70c8792/2.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/07/34/59073488-4d1a-d000-ab6d-5de8eb2cb033/3.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/07/34/59073488-4d1a-d000-ab6d-5de8eb2cb033/3.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/7b/c1/6f7bc1cf-0ed2-6f63-b825-a439d360fc03/4.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/7b/c1/6f7bc1cf-0ed2-6f63-b825-a439d360fc03/4.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/d8/44/78d844fa-ac4a-9ed4-bf67-8edea58923eb/5.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/d8/44/78d844fa-ac4a-9ed4-bf67-8edea58923eb/5.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.3.0</b> <span class="muted">2026-09-08</span><div class="notes">现在可以看到其他玩家创建的小世界了，首页会持续更新大家的新作品。
+你自己创建的小世界也能投稿分享，通过审核后所有人都能玩到，随时可以在「我的」里撤回。
+同时优化了浏览体验，修复了若干已知问题。</div></li></ul></details>
+  
+</article>
+<article class="card core" data-market="cn" data-tier="core">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/4d/cf/544dcf10-b113-1298-64e9-99fc9e1f8f07/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/cn/app/%E4%BA%92%E5%BD%B1%E6%B4%BE/id6756259201?uo=4" target="_blank">互影派</a></h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">大陆</span><span class="tag">上架 2025-12-30</span></div></div>
+  </header>
+  <p class="one">真人实拍互动影游平台，作品单独购买，多端同步</p>
+  <div class="stats"><div><small>版本</small><b>1.1.7</b></div><div><small>评分</small><b>4.83</b></div><div><small>评分数</small><b>42</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/50/3d/61503db1-7595-9c96-1964-6678d1df0e3d/_U7b80_U4f53.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/50/3d/61503db1-7595-9c96-1964-6678d1df0e3d/_U7b80_U4f53.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/01/eb/e601ebc2-5702-c538-d238-59623d4f91b9/_U7b80_U4f53.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/01/eb/e601ebc2-5702-c538-d238-59623d4f91b9/_U7b80_U4f53.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/52/c9/6c52c9e6-0a7e-689b-87a5-e7f2b9c51726/_U7b80_U4f53.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/52/c9/6c52c9e6-0a7e-689b-87a5-e7f2b9c51726/_U7b80_U4f53.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/d1/66/31d1664d-6cff-5994-e63a-c78259086452/_U7b80_U4f53.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/d1/66/31d1664d-6cff-5994-e63a-c78259086452/_U7b80_U4f53.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/ae/46/18ae4662-63ef-3c6e-4351-a449c225a763/_U7b80_U4f53.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/ae/46/18ae4662-63ef-3c6e-4351-a449c225a763/_U7b80_U4f53.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/77/32/6f773225-a270-99a6-f5d0-ead2ebe8a639/_U7b80_U4f53.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/77/32/6f773225-a270-99a6-f5d0-ead2ebe8a639/_U7b80_U4f53.jpg/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.1.7</b> <span class="muted">2026-09-10</span><div class="notes">优化功能</div></li></ul></details>
+  
+</article>
+<article class="card core" data-market="cn" data-tier="core">
+  <header>
+    <div class="icon ph">探</div>
+    <div><h3>探梦 DreamNow</h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">大陆(腾讯)</span></div></div>
+  </header>
+  <p class="one">腾讯 AIGC 内容与互动影游浏览平台（4 月上线）；同系还有造化工坊、TDream、代号 Craft</p>
+  <p class="muted small">无 App Store 页面：靠小红书与网页追踪</p>
+  
+  
+  
+  
+</article>
+<article class="card core" data-market="cn" data-tier="core">
+  <header>
+    <div class="icon ph">T</div>
+    <div><h3>TDream</h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">大陆(腾讯)</span></div></div>
+  </header>
+  <p class="one">腾讯 AI 视频与互动内容创作社区（6 月上线）</p>
+  <p class="muted small">无 App Store 页面：靠小红书与网页追踪</p>
+  
+  
+  
+  
+</article>
+<article class="card core" data-market="cn" data-tier="core">
+  <header>
+    <div class="icon ph">番</div>
+    <div><h3>番茄/红果 AI互动剧</h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">大陆(字节)</span></div></div>
+  </header>
+  <p class="one">番茄小说 AI 仿真人互动剧《诡舍》《全球冰封》</p>
+  <p class="muted small">无 App Store 页面：靠小红书与网页追踪</p>
+  
+  
+  
+  
+</article>
+<article class="card core" data-market="cn" data-tier="core">
+  <header>
+    <div class="icon ph">芒</div>
+    <div><h3>芒果TV AI互动影游</h3>
+    <div class="tags"><span class="tag t-core">直接竞品</span><span class="tag">大陆(芒果)</span></div></div>
+  </header>
+  <p class="one">芒果 TV AI 仿真人互动影游《公主请自重》《马上来财》（1500 万+ 播放）</p>
+  <p class="muted small">无 App Store 页面：靠小红书与网页追踪</p>
+  
+  
+  
+  
+</article>
+<article class="card adjacent" data-market="global" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/78/b9/7178b95e-15ed-b847-6803-a1622c3c1076/AppIcon-0-0-1x_U007ephone-0-5-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/saylo-your-ai-creative-world/id6479835900?uo=4" target="_blank">Saylo</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">海外(元象)</span><span class="tag">上架 2024-05-01</span></div></div>
+  </header>
+  <p class="one">元象的 AI 角色扮演/互动网文，累计注册 2000 万+</p>
+  <div class="stats"><div><small>版本</small><b>2.6.2</b></div><div><small>评分</small><b>3.89</b></div><div><small>评分数</small><b>1,260</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/52/f9/db52f996-9bd2-195b-13e4-a351d7ea9e6f/_U5c01_U9762.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/52/f9/db52f996-9bd2-195b-13e4-a351d7ea9e6f/_U5c01_U9762.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/af/f1/32aff1ce-3300-41ae-18be-d3bda6dba2ec/_U56fe_U6587_U5c0f_U8bf4.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/af/f1/32aff1ce-3300-41ae-18be-d3bda6dba2ec/_U56fe_U6587_U5c0f_U8bf4.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/30/47/9330479a-d28a-0199-8102-ebd0c9fac11d/_U5267_U60c5_U89c6_U9891.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/30/47/9330479a-d28a-0199-8102-ebd0c9fac11d/_U5267_U60c5_U89c6_U9891.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/2a/77/b02a7756-3f05-3f3f-ccb1-149f698989e0/_U667a_U80fd_U4f53_U804a_U5929.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/2a/77/b02a7756-3f05-3f3f-ccb1-149f698989e0/_U667a_U80fd_U4f53_U804a_U5929.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/13/92/671392fe-c82e-782e-55f6-257115711531/_U7aa5_U63a2_U5fc3_U4e8b.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/13/92/671392fe-c82e-782e-55f6-257115711531/_U7aa5_U63a2_U5fc3_U4e8b.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/f2/d8/2cf2d815-278d-e03e-0838-553f2f62a64f/ai_U89c6_U9891.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/f2/d8/2cf2d815-278d-e03e-0838-553f2f62a64f/ai_U89c6_U9891.jpg/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>2.6.2</b> <span class="muted">2026-09-18</span><div class="notes">bug fix</div></li></ul></details>
+  
+</article>
+<article class="card adjacent" data-market="global" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/51/e0/2a51e026-9eab-53e7-e324-a9c27219b805/AppIcon-0-0-1x_U007ephone-0-7-0-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/talefy-ai-character-roleplay/id6504186435?uo=4" target="_blank">Talefy</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">海外</span><span class="tag">上架 2024-09-23</span></div></div>
+  </header>
+  <p class="one">AI 故事游戏 + 角色扮演</p>
+  <div class="stats"><div><small>版本</small><b>1.48</b></div><div><small>评分</small><b>3.48</b></div><div><small>评分数</small><b>100</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/da/de/6edadee5-4d40-db81-965f-9d25d30d9a6c/1.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/da/de/6edadee5-4d40-db81-965f-9d25d30d9a6c/1.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/fe/bc/eafebcb6-5f9c-4ddd-f219-7e837df7ee22/2.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/fe/bc/eafebcb6-5f9c-4ddd-f219-7e837df7ee22/2.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/d5/cd/e6d5cdec-fc32-78b4-c5f3-caa632645f20/3.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/d5/cd/e6d5cdec-fc32-78b4-c5f3-caa632645f20/3.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/58/ce/ba58ceb4-a1fd-82cc-c973-ce42d57d3d09/4.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/58/ce/ba58ceb4-a1fd-82cc-c973-ce42d57d3d09/4.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/a0/a5/96a0a56e-7b22-0b7d-8d62-fe3f6deec98e/5.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/a0/a5/96a0a56e-7b22-0b7d-8d62-fe3f6deec98e/5.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/79/ed/6679ed4a-9c2d-d9ca-a545-b8dd10059461/6.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/79/ed/6679ed4a-9c2d-d9ca-a545-b8dd10059461/6.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.48</b> <span class="muted">2026-08-16</span><div class="notes">Performance improvements and bug fixes.</div></li></ul></details>
+  
+</article>
+<article class="card adjacent" data-market="global" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/f8/00/fff800f9-c689-49c5-6aa2-62ae9b73ab6a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/roletopia-ai-stories-chat/id6738599104?uo=4" target="_blank">Roletopia</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">海外</span><span class="tag">上架 2024-12-08</span></div></div>
+  </header>
+  <p class="one">第二人称分支叙事，AI 搭档聊天 + 语音</p>
+  <div class="stats"><div><small>版本</small><b>2.1.0</b></div><div><small>评分</small><b>4.69</b></div><div><small>评分数</small><b>16</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/23/08/bd230823-7f3a-49a7-d1c7-c74743c60200/Screenshot01.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/23/08/bd230823-7f3a-49a7-d1c7-c74743c60200/Screenshot01.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/fb/fb/04fbfbeb-67ac-49ea-bce9-a39be0c1d76f/Screenshot06.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/fb/fb/04fbfbeb-67ac-49ea-bce9-a39be0c1d76f/Screenshot06.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/c0/81/a9c08145-489b-ad2c-8f99-77d2161e2541/Untitled.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/c0/81/a9c08145-489b-ad2c-8f99-77d2161e2541/Untitled.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/e3/fa/eee3faa7-8602-a042-fe46-1fcb3b3ae2b5/Screenshot03.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/e3/fa/eee3faa7-8602-a042-fe46-1fcb3b3ae2b5/Screenshot03.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/48/65/2c4865ca-21c3-723b-155d-48ef7f9bdd9d/Untitled_2.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/48/65/2c4865ca-21c3-723b-155d-48ef7f9bdd9d/Untitled_2.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/cf/f2/d3cff288-78d3-e63e-9a3a-cc6b3fd156c8/Screenshot02.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/cf/f2/d3cff288-78d3-e63e-9a3a-cc6b3fd156c8/Screenshot02.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>2.1.0</b> <span class="muted">2026-07-27</span><div class="notes">Minor UI bug fixes.</div></li></ul></details>
+  
+</article>
+<article class="card adjacent" data-market="global" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/a4/aa/d2a4aa34-7725-0140-f08f-aec6a126af33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/storyzone-ai-text-adventure/id6737759861?uo=4" target="_blank">StoryZone</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">海外</span><span class="tag">上架 2024-11-25</span></div></div>
+  </header>
+  <p class="one">AI Game Master 冒险，自动配图</p>
+  <div class="stats"><div><small>版本</small><b>9.8.2</b></div><div><small>评分</small><b>4.42</b></div><div><small>评分数</small><b>187</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/cf/d4/85cfd436-659f-b92f-767f-45c738910905/iPhone_6_U002c5_U0027_U0027_Slide_1_U00281_U0029.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/cf/d4/85cfd436-659f-b92f-767f-45c738910905/iPhone_6_U002c5_U0027_U0027_Slide_1_U00281_U0029.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/be/85/d8be85eb-3d96-4647-db3f-c15b3c215cbe/iPhone_6_U002c5_U0027_U0027_Slide_2_.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/be/85/d8be85eb-3d96-4647-db3f-c15b3c215cbe/iPhone_6_U002c5_U0027_U0027_Slide_2_.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/8b/24/6e8b24bd-2aa9-3e9c-2ed0-6d485bc19832/iPhone_6_U002c5_U0027_U0027_Slide_3_.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/8b/24/6e8b24bd-2aa9-3e9c-2ed0-6d485bc19832/iPhone_6_U002c5_U0027_U0027_Slide_3_.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/8b/c1/338bc1db-8dc2-3202-6a01-3ebbcb1f22d0/iPhone_6_U002c5_U0027_U0027_Slide_5_.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/8b/c1/338bc1db-8dc2-3202-6a01-3ebbcb1f22d0/iPhone_6_U002c5_U0027_U0027_Slide_5_.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/e9/30/4fe93060-689b-f42f-35ab-a72b32de2814/iPhone_6_U002c5_U0027_U0027_Slide_4.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/e9/30/4fe93060-689b-f42f-35ab-a72b32de2814/iPhone_6_U002c5_U0027_U0027_Slide_4.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/0e/28/d90e2861-2cac-a985-9938-1cbe0409ccc6/iPhone_6_U002c5_U0027_U0027_Slide_10.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/0e/28/d90e2861-2cac-a985-9938-1cbe0409ccc6/iPhone_6_U002c5_U0027_U0027_Slide_10.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>9.8.2</b> <span class="muted">2026-08-20</span><div class="notes">fixed wrong app version bug
+further bug fixes
+optimizations</div></li></ul></details>
+  
+</article>
+<article class="card adjacent" data-market="global" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/d7/85/b6d785c3-e71c-4b78-37b1-b0d95ff111b4/AppIcon-0-0-1x_U007ephone-0-8-0-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/janitor-interactive-stories/id6692609366?uo=4" target="_blank">Janitor: Interactive Stories</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">海外</span><span class="tag">上架 2025-11-29</span></div></div>
+  </header>
+  <p class="one">JanitorAI 的互动故事 App，美区图书免费榜前 20</p>
+  <div class="stats"><div><small>版本</small><b>2.5.0</b></div><div><small>评分</small><b>4.47</b></div><div><small>评分数</small><b>3,829</b></div></div>
+  <div class="ranks"><span class="rank">美区 图书 免费榜 <b>#14</b></span><span class="rank">美区 图书 畅销榜 <b>#39</b></span><span class="rank">国区 图书 畅销榜 <b>#81</b></span></div>
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/14/70/c6147042-684b-674e-a409-7c157e09b143/Screenshot_19_U002c5_9.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/14/70/c6147042-684b-674e-a409-7c157e09b143/Screenshot_19_U002c5_9.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/b6/f6/b9b6f687-01ef-d0d1-fb4d-728af9967e63/Screenshot_19_U002c5_9_163.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/b6/f6/b9b6f687-01ef-d0d1-fb4d-728af9967e63/Screenshot_19_U002c5_9_163.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/1e/fc/f31efccd-5dbf-6ed0-f85a-dbef47b865b9/Screenshot_19_U002c5_9_164.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/1e/fc/f31efccd-5dbf-6ed0-f85a-dbef47b865b9/Screenshot_19_U002c5_9_164.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/76/c5/6b76c5fe-71c2-e97f-b791-988dc500f335/Screenshot_19_U002c5_9_162.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/76/c5/6b76c5fe-71c2-e97f-b791-988dc500f335/Screenshot_19_U002c5_9_162.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/76/f0/d076f07f-00ea-10e3-bfbe-132ef2629519/Screenshot_19_U002c5_9_166.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/76/f0/d076f07f-00ea-10e3-bfbe-132ef2629519/Screenshot_19_U002c5_9_166.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/65/71/626571a2-086a-da5e-3959-dffdd0a1075a/Screenshot_19_U002c5_9_168.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/65/71/626571a2-086a-da5e-3959-dffdd0a1075a/Screenshot_19_U002c5_9_168.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>2.5.0</b> <span class="muted">2026-09-15</span><div class="notes">• Scripts (lorebooks + advanced scripts)
+• Web links open the right screen with its page state
+• Notification taps now open the right chat
+• Bug fixes and performance improvements</div></li></ul></details>
+  
+</article>
+<article class="card adjacent" data-market="global" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/91/b9/1b91b9d5-914d-e6c6-96a7-9c98d890c6b6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/sagaland-interactive-fiction/id6748543926?uo=4" target="_blank">Sagaland</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">海外</span><span class="tag">上架 2025-07-22</span></div></div>
+  </header>
+  <p class="one">互动小说，美区图书畅销榜常驻</p>
+  <div class="stats"><div><small>版本</small><b>2.2.1</b></div><div><small>评分</small><b>4.65</b></div><div><small>评分数</small><b>947</b></div></div>
+  <div class="ranks"><span class="rank">美区 图书 畅销榜 <b>#66</b></span></div>
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/57/18/385718b3-54c5-b021-ff9d-023f6fd420c0/sagaland_story_for_every_mood_1284x2778.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/57/18/385718b3-54c5-b021-ff9d-023f6fd420c0/sagaland_story_for_every_mood_1284x2778.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/ca/37/b1ca37af-5122-92b0-0bec-c261a7b88cf3/sagaland_make_any_story_yours_adult_original_1284x2778.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/ca/37/b1ca37af-5122-92b0-0bec-c261a7b88cf3/sagaland_make_any_story_yours_adult_original_1284x2778.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/9f/b1/239fb1d3-f896-9070-6b30-d84fd988479e/sagaland_shape_every_twist_no_got_1284x2778.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/9f/b1/239fb1d3-f896-9070-6b30-d84fd988479e/sagaland_shape_every_twist_no_got_1284x2778.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/c2/a4/23c2a442-0992-60b3-827d-7c7602384a7a/sagaland_stories_that_remember_you_benign_1284x2778.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/c2/a4/23c2a442-0992-60b3-827d-7c7602384a7a/sagaland_stories_that_remember_you_benign_1284x2778.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>2.2.1</b> <span class="muted">2026-06-17</span><div class="notes">AI improvement and bug fixes</div></li></ul></details>
+  
+</article>
+<article class="card adjacent" data-market="global" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/16/77/961677cd-12c0-942c-757f-2f4bda57de53/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/wapoo-playable-social-video/id6752590312?uo=4" target="_blank">Wapoo</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">海外</span><span class="tag">上架 2026-05-12</span></div></div>
+  </header>
+  <p class="one">可玩社交视频</p>
+  <div class="stats"><div><small>版本</small><b>1.1.7</b></div><div><small>评分</small><b>5</b></div><div><small>评分数</small><b>12</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/de/a3/81dea399-d532-3f12-a5e4-2da369dd3afb/6.5_inch-1.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/de/a3/81dea399-d532-3f12-a5e4-2da369dd3afb/6.5_inch-1.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/31/9d/95319ded-6b35-0d61-3410-bdb139a0bd18/6.5_inch-2.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/31/9d/95319ded-6b35-0d61-3410-bdb139a0bd18/6.5_inch-2.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/d3/1c/56d31c98-87a3-6109-5a11-a0f3d1b28d00/6.5_inch-3.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/d3/1c/56d31c98-87a3-6109-5a11-a0f3d1b28d00/6.5_inch-3.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/77/79/ec77791c-ec4e-07e4-c7f5-144569f3f596/6.5_inch-4.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/77/79/ec77791c-ec4e-07e4-c7f5-144569f3f596/6.5_inch-4.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.1.7</b> <span class="muted">2026-09-17</span><div class="notes">Downloads are now faster and smoother.
+Touchdown now feels better than ever.
+Feel it? Lit!</div></li></ul></details>
+  
+</article>
+<article class="card adjacent" data-market="global" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/1b/ac/a01bacd0-d59b-845f-e72e-d8b758302f4c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/us/app/cuddli-ai-character-stories/id6777919302?uo=4" target="_blank">Cuddli AI</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">海外</span><span class="tag">上架 2026-08-05</span></div></div>
+  </header>
+  <p class="one">角色卡带动态视频背景 + 配音 + 分支剧情</p>
+  <div class="stats"><div><small>版本</small><b>1.3.0</b></div><div><small>评分</small><b>4</b></div><div><small>评分数</small><b>1</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/a7/cb/b1a7cb4d-b0fb-0494-98f2-ad54752093b1/1242x2268-1.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/a7/cb/b1a7cb4d-b0fb-0494-98f2-ad54752093b1/1242x2268-1.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/77/59/ee775995-a2b8-37f4-e0b4-72178038b000/111.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/77/59/ee775995-a2b8-37f4-e0b4-72178038b000/111.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/ce/9b/d2ce9b6f-f6ef-138d-5da4-f8362245d574/1242x2268-3.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/ce/9b/d2ce9b6f-f6ef-138d-5da4-f8362245d574/1242x2268-3.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/4b/8c/184b8ccf-c434-a46d-4764-51fed67e8927/1242x2268-5.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/4b/8c/184b8ccf-c434-a46d-4764-51fed67e8927/1242x2268-5.jpg/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.3.0</b> <span class="muted">2026-09-20</span><div class="notes">- Cuddli — the app has a new name.
+- More characters have been added to improve your experience.
+- You can now create your own characters.</div></li></ul></details>
+  
+</article>
+<article class="card adjacent" data-market="cn" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/a0/5d/5da05d66-2b01-bc31-5f32-e01678e7c95e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/cn/app/%E6%88%91%E6%9D%A5%E6%BC%94-ai%E4%BA%92%E5%8A%A8%E6%95%85%E4%BA%8B%E4%B8%8E%E8%A7%92%E8%89%B2%E6%89%AE%E6%BC%94/id6759898255?uo=4" target="_blank">我来演</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">大陆</span><span class="tag">上架 2026-04-09</span></div></div>
+  </header>
+  <p class="one">现实题材（职场/情感/家庭）AI 互动剧情</p>
+  <div class="stats"><div><small>版本</small><b>1.0.2</b></div><div><small>评分</small><b>3</b></div><div><small>评分数</small><b>4</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/b6/15/61b61522-d8cd-fc91-16cd-7df1b6b9cab2/1.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/b6/15/61b61522-d8cd-fc91-16cd-7df1b6b9cab2/1.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/08/fa/fc08fa68-63c1-1ca0-639b-f5db875491bb/2.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/08/fa/fc08fa68-63c1-1ca0-639b-f5db875491bb/2.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/2b/32/462b329d-d084-86cc-2146-cbeac5e654e1/3.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/2b/32/462b329d-d084-86cc-2146-cbeac5e654e1/3.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/1e/49/a91e491b-eb9d-5e45-d3f2-e0d07b32de06/4.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/1e/49/a91e491b-eb9d-5e45-d3f2-e0d07b32de06/4.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/85/da/6585da3f-63ca-e277-724a-7fd746ad3bf9/5.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/85/da/6585da3f-63ca-e277-724a-7fd746ad3bf9/5.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/66/bf/6866bfef-d747-c0ff-ef1d-fc90ca0ce49b/6.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/66/bf/6866bfef-d747-c0ff-ef1d-fc90ca0ce49b/6.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.0.2</b> <span class="muted">2026-04-20</span><div class="notes">优化对话交互</div></li></ul></details>
+  
+</article>
+<article class="card adjacent" data-market="cn" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/79/a6/ef79a638-bf53-8e3d-84ca-96aeb422d6ab/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/cn/app/%E7%8C%AB%E7%AE%B1-%E5%92%8C%E5%BF%83%E5%8A%A8-ai-%E6%8E%A2%E7%B4%A2%E5%89%A7%E6%83%85%E5%AE%87%E5%AE%99/id6475000292?uo=4" target="_blank">猫箱</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">大陆(字节)</span><span class="tag">上架 2024-03-12</span></div></div>
+  </header>
+  <p class="one">字节的 AI 剧情宇宙/陪伴，国区娱乐畅销榜前 15</p>
+  <div class="stats"><div><small>版本</small><b>2.27.0</b></div><div><small>评分</small><b>4.66</b></div><div><small>评分数</small><b>381,297</b></div></div>
+  <div class="ranks"><span class="rank">国区 娱乐 畅销榜 <b>#11</b></span><span class="rank">国区 娱乐 免费榜 <b>#53</b></span></div>
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/b5/ce/fcb5cef7-b0e5-fae5-ae64-e84bda50934f/o8BBRGDgFAvo45xiATB1FEfmbnpEAGAfAUeNgE.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/b5/ce/fcb5cef7-b0e5-fae5-ae64-e84bda50934f/o8BBRGDgFAvo45xiATB1FEfmbnpEAGAfAUeNgE.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/8a/30/cf8a306d-1944-db0e-2f01-d61467b6ce8a/o8FABmGUGEoAAT5ARvxfEF54BDFjFeE9D8Ie6A.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/8a/30/cf8a306d-1944-db0e-2f01-d61467b6ce8a/o8FABmGUGEoAAT5ARvxfEF54BDFjFeE9D8Ie6A.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/08/b5/c708b533-9f67-0b4a-b66a-b89481577462/o4AAShIAEBAURG4ej5LExpBdeGjrNmFeGE8TAM.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/08/b5/c708b533-9f67-0b4a-b66a-b89481577462/o4AAShIAEBAURG4ej5LExpBdeGjrNmFeGE8TAM.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/ff/f0/d1fff0dd-8350-51f4-b0e3-6adc3a756665/oMIHEXEUBAAAgBTVAEtGfAbFxokD4FfReEm5wm.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/ff/f0/d1fff0dd-8350-51f4-b0e3-6adc3a756665/oMIHEXEUBAAAgBTVAEtGfAbFxokD4FfReEm5wm.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/81/a8/fc81a8bb-d7bd-bdb9-1863-7ecd3fe81251/osGAulhKAAkgtzGPxniIAGEBayHkisag5iLAB.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/81/a8/fc81a8bb-d7bd-bdb9-1863-7ecd3fe81251/osGAulhKAAkgtzGPxniIAGEBayHkisag5iLAB.jpg/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/4e/dc/c34edc6b-23be-c603-3986-72b7413149c1/o8KyNAAMUDBPwF8jEXLIAjGRm4FTfDAAIfemG8.jpg/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/4e/dc/c34edc6b-23be-c603-3986-72b7413149c1/o8KyNAAMUDBPwF8jEXLIAjGRm4FTfDAAIfemG8.jpg/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>2.27.0</b> <span class="muted">2026-09-15</span><div class="notes">优化产品体验，修复产品问题</div></li></ul></details>
+  
+</article>
+<article class="card adjacent" data-market="cn" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/83/ef7d83fd-4a5c-6fc1-2e6a-f740117bf897/AppIcon-1x_U007emarketing-0-8-0-P3-85-220-0.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/cn/app/%E7%82%B9%E7%82%B9%E7%A9%BF%E4%B9%A6-%E4%BA%92%E5%8A%A8%E5%B0%8F%E8%AF%B4/id1661119750?uo=4" target="_blank">点点穿书</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">大陆</span><span class="tag">上架 2023-03-07</span></div></div>
+  </header>
+  <p class="one">互动小说平台，国区图书榜前 40</p>
+  <div class="stats"><div><small>版本</small><b>3.9.91</b></div><div><small>评分</small><b>4.29</b></div><div><small>评分数</small><b>13,286</b></div></div>
+  <div class="ranks"><span class="rank">国区 图书 畅销榜 <b>#26</b></span><span class="rank">国区 图书 免费榜 <b>#37</b></span></div>
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/07/3d/41/073d4183-3245-dcb4-d3e1-913369e1a20d/752ecfef-6fe2-4ab5-87f7-75e900d5c6a4_iOS_U5e02_U573a_U56fe-_U9996_U98752.png/392x696bb.png" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/07/3d/41/073d4183-3245-dcb4-d3e1-913369e1a20d/752ecfef-6fe2-4ab5-87f7-75e900d5c6a4_iOS_U5e02_U573a_U56fe-_U9996_U98752.png/392x696bb.png" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/16/a5/2316a5d9-60e8-efe7-a725-6018e2817076/b1cd14ef-53b7-4a43-8cdc-08e1c775e59f__U5e02_U573a_U56fe-_U738b_U5983_U6709_U559c-2.png/392x696bb.png" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/16/a5/2316a5d9-60e8-efe7-a725-6018e2817076/b1cd14ef-53b7-4a43-8cdc-08e1c775e59f__U5e02_U573a_U56fe-_U738b_U5983_U6709_U559c-2.png/392x696bb.png" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/5d/65/8b5d6594-cf59-803c-8763-493f728d10bb/cdd6cf87-0e9d-40d0-ad31-ba3a00c86e5b_5.png/392x696bb.png" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/5d/65/8b5d6594-cf59-803c-8763-493f728d10bb/cdd6cf87-0e9d-40d0-ad31-ba3a00c86e5b_5.png/392x696bb.png" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/4d/e9/704de93e-c8f4-43db-bffe-cd660f3fc42f/27ce7d7b-0a06-45df-8baf-e144e31762e9_2.png/392x696bb.png" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/4d/e9/704de93e-c8f4-43db-bffe-cd660f3fc42f/27ce7d7b-0a06-45df-8baf-e144e31762e9_2.png/392x696bb.png" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/b8/f2/b6b8f2ce-5bfc-7eb8-f1db-982de96f8aa9/c688dfc1-97a1-4843-a385-c9bf9e0a565f_3.png/392x696bb.png" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/b8/f2/b6b8f2ce-5bfc-7eb8-f1db-982de96f8aa9/c688dfc1-97a1-4843-a385-c9bf9e0a565f_3.png/392x696bb.png" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>3.9.91</b> <span class="muted">2026-09-09</span><div class="notes">【新版本介绍】
+1、精品书籍上新：《娇娇有孕:霸总爹地全员追妻》《兽世恋爱模拟器：深陷修罗场》《转职邪神后，天使和魅魔都想拯救我》
+2、绝美衣橱上新：《沦陷之夜：被怪物们强势宠爱》《穿书后不小心攻略了全宗门》《开局轮滑鞋，我在公路求生游戏封神》
+3、关于APP有任何建议，欢迎前往【我的】-【帮助与反馈】-【意见反馈】中告诉我们～</div></li></ul></details>
+  
+</article>
+<article class="card adjacent" data-market="cn" data-tier="adjacent">
+  <header>
+    <img class="icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/6b/bc/1c6bbcdf-dbb0-7594-b00d-0608079dc0e4/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg" alt="">
+    <div><h3><a href="https://apps.apple.com/cn/app/%E5%AE%99%E5%8C%85-ai%E9%A9%B1%E5%8A%A8%E7%9A%84%E4%BA%92%E5%8A%A8%E5%89%A7%E6%9C%AC%E5%88%9B%E4%BD%9C%E5%B9%B3%E5%8F%B0/id6759592778?uo=4" target="_blank">宙包</a></h3>
+    <div class="tags"><span class="tag t-adjacent">相邻</span><span class="tag">大陆</span><span class="tag">上架 2026-04-17</span></div></div>
+  </header>
+  <p class="one">AI 互动剧本创作平台</p>
+  <div class="stats"><div><small>版本</small><b>1.0</b></div><div><small>评分</small><b>—</b></div><div><small>评分数</small><b>0</b></div></div>
+  
+  <div class="shots"><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/48/c0/f548c06f-754f-649c-43d7-eac9647c2a68/1__U526f_U672c.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/48/c0/f548c06f-754f-649c-43d7-eac9647c2a68/1__U526f_U672c.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/b3/96/79b39607-3320-9353-ad77-a14aa090a7c8/2__U526f_U672c.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/b3/96/79b39607-3320-9353-ad77-a14aa090a7c8/2__U526f_U672c.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/2f/d3/e92fd318-afdb-1c6c-f364-a9bf3000b43b/3__U526f_U672c.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/2f/d3/e92fd318-afdb-1c6c-f364-a9bf3000b43b/3__U526f_U672c.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/87/9a/12879a75-415d-f1bf-a51f-10d0955af8b9/4__U526f_U672c.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/87/9a/12879a75-415d-f1bf-a51f-10d0955af8b9/4__U526f_U672c.png/320x480bb.jpg" loading="lazy" alt=""></a><a href="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/05/d0/f305d01f-0a10-775e-5e77-e5679a4767bd/5__U526f_U672c.png/320x480bb.jpg" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/05/d0/f305d01f-0a10-775e-5e77-e5679a4767bd/5__U526f_U672c.png/320x480bb.jpg" loading="lazy" alt=""></a></div>
+  <details><summary>最近版本</summary><ul class="vers"><li><b>1.0</b> <span class="muted">2026-04-18</span><div class="notes"><span class="muted">（无更新说明）</span></div></li></ul></details>
+  
+</article></div>
+
+
+<h2 class="sec">新竞品候选</h2><ul class="cands"><li class="cand">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/28/61/582861c6-c4c4-6b15-31f8-f432add55a82/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" alt=""><div><a href="https://apps.apple.com/us/app/plot-twist-interactive-dramas/id6762599536?uo=4" target="_blank"><b>Plot Twist: Interactive Dramas</b></a> <span class="tag">美区</span> <span class="muted small">发现于 2026-09-22</span><div class="small">Plot Twist：选择冒险互动剧游戏</div></div></li><li class="cand">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/18/33/901833e2-57c3-538f-d852-65af1200b0e4/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg" alt=""><div><a href="https://apps.apple.com/us/app/loopit-ai-playable-maker/id6755859360?uo=4" target="_blank"><b>Loopit - AI Playable Maker</b></a> <span class="tag">美区</span> <span class="muted small">发现于 2026-09-22</span><div class="small">Loopit：AI 可玩内容制作工具</div></div></li><li class="cand">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/40/84/9a4084f9-9e2c-8dcb-3015-54cdf2ee5def/AppIcon-1x_U007epad-0-1-0-85-220-0.png/100x100bb.jpg" alt=""><div><a href="https://apps.apple.com/us/app/flickreels-ai-story-drama/id6514312894?uo=4" target="_blank"><b>FlickReels - AI Story &amp; Drama</b></a> <span class="tag">美区</span> <span class="muted small">发现于 2026-09-22</span><div class="small">FlickReels：AI Story &amp; Drama</div></div></li><li class="cand">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/f9/2e/5bf92e8c-128d-e63a-9ed7-f4585db67861/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.jpg" alt=""><div><a href="https://apps.apple.com/us/app/vibeshort-ai-short-dramas/id6758667154?uo=4" target="_blank"><b>VibeShort: AI Short Dramas</b></a> <span class="tag">美区</span> <span class="muted small">发现于 2026-09-22</span><div class="small">VibeShort：AI 短剧平台</div></div></li><li class="cand">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/9c/ea/559ceaba-36b2-d810-f906-20e12ac9b14e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg" alt=""><div><a href="https://apps.apple.com/us/app/my-muse-series-drama-live/id6738098034?uo=4" target="_blank"><b>My Muse: Series &amp; Drama Live</b></a> <span class="tag">美区</span> <span class="muted small">发现于 2026-09-22</span><div class="small">My Muse（Holywater）</div></div></li><li class="cand">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/64/ba/5164ba91-48a9-567e-4070-e07dd285dc0e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg" alt=""><div><a href="https://apps.apple.com/cn/app/bagelchat-ai%E8%A7%92%E8%89%B2%E6%95%85%E4%BA%8B/id6749137461?uo=4" target="_blank"><b>BagelChat：AI角色故事</b></a> <span class="tag">美区</span> <span class="muted small">发现于 2026-09-22</span><div class="small">BagelChat：角色用图像/动图回应</div></div></li><li class="cand">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/e0/d4/bfe0d429-1276-bc99-08b3-db19d42a7219/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg" alt=""><div><a href="https://apps.apple.com/us/app/popia-ai-stories-creators/id6757948021?uo=4" target="_blank"><b>Popia - AI Stories &amp; Creators</b></a> <span class="tag">美区</span> <span class="muted small">发现于 2026-09-22</span><div class="small">Popia：AI 角色故事创作平台（1000+ 评分）</div></div></li><li class="cand">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/d1/47/e5d14708-3c4d-8fe8-8f8c-437055ba4c22/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg" alt=""><div><a href="https://apps.apple.com/cn/app/%E8%8E%AB%E6%AF%94%E4%B9%8C%E6%96%AF%E4%B9%8B%E6%81%8B-%E7%9C%9F%E4%BA%BA%E6%82%AC%E7%96%91%E6%81%8B%E7%88%B1%E4%BA%92%E5%8A%A8%E5%BD%B1%E6%B8%B8/id6752695482?uo=4" target="_blank"><b>莫比乌斯之恋 - 真人悬疑恋爱互动影游</b></a> <span class="tag">国区</span> <span class="muted small">发现于 2026-09-22</span><div class="small">莫比乌斯之恋：真人悬疑恋爱互动影游</div></div></li><li class="cand">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/f4/d0/eaf4d088-a52b-a025-3e72-457a65354c3c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg" alt=""><div><a href="https://apps.apple.com/cn/app/%E6%B5%AA%E6%BC%AB%E7%A7%9F%E7%BA%A6/id6794994620?uo=4" target="_blank"><b>浪漫租约</b></a> <span class="tag">国区</span> <span class="muted small">发现于 2026-09-22</span><div class="small">浪漫租约：真人实拍互动影像</div></div></li><li class="cand">
+  <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/ea/21/23ea21c6-c46d-dfcc-e195-378518c25b0a/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg" alt=""><div><a href="https://apps.apple.com/cn/app/%E6%83%85%E6%84%9F%E5%8F%8D%E8%AF%88%E6%A8%A1%E6%8B%9F%E5%99%A8/id6772103820?uo=4" target="_blank"><b>情感反诈模拟器</b></a> <span class="tag">国区</span> <span class="muted small">发现于 2026-09-22</span><div class="small">情感反诈模拟器：真人互动影像</div></div></li></ul>
+</main>
+<script>
+document.querySelectorAll('.dtabs .dtab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.dtabs .dtab,.digest').forEach(e=>e.classList.toggle('on',e.dataset.d===b.dataset.d))});
+document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-f]').forEach(x=>x.classList.toggle('on',x===b));const f=b.dataset.f;
+document.querySelectorAll('.card').forEach(c=>c.style.display=(f==='all'||c.dataset.tier===f||c.dataset.market===f)?'':'none')});
+</script></body></html>

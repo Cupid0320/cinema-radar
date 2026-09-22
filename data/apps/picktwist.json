@@ -1,0 +1,47 @@
+{
+  "key": "picktwist",
+  "versions": [
+    {
+      "version": "1.3.7",
+      "date": "2026-09-18",
+      "notes": "Bugs fixes"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-22",
+      "version": "1.3.7",
+      "rating": 3,
+      "ratingCount": 1,
+      "ranks": {}
+    }
+  ],
+  "reviews": [
+    "737c1fb02f3c"
+  ],
+  "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/8b/bc/698bbc3d-a509-3ec9-2973-4b78c2b50e27/01.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/19/f3/0019f394-674a-fd10-628a-d8a946e00656/02.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/12/59/b1125977-76da-e8a1-5498-24a474d7af68/03.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/3b/ab/583bab9d-4b1d-7f1d-90b2-8a3a4b6baf01/04.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/49/da/8349da27-1995-17b5-9d92-a96ee693e32d/05.png/320x480bb.jpg"
+  ],
+  "description": "PickTwist is interactive short drama you control.\n\nWatch fast, full-screen episodes — and at the turning points, YOU choose what happens next. Forbidden romance, dangerous men, secrets that won't stay buried — and every twist is yours to pick.\n\nWhat you can do:\n\n- Shape the story\nTap to choose at key moments — your decisions steer how each scene plays out.\n\n- Binge in minutes\nVertical, full-screen episodes made for your phone. One more, every time.\n\n- Fall for the drama\nAddictive worlds of romance, power, and betrayal — with cliffhangers that hit.\n\n- Watch your way\nSubscribe for the full catalogue, or unlock episodes one at a time with coins.\n\n- Start free\nThe first episodes are on us. No account, no setup — just tap in.\n\nPickTwist stories are created using generative AI.\n\nSubscriptions: Prices vary by region and are shown in the app. Payment is charged to your Apple ID at confirmation of purchase. Auto-renews unless cancelled at least 24 hours before the end of the period; manage or cancel anytime in your Apple ID settings.\n\nCoins: Coin packs are one-time purchases and do not auto-renew. Coins are used to unlock individual episodes. Prices vary by region and are shown in the app.\n\nTerms of Service — https://north-calf-d38.notion.site/Terms-of-Service-380726df632b803aa7d8df12e2367dbe\nPrivacy Policy — https://north-calf-d38.notion.site/Privacy-Policy-380726df632b80aba114eebfce40be90\nContact us: picktwist-support@playme.studio",
+  "reviewSample": [
+    {
+      "h": "737c1fb02f3c",
+      "text": "I think $19.99 a week is a little steep. Good idea on being interactive though.",
+      "rating": 3
+    }
+  ],
+  "meta": {
+    "trackName": "PickTwist: Interactive Drama",
+    "seller": "IMPONILOX LIMITED",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/a1/d3/6da1d38c-c4c5-a5a8-a30b-0c7d03599cab/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "url": "https://apps.apple.com/us/app/picktwist-interactive-drama/id6772954863?uo=4",
+    "genre": "Entertainment",
+    "price": "Free",
+    "released": "2026-07-06",
+    "country": "us"
+  }
+}

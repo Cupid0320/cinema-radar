@@ -1,0 +1,39 @@
+{
+  "key": "lunaverse",
+  "versions": [
+    {
+      "version": "1.0.5",
+      "date": "2026-08-31",
+      "notes": "Improved the overall user experience\nFixed known issues\nEnhanced app stability and performance"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-22",
+      "version": "1.0.5",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {}
+    }
+  ],
+  "reviews": [],
+  "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/26/a7/9226a723-315f-a0a8-db8e-946c06ec1300/appstore-1.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/79/3d/68793d54-a77d-084d-a406-1afbaf78354f/appstore-2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a0/18/1a/a0181aab-ed43-9993-eff2-a6eee2be0a80/appstore-3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/eb/ad/28ebad50-2685-c123-6d01-30c8d98a39c8/appstore-4.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/53/4d/9e534db7-4c1e-7cee-cd90-e5d5738b5a77/appstore-5.png/320x480bb.jpg"
+  ],
+  "description": "Lunaverse is an interactive story app where your choices shape branching drama, relationships, and outcomes. Explore episode-based stories, make decisions, pass checks, play short mini-games, and watch each route unfold through character-driven scenes. Start with romance, school-life, and high-stakes drama, track your progress, revisit saves, and discover how different choices change the story.",
+  "reviewSample": [],
+  "meta": {
+    "trackName": "Lunaverse Stories",
+    "seller": "MobAI, Inc",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/ac/70/35ac70f4-0f7f-15ed-ede1-0a52568f9721/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+    "url": "https://apps.apple.com/us/app/lunaverse-stories/id6779913017?uo=4",
+    "genre": "Entertainment",
+    "price": "Free",
+    "released": "2026-07-22",
+    "country": "us"
+  }
+}

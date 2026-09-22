@@ -1,0 +1,52 @@
+{
+  "key": "saganova",
+  "versions": [
+    {
+      "version": "1.0.4",
+      "date": "2026-08-31",
+      "notes": "A brand-new look on the App Store, plus performance and stability improvements throughout the app."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-22",
+      "version": "1.0.4",
+      "rating": 5,
+      "ratingCount": 1,
+      "ranks": {}
+    }
+  ],
+  "reviews": [
+    "c84e414f386a"
+  ],
+  "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/79/81/7a79814a-70c9-22e6-3da1-5ff779f8aacd/01.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/ea/ac/6deaacba-a59f-1e59-d4f6-4109c76bfb1d/02.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/da/4f/98da4fa4-6c8e-e9fc-d69e-34cb568c271c/03.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/af/1e/c1af1e37-c769-af14-c53e-4e2949e0da02/04.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/5c/d2/425cd277-72aa-8bae-9e17-4e0ee080032f/05.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/56/f7/8e56f76c-c488-068e-5de5-69a0c7c333f5/06.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/9d/5a/069d5af6-085e-166b-1521-b3ce3387ca2d/07.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/58/a4/7e58a487-ed8a-c992-5355-3561214a5bf4/08.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/3e/bb/383ebb4d-7fe0-4c7e-ae45-62f28aa0c8a7/09.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/99/f7/9d99f77e-0585-9b6b-cfdf-614f8ddc7595/10.png/320x480bb.jpg"
+  ],
+  "description": "Watch AI dramas where YOU decide the story — then step into one yourself.\n\nSagaNova is a cinema of AI-made interactive dramas and short dramas. Binge original series, choose what happens next, and unlock endings no one else has seen. When you're ready — scan your face and star in the next one.\n\nWATCH — AI INTERACTIVE DRAMA\n• Original interactive series like \"Seven Ways to Be Loved\" — 456 scenes, 23 endings\n• Every choice rewrites the story: accept or decline, love or leave\n• Hidden endings only your path can unlock\n\nBINGE — SHORT DRAMAS\n• A growing theater of cinematic AI short dramas\n• Multi-shot, scripted, real dialogue — made like films, not clips\n• Follow AI actors you love and boost their rankings\n\nSTAR — MAKE IT YOURS\n• Scan your face once, cast yourself in any scene\n• Clone your voice so your character speaks as you\n• Direct your own film: pick the cast, write the story, AI shoots it in minutes\n\nFrom heart-fluttering romance to palace intrigue and sci-fi — SagaNova is where stories bend to your will, and you're always the star.",
+  "reviewSample": [
+    {
+      "h": "c84e414f386a",
+      "text": "An extremely advanced app",
+      "rating": 5
+    }
+  ],
+  "meta": {
+    "trackName": "SagaNova: AI Interactive Drama",
+    "seller": "FALCONFLIX-SINGAPORE-TECH PTE. LTD.",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b3/81/d2b381aa-f8d0-760c-c5d0-7b9c2b22bf27/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+    "url": "https://apps.apple.com/us/app/saganova-ai-interactive-drama/id6759779782?uo=4",
+    "genre": "Entertainment",
+    "price": "Free",
+    "released": "2026-07-08",
+    "country": "us"
+  }
+}

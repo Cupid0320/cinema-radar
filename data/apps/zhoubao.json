@@ -1,0 +1,39 @@
+{
+  "key": "zhoubao",
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2026-04-18",
+      "notes": ""
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-22",
+      "version": "1.0",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {}
+    }
+  ],
+  "reviews": [],
+  "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/48/c0/f548c06f-754f-649c-43d7-eac9647c2a68/1__U526f_U672c.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/b3/96/79b39607-3320-9353-ad77-a14aa090a7c8/2__U526f_U672c.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/2f/d3/e92fd318-afdb-1c6c-f364-a9bf3000b43b/3__U526f_U672c.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/87/9a/12879a75-415d-f1bf-a51f-10d0955af8b9/4__U526f_U672c.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/05/d0/f305d01f-0a10-775e-5e77-e5679a4767bd/5__U526f_U672c.png/320x480bb.jpg"
+  ],
+  "description": "AI一句话生成：\n只需输入一句话创意（如“废土之上，最后一名机械师寻找失落的能源核心”），宙包AI叙事引擎即刻启动，自动生成场景描述、角色设定、对白内容及多分支剧情树。告别繁琐的框架搭建，让灵感瞬间落地为完整剧本。\n\n可操控虚拟空间：\n\n剧本不再只是文字——宙包将其转化为可进入的2D/3D虚拟空间。点击场景任意处，角色即刻行走、调查；与AI驱动的NPC自然对话，每一次互动都将影响剧情走向。从旁观者变为亲历者，沉浸式体验你的故事。\n\n多分支叙事引擎：\n宙包内置智能分支算法，根据你设定的关键节点自动生成逻辑严密的剧情分支树。玩家在关键时刻的选择将导向截然不同的结局，支持多重故事线并行，让互动叙事真正“千人千面”。\n\n生成内容专业化：\n宙包提供双模式创作，普通版一键生成灵感原型，专业版则开启深度引擎。AI将生成更细腻的人物背景、复杂的多线关系图谱、严谨的剧情因果链，并支持自定义世界观规则。从快速验证到工业化产出，满足专业创作者的每一层需求。\n\n一键发布，分享你的世界：\n你的作品可直达海量互动叙事爱好者，收获反馈与共鸣，让好故事流动起来。\n\n宙包重新定义了剧本创作——从线性写作到多维叙事，从静态文本到可体验的世界。",
+  "reviewSample": [],
+  "meta": {
+    "trackName": "宙包——AI驱动的互动剧本创作平台",
+    "seller": "Yuanzhi Universe (Fujian) Technology Innovation Co.,  LTD",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/6b/bc/1c6bbcdf-dbb0-7594-b00d-0608079dc0e4/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+    "url": "https://apps.apple.com/cn/app/%E5%AE%99%E5%8C%85-ai%E9%A9%B1%E5%8A%A8%E7%9A%84%E4%BA%92%E5%8A%A8%E5%89%A7%E6%9C%AC%E5%88%9B%E4%BD%9C%E5%B9%B3%E5%8F%B0/id6759592778?uo=4",
+    "genre": "Utilities",
+    "price": "免费",
+    "released": "2026-04-17",
+    "country": "cn"
+  }
+}

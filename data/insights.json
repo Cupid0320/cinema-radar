@@ -1,0 +1,275 @@
+{
+  "competitors": {
+    "inplay": {
+      "oneLiner": "AI 实时生成选项 + 可自由打字写「第三个选择」，Remix 社区；差评集中在生成失败/进度丢失",
+      "updated": "2026-09-22",
+      "videos": [
+        {
+          "id": "-aZKRsU9Ses",
+          "title": "InPlay | When Two Choices Are Not Enough, Type the Third",
+          "url": "https://www.youtube.com/watch?v=-aZKRsU9Ses"
+        }
+      ]
+    },
+    "lunaverse": {
+      "oneLiner": "分集分支剧 + 检定/小游戏 + 角色私聊(Bubble)与角色朋友圈(Moments)",
+      "updated": "2026-09-22"
+    },
+    "saganova": {
+      "oneLiner": "AI 互动剧影院：原创互动剧（456 场景/23 结局）+ AI 短剧 + 扫脸克隆声音自己当主演",
+      "updated": "2026-09-22"
+    },
+    "yoroll": {
+      "oneLiner": "「可玩视频」平台 + 创作工具；9 月上线 YoLive：弹幕投票、AI 实时生成视频的直播互动剧",
+      "updated": "2026-09-22"
+    },
+    "castloop": {
+      "oneLiner": "元象（Saylo 母公司）出品：电影化画面、选项 + 自由输入生成新分支、剧情树",
+      "updated": "2026-09-22"
+    },
+    "ooc": {
+      "oneLiner": "Wrtn 的「可玩动漫」：文字+插画的 AI 叙事，月收入约 $7.7M，赛道收入标杆",
+      "updated": "2026-09-22",
+      "videos": [
+        {
+          "id": "4roIJeCNRzM",
+          "title": "OOC: The Playable Anime | Official Reveal Trailer (273 万播放)",
+          "url": "https://www.youtube.com/watch?v=4roIJeCNRzM"
+        }
+      ]
+    },
+    "storyverse": {
+      "oneLiner": "AI 选择冒险故事 + AI 朗读，可导入 PDF、导出配音 MP3",
+      "updated": "2026-09-22"
+    },
+    "saylo": {
+      "oneLiner": "元象的 AI 角色扮演/互动网文，累计注册 2000 万+",
+      "updated": "2026-09-22"
+    },
+    "talefy": {
+      "oneLiner": "AI 故事游戏 + 角色扮演",
+      "updated": "2026-09-22"
+    },
+    "roletopia": {
+      "oneLiner": "第二人称分支叙事，AI 搭档聊天 + 语音",
+      "updated": "2026-09-22"
+    },
+    "storyzone": {
+      "oneLiner": "AI Game Master 冒险，自动配图",
+      "updated": "2026-09-22"
+    },
+    "janitor": {
+      "oneLiner": "JanitorAI 的互动故事 App，美区图书免费榜前 20",
+      "updated": "2026-09-22"
+    },
+    "sagaland": {
+      "oneLiner": "互动小说，美区图书畅销榜常驻",
+      "updated": "2026-09-22"
+    },
+    "wapoo": {
+      "oneLiner": "可玩社交视频",
+      "updated": "2026-09-22"
+    },
+    "talia": {
+      "oneLiner": "「口袋互动影院」：独立创作者设计分支世界，短视频信息流 + 剧情地图",
+      "updated": "2026-09-22"
+    },
+    "orbittoon": {
+      "oneLiner": "电影感互动剧，《Moon Rain》10 集周更，角色可私聊",
+      "updated": "2026-09-22"
+    },
+    "picktwist": {
+      "oneLiner": "竖屏互动短剧，关键节点选择；MeChat 同厂",
+      "updated": "2026-09-22"
+    },
+    "cuddli": {
+      "oneLiner": "角色卡带动态视频背景 + 配音 + 分支剧情",
+      "updated": "2026-09-22"
+    },
+    "huyingpai": {
+      "oneLiner": "真人实拍互动影游平台，作品单独购买，多端同步",
+      "updated": "2026-09-22"
+    },
+    "xiaoshijie": {
+      "oneLiner": "AI 动态生成剧情与配图的互动故事，8/29 上架",
+      "updated": "2026-09-22"
+    },
+    "wolaiyan": {
+      "oneLiner": "现实题材（职场/情感/家庭）AI 互动剧情",
+      "updated": "2026-09-22"
+    },
+    "maoxiang": {
+      "oneLiner": "字节的 AI 剧情宇宙/陪伴，国区娱乐畅销榜前 15",
+      "updated": "2026-09-22"
+    },
+    "diandian": {
+      "oneLiner": "互动小说平台，国区图书榜前 40",
+      "updated": "2026-09-22"
+    },
+    "zhoubao": {
+      "oneLiner": "AI 互动剧本创作平台",
+      "updated": "2026-09-22"
+    },
+    "dreamnow": {
+      "oneLiner": "腾讯 AIGC 内容与互动影游浏览平台（4 月上线）；同系还有造化工坊、TDream、代号 Craft",
+      "updated": "2026-09-22"
+    },
+    "tdream": {
+      "oneLiner": "腾讯 AI 视频与互动内容创作社区（6 月上线）",
+      "updated": "2026-09-22"
+    },
+    "fanqie": {
+      "oneLiner": "番茄小说 AI 仿真人互动剧《诡舍》《全球冰封》",
+      "updated": "2026-09-22"
+    },
+    "mangguo": {
+      "oneLiner": "芒果 TV AI 仿真人互动影游《公主请自重》《马上来财》（1500 万+ 播放）",
+      "updated": "2026-09-22"
+    }
+  },
+  "candidates": [
+    {
+      "id": 6762599536,
+      "name": "Plot Twist: Interactive Dramas",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/plot-twist-interactive-dramas/id6762599536?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/28/61/582861c6-c4c4-6b15-31f8-f432add55a82/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Plot Twist：选择冒险互动剧游戏",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6755859360,
+      "name": "Loopit - AI Playable Maker",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/loopit-ai-playable-maker/id6755859360?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/18/33/901833e2-57c3-538f-d852-65af1200b0e4/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Loopit：AI 可玩内容制作工具",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6514312894,
+      "name": "FlickReels - AI Story & Drama",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/flickreels-ai-story-drama/id6514312894?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9a/40/84/9a4084f9-9e2c-8dcb-3015-54cdf2ee5def/AppIcon-1x_U007epad-0-1-0-85-220-0.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "FlickReels：AI Story & Drama",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6758667154,
+      "name": "VibeShort: AI Short Dramas",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/vibeshort-ai-short-dramas/id6758667154?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/f9/2e/5bf92e8c-128d-e63a-9ed7-f4585db67861/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "VibeShort：AI 短剧平台",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6738098034,
+      "name": "My Muse: Series & Drama Live",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/my-muse-series-drama-live/id6738098034?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/9c/ea/559ceaba-36b2-d810-f906-20e12ac9b14e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "My Muse（Holywater）",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6749137461,
+      "name": "BagelChat：AI角色故事",
+      "country": "us",
+      "url": "https://apps.apple.com/cn/app/bagelchat-ai%E8%A7%92%E8%89%B2%E6%95%85%E4%BA%8B/id6749137461?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/64/ba/5164ba91-48a9-567e-4070-e07dd285dc0e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "BagelChat：角色用图像/动图回应",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6757948021,
+      "name": "Popia - AI Stories & Creators",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/popia-ai-stories-creators/id6757948021?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/e0/d4/bfe0d429-1276-bc99-08b3-db19d42a7219/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Popia：AI 角色故事创作平台（1000+ 评分）",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6752695482,
+      "name": "莫比乌斯之恋 - 真人悬疑恋爱互动影游",
+      "country": "cn",
+      "url": "https://apps.apple.com/cn/app/%E8%8E%AB%E6%AF%94%E4%B9%8C%E6%96%AF%E4%B9%8B%E6%81%8B-%E7%9C%9F%E4%BA%BA%E6%82%AC%E7%96%91%E6%81%8B%E7%88%B1%E4%BA%92%E5%8A%A8%E5%BD%B1%E6%B8%B8/id6752695482?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/d1/47/e5d14708-3c4d-8fe8-8f8c-437055ba4c22/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "莫比乌斯之恋：真人悬疑恋爱互动影游",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6794994620,
+      "name": "浪漫租约",
+      "country": "cn",
+      "url": "https://apps.apple.com/cn/app/%E6%B5%AA%E6%BC%AB%E7%A7%9F%E7%BA%A6/id6794994620?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/f4/d0/eaf4d088-a52b-a025-3e72-457a65354c3c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "浪漫租约：真人实拍互动影像",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6772103820,
+      "name": "情感反诈模拟器",
+      "country": "cn",
+      "url": "https://apps.apple.com/cn/app/%E6%83%85%E6%84%9F%E5%8F%8D%E8%AF%88%E6%A8%A1%E6%8B%9F%E5%99%A8/id6772103820?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/ea/21/23ea21c6-c46d-dfcc-e195-378518c25b0a/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "情感反诈模拟器：真人互动影像",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6762088478,
+      "name": "Talia",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6795973037,
+      "name": "Orbittoon",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6772954863,
+      "name": "PickTwist",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6777919302,
+      "name": "Cuddli AI",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6797379691,
+      "name": "小世界",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-09-22"
+    },
+    {
+      "id": 6759898255,
+      "name": "我来演",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-09-22"
+    }
+  ],
+  "xhs": []
+}

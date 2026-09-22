@@ -1,0 +1,89 @@
+{
+  "key": "inplay",
+  "versions": [
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07",
+      "notes": "1. More stories\n2. Faster"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-22",
+      "version": "2.0.3",
+      "rating": 4.62,
+      "ratingCount": 333,
+      "ranks": {}
+    }
+  ],
+  "reviews": [
+    "b5b10989c14d",
+    "edb353d77976",
+    "8bcfe5e546b7",
+    "220b2f4b78c6",
+    "b010eb453632",
+    "d49e41d554cb",
+    "2b8e81ff5819",
+    "0f8e11d68e41"
+  ],
+  "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/28/74/0b2874b5-eec3-8679-a2dd-f56310f8bff7/app_store1.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/88/7c/c1887c4a-4e5d-adcb-0e20-d4223095aaa6/app_store2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/8b/fb/528bfbc7-3146-083b-a1d4-ffa33df11f32/app_store3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/a5/42/50a542fd-5e85-543b-13e1-47d64753408b/app_store4.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/db/4d/b0db4d10-c288-4a16-5b86-bf94a84cfbf9/app_store5.png/320x480bb.jpg"
+  ],
+  "description": "Discover diverse narrative entertainment, including curated interactive tales, character adventures, mystery storylines and creative journeys. Powered by AI, virtual characters respond naturally to your inputs within defined story frameworks, allowing you to engage with thoughtfully crafted narratives.\n\nWatch It – Step Into Story Worlds\nExperience immersive structured story adventures. Interact with characters and take part in designed storylines to explore unique narrative journeys.\n\nShape It – Guide Your Story Journey\nEvery adventure features multiple narrative paths.\nWithin preset story frameworks, you can interact with characters, influence plot directions and unlock different endings. All interactions follow platform content guidelines to deliver appropriate experiences.\n\nChange it – Join the Story\nDeepen your immersion in our product, then immerse yourself in canonical story settings to fashion wholly original, personalized narratives.\n\nBy downloading and using this application, you agree to our Terms of Use: https://www.apple.com/legal/internet-services/itunes/appstore/dev/stdeula/",
+  "reviewSample": [
+    {
+      "h": "b5b10989c14d",
+      "text": "This app is amazing! Really love the stories and how the characters interact. I was wondering if you guys could add a feature where you can remove stories? I have a story that I don’t want to do anymore because I pretty much completed it and I was trying to remove it to focus on others but it seems like there isn’t one. Either way the game is a 10/10!",
+      "rating": 5
+    },
+    {
+      "h": "edb353d77976",
+      "text": "Now im not able to get in because it won’t load, now its having trouble going to page 74. All it does is think. \n\nNow AI is having trouble generating, please retry. What? This is happening in walbrook i think, the story of a guy his girlfriend her mom had her best friend. Trying to generate day two morning time.\n\nNext morning but only a few pages in and already acting up. Westbrook house again. What’s going on?\n\nI was getting ready to go back onto the game that I was playing called Tifa Lockhart. And noticed that the game that I was playing isn’t there and that there’s a different one there in",
+      "rating": 3
+    },
+    {
+      "h": "8bcfe5e546b7",
+      "text": "I was progressing (thru Westbrook House) and had gotten as far as to have the leading woman become as boy and girlfriends together, and we were planning on starting a rural (deep woods, off-grid) life. Today when the app informs me that it’s been ‘improved’ once I’ve accepted that (to be restarted as the app) what I’m presented with, is that my entire chatting experience has been (for all intents and purposes) deleted, and I’m (forced) have to begin again (from the very beginning?) and I think that’s pathetic and a horrible way to treat a potential user. I’d like to see the APP removed from th",
+      "rating": 1
+    },
+    {
+      "h": "220b2f4b78c6",
+      "text": "I decided to give this app a try. I was pleased with the illustrations and the creativity at first, but I didn’t like a few things. One, not saving the progress when I decided to back out a moment. Two, was writing the story in a way that I didn’t agree to. If I was writing a scene, it wrote something entirely different on the next page. Three, the memory is faulty. I described a character in detail and it still didn’t get it right. \n\nI gave it two stars as I think it has potential but it needs more work. I hope the creators of this app take this into consideration.",
+      "rating": 2
+    },
+    {
+      "h": "b010eb453632",
+      "text": "I almost never write reviews, but I have to say I’m really loving this app so far. It’s very immersive and way more fun than just choosing between a few options. It’s like open world for role playing. I do agree with the other reviewer saying it needs a little adult content though. Like that’s not what I’m in it for, but some of the scenes get kind of weird and awkward without it.",
+      "rating": 5
+    },
+    {
+      "h": "d49e41d554cb",
+      "text": "I love the game but it has no save of the progress you made when playing it I got so caught up one story know I have to start from the beginning 😭😭😭😭😭😭",
+      "rating": 5
+    },
+    {
+      "h": "2b8e81ff5819",
+      "text": "I think it’s pretty good game, but can use some more fan based games like Vampire Diaries, Legacies, Charmed, Criminal Minds, Hawaii 5-0, Bones, Supernatural, Hazbin Hotel, Walker, Stranger Things, The Flash, Marvel franchises and Fast and Furious. Also it would be nice if we could remove stories we accidentally clicked on or are done with from our playing section. Also it never saves any progress.",
+      "rating": 3
+    },
+    {
+      "h": "0f8e11d68e41",
+      "text": "The chats don’t save progress, so I hope you don’t plan to need to step away from your phone for extended periods of time. Or god forbid you accidentally back out of the chat. The bots also tend to repeat themselves as well. The app has potential, but it has a long way to go!",
+      "rating": 3
+    }
+  ],
+  "meta": {
+    "trackName": "InPlay-Interctive Stories",
+    "seller": "VICOO PTE. LTD.",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/9a/b8/169ab8cf-81e1-afea-0599-2bcc32caaa86/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "url": "https://apps.apple.com/us/app/inplay-interctive-stories/id6773279322?uo=4",
+    "genre": "Entertainment",
+    "price": "Free",
+    "released": "2026-07-06",
+    "country": "us"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "key": "talia",
+  "versions": [
+    {
+      "version": "1.1.2",
+      "date": "2026-09-17",
+      "notes": "Explore your stories in a whole new way:\n\n• Pinch to zoom the story map — node titles stay crisp and readable at any scale\n• Story titles now appear beneath each node, hidden until you unlock them (no spoilers)\n• Creators can give a project its own gradient theme — carried across the story map and the game's home page\n• A gentle star-fall ambience now drifts behind every map\n• Saved progress is kept correctly separate for each account, plus performance and stability improvements"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-22",
+      "version": "1.1.2",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {}
+    }
+  ],
+  "reviews": [],
+  "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/01/b4/2901b471-7bb2-47b1-6c06-f435ec9ef4d1/IMG_1871-asc.PNG/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/aa/7a/3baa7abd-3c4a-bd44-fe15-c5a6902da8ad/IMG_1874-asc.PNG/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/2e/bc/712ebc82-6d1e-49e4-618c-68bbc07fa9ff/IMG_1872-asc.PNG/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/2f/31/862f311d-c25d-0564-3153-4116646fc6ae/IMG_1876-asc.PNG/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/97/89/1c9789a9-a32d-3883-4cc7-111dc2b9dd68/IMG_1875-asc.PNG/320x480bb.jpg"
+  ],
+  "description": "Talia is a platform for AI-powered interactive content, where the story chooses you back.\n\nWatch interactive films and stories, tap to make choices that shape what happens, and discover branches you didn't know you could reach. From 30-second mood pieces to multi-chapter dramas, every piece unfolds differently depending on what you tap, when you pause, and where you look — because it's directed by independent creators who design their own branching worlds.\n\nCapture and share your own short films right from the app. Apply six retro-cinematic filters to your photos, keep them in your private library, or post to the For You feed for the Talia community.\n\nWHAT YOU GET\n• Tap-to-branch interactive stories, with multiple endings and hidden routes\n• Frame-region tap moments — tap a door, a glass, a hand, and the story responds\n• Auto-advance scenes that flow like real film, no buttons to click\n• In-app camera with photo and video capture + six filters\n• A personal library and a public For You feed\n• Custom soundtracks creators attach to a whole story\n• Built-in support for ten languages\n\nWHO IT'S FOR\nPeople tired of endless scrolling but not ready to commit to a long series. Creators who want to express an idea in 30 seconds. Anyone curious what a screen looks like when it reads you back.\n\nTalia is built and operated by Shangyu Chen (individual sole trader, Victoria, Australia, ABN 78 526 386 160). Free to use.\n\nPrivacy: https://play.taliaapp.com/legal/privacy\nTerms: https://play.taliaapp.com/legal/terms\nSupport: https://play.taliaapp.com/legal/support",
+  "reviewSample": [],
+  "meta": {
+    "trackName": "Talia – Interactive Cinema",
+    "seller": "Shangyu Chen",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/91/89/db918936-94b4-5fd1-8102-c4a051e5ded7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "url": "https://apps.apple.com/us/app/talia-interactive-cinema/id6762088478?uo=4",
+    "genre": "Entertainment",
+    "price": "Free",
+    "released": "2026-05-18",
+    "country": "us"
+  }
+}

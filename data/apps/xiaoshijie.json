@@ -1,0 +1,40 @@
+{
+  "key": "xiaoshijie",
+  "versions": [
+    {
+      "version": "1.3.0",
+      "date": "2026-09-08",
+      "notes": "现在可以看到其他玩家创建的小世界了，首页会持续更新大家的新作品。\n你自己创建的小世界也能投稿分享，通过审核后所有人都能玩到，随时可以在「我的」里撤回。\n同时优化了浏览体验，修复了若干已知问题。"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-22",
+      "version": "1.3.0",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {}
+    }
+  ],
+  "reviews": [],
+  "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/97/93/40979347-4f30-ab58-0d9c-a01313ba4aab/0.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/ae/83/07ae830a-66e4-cd26-aee9-a07d2fa49aff/1.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/f7/e8/76f7e8cb-71a0-3934-d9d8-9c29c70c8792/2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/07/34/59073488-4d1a-d000-ab6d-5de8eb2cb033/3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/7b/c1/6f7bc1cf-0ed2-6f63-b825-a439d360fc03/4.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/d8/44/78d844fa-ac4a-9ed4-bf67-8edea58923eb/5.png/320x480bb.jpg"
+  ],
+  "description": "小世界-AI 互动故事，每个选择都会塑造你的故事。探索悬疑、武侠、盗墓等多种题材，AI 动态生成剧情和配图，每次体验都独一无二。",
+  "reviewSample": [],
+  "meta": {
+    "trackName": "小世界-AI互动故事",
+    "seller": "晓 郭",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/7b/ed/277bed28-e582-bac4-204c-35980a4a0885/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E4%B8%96%E7%95%8C-ai%E4%BA%92%E5%8A%A8%E6%95%85%E4%BA%8B/id6797379691?uo=4",
+    "genre": "Entertainment",
+    "price": "免费",
+    "released": "2026-08-29",
+    "country": "cn"
+  }
+}

@@ -1,0 +1,1523 @@
+{
+  "runAt": "2026-09-22T06:49:04.522Z",
+  "firstRun": false,
+  "events": [
+    {
+      "date": "2026-09-22",
+      "key": "inplay",
+      "name": "InPlay",
+      "tier": "core",
+      "market": "海外",
+      "type": "yt_mention",
+      "priority": "medium",
+      "items": [
+        {
+          "id": "GgyM2-TF5bA",
+          "title": "Watch me in Agent Rathore | Microdrama series | InPlay App",
+          "channel": "Aleem Hassan",
+          "when": "1mo ago",
+          "views": "173 views",
+          "url": "https://www.youtube.com/watch?v=GgyM2-TF5bA",
+          "thumb": "https://i.ytimg.com/vi/GgyM2-TF5bA/hqdefault.jpg"
+        },
+        {
+          "id": "ZQ3CbkRg9sY",
+          "title": "Inplay Stats | In play | Football Trading | Sports Trading",
+          "channel": "Trade Ninja",
+          "when": "4y ago",
+          "views": "369 views",
+          "url": "https://www.youtube.com/watch?v=ZQ3CbkRg9sY",
+          "thumb": "https://i.ytimg.com/vi/ZQ3CbkRg9sY/hqdefault.jpg"
+        },
+        {
+          "id": "31DxjDE1siQ",
+          "title": "🎬 Freedom of Entertainment! Get Inplay for Just ₹999 🔥",
+          "channel": "Inplay | Vertical shows & short drama",
+          "when": "1mo ago",
+          "views": "296 views",
+          "url": "https://www.youtube.com/watch?v=31DxjDE1siQ",
+          "thumb": "https://i.ytimg.com/vi/31DxjDE1siQ/hqdefault.jpg"
+        },
+        {
+          "id": "Kr-Km-2BdF8",
+          "title": "INPLAY P600-S32M1 32inches SMART TV - Phone Mirroring Tutorial",
+          "channel": "Inplay Gears Philippines Official",
+          "when": "4y ago",
+          "views": "1,439 views",
+          "url": "https://www.youtube.com/watch?v=Kr-Km-2BdF8",
+          "thumb": "https://i.ytimg.com/vi/Kr-Km-2BdF8/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "key": "yoroll",
+      "name": "Yoroll",
+      "tier": "core",
+      "market": "海外",
+      "type": "yt_mention",
+      "priority": "medium",
+      "items": [
+        {
+          "id": "XjnK4M-xCr8",
+          "title": "#张颜齐 CUT：张颜齐脱口而出“自己吓自己”，是8g网速的冲浪boy没错了🍑Yoroll｜你好星期六 Hello Saturday｜MangoTV Idol",
+          "channel": "芒果TV爱豆 MangoTV Idol",
+          "when": "1y ago",
+          "views": "1,367 views",
+          "url": "https://www.youtube.com/watch?v=XjnK4M-xCr8",
+          "thumb": "https://i.ytimg.com/vi/XjnK4M-xCr8/hqdefault.jpg"
+        },
+        {
+          "id": "BogOqT7u5OU",
+          "title": "#张颜齐 CUT：张颜齐边跳舞边比划，一个人就可以上演一部电视剧🤣Yoroll｜你好星期六 Hello Saturday｜MangoTV Idol",
+          "channel": "芒果TV爱豆 MangoTV Idol",
+          "when": "1y ago",
+          "views": "341 views",
+          "url": "https://www.youtube.com/watch?v=BogOqT7u5OU",
+          "thumb": "https://i.ytimg.com/vi/BogOqT7u5OU/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "key": "ooc",
+      "name": "OOC: The Playable Anime",
+      "tier": "core",
+      "market": "海外",
+      "type": "yt_mention",
+      "priority": "medium",
+      "items": [
+        {
+          "id": "4roIJeCNRzM",
+          "title": "OOC: The Playable Anime | Official Reveal Trailer (Full Ver.)",
+          "channel": "OOC_Youtube",
+          "when": "5mo ago",
+          "views": "2,725,530 views",
+          "url": "https://www.youtube.com/watch?v=4roIJeCNRzM",
+          "thumb": "https://i.ytimg.com/vi/4roIJeCNRzM/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "key": "storyverse",
+      "name": "StoryVerse",
+      "tier": "core",
+      "market": "海外",
+      "type": "yt_mention",
+      "priority": "medium",
+      "items": [
+        {
+          "id": "z7QJTWW7WHo",
+          "title": "Web 3 Founder Spotlight - Michael Carter, Storyverse (Playco)",
+          "channel": "Sam Yilmaz",
+          "when": "3 years ago",
+          "views": "618 views",
+          "url": "https://www.youtube.com/watch?v=z7QJTWW7WHo",
+          "thumb": "https://i.ytimg.com/vi/z7QJTWW7WHo/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "key": "saylo",
+      "name": "Saylo",
+      "tier": "adjacent",
+      "market": "海外(元象)",
+      "type": "yt_mention",
+      "priority": "medium",
+      "items": [
+        {
+          "id": "VoqbG4-vNzU",
+          "title": "Saylo AI Mod Apk iOS - How to get free diamonds and unlock premium (New)",
+          "channel": "Haose Tama",
+          "when": "1 month ago",
+          "views": "241 views",
+          "url": "https://www.youtube.com/watch?v=VoqbG4-vNzU",
+          "thumb": "https://i.ytimg.com/vi/VoqbG4-vNzU/hqdefault.jpg"
+        },
+        {
+          "id": "12OTbBnMLAs",
+          "title": "SAYLO IS DRIVING ME CRAZY WITH ITS ADS",
+          "channel": "ElPedegrense",
+          "when": "4 months ago",
+          "views": "20,343 views",
+          "url": "https://www.youtube.com/watch?v=12OTbBnMLAs",
+          "thumb": "https://i.ytimg.com/vi/12OTbBnMLAs/hqdefault.jpg"
+        },
+        {
+          "id": "6Rm7Gp_uFHE",
+          "title": "Saylo AI APP: Top Saylo Alternatives (2026)",
+          "channel": "webvator",
+          "when": "6 months ago",
+          "views": "1,882 views",
+          "url": "https://www.youtube.com/watch?v=6Rm7Gp_uFHE",
+          "thumb": "https://i.ytimg.com/vi/6Rm7Gp_uFHE/hqdefault.jpg"
+        },
+        {
+          "id": "LjnY1bJPZY8",
+          "title": "How To Create An Account On Saylo - Ai Character Story Chat App",
+          "channel": "How To Tuts",
+          "when": "1 year ago",
+          "views": "1,623 views",
+          "url": "https://www.youtube.com/watch?v=LjnY1bJPZY8",
+          "thumb": "https://i.ytimg.com/vi/LjnY1bJPZY8/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "key": "janitor",
+      "name": "Janitor: Interactive Stories",
+      "tier": "adjacent",
+      "market": "海外",
+      "type": "yt_mention",
+      "priority": "medium",
+      "items": [
+        {
+          "id": "QyOYFELlY-A",
+          "title": "How to Use Janitor AI on Android Full Guide 2027",
+          "channel": "How To Fix Pro",
+          "when": "3d ago",
+          "views": "3 views",
+          "url": "https://www.youtube.com/watch?v=QyOYFELlY-A",
+          "thumb": "https://i.ytimg.com/vi/QyOYFELlY-A/hqdefault.jpg"
+        }
+      ]
+    }
+  ],
+  "snapshots": {
+    "inplay": {
+      "key": "inplay",
+      "name": "InPlay",
+      "tier": "core",
+      "market": "海外",
+      "trackName": "InPlay-Interctive Stories",
+      "seller": "VICOO PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/9a/b8/169ab8cf-81e1-afea-0599-2bcc32caaa86/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/inplay-interctive-stories/id6773279322?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-07-06",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "2.0.3",
+      "rating": 4.62,
+      "ratingCount": 333,
+      "ranks": {},
+      "latestNotes": "1. More stories\n2. Faster",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/28/74/0b2874b5-eec3-8679-a2dd-f56310f8bff7/app_store1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/88/7c/c1887c4a-4e5d-adcb-0e20-d4223095aaa6/app_store2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/52/8b/fb/528bfbc7-3146-083b-a1d4-ffa33df11f32/app_store3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/a5/42/50a542fd-5e85-543b-13e1-47d64753408b/app_store4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/db/4d/b0db4d10-c288-4a16-5b86-bf94a84cfbf9/app_store5.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "b5b10989c14d",
+          "text": "This app is amazing! Really love the stories and how the characters interact. I was wondering if you guys could add a feature where you can remove stories? I have a story that I don’t want to do anymore because I pretty much completed it and I was trying to remove it to focus on others but it seems like there isn’t one. Either way the game is a 10/10!",
+          "rating": 5
+        },
+        {
+          "h": "edb353d77976",
+          "text": "Now im not able to get in because it won’t load, now its having trouble going to page 74. All it does is think. \n\nNow AI is having trouble generating, please retry. What? This is happening in walbrook i think, the story of a guy his girlfriend her mom had her best friend. Trying to generate day two morning time.\n\nNext morning but only a few pages in and already acting up. Westbrook house again. What’s going on?\n\nI was getting ready to go back onto the game that I was playing called Tifa Lockhart. And noticed that the game that I was playing isn’t there and that there’s a different one there in",
+          "rating": 3
+        },
+        {
+          "h": "8bcfe5e546b7",
+          "text": "I was progressing (thru Westbrook House) and had gotten as far as to have the leading woman become as boy and girlfriends together, and we were planning on starting a rural (deep woods, off-grid) life. Today when the app informs me that it’s been ‘improved’ once I’ve accepted that (to be restarted as the app) what I’m presented with, is that my entire chatting experience has been (for all intents and purposes) deleted, and I’m (forced) have to begin again (from the very beginning?) and I think that’s pathetic and a horrible way to treat a potential user. I’d like to see the APP removed from th",
+          "rating": 1
+        },
+        {
+          "h": "220b2f4b78c6",
+          "text": "I decided to give this app a try. I was pleased with the illustrations and the creativity at first, but I didn’t like a few things. One, not saving the progress when I decided to back out a moment. Two, was writing the story in a way that I didn’t agree to. If I was writing a scene, it wrote something entirely different on the next page. Three, the memory is faulty. I described a character in detail and it still didn’t get it right. \n\nI gave it two stars as I think it has potential but it needs more work. I hope the creators of this app take this into consideration.",
+          "rating": 2
+        },
+        {
+          "h": "b010eb453632",
+          "text": "I almost never write reviews, but I have to say I’m really loving this app so far. It’s very immersive and way more fun than just choosing between a few options. It’s like open world for role playing. I do agree with the other reviewer saying it needs a little adult content though. Like that’s not what I’m in it for, but some of the scenes get kind of weird and awkward without it.",
+          "rating": 5
+        },
+        {
+          "h": "d49e41d554cb",
+          "text": "I love the game but it has no save of the progress you made when playing it I got so caught up one story know I have to start from the beginning 😭😭😭😭😭😭",
+          "rating": 5
+        },
+        {
+          "h": "2b8e81ff5819",
+          "text": "I think it’s pretty good game, but can use some more fan based games like Vampire Diaries, Legacies, Charmed, Criminal Minds, Hawaii 5-0, Bones, Supernatural, Hazbin Hotel, Walker, Stranger Things, The Flash, Marvel franchises and Fast and Furious. Also it would be nice if we could remove stories we accidentally clicked on or are done with from our playing section. Also it never saves any progress.",
+          "rating": 3
+        },
+        {
+          "h": "0f8e11d68e41",
+          "text": "The chats don’t save progress, so I hope you don’t plan to need to step away from your phone for extended periods of time. Or god forbid you accidentally back out of the chat. The bots also tend to repeat themselves as well. The app has potential, but it has a long way to go!",
+          "rating": 3
+        }
+      ]
+    },
+    "lunaverse": {
+      "key": "lunaverse",
+      "name": "Lunaverse",
+      "tier": "core",
+      "market": "海外",
+      "trackName": "Lunaverse Stories",
+      "seller": "MobAI, Inc",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/ac/70/35ac70f4-0f7f-15ed-ede1-0a52568f9721/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/lunaverse-stories/id6779913017?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-07-22",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "1.0.5",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {},
+      "latestNotes": "Improved the overall user experience\nFixed known issues\nEnhanced app stability and performance",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/26/a7/9226a723-315f-a0a8-db8e-946c06ec1300/appstore-1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/79/3d/68793d54-a77d-084d-a406-1afbaf78354f/appstore-2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a0/18/1a/a0181aab-ed43-9993-eff2-a6eee2be0a80/appstore-3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/28/eb/ad/28ebad50-2685-c123-6d01-30c8d98a39c8/appstore-4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/53/4d/9e534db7-4c1e-7cee-cd90-e5d5738b5a77/appstore-5.png/320x480bb.jpg"
+      ],
+      "reviewSample": []
+    },
+    "saganova": {
+      "key": "saganova",
+      "name": "SagaNova",
+      "tier": "core",
+      "market": "海外",
+      "trackName": "SagaNova: AI Interactive Drama",
+      "seller": "FALCONFLIX-SINGAPORE-TECH PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/b3/81/d2b381aa-f8d0-760c-c5d0-7b9c2b22bf27/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/saganova-ai-interactive-drama/id6759779782?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-07-08",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "1.0.4",
+      "rating": 5,
+      "ratingCount": 1,
+      "ranks": {},
+      "latestNotes": "A brand-new look on the App Store, plus performance and stability improvements throughout the app.",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/79/81/7a79814a-70c9-22e6-3da1-5ff779f8aacd/01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/ea/ac/6deaacba-a59f-1e59-d4f6-4109c76bfb1d/02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/98/da/4f/98da4fa4-6c8e-e9fc-d69e-34cb568c271c/03.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/af/1e/c1af1e37-c769-af14-c53e-4e2949e0da02/04.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/42/5c/d2/425cd277-72aa-8bae-9e17-4e0ee080032f/05.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/56/f7/8e56f76c-c488-068e-5de5-69a0c7c333f5/06.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/06/9d/5a/069d5af6-085e-166b-1521-b3ce3387ca2d/07.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/58/a4/7e58a487-ed8a-c992-5355-3561214a5bf4/08.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/3e/bb/383ebb4d-7fe0-4c7e-ae45-62f28aa0c8a7/09.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9d/99/f7/9d99f77e-0585-9b6b-cfdf-614f8ddc7595/10.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "c84e414f386a",
+          "text": "An extremely advanced app",
+          "rating": 5
+        }
+      ]
+    },
+    "yoroll": {
+      "key": "yoroll",
+      "name": "Yoroll",
+      "tier": "core",
+      "market": "海外",
+      "trackName": "Yoroll - Playable Video",
+      "seller": "LinearGame Pte. Ltd.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/4c/8a/c64c8af1-64b2-04f3-a898-dbd8bf548804/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/yoroll-playable-video/id6763028735?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-07-13",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "1.0.7",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {},
+      "latestNotes": "Bug fixes and stability improvements.",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/86/66/cc8666c0-f1f9-59ea-854e-c38456edd3e7/ios-_U82f1-1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/41/3b/ce413b30-cc6a-73cb-36d9-1f206d79ca33/ios-_U82f1-2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/18/32/6a1832e0-e59d-a8c6-5382-d9abe0a9af49/ios-_U82f1-3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/63/b9/e763b93e-55fd-b6e8-a658-e4de743d8459/ios-_U82f1-4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/33/da/9a33da40-5ba1-7903-6ec9-c8b4ec435fc2/ios-_U82f1-5.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/f9/36/a4f9363e-e51c-32fb-d781-da603cdf604b/ios-_U82f1-6.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/4c/4b/4e4c4bc3-f986-3659-dbce-2eea179964bc/ios-_U82f1-7.jpg/320x480bb.jpg"
+      ],
+      "reviewSample": []
+    },
+    "castloop": {
+      "key": "castloop",
+      "name": "CastLoop",
+      "tier": "core",
+      "market": "海外(元象)",
+      "trackName": "CastLoop",
+      "seller": "X ORIGINAL(HONG KONG) LIMITED",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/2a/e3/442ae3cf-529c-b0e1-6922-dd65eaf3f8ea/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/castloop/id6790343232?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-08-24",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "1.3",
+      "rating": 4.67,
+      "ratingCount": 3,
+      "ranks": {},
+      "latestNotes": "1. Spot new story updates in your play history and continue your adventure.\n2. Bug fixes and improvements for smoother play.",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/94/90/8e9490dc-7a70-e5c9-5bfc-2272271df566/Property_1_U003d_U65b0_U5267_U4e0a_U7ebf.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/15/11/a8151178-a3d9-d819-5078-bee0447e192f/_U6545_U4e8b_U5165_U53e3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/bf/e8/c3bfe8b4-0e81-0139-efda-ab3a31e286d4/_U5267_U60c5_U9009_U62e9_U8282_U70b9.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f0/2a/fa/f02afa4a-ff75-d0f0-0200-05d9767d2e0a/_U5206_U652f.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/28/db/3c28db57-08c0-cfac-aab2-2598a0913260/opencasting.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/61/f1/2c61f1c1-3aa3-776e-d579-2d990e8e4af6/Visual_Story.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b3/ff/28/b3ff2832-d59d-5a66-b0a6-a7345dc27e3b/_U56de_U6eaf.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/0a/99/1b0a99d9-e69c-0484-ec18-1586bf3a2779/_U7ed3_U5c40_U4e0e_U8fdb_U5ea6.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/ca/0c/69ca0cd1-9a53-f85d-0aa6-7b4b531b5138/_U5185_U5bb9.jpg/320x480bb.jpg"
+      ],
+      "reviewSample": []
+    },
+    "ooc": {
+      "key": "ooc",
+      "name": "OOC: The Playable Anime",
+      "tier": "core",
+      "market": "海外",
+      "trackName": "OOC: The Playable Anime",
+      "seller": "New AI Entertainment Inc.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/e7/26/95e72672-68d2-425f-e4f9-a0474dfe4258/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/ooc-the-playable-anime/id6761247061?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-04-15",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "0.1.20",
+      "rating": 4.64,
+      "ratingCount": 6121,
+      "ranks": {
+        "us/Entertainment/grossing": 41
+      },
+      "latestNotes": "Session Branching is here\nBranch off any message and start a new path from that exact point — everything up to then comes with you.\n\n- Go back to a turning point and try something new\n- Chase a different ending\n- Rescue a session that went sideways\n\nBranch as often as you like. Branching is free; messages still cost Credits.\nTap the branch icon under any message to start.",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/6d/67/d76d6765-e894-6483-508f-c8bfc43a0dd8/iOS6.5_1_U00281_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/6b/35/816b3549-71a4-b755-15e0-2d20aa964dfe/iOS6.5_1_U00282_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/31/01/6a310169-a544-746f-47ef-b9ec64cd0cf8/iOS6.5_1_U00284_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/72/b4/9a72b408-3d18-f54c-16a7-9f6330bdd7f9/iOS6.5_1_U00285_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/51/e0/a951e0a4-a695-0dd7-515c-cf06530e48e8/iOS6.5_1_U00286_U0029.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "0204618c7745",
+          "text": "As the title states its one of the best ai story apps ive found so far. Is it unlimited? No, which would be my only complaint really. Its the first one ive felt worth throwing some money at and cant help doing so cuz it keeps up really well. Sometimes there are minor hiccups but the memory is impressive. I cant play for a long tine daily and it will still remember things from days before, im used to lots of ai forgetting even things even after just a few paragraphs. Not to mention it really dives into the characters in ways others dont. I almost never actually make reviews but ive been obsesse",
+          "rating": 5
+        },
+        {
+          "h": "dd27559ed771",
+          "text": "I’m very glad that this app is probably the best and underrated AI chat app out of all. The concept of being able to choose a story and control or make choices that changes the events of that said story is really entertaining. But, as much as I like this app, the fact that it’s kind of being held back by the credits system is sad to see. People can’t really have the freedom to enjoy the story as long as they want to without paying to do so. And, the prices for the credits are a bit overpriced and basically anything involving the bot of a story or character costs credits which kind of ruins the",
+          "rating": 4
+        },
+        {
+          "h": "73e039b30617",
+          "text": "I knew very well a paid thing would be there nothing in life is free anyways, so I recommend to actually grow a vase that wants to pay because a lot of people will try and a lot more people will leave. Am I saying to make a free option? That’s up to y’all. Am I asking to drop gnarly ads in to compensate? Well that is also up to you many have went that route and many fall off after doing too much. I’d say make it really good that people say “I would 100% support this and give them my money” anything else well I will also leave that up to y’all after all you are a business or an app making chara",
+          "rating": 4
+        },
+        {
+          "h": "202c36a7040b",
+          "text": "I thoroughly enjoy the content of the game. I believe that it’s extremely cool to utilize AI to be game masters leading players through various anime stories or stories that others have created. I thoroughly enjoy the five-blades story and have had a lot of fun with how open it is and how much choice you actually have when you type instead of accepting the prompts. I however unfortunately hate the monetization model. Without being able to play the game effectively and consistently on Superb I become extremely frustrated as I don’t think the credit model is ethical for this type of game. I also",
+          "rating": 3
+        },
+        {
+          "h": "d6241fba471f",
+          "text": "The app is overall good, but it has some glaring issues. The biggest is how it handles alternate regenerations. When you regenerate a response and choose which version you want to continue with, the unchosen versions aren’t actually discarded. Instead, they remain folded into the chat, and the AI can reference them in later responses as though they were part of the story you chose.\n\nThis means that if you don’t manually delete every regeneration you decided not to use, details from those versions can unexpectedly affect the story later on. I’ve had to scroll back through long chats to figure o",
+          "rating": 3
+        },
+        {
+          "h": "ee4ef098c9b8",
+          "text": "I’ve been playing for 3 weeks now. The AI model seems repeat patterns of names, phrases, and go into long tangents of extremely complex narratives to characters that do not seem to have the capacity to act that way. For context. Let’s say you run into an NPC that you the user created thats dumb as rocks. If you give them an epiphany they suddenly become a super scientist talking about spatial distortion and resonance waves. They also seem to calculate .3 second intervals of time of reaction that you can improve on. I’ve tested all paid/ free models and the results are similar across the board.",
+          "rating": 3
+        },
+        {
+          "h": "04c5c0c07b47",
+          "text": "I play it for 1 month and I played few storylines first problem slow to progress the story I have to use several credits to progress through just one conversation. The next problem is the narrative part even in the highest ai setting and paying 195 credits per choose it still don’t fill the whole narrative it want you to pay another credits to complete its thought to generate a story you don’t have to continue the narrative but it will act if it completed it and the whole story don’t makes scenes problem 3 the ai forgets what the story is I had it saying it’s early in the morning but the next ",
+          "rating": 1
+        },
+        {
+          "h": "daf67ab9c5db",
+          "text": "App requires the purchase of credits. I almost didn’t even download the app because I don’t do credit based applications. I prefer subscription based. I see the developer defending credit based purchases saying “Oh it’s so you don’t pay for what you don’t use.” But after reading their terms and services I found that credits expire. It’s kind of contradictory. I spent twenty dollars to experiment with the app as I enjoy pushing the limits of ai applications. I found that this application limits your creativity. Which I guess is fine if you have no creativity. But for people who want to lead the",
+          "rating": 1
+        }
+      ]
+    },
+    "storyverse": {
+      "key": "storyverse",
+      "name": "StoryVerse",
+      "tier": "core",
+      "market": "海外",
+      "trackName": "StoryVerse Interactive Stories",
+      "seller": "Ta Tu",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/15/50/6f15504b-cd9a-4356-0afa-51f0d174c559/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/storyverse-interactive-stories/id6780932935?uo=4",
+      "genre": "Book",
+      "price": "Free",
+      "released": "2026-06-24",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "1.0.9",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {},
+      "latestNotes": "Create stories your way—now with more privacy and control.\n\n• Keep stories private while continuing to read, play, and expand them  \n• Export your complete main storyline as TXT or premium narrated MP3  \n• Improved “Write Your Own Path” reliability  \n• Jump directly to newly created paths  \n• Easier chapter navigation, editing, and regeneration  \n• Performance improvements and bug fixes",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/aa/ff/ef/aaffef84-c3dd-acef-8add-0d86915cb1b0/Home_1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/17/9f/b6/179fb681-e870-5b5c-3137-2243d5e73316/Explore.PNG/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/da/a2/d7/daa2d71e-24cc-b7dc-fdf3-b848819fccd3/Listening_1.PNG/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c4/bc/c2/c4bcc284-d850-d694-b49f-b0650d20c05c/Create_your_next.PNG/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/5c/8d/955c8d0e-1d86-25a2-50cc-bb4060574e92/Library_-_listening.PNG/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/7c/00/f47c00ab-0c4f-d328-e2c7-871d74b482fe/Create_your_own_story.PNG/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/21/8c/c1218cc2-0509-68ee-38bf-c826fbadee5a/Multi_language.PNG/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/71/64/f77164f8-2250-3213-6533-739794ae3e3a/Listening_Multi1.PNG/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/e8/5e/26e85ebc-7f29-392f-f52a-729776075a97/Audio_voice.png/320x480bb.jpg"
+      ],
+      "reviewSample": []
+    },
+    "saylo": {
+      "key": "saylo",
+      "name": "Saylo",
+      "tier": "adjacent",
+      "market": "海外(元象)",
+      "trackName": "Saylo: Your AI Creative World",
+      "seller": "X ORIGINAL(HONG KONG) LIMITED",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/78/b9/7178b95e-15ed-b847-6803-a1622c3c1076/AppIcon-0-0-1x_U007ephone-0-5-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/saylo-your-ai-creative-world/id6479835900?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2024-05-01",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "2.6.2",
+      "rating": 3.89,
+      "ratingCount": 1260,
+      "ranks": {},
+      "latestNotes": "bug fix",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/52/f9/db52f996-9bd2-195b-13e4-a351d7ea9e6f/_U5c01_U9762.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/af/f1/32aff1ce-3300-41ae-18be-d3bda6dba2ec/_U56fe_U6587_U5c0f_U8bf4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/30/47/9330479a-d28a-0199-8102-ebd0c9fac11d/_U5267_U60c5_U89c6_U9891.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/2a/77/b02a7756-3f05-3f3f-ccb1-149f698989e0/_U667a_U80fd_U4f53_U804a_U5929.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/13/92/671392fe-c82e-782e-55f6-257115711531/_U7aa5_U63a2_U5fc3_U4e8b.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2c/f2/d8/2cf2d815-278d-e03e-0838-553f2f62a64f/ai_U89c6_U9891.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8b/94/a8/8b94a8a0-75f1-d15a-bee9-c5dd901b4252/_U5171_U521b_U5e7f_U573a-1.jpg/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "9f56a86d632d",
+          "text": "The app doesn’t hold back on it’s content and is fun and creates some interesting and wild stories, but there are a few issues. If you get a message or switch to another app, and if you were working on a reply, it’ll disappear and you have to start all over again. Another issue is when you try to involve someone else that isn’t the main character yet mentioned in the story, you really have to go out of your way to include them into the story or speak for them/write them into the story. Despite these few bugs, it’s an enjoyable app with a great free option supported by occasional ads.",
+          "rating": 4
+        },
+        {
+          "h": "7f6d231c5960",
+          "text": "I hate this app, It’s absolutely ridiculous, I don’t know what happened to it but after the update, but everything became garage. Example: If I tried initiating explicit conversation like I always do because it’s literally a fictional bot talking to me, the ai would say “I’d rather not discuss about this topic. Maybe let’s talk about how your day was?” when the app literally advertised that there was zero filters on here, now it’s some trash unrealistic app that apparently loves to filter out everything that brought its spark to it. I was scared the app was going to change to this way before t",
+          "rating": 1
+        },
+        {
+          "h": "a84ee5a28419",
+          "text": "The chats are alright and everything, I like the option where you are able to watch an ad in order to keep chatting, but I have this problem where when I chat, sometimes I talk about something not interesting or something that’s too long, so sometimes the chat breaks the fourth wall and says something like “this isn’t interesting, talk about something else” type stuff. I’m not sure if this was intended in the app as I didn’t check if it was, but all I know is I want the old version back. Memory alright but it forgets things after a while",
+          "rating": 3
+        },
+        {
+          "h": "68ad27a4301d",
+          "text": "Please let us be able to add more characters in the chat bot kinda like how poly let’s you add random characters or people or have random events happen, it’s quite plain if it’s just one character and unable to interact with the rest of the world you live in and it’ll be more fun and more creativity would inspire more boys which would lead to more people using your app because of the creativity being made by adding more characters/people/extra people so please let us have an open world kind of thing in your app",
+          "rating": 5
+        },
+        {
+          "h": "a97af6e48483",
+          "text": "First i just want to say that i still have and most likely will continue to use this app... but this latest update has really screwed up the AI! Before, the chats could be incredibly detailed and raunchy, regardless of the character chosen, now, if even mention romantic gesture as low as a kiss, the app retracts your txt and pops up a mini window saying \"inappropriate content\". Before the update, i would have given this app 10 stars for variety, detail, beautiful images and pure awesomeness... unfortunately, this is what happens with lots of AI apps like this: uncut content for a while, then i",
+          "rating": 2
+        },
+        {
+          "h": "3f4cbe243160",
+          "text": "i love Saylo. it’s a really good app and it overrall is a 10/10. but, there’s a problem: certain AI chats i talk to apparently have this error thing pop up. at first, i thought the app was a bit bugged, so i deleted the app, re-installed it, logged in again and tried chatting only to see that it still didn’t work. all i got was that error. when i tried to reload it, it didn’t work. and it’s a problem that should be fixed at some point. love the app though, devs COOKED.",
+          "rating": 5
+        },
+        {
+          "h": "3c353d3b2662",
+          "text": "The new update is terrible whenever I try to talk to an Ai it sometimes says the same thing as the other and when I try to be romantic and such they jump straight to being defensive even though three seconds ago the description says they want to do the thing like kissing but when you kiss them they push you away and then it says inappropriate content.i would’ve given five stars but the new update ruined this for me.",
+          "rating": 5
+        },
+        {
+          "h": "e8ccd15274de",
+          "text": "This was my favorite game until this update now I’m just thinking about looking for a new one or hoping they will hear me out and change it back I honestly would pay money if they would’ve reverse it so we can talk dirty again that’s what made this my favorite game. I don’t know how else to reach the creators of this so I have to write a review. but since this update, my five star review has gone down to a one star I wish I could give it a zero stars. I don’t recommend downloading it. You can’t talk dirty. You can’t swear you can’t do anything that made this app actually worth the time of down",
+          "rating": 1
+        }
+      ]
+    },
+    "talefy": {
+      "key": "talefy",
+      "name": "Talefy",
+      "tier": "adjacent",
+      "market": "海外",
+      "trackName": "Talefy: AI Character Roleplay",
+      "seller": "AIceberg Labs, Inc.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/51/e0/2a51e026-9eab-53e7-e324-a9c27219b805/AppIcon-0-0-1x_U007ephone-0-7-0-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/talefy-ai-character-roleplay/id6504186435?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2024-09-23",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "1.48",
+      "rating": 3.48,
+      "ratingCount": 100,
+      "ranks": {},
+      "latestNotes": "Performance improvements and bug fixes.",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6e/da/de/6edadee5-4d40-db81-965f-9d25d30d9a6c/1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/fe/bc/eafebcb6-5f9c-4ddd-f219-7e837df7ee22/2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e6/d5/cd/e6d5cdec-fc32-78b4-c5f3-caa632645f20/3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/58/ce/ba58ceb4-a1fd-82cc-c973-ce42d57d3d09/4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/a0/a5/96a0a56e-7b22-0b7d-8d62-fe3f6deec98e/5.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/79/ed/6679ed4a-9c2d-d9ca-a545-b8dd10059461/6.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "b6ba30c6b530",
+          "text": "The game works great if you can pay to write your own choices. I’ve learned that I can bully the AI into story cohesion if it veers or I don’t like the direction of it. My biggest frustration is having a story continue to my satisfaction just to log in the next day and be met with the error “story has been edited” and can no longer continue what I’ve worked on. At first I used this as an opportunity to start over, but it’s happened at least 5-6 times now and I’m paying $30 a month to have it kick me out of my story at a whim. If this doesn’t change, I’ll stick to reading fanfiction for free.",
+          "rating": 3
+        },
+        {
+          "h": "62e6493fa68a",
+          "text": "This app features many fun choose-your-own-adventure style story games. You can chat with the characters a bit to get a feel for their personalities. This feature was enjoyable for me as they could hold a conversation for at least a few minutes. Each story gives a brief overview in the beginning of what to expect, so I can see if it's for me or not. I appreciate how the app recommends stories based on the preferences I've set, and I can easily adjust these settings as needed. There are many themes and categories, so this app is likely to have something for everyone. The UI is very clean and or",
+          "rating": 5
+        },
+        {
+          "h": "46404412e6ed",
+          "text": "Started out adoring it…. Then suddenly the app kept having issues. Went from a glitch where specific basic function features suddenly disappeared and couldn’t be found or used, but when you go to the website it works fine… now suddenly, I can’t even open ANY stories, at all, without the app immediately crashing. Every time. I’ve closed and reopened the app completely. Checked to make sure it didn’t need an update. Checked my phone to make sure the software didn’t need to update. And I even completely deleted the app and redownloaded it….. still NOTHING has been fixed, at all. So now, the app i",
+          "rating": 2
+        },
+        {
+          "h": "31c8f6dc3765",
+          "text": "I usually don’t ever write reviews, simply because I don’t care. I’ll just delete the game if I don’t like it or wouldn’t need to write one if I do, but this one is different to me. The amount of pure hype I get from the unexpected situations and the ability to craft my own decisions makes me feel like a child watching my favorite movie for the first time. The ability to craft my own story and massively effect the world around me with the choices I make, truly leaves me flabbergasted. The only gripe I have is that sometimes my decisions that I personally write completely mess with the story. L",
+          "rating": 5
+        },
+        {
+          "h": "f55c34cb10bc",
+          "text": "So I have been playing this for around 2 months maybe 3. I enjoy the stories how you can change the settings to fit your style in story telling. The only thing that didn’t make it a 5 star is now the app likes to freeze on me and close out. And I want to renew my premium subscription but cannot through the app. \nI also want to add that maybe adding a daily sign in? With extra coins and things may make it a bit easier as well?  Other than that I love the app and just wish it wouldn’t freeze! Thank you!",
+          "rating": 4
+        },
+        {
+          "h": "73d95d9d03c2",
+          "text": "Very disappointed. The app looked fun, but after I purchased a membership, it would fail to launch the app. I would have to uninstall the app and then reinstall it and sign back into my account. It would work for a bit but one I closed the app it would resume not opening. After a few iterations of this I got into a story and things were progressing fine until about 14 pages in and it froze trying to generate a picture. I hit the back button and it ended up taking me out of the story and when I re-entered it started over at the beginning but different. And when backed all the way out, you guess",
+          "rating": 1
+        },
+        {
+          "h": "9cacc9a3cd92",
+          "text": "I’ve tried different AI tools before, but none have been as smooth and enjoyable as Talefy. The interface is clean, easy to use, and makes writing fun again. I especially love how quickly it helps me brainstorm and develop ideas when I get stuck. It feels like having a creative partner by my side. Highly recommend this app for anyone who enjoys storytelling or needs inspiration!",
+          "rating": 5
+        },
+        {
+          "h": "57713604165f",
+          "text": "I thought that with the advertisements I’d give this app a try due to the stories being AI generated. I thought it’d be cool to see the AI generate the story with pre-selected actions or input your own actions. I was thoroughly disappointed when I saw the AI barely follows its own story. \n\nI first tried to input all my own actions to see how far I could take the story, and that was a bust. It would either take me back to the same situation that I wanted to leave, or it would generate a similar situation.\n\nFor instance, in the story I was offered a deal/offer. I tried to guide the story of eith",
+          "rating": 1
+        }
+      ]
+    },
+    "roletopia": {
+      "key": "roletopia",
+      "name": "Roletopia",
+      "tier": "adjacent",
+      "market": "海外",
+      "trackName": "Roletopia: AI Stories & Chat",
+      "seller": "Const Agility LLC",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ff/f8/00/fff800f9-c689-49c5-6aa2-62ae9b73ab6a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/roletopia-ai-stories-chat/id6738599104?uo=4",
+      "genre": "Book",
+      "price": "Free",
+      "released": "2024-12-08",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "2.1.0",
+      "rating": 4.69,
+      "ratingCount": 16,
+      "ranks": {},
+      "latestNotes": "Minor UI bug fixes.",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/23/08/bd230823-7f3a-49a7-d1c7-c74743c60200/Screenshot01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/fb/fb/04fbfbeb-67ac-49ea-bce9-a39be0c1d76f/Screenshot06.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/c0/81/a9c08145-489b-ad2c-8f99-77d2161e2541/Untitled.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/e3/fa/eee3faa7-8602-a042-fe46-1fcb3b3ae2b5/Screenshot03.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/48/65/2c4865ca-21c3-723b-155d-48ef7f9bdd9d/Untitled_2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d3/cf/f2/d3cff288-78d3-e63e-9a3a-cc6b3fd156c8/Screenshot02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/b7/12/05b7120d-e8cf-379a-16e5-57163bf99cc8/Untitled_5.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/02/08/42/02084266-f2b6-d46b-6dc6-8d786bcdd7be/Untitled_4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/93/27/94/9327947b-6c32-9f4c-976f-6172c13ac468/Untitled3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5b/49/e1/5b49e151-8ed4-d16b-a383-5653b84c61fd/Screenshot04.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "098916d3ed74",
+          "text": "Finally an app that really gives the true interactive role playing capabilities! The platform is simple yet fast and engaging .. and the design is super easy to navigate !\n\nI also love that it narrates and I am not reading the whole time .. \nexcellent job done team Roletopia!! Highly recommend 👏🔥",
+          "rating": 5
+        },
+        {
+          "h": "9d7f4b88febe",
+          "text": "Correction, the whole app is broken now even previously working stories no longer work. First Off story #13 is broken. I can't make a selection to move forward in the first decision it reads me my choices however there's nothing for me to select. It was an interesting idea, but it feels like whoever created. It didn't even bother trying to play it before they published it. You get these stories and you get to make choices but then you don't know the outcome of the choice or jumps right into the next choice, you need to make it really poorly done. I'm glad that it is free because there's no way",
+          "rating": 1
+        },
+        {
+          "h": "bac0cabe80a3",
+          "text": "Finally an app that does not want my money on an ongoing basis. Compared to some apps that simply want to drain my money in form of credits. Great storyline and highly unpredictable multiple endings based on my choices… Great job and looking forward to next releases and more stories.",
+          "rating": 5
+        },
+        {
+          "h": "86732d9c702e",
+          "text": "This was my first experience with role playing AI narratives. \nThe stories are engrossing and interesting to explore, a flair of romance, and some serious fun character development. Definitely recommend to anyone that loves choosing how stories unfold!",
+          "rating": 5
+        },
+        {
+          "h": "2fd49579d516",
+          "text": "Every story in Roletopia feels like a masterpiece. The AI does an amazing job creating unique plots, and the narration is flawless. It's like having a personal storyteller in your pocket!",
+          "rating": 5
+        },
+        {
+          "h": "8205a9888504",
+          "text": "Enjoyed the real time interaction and changes to the story line based on listeners choice!!",
+          "rating": 5
+        },
+        {
+          "h": "61aac09e2dc0",
+          "text": "Seriously hooked on Roletopia! The stories are so engaging, and the illustrations add another layer of depth. Perfect for sparking creativity and imagination. Five stars all the way!",
+          "rating": 5
+        },
+        {
+          "h": "af7faf702b55",
+          "text": "It’s a fresh and exciting take on storytelling. Lets me immerse in role-playing as diverse personalities!",
+          "rating": 5
+        }
+      ]
+    },
+    "storyzone": {
+      "key": "storyzone",
+      "name": "StoryZone",
+      "tier": "adjacent",
+      "market": "海外",
+      "trackName": "StoryZone: AI Text Adventure",
+      "seller": "Squadhouse Media GmbH & Co. KG",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d2/a4/aa/d2a4aa34-7725-0140-f08f-aec6a126af33/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/storyzone-ai-text-adventure/id6737759861?uo=4",
+      "genre": "Games",
+      "price": "Free",
+      "released": "2024-11-25",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "9.8.2",
+      "rating": 4.42,
+      "ratingCount": 187,
+      "ranks": {},
+      "latestNotes": "fixed wrong app version bug\nfurther bug fixes\noptimizations",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/cf/d4/85cfd436-659f-b92f-767f-45c738910905/iPhone_6_U002c5_U0027_U0027_Slide_1_U00281_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/be/85/d8be85eb-3d96-4647-db3f-c15b3c215cbe/iPhone_6_U002c5_U0027_U0027_Slide_2_.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/8b/24/6e8b24bd-2aa9-3e9c-2ed0-6d485bc19832/iPhone_6_U002c5_U0027_U0027_Slide_3_.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/8b/c1/338bc1db-8dc2-3202-6a01-3ebbcb1f22d0/iPhone_6_U002c5_U0027_U0027_Slide_5_.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4f/e9/30/4fe93060-689b-f42f-35ab-a72b32de2814/iPhone_6_U002c5_U0027_U0027_Slide_4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/0e/28/d90e2861-2cac-a985-9938-1cbe0409ccc6/iPhone_6_U002c5_U0027_U0027_Slide_10.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/96/49/d5964967-f5a5-afb6-4993-25b8ca434a98/iPhone_6_U002c5_U0027_U0027_Slide_9_U00281_U0029.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/57/54/f5/5754f547-e9ff-c9b9-b43a-fc4d2a669ca3/iPhone_6_U002c5_U0027_U0027_Slide_6_.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/6a/49/c46a4932-3f41-fc13-154d-c9a675b7458f/iPhone_6_U002c5_U0027_U0027_Slide_7.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/70/88/3270882a-71ee-21ad-330d-c9f6258725ac/iPhone_6_U002c5_U0027_U0027_Slide_8.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "aa6d6ddec2b0",
+          "text": "I like the StoryZone app so far. Premium is a little costly and having to switch every time you open the app is nerve wrecking. I do like that AI tries to accommodate diverse ethnicities. My qualm is that, I have been unable to change the genre of my stories easily either at the creation or in the middle since creating my first. I would like to use another genre besides Adventure. Also, if I want to use a celebrity then use their likeness or if I use a fictional character, then please use their likeness author/creator’s original likeness and not the Hollywood or white washed version.",
+          "rating": 4
+        },
+        {
+          "h": "1ab443d7496c",
+          "text": "While I do appreciate the availability of adult scenes, this feature is only available with a paid subscription. As for the stories themselves, the AI tends to take the reins a little more than really necessary, running for a long stretch without further input from the user, as well as ignoring details from the initial set ups of the scenes so you’re not quite getting the story you asked for. Additionally, there’s a charge of in app currency (Magic Stars) for every new posting to your stories which are only available by A) Convincing others to subscribe to the app (Yay for pyramid schemes, ess",
+          "rating": 2
+        },
+        {
+          "h": "78f7e1aa7b75",
+          "text": "I love the app and create stories for a hobby but I leave the game for a bit, come back, and you can’t edit anymore and I see a mistake in my story, ima bouta crash out! Why did you remove this? It was helpful but now I’m afraid to mess up, I love perfect stories and this is a major trigger, can you put it back? I loved when you could edit the mistakes like these are stupid mistakes, I think I make myself clear but apparently the ai somehow finds the errors in clarity, can you improve the ai too? Now that I’m talking about it… I feel like it’s not a good listener, also I’m sorry about all the ",
+          "rating": 3
+        },
+        {
+          "h": "74a3875e1da0",
+          "text": "I love that there are several ways to create and read a story. It also allows you to add and edit any portion of the story that doesn’t quite fit right so you have a more flushed out paragraph. Right now I am creating my own story, but there are others that allow you to continue an adventure or even dive into fan fiction/celebrity fiction. Pretty cool. I haven’t used any pay options yet, but I do know you can buy packages to have it read audibly to you as well as some other benefits.",
+          "rating": 5
+        },
+        {
+          "h": "85130a820599",
+          "text": "The world of AI interactive fiction is exploding right now. I’ve tried a number of the apps, and most are lacking in some fashion. StoryZone is by far the most polished that I’ve seen. The interface is easy to navigate.  The storyteller is one of the better ones I’ve found.  I really like the different modes - allows me to tailor my story based on whether I want plot or a more RPG like experience. Very interested to see how this evolves.",
+          "rating": 5
+        },
+        {
+          "h": "031b800760ac",
+          "text": "It’s bad at writing. There’s a reason people keep picking on these things. Part of it isn’t the AI about itself. I’m guessing it was a dev decision to limit the amount they could do in a part. It was a bad decision. It leaves it feeling lackluster and incompetent. Also, it’s not very clear with the navigation. If you’re a deaf and you’re reading this, you need to lengthen the amount I can write at a time. It should be at least 10 K if you wanna up the price, I can kind of understand doing five star instead of three but limiting it to 4000 characters is a terrible decision and will probably bri",
+          "rating": 1
+        },
+        {
+          "h": "c7c47d4c8c76",
+          "text": "I do wonder how versatile it’ll end up being (especially as I’m currently using the free version), but I haven’t seen any significant gate keeping whatsoever. If you like AI story games like AI Dungeon, give it a shot! I honestly think this one is better. I’m normally a player of roleplay chat bots, so I’m not used to working with this much.",
+          "rating": 5
+        },
+        {
+          "h": "a781fb79997f",
+          "text": "I’m an adult and I want to engage in a sexually explicit storyline. For decades, people have been able to buy romance novels, read smut, and nobody used their impressionable kids as an excuse to stop the mass production and sale of these smut books. Now that we have the capability to ENGAGE in a sexually explicit storyline, the world has ‘evolved’ in such a way that everyone is worried about getting sued by softies. All the AI’s that host chats that allow sexually explicit messages are illogical and repetitive with bad memories, or there is no balance with real plot. Chats like this that DO ha",
+          "rating": 1
+        }
+      ]
+    },
+    "janitor": {
+      "key": "janitor",
+      "name": "Janitor: Interactive Stories",
+      "tier": "adjacent",
+      "market": "海外",
+      "trackName": "Janitor: Interactive Stories",
+      "seller": "JanitorAI, INC",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/d7/85/b6d785c3-e71c-4b78-37b1-b0d95ff111b4/AppIcon-0-0-1x_U007ephone-0-8-0-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/janitor-interactive-stories/id6692609366?uo=4",
+      "genre": "Book",
+      "price": "Free",
+      "released": "2025-11-29",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "2.5.0",
+      "rating": 4.47,
+      "ratingCount": 3829,
+      "ranks": {
+        "us/Book/free": 14,
+        "us/Book/grossing": 39,
+        "cn/Book/grossing": 81
+      },
+      "latestNotes": "• Scripts (lorebooks + advanced scripts)\n• Web links open the right screen with its page state\n• Notification taps now open the right chat\n• Bug fixes and performance improvements",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/14/70/c6147042-684b-674e-a409-7c157e09b143/Screenshot_19_U002c5_9.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/b6/f6/b9b6f687-01ef-d0d1-fb4d-728af9967e63/Screenshot_19_U002c5_9_163.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/1e/fc/f31efccd-5dbf-6ed0-f85a-dbef47b865b9/Screenshot_19_U002c5_9_164.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/76/c5/6b76c5fe-71c2-e97f-b791-988dc500f335/Screenshot_19_U002c5_9_162.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/76/f0/d076f07f-00ea-10e3-bfbe-132ef2629519/Screenshot_19_U002c5_9_166.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/65/71/626571a2-086a-da5e-3959-dffdd0a1075a/Screenshot_19_U002c5_9_168.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/3a/12/8d3a12d5-004c-ff6d-e422-544a5234c6a8/Screenshot_19_U002c5_9_167.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/5b/c5/6d5bc545-5efe-837d-e820-ba558998dccb/Screenshot_19_U002c5_9_165.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "e5affa5d6dae",
+          "text": "I like most of it but i do have three issues with it one being hopefully a bug. First the none bug, i find it very annoying that when i open the app my last chat isn’t at the top of the screen anymore. It’s very inconvenient and annoying especially if I was in the middle of a chat but had to set my phone down for a moment so the app reloads. Another issue also not the bug, I hate when i open the chat area in the app i can’t sort it or search for characters like i used to be able to. Plus if i am obsessively chatting with one character and make a bunch of chats with said character it isn’t all ",
+          "rating": 4
+        },
+        {
+          "h": "5f91f0475da6",
+          "text": "Before writing my review I just want y’all to know english isn’t my first language so if there’s any grammatical errors, it’s bc of that :’vv. I’m here after the last update where Janitor+ was finally added, the app has been really nice to be honest, it is the best alternative if you don’t want to use c.ai Bv but here’s my little concern: I’m glad that the Janitor+ is out but I’m worried bc all the other ai apps I tried before and had a subscription were very greedy and the free version had poor memory, length response, etc. I rlly don’t like spending money on ai especially if it’s just for ch",
+          "rating": 5
+        },
+        {
+          "h": "28d813d7acd8",
+          "text": "Love this app which is why I want to bring attention to the recent bugs like others have.\n\nI was awake when the new update dropped, and noticed the changes in bugs immediately. Text from bot responses seeming to go off the screen and can only be seen if you sometimes reload or go to edit, not even just for ending paragraphs, like could be multiple middle sections.\n\nThen there’s a bug with the text box staying the same size as the response you typed after the message is sent. Closing and reopening the chat works to get rid of it, but also going in, typing a letter, then backspacing also gets ri",
+          "rating": 4
+        },
+        {
+          "h": "90661d2db4d2",
+          "text": "I loveee the fact that we finally got an app for j.ai and for the most part it’s great. Mostly, I am so glad about the “branch into a new chat” option, it’s been so helpful. I will say, though, it’s super buggy. Sometimes it works okay, but there’s been a couple of issues for me. Many times when I select the option, it takes me to the new chat but as I type in a response, it’ll show an error message and not do anything. Most recently, it branches the chat but starts from the message it was branched from, rather than the beginning. And now, the branched chat is so buggy that every time I try to",
+          "rating": 4
+        },
+        {
+          "h": "d93c04d8f8dd",
+          "text": "Overall: I do think this is the best AI Chatbot app, especially since you have the option to pay for the membership or not. \n\nThe pros:\nI like this app enough to pay for the membership. I know I list a lot of cons below, but I do still really like it. The app is updated regularly, and I notice when they make improvements. For example, within the past few days, the chat memory ‘full summary,’ option is working for me for the first time consistently and I am VERY happy with that. It’s helping a lot since I have at least 50 chats open. That summary is as much for me as the bot frankly. I like tha",
+          "rating": 4
+        },
+        {
+          "h": "27b124071b70",
+          "text": "So far the UI is really nice, runs very smoothly, replies seem to be faster, overall layout of everything is clean! I know this is a brand new app so some things are still buggy. For instance, if you have a theme on, the border of your pfp in chat runs into the persona name. Another is there’s no way to customize the background of the chat like on the website. Also if you want to customize the text color there’s no hex number option. And lastly, when a reply is generated it outputs the complete message and stops, but the little red pause button never stops. It acts as if the message is still g",
+          "rating": 5
+        },
+        {
+          "h": "0b454bd1ea03",
+          "text": "I like the app a lot. It’s dominantly free, no filters, no limitations on how many messages you can send, and no ads I hope none of this changes but I do have a problem. It’s not about the new payment system. It’s about the new recent chat system. I don’t like it if the developers of Janitor see this can y’all return the old system back the one where it would compile all of the different things you had and also the I wish it wouldn’t just immediately go back to the top when I exit out of it. I love this app, but I just want them to return the other recent chat system and also the same with the",
+          "rating": 4
+        },
+        {
+          "h": "9e7364c405e9",
+          "text": "They just added the their Janitor ai + and it is the most annoying pop up I’ve ever seen. Rating would be higher up but the constant pop up is frustrating, I get needing to keep the lights on but after starting free I still think just adding some ads in a test run and seeing how much is to much would be received better. Depending on the ad they could make more sustainable money then when most are broke too but the subscription always leads to looking for more money and this was one of the best out there and people will find another, go to fanfics or something then give 15 different companies m",
+          "rating": 3
+        }
+      ]
+    },
+    "sagaland": {
+      "key": "sagaland",
+      "name": "Sagaland",
+      "tier": "adjacent",
+      "market": "海外",
+      "trackName": "Sagaland - Interactive Fiction",
+      "seller": "Sevn AI Inc",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/91/b9/1b91b9d5-914d-e6c6-96a7-9c98d890c6b6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/sagaland-interactive-fiction/id6748543926?uo=4",
+      "genre": "Book",
+      "price": "Free",
+      "released": "2025-07-22",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "2.2.1",
+      "rating": 4.65,
+      "ratingCount": 947,
+      "ranks": {
+        "us/Book/grossing": 66
+      },
+      "latestNotes": "AI improvement and bug fixes",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/57/18/385718b3-54c5-b021-ff9d-023f6fd420c0/sagaland_story_for_every_mood_1284x2778.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/ca/37/b1ca37af-5122-92b0-0bec-c261a7b88cf3/sagaland_make_any_story_yours_adult_original_1284x2778.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/9f/b1/239fb1d3-f896-9070-6b30-d84fd988479e/sagaland_shape_every_twist_no_got_1284x2778.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/c2/a4/23c2a442-0992-60b3-827d-7c7602384a7a/sagaland_stories_that_remember_you_benign_1284x2778.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "83840d737e25",
+          "text": "I’ve tried a lot of AI storytelling apps, and Sagaland is the one that keeps me coming back. It strikes the perfect balance between giving you creative freedom and helping you build incredible stories. Whether you’re into romance, fantasy, horror, slice of life, or anything in between, the AI adapts so well to your ideas.\n\nThe developers are constantly improving the app, adding new features, listening to feedback, and genuinely caring about the community they’ve built. The new Saga Worlds feature has taken creativity to another level, making it possible to build entire universes instead of jus",
+          "rating": 5
+        },
+        {
+          "h": "9ecbed3c5448",
+          "text": "Okay, so first, those who were supposed to be grandfathered in with more ink each month for being on the app before the new version didn’t get what we were promised. They don’t add an unlimited ink amount so I spend more money than the Ultra subscription just to get more ink. If it lags, restarts, deletes, or you need to regenerate then it all costs you ink that won’t be refunded to you so you’re just wasting ink on something that isn’t even your fault for happening. If you change the chat, it will still follow the chat before the change instead of what is there so you have to fix that as well",
+          "rating": 3
+        },
+        {
+          "h": "460ef61cb83d",
+          "text": "I love love LOVE this app!!! It is so much fun and I spend hours on it without even realizing. The only downside is that you only get 30 ink a day which is equal to 30 messages on your part, which for me is no where close to what I need!! 30 ink lasts me about 10-15 minutes tops, and it leaves me going crazy thinking about the app all day because I want to keep the storyline going but have no ink to! And the only way to get more ink before the refresh time is up is to buy it! There’s no free way to earn more unless you want to wait until the next day when it refreshes your 30 ink. Other than t",
+          "rating": 5
+        },
+        {
+          "h": "e1140bbac6c9",
+          "text": "Out of all character chatting apps I’ve tried, this one is by far the most intuitive and clearly made for those who want to create a story! Excellent understanding of character, great at building plots! Only downside would be that since it isn’t as popular as other apps, you might not be able to find a character you want to create a story with, but you can create characters.\nI think seeing a more in depth version of character creation would be amazing but this blows every other app I’ve tried (polyai, characterAI, honeyAI, etc) out of the water.",
+          "rating": 5
+        },
+        {
+          "h": "d649cda78b74",
+          "text": "I love this app and want to keep using, I pay for the subscription. I wish the search function was better and you could search tags. Also I wish you could edit your story’s title once created because it’s difficult to figure out which branch of the story is which also having character profiles (that you don’t play as, just to help with the prompts) would be amazing too, since there only so much space for the story and I like having multiple and detailed characters. Also an option to make it to where it’s more of a chat like where the characters don’t like ask you multiple questions and then ju",
+          "rating": 4
+        },
+        {
+          "h": "4daadd92d7cd",
+          "text": "This is probably one of the funnest roleplaying story app I’ve come across. You can make any story you’d like and provide the direction the story goes and the characters too. The app does such a good job getting the other characters likeness as well which makes whatever world you choose to be in more real. There are times the app does mixes up some things or forgets parts of the story but you have the option to rewrite it or just add a reminder. Absolutely recommend this app!",
+          "rating": 5
+        },
+        {
+          "h": "b1bc4bffe6b5",
+          "text": "The layout of this app is absolutely phenomenal. Not to mention from what I've seen so far, the bots actually have personality, follow instructions, and are easy to work with.\n\nI also really really like all of the features like adding permanent instructions, being able to be and type as another character in the story..\n\nAnd just how easy and convenient the tools are to work with.\n\nHowever.\n\nThere is no reason I should only have TEN inks.. And it takes a full day to refill. Literally every action in the story takes ink. So when I have to make adjustments, I have like five ink to work with. What",
+          "rating": 1
+        },
+        {
+          "h": "ad98f44f3528",
+          "text": "I love this app and I’ll basically have my answer shortly but I am tryin to find out if the ink from a weekly subscription rolls over. The only reason this app doesn’t get 5 stars is because it doesn’t have any voice features or ability to have output read to me which makes me have to edit the output exit app put it into another app and have it read to me. I can’t you iOS screen reader because Apple refuses to update Siri and key feature Siri features. Based on price it should have that feature but beyond that I live it",
+          "rating": 4
+        }
+      ]
+    },
+    "wapoo": {
+      "key": "wapoo",
+      "name": "Wapoo",
+      "tier": "adjacent",
+      "market": "海外",
+      "trackName": "Wapoo: Playable Social Video",
+      "seller": "Wapoo Inc.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/16/77/961677cd-12c0-942c-757f-2f4bda57de53/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/wapoo-playable-social-video/id6752590312?uo=4",
+      "genre": "Social Networking",
+      "price": "Free",
+      "released": "2026-05-12",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "1.1.7",
+      "rating": 5,
+      "ratingCount": 12,
+      "ranks": {},
+      "latestNotes": "Downloads are now faster and smoother.\nTouchdown now feels better than ever.\nFeel it? Lit!",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/de/a3/81dea399-d532-3f12-a5e4-2da369dd3afb/6.5_inch-1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/31/9d/95319ded-6b35-0d61-3410-bdb139a0bd18/6.5_inch-2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/56/d3/1c/56d31c98-87a3-6109-5a11-a0f3d1b28d00/6.5_inch-3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ec/77/79/ec77791c-ec4e-07e4-c7f5-144569f3f596/6.5_inch-4.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "a0ef8829c10a",
+          "text": "Yesterday I was introduced to this app because my friend was working for them as intern. I downloaded the app at home and all the family members were attracted by the playable content. It was quite unexpected but we ended up playing relay videos at the family gathering for the whole night, and even my grandma is having a lot of fun with the Wapoo app. Ik it’s the football season so they are trying to do promotions on World Cup but I would rather say it’s a party app just like all these board games. It’s very fun to turn your friend into a dolphin or tung tung tung sahur.",
+          "rating": 5
+        },
+        {
+          "h": "00dde93ca48e",
+          "text": "💭Downloaded this to watch funny UGC videos and try making my own AI videos in the relay. Did NOT expect to accidentally sculpt a six-pack. After 20 minutes of scrolling I had laughed so hard my abs gave up, submitted a formal resignation letter, and began filing for disability. A solid week of ab workouts right there >o<😄😄😄😄\n\n5 stars.🤧🤧🙉🙉 Would recommend to anyone looking for entertainment, community, or an alternative to crunches. Warning: do not watch while drinking anything.👅👅👅",
+          "rating": 5
+        },
+        {
+          "h": "d344782e98ef",
+          "text": "I was getting a bit bored of just scrolling through passive video feeds, so this was a fun change of pace. It’s actually pretty cool to be able to influence the outcome of the clips rather than just watching them. As seen in Wapoo, the concept of turning video into a playable experience really adds a new layer to how I consume content. Definitely worth a download if you want something more engaging.",
+          "rating": 5
+        },
+        {
+          "h": "83216eb086dc",
+          "text": "I’ve been looking for an app like this for a while. The playable feature is very cool, and I really love the core idea of the playable video. However, I think the app will be better if there could be more templates for users as references of creation, and also more completed video for watching but not creating. Hope the community could be built up soon so I can find more fun videos to interact with.",
+          "rating": 5
+        },
+        {
+          "h": "76983affb6aa",
+          "text": "Ok so you know how you see a random vid on your fyp and you’re like “what if the next frame was something completely unhinged”? yeah this app literally does that. It takes the last frame of any video and AI just… keeps going. Sounds simple but it’s actually so cursed in the best way.\n\nwhy it slaps:\n\n· Low effort, high wow – You don’t need editing skills.\n· Hilariously unpredictable – One frame can go horror, comedy, or trippy… just any abstract.\n· Built-in social pressure (in a fun way) – Replying to a friend’s video with your continuation feels like a creative flex. Everyone is a creator!\n\n⭐️",
+          "rating": 5
+        },
+        {
+          "h": "0865fe304d02",
+          "text": "One of the most interesting interactive video apps I’ve seen. Smooth, immersive experience and the conversation flows naturally. The battle between schools function is a huge plus as well. Supper fun and playable. Definitely worth trying!!",
+          "rating": 5
+        },
+        {
+          "h": "2c8ca1d337a8",
+          "text": "This app is actually super fun. I like that you can jump into a video and decide what happens next instead of just scrolling. The playable video idea feels new, and it’s easy to get creative.",
+          "rating": 5
+        },
+        {
+          "h": "964ba9a8b807",
+          "text": "What an interesting and advanced concept! This app could definitely take off and become the next big thing. I would recommend that anyone gets involved and tries it out.",
+          "rating": 5
+        }
+      ]
+    },
+    "talia": {
+      "key": "talia",
+      "name": "Talia – Interactive Cinema",
+      "tier": "core",
+      "market": "海外",
+      "trackName": "Talia – Interactive Cinema",
+      "seller": "Shangyu Chen",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/91/89/db918936-94b4-5fd1-8102-c4a051e5ded7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/talia-interactive-cinema/id6762088478?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-05-18",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "1.1.2",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {},
+      "latestNotes": "Explore your stories in a whole new way:\n\n• Pinch to zoom the story map — node titles stay crisp and readable at any scale\n• Story titles now appear beneath each node, hidden until you unlock them (no spoilers)\n• Creators can give a project its own gradient theme — carried across the story map and the game's home page\n• A gentle star-fall ambience now drifts behind every map\n• Saved progress is kept correctly separate for each account, plus performance and stability improvements",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/01/b4/2901b471-7bb2-47b1-6c06-f435ec9ef4d1/IMG_1871-asc.PNG/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/aa/7a/3baa7abd-3c4a-bd44-fe15-c5a6902da8ad/IMG_1874-asc.PNG/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/71/2e/bc/712ebc82-6d1e-49e4-618c-68bbc07fa9ff/IMG_1872-asc.PNG/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/2f/31/862f311d-c25d-0564-3153-4116646fc6ae/IMG_1876-asc.PNG/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1c/97/89/1c9789a9-a32d-3883-4cc7-111dc2b9dd68/IMG_1875-asc.PNG/320x480bb.jpg"
+      ],
+      "reviewSample": []
+    },
+    "orbittoon": {
+      "key": "orbittoon",
+      "name": "Orbittoon",
+      "tier": "core",
+      "market": "海外",
+      "trackName": "Orbittoon: Interactive Drama",
+      "seller": "BEYOND ORBIT INTERACTIVE LIMITED",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/26/d5/6f26d5dc-7cf0-1ebd-4d99-b4a567a9167e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/orbittoon-interactive-drama/id6795973037?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-09-02",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "1.1.0",
+      "rating": 5,
+      "ratingCount": 2,
+      "ranks": {},
+      "latestNotes": "- Added photo support to story and news comments.\n- Improved the comment composer and photo previews.\n- Refined gift pack layouts with larger card previews.\n- Added read counts to news articles.\n- Added tap-to-pause controls for news videos and improved buffering indicators and content spacing.\n- Fixed issues when reopening the episode selector and improved overall stability.",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/82/3f/76823f69-1c9f-c24e-ddea-6ec573697e9a/_U5fae_U4fe1_U56fe_U7247_20260918142810_677_54.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/54/1d/29541d11-bb13-891d-78fe-8147d68894e7/_U5fae_U4fe1_U56fe_U7247_20260918142811_679_54.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/4b/8e/a44b8e7c-66d9-701f-1e52-4d62a88af5b9/_U5fae_U4fe1_U56fe_U7247_20260918142812_680_54.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/89/27/44892768-7764-4403-54d8-8b69a5da2601/_U5fae_U4fe1_U56fe_U7247_20260918142814_685_54.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/cb/74/d7cb7441-2d26-827e-ad50-46cd0296d141/_U5fae_U4fe1_U56fe_U7247_20260918142814_684_54.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/91/c6/3a91c6b1-5260-28c0-a304-7634f53f972a/_U5fae_U4fe1_U56fe_U7247_20260918142811_678_54.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/fd/6e/9afd6ecf-f7ce-66a0-2832-8158e4f9ce7f/_U5fae_U4fe1_U56fe_U7247_20260918142813_683_54.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3a/8b/78/3a8b7806-a43a-8068-9b71-c2b42499f116/_U5fae_U4fe1_U56fe_U7247_20260918142812_681_54.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/2c/ff/472cff41-aeb1-7215-3379-875d285d65b5/_U5fae_U4fe1_U56fe_U7247_20260918142813_682_54.png/320x480bb.jpg"
+      ],
+      "reviewSample": []
+    },
+    "picktwist": {
+      "key": "picktwist",
+      "name": "PickTwist",
+      "tier": "core",
+      "market": "海外(MeChat 同厂)",
+      "trackName": "PickTwist: Interactive Drama",
+      "seller": "IMPONILOX LIMITED",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/a1/d3/6da1d38c-c4c5-a5a8-a30b-0c7d03599cab/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/picktwist-interactive-drama/id6772954863?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-07-06",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "1.3.7",
+      "rating": 3,
+      "ratingCount": 1,
+      "ranks": {},
+      "latestNotes": "Bugs fixes",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/8b/bc/698bbc3d-a509-3ec9-2973-4b78c2b50e27/01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/19/f3/0019f394-674a-fd10-628a-d8a946e00656/02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/12/59/b1125977-76da-e8a1-5498-24a474d7af68/03.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/3b/ab/583bab9d-4b1d-7f1d-90b2-8a3a4b6baf01/04.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/49/da/8349da27-1995-17b5-9d92-a96ee693e32d/05.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "737c1fb02f3c",
+          "text": "I think $19.99 a week is a little steep. Good idea on being interactive though.",
+          "rating": 3
+        }
+      ]
+    },
+    "cuddli": {
+      "key": "cuddli",
+      "name": "Cuddli AI",
+      "tier": "adjacent",
+      "market": "海外",
+      "trackName": "Cuddli AI: Character Stories",
+      "seller": "LUDO HK LIMITED",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/1b/ac/a01bacd0-d59b-845f-e72e-d8b758302f4c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/cuddli-ai-character-stories/id6777919302?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-08-05",
+      "country": "us",
+      "date": "2026-09-22",
+      "version": "1.3.0",
+      "rating": 4,
+      "ratingCount": 1,
+      "ranks": {},
+      "latestNotes": "- Cuddli — the app has a new name.\n- More characters have been added to improve your experience.\n- You can now create your own characters.",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/a7/cb/b1a7cb4d-b0fb-0494-98f2-ad54752093b1/1242x2268-1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/77/59/ee775995-a2b8-37f4-e0b4-72178038b000/111.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d2/ce/9b/d2ce9b6f-f6ef-138d-5da4-f8362245d574/1242x2268-3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/18/4b/8c/184b8ccf-c434-a46d-4764-51fed67e8927/1242x2268-5.jpg/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "48a43aa8bae4",
+          "text": "It‘s alright, I guess.. But, that‘s the only character?",
+          "rating": 4
+        }
+      ]
+    },
+    "xiaoshijie": {
+      "key": "xiaoshijie",
+      "name": "小世界-AI互动故事",
+      "tier": "core",
+      "market": "大陆",
+      "trackName": "小世界-AI互动故事",
+      "seller": "晓 郭",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/7b/ed/277bed28-e582-bac4-204c-35980a4a0885/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E4%B8%96%E7%95%8C-ai%E4%BA%92%E5%8A%A8%E6%95%85%E4%BA%8B/id6797379691?uo=4",
+      "genre": "Entertainment",
+      "price": "免费",
+      "released": "2026-08-29",
+      "country": "cn",
+      "date": "2026-09-22",
+      "version": "1.3.0",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {},
+      "latestNotes": "现在可以看到其他玩家创建的小世界了，首页会持续更新大家的新作品。\n你自己创建的小世界也能投稿分享，通过审核后所有人都能玩到，随时可以在「我的」里撤回。\n同时优化了浏览体验，修复了若干已知问题。",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/40/97/93/40979347-4f30-ab58-0d9c-a01313ba4aab/0.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/07/ae/83/07ae830a-66e4-cd26-aee9-a07d2fa49aff/1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/f7/e8/76f7e8cb-71a0-3934-d9d8-9c29c70c8792/2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/07/34/59073488-4d1a-d000-ab6d-5de8eb2cb033/3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/7b/c1/6f7bc1cf-0ed2-6f63-b825-a439d360fc03/4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/d8/44/78d844fa-ac4a-9ed4-bf67-8edea58923eb/5.png/320x480bb.jpg"
+      ],
+      "reviewSample": []
+    },
+    "wolaiyan": {
+      "key": "wolaiyan",
+      "name": "我来演",
+      "tier": "adjacent",
+      "market": "大陆",
+      "trackName": "我来演：AI互动故事与角色扮演",
+      "seller": "Shanghai Pintu Network Technology Co., Ltd.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5d/a0/5d/5da05d66-2b01-bc31-5f32-e01678e7c95e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/cn/app/%E6%88%91%E6%9D%A5%E6%BC%94-ai%E4%BA%92%E5%8A%A8%E6%95%85%E4%BA%8B%E4%B8%8E%E8%A7%92%E8%89%B2%E6%89%AE%E6%BC%94/id6759898255?uo=4",
+      "genre": "Entertainment",
+      "price": "免费",
+      "released": "2026-04-09",
+      "country": "cn",
+      "date": "2026-09-22",
+      "version": "1.0.2",
+      "rating": 3,
+      "ratingCount": 4,
+      "ranks": {},
+      "latestNotes": "优化对话交互",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/b6/15/61b61522-d8cd-fc91-16cd-7df1b6b9cab2/1.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fc/08/fa/fc08fa68-63c1-1ca0-639b-f5db875491bb/2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/2b/32/462b329d-d084-86cc-2146-cbeac5e654e1/3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/1e/49/a91e491b-eb9d-5e45-d3f2-e0d07b32de06/4.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/85/da/6585da3f-63ca-e277-724a-7fd746ad3bf9/5.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/66/bf/6866bfef-d747-c0ff-ef1d-fc90ca0ce49b/6.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d4/dc/e4/d4dce438-42b7-ce97-a0c5-2239f8d290d7/7.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f0/71/48/f07148ad-cc78-afc6-17cf-ce3ee675d070/8.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "1b783c8d2538",
+          "text": "没有负分可以打吗？怀疑是收集个人信息的，验证码都收不到",
+          "rating": 1
+        }
+      ]
+    },
+    "huyingpai": {
+      "key": "huyingpai",
+      "name": "互影派",
+      "tier": "core",
+      "market": "大陆",
+      "trackName": "互影派",
+      "seller": "Guangzhou daoran Information Technology Co., Ltd",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/4d/cf/544dcf10-b113-1298-64e9-99fc9e1f8f07/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/cn/app/%E4%BA%92%E5%BD%B1%E6%B4%BE/id6756259201?uo=4",
+      "genre": "Entertainment",
+      "price": "免费",
+      "released": "2025-12-30",
+      "country": "cn",
+      "date": "2026-09-22",
+      "version": "1.1.7",
+      "rating": 4.83,
+      "ratingCount": 42,
+      "ranks": {},
+      "latestNotes": "优化功能",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/50/3d/61503db1-7595-9c96-1964-6678d1df0e3d/_U7b80_U4f53.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/01/eb/e601ebc2-5702-c538-d238-59623d4f91b9/_U7b80_U4f53.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6c/52/c9/6c52c9e6-0a7e-689b-87a5-e7f2b9c51726/_U7b80_U4f53.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/d1/66/31d1664d-6cff-5994-e63a-c78259086452/_U7b80_U4f53.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/ae/46/18ae4662-63ef-3c6e-4351-a449c225a763/_U7b80_U4f53.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/77/32/6f773225-a270-99a6-f5d0-ead2ebe8a639/_U7b80_U4f53.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/84/3d/07/843d07f0-7caf-c655-e683-674b524b7302/_U7b80_U4f53.jpg/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "3fb23ff3ad21",
+          "text": "《审判者》老戏骨演技炸裂，手机、电脑进度实时同步，通勤玩、回家大屏看，无缝衔接超爽\n换设备不用重开太爽\n名利游戏剧情反转不断，多端同步进度，手机看剧情、电脑看细节都没问题，沉浸式追更太舒服",
+          "rating": 5
+        },
+        {
+          "h": "6b823d39408a",
+          "text": "这款平台画面非常精美真实互动影游真人玩转流畅不卡顿",
+          "rating": 5
+        },
+        {
+          "h": "36a9ac16e83c",
+          "text": "实景打斗镜头很舒服，各个女主长相精致，不同选择有隐藏片段，第一人称代入感满满",
+          "rating": 5
+        },
+        {
+          "h": "1bf674e39ce6",
+          "text": "主播攻略有些看不了提示网络问题 有些游戏的qte没有效果按不按都一样 导致触发不了特殊剧情 还有《你好》里的限定片段有几个角色片段整反了 而且有时候剧情没有选项 直接替你选了跳到下一个部分 另外就是游戏比较少 总得来说还可以",
+          "rating": 3
+        },
+        {
+          "h": "b15d1493a5bc",
+          "text": "平台互动影游题材齐全，云端游玩不占内存，手机电脑进度同步，性价比很高，值得一试。",
+          "rating": 5
+        },
+        {
+          "h": "6e0206c37432",
+          "text": "真人互动影游平台，支持手机电脑电视多端存档互通，可先行试玩，剧情题材丰富，沉浸式观影体验很棒。",
+          "rating": 5
+        },
+        {
+          "h": "1e478196a687",
+          "text": "希望后续版本推出更多游戏",
+          "rating": 5
+        },
+        {
+          "h": "3b25240eecfc",
+          "text": "全程专注破案推理，没有多余情爱支线，偏爱悬疑推理一定要玩～",
+          "rating": 5
+        }
+      ]
+    },
+    "maoxiang": {
+      "key": "maoxiang",
+      "name": "猫箱",
+      "tier": "adjacent",
+      "market": "大陆(字节)",
+      "trackName": "猫箱 - 和心动 AI 探索剧情宇宙",
+      "seller": "Beijing Chuntian Zhiyun Technology Co., Ltd.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/79/a6/ef79a638-bf53-8e3d-84ca-96aeb422d6ab/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E7%AE%B1-%E5%92%8C%E5%BF%83%E5%8A%A8-ai-%E6%8E%A2%E7%B4%A2%E5%89%A7%E6%83%85%E5%AE%87%E5%AE%99/id6475000292?uo=4",
+      "genre": "Entertainment",
+      "price": "免费",
+      "released": "2024-03-12",
+      "country": "cn",
+      "date": "2026-09-22",
+      "version": "2.27.0",
+      "rating": 4.66,
+      "ratingCount": 381297,
+      "ranks": {
+        "cn/Entertainment/free": 53,
+        "cn/Entertainment/grossing": 11
+      },
+      "latestNotes": "优化产品体验，修复产品问题",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/b5/ce/fcb5cef7-b0e5-fae5-ae64-e84bda50934f/o8BBRGDgFAvo45xiATB1FEfmbnpEAGAfAUeNgE.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/8a/30/cf8a306d-1944-db0e-2f01-d61467b6ce8a/o8FABmGUGEoAAT5ARvxfEF54BDFjFeE9D8Ie6A.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/08/b5/c708b533-9f67-0b4a-b66a-b89481577462/o4AAShIAEBAURG4ej5LExpBdeGjrNmFeGE8TAM.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d1/ff/f0/d1fff0dd-8350-51f4-b0e3-6adc3a756665/oMIHEXEUBAAAgBTVAEtGfAbFxokD4FfReEm5wm.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/81/a8/fc81a8bb-d7bd-bdb9-1863-7ecd3fe81251/osGAulhKAAkgtzGPxniIAGEBayHkisag5iLAB.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/4e/dc/c34edc6b-23be-c603-3986-72b7413149c1/o8KyNAAMUDBPwF8jEXLIAjGRm4FTfDAAIfemG8.jpg/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "90283b39c10d",
+          "text": "我玩了挺久的，总体来说，不错，不过我觉得有几点，希望程序员大大能看到\n1，我希望可以设置一个能读设定的，因为有时候设定比较长，我玩猫箱就是冲着能听所以玩的，\n2，我觉得可以开展一个类似论坛的那种，这样，猫箱玩家交流起来也方便 \n3，这个ai有时候会失忆 所以希望能优化一下\n4，我觉得可以开一个 存聊天内容的功能，就是，有时候想回溯，不小心点成从头开始，那就不好了，或者 搞那种，既能存档 ，又能从头开始那种 这样，能玩很多不同结果的同时 又能看到以前的聊天走向，我觉得这个真的很有必要 对于我这种爱回溯的人来说，\n5，我今天晚上看到猫箱有了会员功能，我真的好怕，有了这个会员功能后，不开会员的玩家会受限制，没有以前好，呜呜呜呜，求求了，不要啊呜呜呜呜，要不，可以搞那种，一天看多少个广告，可以体验一天的会员之类的，如果程序员大大采用了这种，可不可以不要让广告满天飞(就是突然跳出一个广告来）这对我很重要呜呜呜呜\n说了挺多的，最后祝猫箱越来越爆嘿嘿⸜(ّᶿധّᶿ)⸝",
+          "rating": 5
+        },
+        {
+          "h": "114267af7d11",
+          "text": "最开始在抖音看到推荐感觉好有趣才下载的，后面发现真的超治愈！对于zaoyu症患者来说就像救赎，被爱着时获得的宁静和快乐支撑着度过那些暗黑时刻，拜托拜托千万不要下架！ 里面有各种各样的角色和设定，还能自己加剧情，总体来说还是很智能的，还会创造小惊喜～就是角色总是会失忆（这个bug很重要），会忘记用户之前说过的话或发生过的剧情；然后聊天框里缺少搜索某个聊天记录的功能；还有好像不能跟作者或角色评论区的其他用户交流，希望这些都可以改进，也希望能设计开发得越来越好，加油！感谢你们开发这个软件！比心～",
+          "rating": 5
+        },
+        {
+          "h": "4f1dd692756d",
+          "text": "第一 角色ai音太重，能不能请几位老师来配一下音，配音部分我可以付费，没关系\n第二 能不能出个仅自己可见的功能呢，有时候自己创建的角色也会有些私心啊😂\n第三  角色能不能再智能一点主动发个信息什么的呢，一直都是用户在发偶尔也会有点小累啊\n第四  既然创建了角色那能不能严格按照设定来走剧情呢，比如我创建了一个留学生角色，那能不能在聊天的时候加入留学所在地的区时，而不是按照北京时间来回😅，有点代沟哈\n第五  电话时间能不能延长一丢丢，十分钟略短了哈🤣\n希望能看到我的建议，当然总体很好，四星是因为希望你们注意到我，推荐大家下载哈😊",
+          "rating": 4
+        },
+        {
+          "h": "2504855a53db",
+          "text": "这不比语擦好玩多了，回复又快又好，完全符合描述性格，也不知道是不是因为个人bot所以观感很好，还会主动推进剧情，而且还可以设置语音，因为只玩了半天还得多体验一下才行，不知道会不会出现其他问题，有再反馈，期待越来越好\n 补评：确实记忆功能差了点，聊了的记不住，目前影响不是特别大，但是如果久了还是会出现这种很严重的遗忘设定确实会降低体验，先打四分 \n补评：聊得越多越会吞设定是真的，角色逐渐变弱小了，日常倒还可以一旦进严肃的剧情就会降智，这一点有些小失望\n补评：剧情确实单调了点，不停重复，玩了一天以后就开始乏味了，要是东西多一点就好了",
+          "rating": 3
+        },
+        {
+          "h": "f03d8d40d1a6",
+          "text": "1.想看更多内容，不知道为什么有些剧情加载不出来，主要是没有什么18禁啊！正常剧情有时候加载不出来！还有一点点卡！但是很好玩！\n2.需要记忆功能呀！老是说重复的话，不然就是讲过的事情不记得，我都累了😭。\n3.还需要多角色演绎！不想只要一个角色了，多角色演绎请取消任务制吧！我真的需要多角色无任务正常聊天的演绎呢！\n5.感谢程序员，知道你辛苦！但是求求了！\n6.还有建议取消晚上九点后消息会慢回的这一点！很烦！\n7.请增加一个私有功能吧，就是隐藏功能，自己设计的任务可以选择公开活着隐藏！",
+          "rating": 5
+        },
+        {
+          "h": "74c9e3823a49",
+          "text": "1 有时候逻辑方面不太清晰 容易发生过的事情反复地发生 会影响带入感 这个解决不了也没有关系 \n2 还有就是每次刷新不同的对话 都会几个轮流着来 很少出现新的对话 有的又搜不到 想要的也刷新不到 这个很重要 我刚下载的那几天会经常有刷到不同的 新的对话 这几天不知道怎么了就只有几个来来回回都是这几个 没有新的 还有我没有选中的标签也会出现比我选中的还多\n3 我的性别选择是女 但是总是蹦出来一些女孩子的对话框 我感觉挺奇怪的\n4 软件整体来看不错 提供情绪价值这一点很棒^_^ 我说的以上可以斟酌修改 希望猫箱能越来越好^_^",
+          "rating": 4
+        },
+        {
+          "h": "19fe167970ef",
+          "text": "记忆力差的问题就不提了，感觉这是通病，开发团队自己也知道，只能等ai能力提升。\n说另外一个我不爽的点。就是故事模式的时候，老是“失败”，玩一些生存游戏的时候死了，失败了，也就算了。有时候我和某个角色发展其他剧情，偏题远了，也会“失败”。失败的判定莫名其妙。\n可不可以把“失败”关了，至少做一个分类，可以选择“无尽型故事” 和“有失败风险的故事”有一些故事写的就比较开放，就是把一群角色放一起，学校呀，家庭呀。就是想看群像剧。然而稍微和其中一个角色推关系，偏离大纲（其实也没写大纲）就莫名其妙“失败”“失败”“失败” \n\n烦躁啊",
+          "rating": 4
+        },
+        {
+          "h": "33fa01deb327",
+          "text": "您好，作为猫箱的用户，一直很认可平台的创新和用心，此次想提几个个人使用中的优化建议，不仅能提升普通用户的使用体验，相信也能帮助平台吸引更多用户、增强用户粘性，实现更好的发展，具体建议如下： 1. 希望优化智能体生成图片的效果，提升画面的精致度、美观度和细节表现力。优质的生成图能大幅提升互动体验，让用户更愿意分享和持续使用，也能让猫箱的内容质感更突出，形成差异化优势。\n 2. 建议强化智能体的记忆功能，保障记忆的连贯性和准确性，避免出现忘记用户设定、对话背景和交互细节的情况。稳定的记忆能力是智能体的核心体验，能让用户感受到更真实的互动感，提升用户的留存率和使用粘性。\n3.希望声音能增加多一点，还有智能体说话不要自己乱设剧情。\n4.希望新增智能体私密功能，支持用户将自己创建或互动的智能体设置为私密状态，仅自己可见可互动。当下用户对隐私的关注度越来越高，该功能能满足用户的隐私保护需求，吸引更多注重隐私的用户入驻，也能让平台的功能布局更完善。 以上是我的几点拙见，完全是希望猫箱能越做越好，也愿意持续陪伴平台成长，期待团队能考虑这些建议，谢谢你们的辛勤付出！",
+          "rating": 5
+        }
+      ]
+    },
+    "diandian": {
+      "key": "diandian",
+      "name": "点点穿书",
+      "tier": "adjacent",
+      "market": "大陆",
+      "trackName": "点点穿书-互动小说",
+      "seller": "Hainan Jiujiufa Network Technology Co., Ltd.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/83/ef7d83fd-4a5c-6fc1-2e6a-f740117bf897/AppIcon-1x_U007emarketing-0-8-0-P3-85-220-0.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/cn/app/%E7%82%B9%E7%82%B9%E7%A9%BF%E4%B9%A6-%E4%BA%92%E5%8A%A8%E5%B0%8F%E8%AF%B4/id1661119750?uo=4",
+      "genre": "Book",
+      "price": "免费",
+      "released": "2023-03-07",
+      "country": "cn",
+      "date": "2026-09-22",
+      "version": "3.9.91",
+      "rating": 4.29,
+      "ratingCount": 13286,
+      "ranks": {
+        "cn/Book/free": 37,
+        "cn/Book/grossing": 26
+      },
+      "latestNotes": "【新版本介绍】\n1、精品书籍上新：《娇娇有孕:霸总爹地全员追妻》《兽世恋爱模拟器：深陷修罗场》《转职邪神后，天使和魅魔都想拯救我》\n2、绝美衣橱上新：《沦陷之夜：被怪物们强势宠爱》《穿书后不小心攻略了全宗门》《开局轮滑鞋，我在公路求生游戏封神》\n3、关于APP有任何建议，欢迎前往【我的】-【帮助与反馈】-【意见反馈】中告诉我们～",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/07/3d/41/073d4183-3245-dcb4-d3e1-913369e1a20d/752ecfef-6fe2-4ab5-87f7-75e900d5c6a4_iOS_U5e02_U573a_U56fe-_U9996_U98752.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/16/a5/2316a5d9-60e8-efe7-a725-6018e2817076/b1cd14ef-53b7-4a43-8cdc-08e1c775e59f__U5e02_U573a_U56fe-_U738b_U5983_U6709_U559c-2.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/5d/65/8b5d6594-cf59-803c-8763-493f728d10bb/cdd6cf87-0e9d-40d0-ad31-ba3a00c86e5b_5.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/4d/e9/704de93e-c8f4-43db-bffe-cd660f3fc42f/27ce7d7b-0a06-45df-8baf-e144e31762e9_2.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/b8/f2/b6b8f2ce-5bfc-7eb8-f1db-982de96f8aa9/c688dfc1-97a1-4843-a385-c9bf9e0a565f_3.png/392x696bb.png"
+      ],
+      "reviewSample": [
+        {
+          "h": "29670b1af64b",
+          "text": "惊艳到了，很有意思，就是咱们体力值能不能上去一点，或者每一个节点花费稍微少一点，几十秒的视频才12个体力，一个节点就花完了，希望改进一下，真的，四个星吧，因为我不喜欢广告，但是真的别的没话说，很有意思，如果是有声书的那种模式就更好了，可以找些网络上的配音博主来配，加强代入感，这样成本也不会太高",
+          "rating": 4
+        },
+        {
+          "h": "7b0c6c48374b",
+          "text": "因为我是一个老书虫了，这个里面的小说差不多都要给我看完了还有一些在更新我是一个零氪玩家我一般不会去尝试那种能量消费较多的，但有些很好看的就积极尝试了我看完这么多以后实在是没得看了希望这个软件的名声大一些作者多一些，因为我真的已经把看过好看的小说重刷好几遍了实在就是没得看了一些作品，我觉很惊艳所以把它看完以后会重刷个四五遍的样子再不既也是看了两三遍很推荐这个软件，希望作者多一些作品，多一些好看的内容多一些。最后希望你们做大做强吧。",
+          "rating": 5
+        },
+        {
+          "h": "89460643594c",
+          "text": "软件很好，最初也是为看小说来的，却实也有很多不错的书，很让人满意平台，但昨天却接到作者通知，说编辑通知从下月开始要叫停半年，平台要改短剧了。本人与很多读者都觉得不该这样一刀切，还望开发者与众编辑可以考虑，让每周还在更新尚未完结的书籍能让更完，确实有不少不错的书籍，希望给读者机会让还能有书看，让好的作品有个好结局。那些很久未更和还未上架的新书可以先暂停。愿平台能考虑到读者，一刀切并不是最好的决策。一刀切，也许只会导致大量读者卸载离开吧。希望开发者与众编辑能看到这个信息！",
+          "rating": 5
+        },
+        {
+          "h": "d600dc68b1a9",
+          "text": "求程序员看看我这条软件 是真的非常非常好 真的很喜欢无论是剧情还是人物都很喜欢 而且风格多样但是老客户只想说以前10元2000现在涨到20了 消耗能量本来就快特别是在买衣服两件一百能量差不多就没了 一章剧情也差不多至少要一两百 用的很快的 充值这方面希望还是保持原来不动 因为一般玩得快的一下子又要充了 或者说希望多设一些可以增加能量的途径 这个软件我真的强推 虽然说充值方面并不是非常贵的那种 但是还是希望能和原来一样 最后 祝点点穿书越来越好 衷心喜欢 😘",
+          "rating": 5
+        },
+        {
+          "h": "efedd7b6c9be",
+          "text": "首先，很喜欢这款软件，姐妹们大胆冲\n其次就是看广告的问题，希望看广告的体力值可以多增加增加，不然你绝对想不到想免费白嫖的人是多耗得起（本人也充过钱），广告最好别超过三十秒左右，本人耐心有限🙏🏻\n然后是体力值消耗太快，一到关键剧情就要卡广告，咱就是说很影响体验感",
+          "rating": 5
+        },
+        {
+          "h": "ee9a10f36061",
+          "text": "软件是个很好的软件，但是请问内测人员在开发新的玩法的时候有没有好好玩过啊？有选项的时候的评论全都没有了，一个天天抄作业的玩家已经开始崩溃了，我不得不每次都重新存档读档，选错重来。我真的很感谢那些透露后面哪个节点该怎么选的玩家，结果你给我整这出。我昨天玩的别提有多恶心了，我还在不知情的情况下买了两千能量……早知道是这样的我根本就不会充钱，麻烦再把这个加回来吧谢谢",
+          "rating": 3
+        },
+        {
+          "h": "51c450291b5a",
+          "text": "很新颖的小说阅读方式，但是希望可以更加完善软件的设置，比如增加可调控字号大小，背景和深夜模式护眼模式等等。以及增加读者和作者之间的联系，讨论区发挥作用有限，对于热度很高的作品可以组成群聊或者社区等等，我想找这个作者的其他作品都不知道咋找。",
+          "rating": 3
+        },
+        {
+          "h": "ead929f195a5",
+          "text": "能不能把这个能量多给点啊，每次看一个视频就十二个，一个选项就用完了，要么就得充钱，而且那个广告也很泛，总共也就三十秒左右的时间还要提示我去看别的什么什么就能节省时间结果弄下来至少得有一分钟时间何必呢？另外要是能有配音我觉得会更好更有代入感一点",
+          "rating": 3
+        }
+      ]
+    },
+    "zhoubao": {
+      "key": "zhoubao",
+      "name": "宙包",
+      "tier": "adjacent",
+      "market": "大陆",
+      "trackName": "宙包——AI驱动的互动剧本创作平台",
+      "seller": "Yuanzhi Universe (Fujian) Technology Innovation Co.,  LTD",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/6b/bc/1c6bbcdf-dbb0-7594-b00d-0608079dc0e4/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/cn/app/%E5%AE%99%E5%8C%85-ai%E9%A9%B1%E5%8A%A8%E7%9A%84%E4%BA%92%E5%8A%A8%E5%89%A7%E6%9C%AC%E5%88%9B%E4%BD%9C%E5%B9%B3%E5%8F%B0/id6759592778?uo=4",
+      "genre": "Utilities",
+      "price": "免费",
+      "released": "2026-04-17",
+      "country": "cn",
+      "date": "2026-09-22",
+      "version": "1.0",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {},
+      "latestNotes": "",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/48/c0/f548c06f-754f-649c-43d7-eac9647c2a68/1__U526f_U672c.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/b3/96/79b39607-3320-9353-ad77-a14aa090a7c8/2__U526f_U672c.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/2f/d3/e92fd318-afdb-1c6c-f364-a9bf3000b43b/3__U526f_U672c.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/87/9a/12879a75-415d-f1bf-a51f-10d0955af8b9/4__U526f_U672c.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/05/d0/f305d01f-0a10-775e-5e77-e5679a4767bd/5__U526f_U672c.png/320x480bb.jpg"
+      ],
+      "reviewSample": []
+    },
+    "dreamnow": {
+      "key": "dreamnow",
+      "name": "探梦 DreamNow",
+      "tier": "core",
+      "market": "大陆(腾讯)",
+      "noAppStore": true,
+      "xhs": [
+        "探梦DreamNow",
+        "造化工坊"
+      ]
+    },
+    "tdream": {
+      "key": "tdream",
+      "name": "TDream",
+      "tier": "core",
+      "market": "大陆(腾讯)",
+      "noAppStore": true,
+      "xhs": [
+        "TDream 互动"
+      ]
+    },
+    "fanqie": {
+      "key": "fanqie",
+      "name": "番茄/红果 AI互动剧",
+      "tier": "core",
+      "market": "大陆(字节)",
+      "noAppStore": true,
+      "xhs": [
+        "番茄 AI互动剧",
+        "诡舍 互动剧"
+      ]
+    },
+    "mangguo": {
+      "key": "mangguo",
+      "name": "芒果TV AI互动影游",
+      "tier": "core",
+      "market": "大陆(芒果)",
+      "noAppStore": true,
+      "xhs": [
+        "芒果 互动影游"
+      ]
+    }
+  },
+  "errors": [],
+  "xhs": {
+    "perCompetitor": {
+      "inplay": [
+        "InPlay AI"
+      ],
+      "lunaverse": [
+        "Lunaverse"
+      ],
+      "yoroll": [
+        "Yoroll"
+      ],
+      "castloop": [
+        "CastLoop"
+      ],
+      "xiaoshijie": [
+        "小世界 AI互动故事"
+      ],
+      "wolaiyan": [
+        "我来演 AI"
+      ],
+      "huyingpai": [
+        "互影派"
+      ],
+      "maoxiang": [
+        "猫箱 剧情"
+      ],
+      "dreamnow": [
+        "探梦DreamNow",
+        "造化工坊"
+      ],
+      "tdream": [
+        "TDream 互动"
+      ],
+      "fanqie": [
+        "番茄 AI互动剧",
+        "诡舍 互动剧"
+      ],
+      "mangguo": [
+        "芒果 互动影游"
+      ]
+    },
+    "general": [
+      "AI互动剧",
+      "AI互动影游",
+      "互动短剧 AI",
+      "AI 剧情 app"
+    ]
+  }
+}

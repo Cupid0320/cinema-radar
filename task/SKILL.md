@@ -1,0 +1,57 @@
+---
+name: cinema-radar-daily
+description: 互动影院竞品日报：跑抓取脚本 → 解读变化 → 刷小红书 → 写中文日报 → 重渲染看板
+---
+
+你在维护 `~/cinema-radar`：追踪 Tipsy「互动影院」（面向海外、AI 分支剧情 + Director 按需生成图/视频/BGM）的竞品。
+分工原则：**检测用脚本，解读用 agent**。不要自己编数据；所有数字、版本、日期必须来自 inbox 或你实际打开的网页。
+
+## 步骤
+
+1. `node ~/cinema-radar/fetch.mjs`，读 `data/inbox.json`。`errors` 非空时在日报末尾「运行状况」里列出。
+2. **逐条处理 events**（按 priority：high → medium → low）：
+   - `version`：读更新说明；说明太空（"bug fixes"）且是 core 竞品时，对比 `screenshots`/描述看有没有实质变化，没有就一句话带过。
+   - `screenshots`：用 Read 看新增截图（先 curl 到 scratchpad），说明商店页主推卖点变成了什么。截图直接嵌进日报。
+   - `description`：对比 before/after，只报新增的卖点。
+   - `rank`：只报进入/跌出榜单、或变动 ≥15 名的。
+   - `reviews`：挑有信息量的（具体功能抱怨/夸奖），1-2 句概括，不整段搬。
+   - `yt_official` / `yt_mention`：看标题判断是否真相关（同名撞车直接丢），相关的附缩略图 `https://i.ytimg.com/vi/<id>/hqdefault.jpg` + 链接。
+   - `discovery`：看名字+描述，判定 promote（直接竞品，加进 competitors.json）/ watch（放观察名单）/ ignore（纯短剧平台、陪伴聊天、工具类）。写进 `data/insights.json.candidates`。
+   - `discovery_old`：老 app 新出现在搜索里，一般 ignore，除非明显同类。
+3. **网页搜索补充**（每天必做，控制在 6 次以内）：
+   - `AI interactive drama app` / `interactive film AI` 近一周新闻；`AI互动剧` / `AI互动影游` 近一周新闻
+   - 对 core 竞品中今天有事件的，搜一次其名字 + news/融资
+   - Reddit 被脚本拦截，用 WebSearch `site:reddit.com <竞品名>` 看口碑
+4. **小红书**（用 Claude in Chrome，用户已登录）：
+   - 打开 `https://www.xiaohongshu.com/search_result?keyword=<词>&sort=time_descending`，词来自 inbox.xhs（general + 各竞品）。
+   - 用 `javascript_tool` 读 `section.note-item`（标题、作者、点赞、链接、封面图）。
+   - 未登录（出现扫码弹窗）→ 不要尝试登录，日报里注明「小红书未登录」，并发通知提醒用户扫码。
+   - 只收录近 7 天、与 AI 互动剧/影游相关的笔记，挑 3-8 条写进 `insights.json.xhs`（date/title/author/likes/url/image/note），日报里配封面图。
+   - 从笔记里看到的新产品名 → 当作候选新竞品处理。
+5. 更新 `data/insights.json` 里受影响竞品的 `oneLiner`（定位变了才改）。
+6. 写 `digests/YYYY-MM-DD.md`（格式见下），然后 `node ~/cinema-radar/report.mjs`。
+7. `cd ~/cinema-radar && git add -A && git commit -qm "daily $(date +%F)"`（有 remote 再 push）。
+8. 若有 high 优先级事件，发一条桌面通知：一句话说最重要的事。
+
+## 日报格式（中文，短）
+
+```
+# 互动影院竞品日报 · YYYY-MM-DD
+
+> **今天最值得看的**（1-3 条，一句话一条；没事就写「今日无重要动态」）
+
+## 一、竞品动态
+### <竞品>：<一句话标题>
+![截图](url)
+- **发生了什么**：…
+- **对我们**：…（结合 Tipsy 互动影院：Director 生成决策、封控/生成失败体验、9:16、海外付费）
+来源：[..](..)
+
+## 二、新发现
+（promote 的用表格：产品 | 市场 | 一句话 | 为什么值得追；watch 的一行带过）
+
+## 三、口碑 & 小红书
+## 运行状况（仅有 errors 时）
+```
+
+规则：没有变化的竞品不写；同一件事不跨天重复报（查前几天的 digests）；每条「对我们」必须具体，不写空话。

@@ -1,0 +1,47 @@
+{
+  "_doc": "App Store 关键词搜索，出现未见过的 app 即报为候选新竞品。charts: iTunes 分类榜 genre id。 ignore: 不当作竞品的 trackId（自家产品、误报）。",
+  "keywords": {
+    "us": [
+      "interactive stories AI",
+      "AI interactive drama",
+      "interactive drama",
+      "playable video",
+      "AI story game",
+      "choose your story AI",
+      "interactive movie",
+      "AI roleplay story"
+    ],
+    "cn": [
+      "AI互动剧",
+      "互动影游",
+      "互动剧",
+      "AI互动故事",
+      "互动短剧",
+      "AI剧情"
+    ]
+  },
+  "charts": {
+    "us": {
+      "Entertainment": 6016,
+      "Book": 6018,
+      "Games": 6014,
+      "Social": 6005,
+      "Lifestyle": 6012
+    },
+    "cn": {
+      "Entertainment": 6016,
+      "Book": 6018,
+      "Social": 6005,
+      "Lifestyle": 6012
+    }
+  },
+  "xhs_general": [
+    "AI互动剧",
+    "AI互动影游",
+    "互动短剧 AI",
+    "AI 剧情 app"
+  ],
+  "ignore": {
+    "6572296119": "Tipsy Chat（自家产品）"
+  }
+}
