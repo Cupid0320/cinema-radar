@@ -2,6 +2,11 @@
   "key": "janitor",
   "versions": [
     {
+      "version": "2.6.0",
+      "date": "2026-09-30",
+      "notes": "• New home screen with search built in and the creators you follow\n• Reworked settings: privacy and display, sign-in methods, active sessions, creator verification\n• Daylight, a new light theme\n• Option to hide the tab bar while scrolling\n• Bug fixes and performance improvements"
+    },
+    {
       "version": "2.5.0",
       "date": "2026-09-15",
       "notes": "• Scripts (lorebooks + advanced scripts)\n• Web links open the right screen with its page state\n• Notification taps now open the right chat\n• Bug fixes and performance improvements"
@@ -18,6 +23,17 @@
         "us/Book/grossing": 39,
         "cn/Book/grossing": 81
       }
+    },
+    {
+      "date": "2026-10-07",
+      "version": "2.6.0",
+      "rating": 4.5,
+      "ratingCount": 4474,
+      "ranks": {
+        "us/Book/free": 10,
+        "us/Book/grossing": 26,
+        "cn/Book/grossing": 79
+      }
     }
   ],
   "reviews": [
@@ -28,7 +44,8 @@
     "d93c04d8f8dd",
     "27b124071b70",
     "0b454bd1ea03",
-    "9e7364c405e9"
+    "9e7364c405e9",
+    "6de9bc030254"
   ],
   "screenshots": [
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/14/70/c6147042-684b-674e-a409-7c157e09b143/Screenshot_19_U002c5_9.png/320x480bb.jpg",
@@ -86,7 +103,7 @@
   "meta": {
     "trackName": "Janitor: Interactive Stories",
     "seller": "JanitorAI, INC",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/d7/85/b6d785c3-e71c-4b78-37b1-b0d95ff111b4/AppIcon-0-0-1x_U007ephone-0-8-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/a3/f0/a5a3f0e4-b2eb-752c-fba5-445e73fe4bf3/AppIcon-0-0-1x_U007ephone-0-8-0-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/janitor-interactive-stories/id6692609366?uo=4",
     "genre": "Book",
     "price": "Free",

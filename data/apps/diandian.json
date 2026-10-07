@@ -2,6 +2,11 @@
   "key": "diandian",
   "versions": [
     {
+      "version": "3.9.99",
+      "date": "2026-09-29",
+      "notes": "【新版本介绍】\n1、精品书籍上新：《不离婚不分床，总裁带崽求复合》《养娃模拟器【自选性别】》《谁说修仙难？我能掠夺修为》\n2、绝美衣橱上新：《女明星模拟器：顶流人生》《穿成星际炮灰后，我被大佬们标记了》《重生高考后，清冷校花当众表白我》\n3、关于APP有任何建议，欢迎前往【我的】-【帮助与反馈】-【意见反馈】中告诉我们～"
+    },
+    {
       "version": "3.9.91",
       "date": "2026-09-09",
       "notes": "【新版本介绍】\n1、精品书籍上新：《娇娇有孕:霸总爹地全员追妻》《兽世恋爱模拟器：深陷修罗场》《转职邪神后，天使和魅魔都想拯救我》\n2、绝美衣橱上新：《沦陷之夜：被怪物们强势宠爱》《穿书后不小心攻略了全宗门》《开局轮滑鞋，我在公路求生游戏封神》\n3、关于APP有任何建议，欢迎前往【我的】-【帮助与反馈】-【意见反馈】中告诉我们～"
@@ -16,6 +21,16 @@
       "ranks": {
         "cn/Book/free": 37,
         "cn/Book/grossing": 26
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "version": "3.9.99",
+      "rating": 4.29,
+      "ratingCount": 13326,
+      "ranks": {
+        "cn/Book/free": 14,
+        "cn/Book/grossing": 25
       }
     }
   ],
@@ -82,7 +97,7 @@
   "meta": {
     "trackName": "点点穿书-互动小说",
     "seller": "Hainan Jiujiufa Network Technology Co., Ltd.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/83/ef7d83fd-4a5c-6fc1-2e6a-f740117bf897/AppIcon-1x_U007emarketing-0-8-0-P3-85-220-0.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/5e/81/fa5e812a-cfe9-b669-058a-c3370706cd71/AppIcon-1x_U007emarketing-0-8-0-P3-85-220-0.png/512x512bb.jpg",
     "url": "https://apps.apple.com/cn/app/%E7%82%B9%E7%82%B9%E7%A9%BF%E4%B9%A6-%E4%BA%92%E5%8A%A8%E5%B0%8F%E8%AF%B4/id1661119750?uo=4",
     "genre": "Book",
     "price": "免费",

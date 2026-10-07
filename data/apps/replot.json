@@ -1,0 +1,40 @@
+{
+  "key": "replot",
+  "versions": [
+    {
+      "version": "1.5.0",
+      "date": "2026-09-02",
+      "notes": "UI Improvements"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-07",
+      "version": "1.5.0",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {}
+    }
+  ],
+  "reviews": [],
+  "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/29/be/d729bed3-af95-752b-c031-11cbacc5f40e/01_cinematic.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/6b/ae/456bae2b-72f7-b5db-1953-e8241e7f0853/02_worlds.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/d4/95/a7d49509-1b9e-b153-ffe7-e7e1cc8b2feb/03_alive.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/31/53/5131531d-3cf1-d6ab-1530-9ff8baac161b/04_choices.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/72/14/b072148c-40a7-7398-326a-9070e23fb287/05_decisions.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/43/0e/d2430e2d-16b1-b48f-e58d-9f630bcc69b0/06_consequences.png/320x480bb.jpg"
+  ],
+  "description": "Type anything. The story writes back.\n\nREPLOT is the AI interactive story where you don't pick from a menu — you say what you want to do, and an AI continues the tale around you, with an illustrated scene for every moment.\n\nYou're the main character\nStep into a story and type what you do in your own words. Run, lie, kiss, fight, flee — the AI takes your choice and writes what happens next. No two playthroughs are ever the same.\n\nA library for every mood\nAdventure, mystery, romance, drama, comedy — grounded, modern stories where an ordinary moment turns into something unforgettable. Open a book and make it yours.\n\nCreate your own story\nDescribe an idea in a sentence and REPLOT builds a whole new story around it — characters, world, and art included.\n\nYour choices change everything\nEvery tale branches around what you actually do, right down to how it ends. This is interactive fiction that finally listens.\n\nFree to start. Play at your own pace, anywhere.\n\nDownload REPLOT and start your story today.",
+  "reviewSample": [],
+  "meta": {
+    "trackName": "REPLOT: AI Interactive Stories",
+    "seller": "Coolplay GmbH",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/c1/60/4dc160e8-8cf8-69f3-3e5e-92e94638a1d7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "url": "https://apps.apple.com/us/app/replot-ai-interactive-stories/id6759610601?uo=4",
+    "genre": "Entertainment",
+    "price": "Free",
+    "released": "2026-07-28",
+    "country": "us"
+  }
+}

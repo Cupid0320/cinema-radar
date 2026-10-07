@@ -2,6 +2,11 @@
   "key": "picktwist",
   "versions": [
     {
+      "version": "1.3.8",
+      "date": "2026-09-29",
+      "notes": "General bug fixes and performance improvements"
+    },
+    {
       "version": "1.3.7",
       "date": "2026-09-18",
       "notes": "Bugs fixes"
@@ -14,17 +19,24 @@
       "rating": 3,
       "ratingCount": 1,
       "ranks": {}
+    },
+    {
+      "date": "2026-10-07",
+      "version": "1.3.8",
+      "rating": 3,
+      "ratingCount": 1,
+      "ranks": {}
     }
   ],
   "reviews": [
     "737c1fb02f3c"
   ],
   "screenshots": [
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/8b/bc/698bbc3d-a509-3ec9-2973-4b78c2b50e27/01.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/19/f3/0019f394-674a-fd10-628a-d8a946e00656/02.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/12/59/b1125977-76da-e8a1-5498-24a474d7af68/03.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/3b/ab/583bab9d-4b1d-7f1d-90b2-8a3a4b6baf01/04.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/49/da/8349da27-1995-17b5-9d92-a96ee693e32d/05.png/320x480bb.jpg"
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/cf/9c/00cf9cc4-d6fc-8de0-bc88-b8116f6ed25d/V2__U2013_01.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/00/72/590072ba-2e9b-626c-e37f-625ceb6228cd/V2__U2013_02.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/8c/30/018c3076-9117-9690-69b6-720c074b352b/V2__U2013_03.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/59/81/8c5981f1-6552-94a1-0e83-b4bba1cfb6af/V2__U2013_04.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/5b/68/9a5b68bf-6d89-5ae6-840b-f4eca72ca6ee/picktwist_screen_6.9_fixed.png/320x480bb.jpg"
   ],
   "description": "PickTwist is interactive short drama you control.\n\nWatch fast, full-screen episodes — and at the turning points, YOU choose what happens next. Forbidden romance, dangerous men, secrets that won't stay buried — and every twist is yours to pick.\n\nWhat you can do:\n\n- Shape the story\nTap to choose at key moments — your decisions steer how each scene plays out.\n\n- Binge in minutes\nVertical, full-screen episodes made for your phone. One more, every time.\n\n- Fall for the drama\nAddictive worlds of romance, power, and betrayal — with cliffhangers that hit.\n\n- Watch your way\nSubscribe for the full catalogue, or unlock episodes one at a time with coins.\n\n- Start free\nThe first episodes are on us. No account, no setup — just tap in.\n\nPickTwist stories are created using generative AI.\n\nSubscriptions: Prices vary by region and are shown in the app. Payment is charged to your Apple ID at confirmation of purchase. Auto-renews unless cancelled at least 24 hours before the end of the period; manage or cancel anytime in your Apple ID settings.\n\nCoins: Coin packs are one-time purchases and do not auto-renew. Coins are used to unlock individual episodes. Prices vary by region and are shown in the app.\n\nTerms of Service — https://north-calf-d38.notion.site/Terms-of-Service-380726df632b803aa7d8df12e2367dbe\nPrivacy Policy — https://north-calf-d38.notion.site/Privacy-Policy-380726df632b80aba114eebfce40be90\nContact us: picktwist-support@playme.studio",
   "reviewSample": [
@@ -37,7 +49,7 @@
   "meta": {
     "trackName": "PickTwist: Interactive Drama",
     "seller": "IMPONILOX LIMITED",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/a1/d3/6da1d38c-c4c5-a5a8-a30b-0c7d03599cab/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/35/77/2a357704-d2b1-6980-78fa-0db34b081ba5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/picktwist-interactive-drama/id6772954863?uo=4",
     "genre": "Entertainment",
     "price": "Free",

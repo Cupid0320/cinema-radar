@@ -16,6 +16,15 @@
       "ranks": {
         "us/Book/grossing": 66
       }
+    },
+    {
+      "date": "2026-10-07",
+      "version": "2.2.1",
+      "rating": 4.64,
+      "ratingCount": 989,
+      "ranks": {
+        "us/Book/grossing": 61
+      }
     }
   ],
   "reviews": [
@@ -26,7 +35,8 @@
     "d649cda78b74",
     "4daadd92d7cd",
     "b1bc4bffe6b5",
-    "ad98f44f3528"
+    "ad98f44f3528",
+    "105d473b8a30"
   ],
   "screenshots": [
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/57/18/385718b3-54c5-b021-ff9d-023f6fd420c0/sagaland_story_for_every_mood_1284x2778.png/320x480bb.jpg",

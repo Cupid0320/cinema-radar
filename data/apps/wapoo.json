@@ -2,6 +2,11 @@
   "key": "wapoo",
   "versions": [
     {
+      "version": "1.1.9",
+      "date": "2026-10-01",
+      "notes": "Smoother cash-out. Friend badges renewed.\nUpgraded payment service for a better withdrawal experience.\nFriend status at a glance — every connection counts."
+    },
+    {
       "version": "1.1.7",
       "date": "2026-09-17",
       "notes": "Downloads are now faster and smoother.\nTouchdown now feels better than ever.\nFeel it? Lit!"
@@ -11,6 +16,13 @@
     {
       "date": "2026-09-22",
       "version": "1.1.7",
+      "rating": 5,
+      "ratingCount": 12,
+      "ranks": {}
+    },
+    {
+      "date": "2026-10-07",
+      "version": "1.1.9",
       "rating": 5,
       "ratingCount": 12,
       "ranks": {}
@@ -77,8 +89,8 @@
   ],
   "meta": {
     "trackName": "Wapoo: Playable Social Video",
-    "seller": "Wapoo Inc.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/16/77/961677cd-12c0-942c-757f-2f4bda57de53/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
+    "seller": "MINERVA COSMOS PTE. LTD.",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/a6/0a/39a60ad5-4b90-26fa-16b0-bdbe72e83452/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/wapoo-playable-social-video/id6752590312?uo=4",
     "genre": "Social Networking",
     "price": "Free",

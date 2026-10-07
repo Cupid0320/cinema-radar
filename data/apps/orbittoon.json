@@ -2,6 +2,11 @@
   "key": "orbittoon",
   "versions": [
     {
+      "version": "1.1.1",
+      "date": "2026-09-27",
+      "notes": "• Improved image loading and memory usage.\n• Improved chat stability and background handling.\n• Fixed affection values displaying incorrectly after sending gifts.\n• Improved language loading and CG unlock interactions."
+    },
+    {
       "version": "1.1.0",
       "date": "2026-09-18",
       "notes": "- Added photo support to story and news comments.\n- Improved the comment composer and photo previews.\n- Refined gift pack layouts with larger card previews.\n- Added read counts to news articles.\n- Added tap-to-pause controls for news videos and improved buffering indicators and content spacing.\n- Fixed issues when reopening the episode selector and improved overall stability."
@@ -11,6 +16,13 @@
     {
       "date": "2026-09-22",
       "version": "1.1.0",
+      "rating": 5,
+      "ratingCount": 2,
+      "ranks": {}
+    },
+    {
+      "date": "2026-10-07",
+      "version": "1.1.1",
       "rating": 5,
       "ratingCount": 2,
       "ranks": {}
@@ -33,7 +45,7 @@
   "meta": {
     "trackName": "Orbittoon: Interactive Drama",
     "seller": "BEYOND ORBIT INTERACTIVE LIMITED",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/26/d5/6f26d5dc-7cf0-1ebd-4d99-b4a567a9167e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/9c/de/4c9cdead-2a97-144a-f03b-4a0ac83f54a5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/orbittoon-interactive-drama/id6795973037?uo=4",
     "genre": "Entertainment",
     "price": "Free",

@@ -310,6 +310,49 @@
       "xhs": [
         "芒果 互动影游"
       ]
+    },
+    {
+      "key": "chaptr",
+      "name": "Chaptr",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6790796501
+      }
+    },
+    {
+      "key": "dreem",
+      "name": "Dreem",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6760738406
+      }
+    },
+    {
+      "key": "replot",
+      "name": "REPLOT",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6759610601
+      }
+    },
+    {
+      "key": "xinshijie",
+      "name": "新世界：暗影成双",
+      "tier": "core",
+      "market": "大陆(ALT Lab)",
+      "appstore": {
+        "country": "cn",
+        "id": 6775828757
+      },
+      "xhs": [
+        "新世界 暗影成双"
+      ]
     }
   ]
 }

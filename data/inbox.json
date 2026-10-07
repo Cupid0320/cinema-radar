@@ -1,105 +1,9 @@
 {
-  "runAt": "2026-09-22T06:49:04.522Z",
+  "runAt": "2026-10-07T08:17:07.860Z",
   "firstRun": false,
   "events": [
     {
-      "date": "2026-09-22",
-      "key": "inplay",
-      "name": "InPlay",
-      "tier": "core",
-      "market": "海外",
-      "type": "yt_mention",
-      "priority": "medium",
-      "items": [
-        {
-          "id": "GgyM2-TF5bA",
-          "title": "Watch me in Agent Rathore | Microdrama series | InPlay App",
-          "channel": "Aleem Hassan",
-          "when": "1mo ago",
-          "views": "173 views",
-          "url": "https://www.youtube.com/watch?v=GgyM2-TF5bA",
-          "thumb": "https://i.ytimg.com/vi/GgyM2-TF5bA/hqdefault.jpg"
-        },
-        {
-          "id": "ZQ3CbkRg9sY",
-          "title": "Inplay Stats | In play | Football Trading | Sports Trading",
-          "channel": "Trade Ninja",
-          "when": "4y ago",
-          "views": "369 views",
-          "url": "https://www.youtube.com/watch?v=ZQ3CbkRg9sY",
-          "thumb": "https://i.ytimg.com/vi/ZQ3CbkRg9sY/hqdefault.jpg"
-        },
-        {
-          "id": "31DxjDE1siQ",
-          "title": "🎬 Freedom of Entertainment! Get Inplay for Just ₹999 🔥",
-          "channel": "Inplay | Vertical shows & short drama",
-          "when": "1mo ago",
-          "views": "296 views",
-          "url": "https://www.youtube.com/watch?v=31DxjDE1siQ",
-          "thumb": "https://i.ytimg.com/vi/31DxjDE1siQ/hqdefault.jpg"
-        },
-        {
-          "id": "Kr-Km-2BdF8",
-          "title": "INPLAY P600-S32M1 32inches SMART TV - Phone Mirroring Tutorial",
-          "channel": "Inplay Gears Philippines Official",
-          "when": "4y ago",
-          "views": "1,439 views",
-          "url": "https://www.youtube.com/watch?v=Kr-Km-2BdF8",
-          "thumb": "https://i.ytimg.com/vi/Kr-Km-2BdF8/hqdefault.jpg"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "key": "yoroll",
-      "name": "Yoroll",
-      "tier": "core",
-      "market": "海外",
-      "type": "yt_mention",
-      "priority": "medium",
-      "items": [
-        {
-          "id": "XjnK4M-xCr8",
-          "title": "#张颜齐 CUT：张颜齐脱口而出“自己吓自己”，是8g网速的冲浪boy没错了🍑Yoroll｜你好星期六 Hello Saturday｜MangoTV Idol",
-          "channel": "芒果TV爱豆 MangoTV Idol",
-          "when": "1y ago",
-          "views": "1,367 views",
-          "url": "https://www.youtube.com/watch?v=XjnK4M-xCr8",
-          "thumb": "https://i.ytimg.com/vi/XjnK4M-xCr8/hqdefault.jpg"
-        },
-        {
-          "id": "BogOqT7u5OU",
-          "title": "#张颜齐 CUT：张颜齐边跳舞边比划，一个人就可以上演一部电视剧🤣Yoroll｜你好星期六 Hello Saturday｜MangoTV Idol",
-          "channel": "芒果TV爱豆 MangoTV Idol",
-          "when": "1y ago",
-          "views": "341 views",
-          "url": "https://www.youtube.com/watch?v=BogOqT7u5OU",
-          "thumb": "https://i.ytimg.com/vi/BogOqT7u5OU/hqdefault.jpg"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
-      "key": "ooc",
-      "name": "OOC: The Playable Anime",
-      "tier": "core",
-      "market": "海外",
-      "type": "yt_mention",
-      "priority": "medium",
-      "items": [
-        {
-          "id": "4roIJeCNRzM",
-          "title": "OOC: The Playable Anime | Official Reveal Trailer (Full Ver.)",
-          "channel": "OOC_Youtube",
-          "when": "5mo ago",
-          "views": "2,725,530 views",
-          "url": "https://www.youtube.com/watch?v=4roIJeCNRzM",
-          "thumb": "https://i.ytimg.com/vi/4roIJeCNRzM/hqdefault.jpg"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "key": "storyverse",
       "name": "StoryVerse",
       "tier": "core",
@@ -108,18 +12,18 @@
       "priority": "medium",
       "items": [
         {
-          "id": "z7QJTWW7WHo",
-          "title": "Web 3 Founder Spotlight - Michael Carter, Storyverse (Playco)",
-          "channel": "Sam Yilmaz",
-          "when": "3 years ago",
-          "views": "618 views",
-          "url": "https://www.youtube.com/watch?v=z7QJTWW7WHo",
-          "thumb": "https://i.ytimg.com/vi/z7QJTWW7WHo/hqdefault.jpg"
+          "id": "X-3dYKEfWQg",
+          "title": "Storyverse",
+          "channel": "Ashley Hamilton",
+          "when": "4y ago",
+          "views": "26 views",
+          "url": "https://www.youtube.com/watch?v=X-3dYKEfWQg",
+          "thumb": "https://i.ytimg.com/vi/X-3dYKEfWQg/hqdefault.jpg"
         }
       ]
     },
     {
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "key": "saylo",
       "name": "Saylo",
       "tier": "adjacent",
@@ -128,45 +32,27 @@
       "priority": "medium",
       "items": [
         {
-          "id": "VoqbG4-vNzU",
-          "title": "Saylo AI Mod Apk iOS - How to get free diamonds and unlock premium (New)",
-          "channel": "Haose Tama",
-          "when": "1 month ago",
-          "views": "241 views",
-          "url": "https://www.youtube.com/watch?v=VoqbG4-vNzU",
-          "thumb": "https://i.ytimg.com/vi/VoqbG4-vNzU/hqdefault.jpg"
-        },
-        {
-          "id": "12OTbBnMLAs",
-          "title": "SAYLO IS DRIVING ME CRAZY WITH ITS ADS",
-          "channel": "ElPedegrense",
-          "when": "4 months ago",
-          "views": "20,343 views",
-          "url": "https://www.youtube.com/watch?v=12OTbBnMLAs",
-          "thumb": "https://i.ytimg.com/vi/12OTbBnMLAs/hqdefault.jpg"
-        },
-        {
-          "id": "6Rm7Gp_uFHE",
-          "title": "Saylo AI APP: Top Saylo Alternatives (2026)",
-          "channel": "webvator",
-          "when": "6 months ago",
-          "views": "1,882 views",
-          "url": "https://www.youtube.com/watch?v=6Rm7Gp_uFHE",
-          "thumb": "https://i.ytimg.com/vi/6Rm7Gp_uFHE/hqdefault.jpg"
-        },
-        {
-          "id": "LjnY1bJPZY8",
-          "title": "How To Create An Account On Saylo - Ai Character Story Chat App",
+          "id": "SNZbUa5BxlU",
+          "title": "Saylo - Ai Character Story Chat App Quick Overview",
           "channel": "How To Tuts",
-          "when": "1 year ago",
-          "views": "1,623 views",
-          "url": "https://www.youtube.com/watch?v=LjnY1bJPZY8",
-          "thumb": "https://i.ytimg.com/vi/LjnY1bJPZY8/hqdefault.jpg"
+          "when": "1y ago",
+          "views": "1,637 views",
+          "url": "https://www.youtube.com/watch?v=SNZbUa5BxlU",
+          "thumb": "https://i.ytimg.com/vi/SNZbUa5BxlU/hqdefault.jpg"
+        },
+        {
+          "id": "yfzF5HmtDtg",
+          "title": "Create AI Stories, Manga & Anime Videos in One App | Saylo AI",
+          "channel": "𝙕𝙖𝙮𝙣𝙚𝙩𝙞𝙘 𝘼𝙄 𝙒𝙤𝙧𝙡𝙙",
+          "when": "3mo ago",
+          "views": "2,190 views",
+          "url": "https://www.youtube.com/watch?v=yfzF5HmtDtg",
+          "thumb": "https://i.ytimg.com/vi/yfzF5HmtDtg/hqdefault.jpg"
         }
       ]
     },
     {
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "key": "janitor",
       "name": "Janitor: Interactive Stories",
       "tier": "adjacent",
@@ -175,13 +61,125 @@
       "priority": "medium",
       "items": [
         {
-          "id": "QyOYFELlY-A",
-          "title": "How to Use Janitor AI on Android Full Guide 2027",
-          "channel": "How To Fix Pro",
-          "when": "3d ago",
-          "views": "3 views",
-          "url": "https://www.youtube.com/watch?v=QyOYFELlY-A",
-          "thumb": "https://i.ytimg.com/vi/QyOYFELlY-A/hqdefault.jpg"
+          "id": "Kf8o1TNsXv8",
+          "title": "JANITOR AI APP: HONEST REVIEW (Pros & Cons)",
+          "channel": "Reviewer+",
+          "when": "1y ago",
+          "views": "1,020 views",
+          "url": "https://www.youtube.com/watch?v=Kf8o1TNsXv8",
+          "thumb": "https://i.ytimg.com/vi/Kf8o1TNsXv8/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "key": "chaptr",
+      "name": "Chaptr",
+      "tier": "core",
+      "market": "海外",
+      "type": "yt_mention",
+      "priority": "medium",
+      "items": [
+        {
+          "id": "s76CsO9Dlqk",
+          "title": "Trailer 02: WhiteMirror by CHAPTR, presented by The Culture DAO",
+          "channel": "CHAPTR",
+          "when": "3y ago",
+          "views": "961 views",
+          "url": "https://www.youtube.com/watch?v=s76CsO9Dlqk",
+          "thumb": "https://i.ytimg.com/vi/s76CsO9Dlqk/hqdefault.jpg"
+        },
+        {
+          "id": "K8OlcKXs_ac",
+          "title": "Trailer: WhiteMirror by CHAPTR, presented by The Culture DAO",
+          "channel": "CHAPTR",
+          "when": "3y ago",
+          "views": "2,264 views",
+          "url": "https://www.youtube.com/watch?v=K8OlcKXs_ac",
+          "thumb": "https://i.ytimg.com/vi/K8OlcKXs_ac/hqdefault.jpg"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "key": "dreem",
+      "name": "Dreem",
+      "tier": "core",
+      "market": "海外",
+      "type": "yt_mention",
+      "priority": "medium",
+      "items": [
+        {
+          "id": "xDmscI8bA48",
+          "title": "Dreem App Explainer - US Version 2019",
+          "channel": "Dreem",
+          "when": "6y ago",
+          "views": "2,131 views",
+          "url": "https://www.youtube.com/watch?v=xDmscI8bA48",
+          "thumb": "https://i.ytimg.com/vi/xDmscI8bA48/hqdefault.jpg"
+        },
+        {
+          "id": "tIViUsV0xCM",
+          "title": "Dreem Sleep App Honest Review - Watch Before Using",
+          "channel": "Wise Explainer",
+          "when": "1y ago",
+          "views": "6 views",
+          "url": "https://www.youtube.com/watch?v=tIViUsV0xCM",
+          "thumb": "https://i.ytimg.com/vi/tIViUsV0xCM/hqdefault.jpg"
+        },
+        {
+          "id": "lAuiHPa30ys",
+          "title": "Dreem Headband App Honest Review - Watch Before Using",
+          "channel": "Wise Explainer",
+          "when": "1y ago",
+          "views": "38 views",
+          "url": "https://www.youtube.com/watch?v=lAuiHPa30ys",
+          "thumb": "https://i.ytimg.com/vi/lAuiHPa30ys/hqdefault.jpg"
+        },
+        {
+          "id": "DJ7ZfTcMxJI",
+          "title": "Dreem Sleep App – My Honest Review & Real User Experience with Sleep Tracking & Neurotech Features",
+          "channel": "How Master",
+          "when": "9mo ago",
+          "views": "17 views",
+          "url": "https://www.youtube.com/watch?v=DJ7ZfTcMxJI",
+          "thumb": "https://i.ytimg.com/vi/DJ7ZfTcMxJI/hqdefault.jpg"
+        },
+        {
+          "id": "jfHlIho0HKk",
+          "title": "How to download DREEM OTT app",
+          "channel": "BlackBox9933",
+          "when": "3mo ago",
+          "views": "207 views",
+          "url": "https://www.youtube.com/watch?v=jfHlIho0HKk",
+          "thumb": "https://i.ytimg.com/vi/jfHlIho0HKk/hqdefault.jpg"
+        },
+        {
+          "id": "Bx5UknMjjzQ",
+          "title": "Muse S vs Dreem 2 - EEG BEST SLEEP TRACKER APP in 2020",
+          "channel": "Shervin Shares",
+          "when": "5y ago",
+          "views": "5,303 views",
+          "url": "https://www.youtube.com/watch?v=Bx5UknMjjzQ",
+          "thumb": "https://i.ytimg.com/vi/Bx5UknMjjzQ/hqdefault.jpg"
+        },
+        {
+          "id": "Y6NuAV90nUU",
+          "title": "Setting up the Dreem headband & the Alfin app",
+          "channel": "Dreem",
+          "when": "4y ago",
+          "views": "1,238 views",
+          "url": "https://www.youtube.com/watch?v=Y6NuAV90nUU",
+          "thumb": "https://i.ytimg.com/vi/Y6NuAV90nUU/hqdefault.jpg"
+        },
+        {
+          "id": "BsM1yDDo5SM",
+          "title": "Dreem Cricket App earn 100-200 Daily Paytm cash unlimited paytmmoney Dreem cricket by technical hero",
+          "channel": "Prastut",
+          "when": "8y ago",
+          "views": "16 views",
+          "url": "https://www.youtube.com/watch?v=BsM1yDDo5SM",
+          "thumb": "https://i.ytimg.com/vi/BsM1yDDo5SM/hqdefault.jpg"
         }
       ]
     }
@@ -192,20 +190,20 @@
       "name": "InPlay",
       "tier": "core",
       "market": "海外",
-      "trackName": "InPlay-Interctive Stories",
+      "trackName": "InPlay - Interactive Stories",
       "seller": "VICOO PTE. LTD.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/9a/b8/169ab8cf-81e1-afea-0599-2bcc32caaa86/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
-      "url": "https://apps.apple.com/us/app/inplay-interctive-stories/id6773279322?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/b2/c2/d8b2c24a-3c20-2eeb-c790-06bf9c47ac08/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/inplay-interactive-stories/id6773279322?uo=4",
       "genre": "Entertainment",
       "price": "Free",
       "released": "2026-07-06",
       "country": "us",
-      "date": "2026-09-22",
-      "version": "2.0.3",
-      "rating": 4.62,
-      "ratingCount": 333,
+      "date": "2026-10-07",
+      "version": "2.0.5",
+      "rating": 4.52,
+      "ratingCount": 368,
       "ranks": {},
-      "latestNotes": "1. More stories\n2. Faster",
+      "latestNotes": "Membership & Subscription\n1. New membership entry point; improved plan pricing display\n2. Real-time subscription status, expiration date, and upgrade options\nBag & Content\n1. Tap any cover to start instantly from the Bookstore & Game pages\n2. Added a dedicated \"Earnings\" page\nRemix Creation\n1. Unlock \"Skip & Generate\" after 5 rounds\n2. Enter focused generation mode after 120 rounds\nExperience\n1. Bug fixes and stability improvements",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/28/74/0b2874b5-eec3-8679-a2dd-f56310f8bff7/app_store1.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/88/7c/c1887c4a-4e5d-adcb-0e20-d4223095aaa6/app_store2.png/320x480bb.jpg",
@@ -263,18 +261,18 @@
       "market": "海外",
       "trackName": "Lunaverse Stories",
       "seller": "MobAI, Inc",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/ac/70/35ac70f4-0f7f-15ed-ede1-0a52568f9721/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/25/86/5b258623-3b06-8b69-7c4a-0090c06467ec/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
       "url": "https://apps.apple.com/us/app/lunaverse-stories/id6779913017?uo=4",
       "genre": "Entertainment",
       "price": "Free",
       "released": "2026-07-22",
       "country": "us",
-      "date": "2026-09-22",
-      "version": "1.0.5",
-      "rating": null,
-      "ratingCount": 0,
+      "date": "2026-10-07",
+      "version": "1.0.6",
+      "rating": 5,
+      "ratingCount": 2,
       "ranks": {},
-      "latestNotes": "Improved the overall user experience\nFixed known issues\nEnhanced app stability and performance",
+      "latestNotes": "Put your ideas into play: An improved Remix experience makes it easier to try a different take on the scene.\nExplore other players’ twists: Browse their Remixes and play through the changes they imagined.\nEarn rewards along the way: Collect Moons when you complete an episode for the first time, excluding the intro. Unlock more check-in rewards without losing progress if you miss a day.\nStay immersed: Refined dialogue presentation and interactions help each scene flow more naturally.",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/26/a7/9226a723-315f-a0a8-db8e-946c06ec1300/appstore-1.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/79/3d/68793d54-a77d-084d-a406-1afbaf78354f/appstore-2.png/320x480bb.jpg",
@@ -297,7 +295,7 @@
       "price": "Free",
       "released": "2026-07-08",
       "country": "us",
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "version": "1.0.4",
       "rating": 5,
       "ratingCount": 1,
@@ -328,28 +326,29 @@
       "name": "Yoroll",
       "tier": "core",
       "market": "海外",
-      "trackName": "Yoroll - Playable Video",
+      "trackName": "Yoroll - Watch, Chat & Play",
       "seller": "LinearGame Pte. Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/4c/8a/c64c8af1-64b2-04f3-a898-dbd8bf548804/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "url": "https://apps.apple.com/us/app/yoroll-playable-video/id6763028735?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/d6/6a/a1d66ac9-f6f2-2ebd-4116-99c027d5617b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/yoroll-watch-chat-play/id6763028735?uo=4",
       "genre": "Entertainment",
       "price": "Free",
       "released": "2026-07-13",
       "country": "us",
-      "date": "2026-09-22",
-      "version": "1.0.7",
+      "date": "2026-10-07",
+      "version": "1.0.10",
       "rating": null,
       "ratingCount": 0,
       "ranks": {},
-      "latestNotes": "Bug fixes and stability improvements.",
+      "latestNotes": "Bug fixes and performance improvements.",
       "screenshots": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/86/66/cc8666c0-f1f9-59ea-854e-c38456edd3e7/ios-_U82f1-1.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/41/3b/ce413b30-cc6a-73cb-36d9-1f206d79ca33/ios-_U82f1-2.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/18/32/6a1832e0-e59d-a8c6-5382-d9abe0a9af49/ios-_U82f1-3.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/63/b9/e763b93e-55fd-b6e8-a658-e4de743d8459/ios-_U82f1-4.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/33/da/9a33da40-5ba1-7903-6ec9-c8b4ec435fc2/ios-_U82f1-5.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/f9/36/a4f9363e-e51c-32fb-d781-da603cdf604b/ios-_U82f1-6.jpg/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/4c/4b/4e4c4bc3-f986-3659-dbce-2eea179964bc/ios-_U82f1-7.jpg/320x480bb.jpg"
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/b6/5a/6db65ada-450c-6690-6709-9922180885c0/ios-_U82f1-1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/b7/9b/aab79b6f-9375-7ad8-d29c-197f14a02af1/ios-_U82f1-2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/e3/df/63e3df62-c6f5-e390-556d-a3442474fba6/ios-_U82f1-3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8c/46/69/8c466910-4683-f608-7cde-df0e42f090a1/ios-_U82f1-4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/79/16/9d7916dd-5cd2-cdbd-8123-33fc076c447c/ios-_U82f1-5.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/8b/85/858b85e4-a4dd-cf44-44db-6e2efac8fb95/ios-_U82f1-6.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/6c/d2/6b6cd2a4-8529-468c-cb5e-6c459528b4c6/ios-_U82f1-7.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/71/bb/3e71bb1b-c219-05af-997c-9e20f94a437f/ios-_U82f1-8.jpg/320x480bb.jpg"
       ],
       "reviewSample": []
     },
@@ -360,18 +359,18 @@
       "market": "海外(元象)",
       "trackName": "CastLoop",
       "seller": "X ORIGINAL(HONG KONG) LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/44/2a/e3/442ae3cf-529c-b0e1-6922-dd65eaf3f8ea/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/cd/70/ebcd7041-54bb-d19d-1abf-4d8a38453475/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "url": "https://apps.apple.com/us/app/castloop/id6790343232?uo=4",
       "genre": "Entertainment",
       "price": "Free",
       "released": "2026-08-24",
       "country": "us",
-      "date": "2026-09-22",
-      "version": "1.3",
-      "rating": 4.67,
-      "ratingCount": 3,
+      "date": "2026-10-07",
+      "version": "1.5",
+      "rating": 4,
+      "ratingCount": 4,
       "ranks": {},
-      "latestNotes": "1. Spot new story updates in your play history and continue your adventure.\n2. Bug fixes and improvements for smoother play.",
+      "latestNotes": "A new home. A new way to play.\n\n- Find your next obsession on our redesigned home screen, with popular stories, genres, and recommendations.\n- Play new interactive novels: choose a suggested action or write your own twist.\n- Keep the story going with unlimited interactive-novel text generation for CastLoop+ members.",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/94/90/8e9490dc-7a70-e5c9-5bfc-2272271df566/Property_1_U003d_U65b0_U5267_U4e0a_U7ebf.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/15/11/a8151178-a3d9-d819-5078-bee0447e192f/_U6545_U4e8b_U5165_U53e3.jpg/320x480bb.jpg",
@@ -392,20 +391,21 @@
       "market": "海外",
       "trackName": "OOC: The Playable Anime",
       "seller": "New AI Entertainment Inc.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/e7/26/95e72672-68d2-425f-e4f9-a0474dfe4258/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/a9/f4/14a9f45b-57c9-aa06-e08a-a12bd76d03d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "url": "https://apps.apple.com/us/app/ooc-the-playable-anime/id6761247061?uo=4",
       "genre": "Entertainment",
       "price": "Free",
       "released": "2026-04-15",
       "country": "us",
-      "date": "2026-09-22",
-      "version": "0.1.20",
+      "date": "2026-10-07",
+      "version": "0.1.22",
       "rating": 4.64,
-      "ratingCount": 6121,
+      "ratingCount": 7214,
       "ranks": {
-        "us/Entertainment/grossing": 41
+        "us/Entertainment/free": 61,
+        "us/Entertainment/grossing": 36
       },
-      "latestNotes": "Session Branching is here\nBranch off any message and start a new path from that exact point — everything up to then comes with you.\n\n- Go back to a turning point and try something new\n- Chase a different ending\n- Rescue a session that went sideways\n\nBranch as often as you like. Branching is free; messages still cost Credits.\nTap the branch icon under any message to start.",
+      "latestNotes": "Bug fixes and other improvements",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/6d/67/d76d6765-e894-6483-508f-c8bfc43a0dd8/iOS6.5_1_U00281_U0029.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/6b/35/816b3549-71a4-b755-15e0-2d20aa964dfe/iOS6.5_1_U00282_U0029.png/320x480bb.jpg",
@@ -469,7 +469,7 @@
       "price": "Free",
       "released": "2026-06-24",
       "country": "us",
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "version": "1.0.9",
       "rating": null,
       "ratingCount": 0,
@@ -495,16 +495,16 @@
       "market": "海外(元象)",
       "trackName": "Saylo: Your AI Creative World",
       "seller": "X ORIGINAL(HONG KONG) LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/78/b9/7178b95e-15ed-b847-6803-a1622c3c1076/AppIcon-0-0-1x_U007ephone-0-5-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/29/f7/e429f7eb-e5d1-03e4-71b0-fcd42efc157b/AppIcon-0-0-1x_U007ephone-0-5-85-220.png/512x512bb.jpg",
       "url": "https://apps.apple.com/us/app/saylo-your-ai-creative-world/id6479835900?uo=4",
       "genre": "Entertainment",
       "price": "Free",
       "released": "2024-05-01",
       "country": "us",
-      "date": "2026-09-22",
-      "version": "2.6.2",
-      "rating": 3.89,
-      "ratingCount": 1260,
+      "date": "2026-10-07",
+      "version": "2.6.3",
+      "rating": 3.9,
+      "ratingCount": 1279,
       "ranks": {},
       "latestNotes": "bug fix",
       "screenshots": [
@@ -572,10 +572,10 @@
       "price": "Free",
       "released": "2024-09-23",
       "country": "us",
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "version": "1.48",
-      "rating": 3.48,
-      "ratingCount": 100,
+      "rating": 3.5,
+      "ratingCount": 101,
       "ranks": {},
       "latestNotes": "Performance improvements and bug fixes.",
       "screenshots": [
@@ -642,7 +642,7 @@
       "price": "Free",
       "released": "2024-12-08",
       "country": "us",
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "version": "2.1.0",
       "rating": 4.69,
       "ratingCount": 16,
@@ -716,7 +716,7 @@
       "price": "Free",
       "released": "2024-11-25",
       "country": "us",
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "version": "9.8.2",
       "rating": 4.42,
       "ratingCount": 187,
@@ -784,22 +784,22 @@
       "market": "海外",
       "trackName": "Janitor: Interactive Stories",
       "seller": "JanitorAI, INC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/d7/85/b6d785c3-e71c-4b78-37b1-b0d95ff111b4/AppIcon-0-0-1x_U007ephone-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/a3/f0/a5a3f0e4-b2eb-752c-fba5-445e73fe4bf3/AppIcon-0-0-1x_U007ephone-0-8-0-85-220.png/512x512bb.jpg",
       "url": "https://apps.apple.com/us/app/janitor-interactive-stories/id6692609366?uo=4",
       "genre": "Book",
       "price": "Free",
       "released": "2025-11-29",
       "country": "us",
-      "date": "2026-09-22",
-      "version": "2.5.0",
-      "rating": 4.47,
-      "ratingCount": 3829,
+      "date": "2026-10-07",
+      "version": "2.6.0",
+      "rating": 4.5,
+      "ratingCount": 4474,
       "ranks": {
-        "us/Book/free": 14,
-        "us/Book/grossing": 39,
-        "cn/Book/grossing": 81
+        "us/Book/free": 10,
+        "us/Book/grossing": 26,
+        "cn/Book/grossing": 79
       },
-      "latestNotes": "• Scripts (lorebooks + advanced scripts)\n• Web links open the right screen with its page state\n• Notification taps now open the right chat\n• Bug fixes and performance improvements",
+      "latestNotes": "• New home screen with search built in and the creators you follow\n• Reworked settings: privacy and display, sign-in methods, active sessions, creator verification\n• Daylight, a new light theme\n• Option to hide the tab bar while scrolling\n• Bug fixes and performance improvements",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/14/70/c6147042-684b-674e-a409-7c157e09b143/Screenshot_19_U002c5_9.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/b6/f6/b9b6f687-01ef-d0d1-fb4d-728af9967e63/Screenshot_19_U002c5_9_163.png/320x480bb.jpg",
@@ -866,12 +866,12 @@
       "price": "Free",
       "released": "2025-07-22",
       "country": "us",
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "version": "2.2.1",
-      "rating": 4.65,
-      "ratingCount": 947,
+      "rating": 4.64,
+      "ratingCount": 989,
       "ranks": {
-        "us/Book/grossing": 66
+        "us/Book/grossing": 61
       },
       "latestNotes": "AI improvement and bug fixes",
       "screenshots": [
@@ -929,19 +929,19 @@
       "tier": "adjacent",
       "market": "海外",
       "trackName": "Wapoo: Playable Social Video",
-      "seller": "Wapoo Inc.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/96/16/77/961677cd-12c0-942c-757f-2f4bda57de53/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
+      "seller": "MINERVA COSMOS PTE. LTD.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/a6/0a/39a60ad5-4b90-26fa-16b0-bdbe72e83452/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
       "url": "https://apps.apple.com/us/app/wapoo-playable-social-video/id6752590312?uo=4",
       "genre": "Social Networking",
       "price": "Free",
       "released": "2026-05-12",
       "country": "us",
-      "date": "2026-09-22",
-      "version": "1.1.7",
+      "date": "2026-10-07",
+      "version": "1.1.9",
       "rating": 5,
       "ratingCount": 12,
       "ranks": {},
-      "latestNotes": "Downloads are now faster and smoother.\nTouchdown now feels better than ever.\nFeel it? Lit!",
+      "latestNotes": "Smoother cash-out. Friend badges renewed.\nUpgraded payment service for a better withdrawal experience.\nFriend status at a glance — every connection counts.",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/de/a3/81dea399-d532-3f12-a5e4-2da369dd3afb/6.5_inch-1.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/31/9d/95319ded-6b35-0d61-3410-bdb139a0bd18/6.5_inch-2.png/320x480bb.jpg",
@@ -1004,7 +1004,7 @@
       "price": "Free",
       "released": "2026-05-18",
       "country": "us",
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "version": "1.1.2",
       "rating": null,
       "ratingCount": 0,
@@ -1026,18 +1026,18 @@
       "market": "海外",
       "trackName": "Orbittoon: Interactive Drama",
       "seller": "BEYOND ORBIT INTERACTIVE LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/26/d5/6f26d5dc-7cf0-1ebd-4d99-b4a567a9167e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/9c/de/4c9cdead-2a97-144a-f03b-4a0ac83f54a5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "url": "https://apps.apple.com/us/app/orbittoon-interactive-drama/id6795973037?uo=4",
       "genre": "Entertainment",
       "price": "Free",
       "released": "2026-09-02",
       "country": "us",
-      "date": "2026-09-22",
-      "version": "1.1.0",
+      "date": "2026-10-07",
+      "version": "1.1.1",
       "rating": 5,
       "ratingCount": 2,
       "ranks": {},
-      "latestNotes": "- Added photo support to story and news comments.\n- Improved the comment composer and photo previews.\n- Refined gift pack layouts with larger card previews.\n- Added read counts to news articles.\n- Added tap-to-pause controls for news videos and improved buffering indicators and content spacing.\n- Fixed issues when reopening the episode selector and improved overall stability.",
+      "latestNotes": "• Improved image loading and memory usage.\n• Improved chat stability and background handling.\n• Fixed affection values displaying incorrectly after sending gifts.\n• Improved language loading and CG unlock interactions.",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/82/3f/76823f69-1c9f-c24e-ddea-6ec573697e9a/_U5fae_U4fe1_U56fe_U7247_20260918142810_677_54.png/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/54/1d/29541d11-bb13-891d-78fe-8147d68894e7/_U5fae_U4fe1_U56fe_U7247_20260918142811_679_54.png/320x480bb.jpg",
@@ -1058,24 +1058,24 @@
       "market": "海外(MeChat 同厂)",
       "trackName": "PickTwist: Interactive Drama",
       "seller": "IMPONILOX LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/a1/d3/6da1d38c-c4c5-a5a8-a30b-0c7d03599cab/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/35/77/2a357704-d2b1-6980-78fa-0db34b081ba5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "url": "https://apps.apple.com/us/app/picktwist-interactive-drama/id6772954863?uo=4",
       "genre": "Entertainment",
       "price": "Free",
       "released": "2026-07-06",
       "country": "us",
-      "date": "2026-09-22",
-      "version": "1.3.7",
+      "date": "2026-10-07",
+      "version": "1.3.8",
       "rating": 3,
       "ratingCount": 1,
       "ranks": {},
-      "latestNotes": "Bugs fixes",
+      "latestNotes": "General bug fixes and performance improvements",
       "screenshots": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/69/8b/bc/698bbc3d-a509-3ec9-2973-4b78c2b50e27/01.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/00/19/f3/0019f394-674a-fd10-628a-d8a946e00656/02.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/12/59/b1125977-76da-e8a1-5498-24a474d7af68/03.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/3b/ab/583bab9d-4b1d-7f1d-90b2-8a3a4b6baf01/04.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/49/da/8349da27-1995-17b5-9d92-a96ee693e32d/05.png/320x480bb.jpg"
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/cf/9c/00cf9cc4-d6fc-8de0-bc88-b8116f6ed25d/V2__U2013_01.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/00/72/590072ba-2e9b-626c-e37f-625ceb6228cd/V2__U2013_02.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/8c/30/018c3076-9117-9690-69b6-720c074b352b/V2__U2013_03.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/59/81/8c5981f1-6552-94a1-0e83-b4bba1cfb6af/V2__U2013_04.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/5b/68/9a5b68bf-6d89-5ae6-840b-f4eca72ca6ee/picktwist_screen_6.9_fixed.png/320x480bb.jpg"
       ],
       "reviewSample": [
         {
@@ -1092,18 +1092,18 @@
       "market": "海外",
       "trackName": "Cuddli AI: Character Stories",
       "seller": "LUDO HK LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/1b/ac/a01bacd0-d59b-845f-e72e-d8b758302f4c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/ec/9c/7cec9c57-d246-37c9-5cc0-a1bb5b475795/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
       "url": "https://apps.apple.com/us/app/cuddli-ai-character-stories/id6777919302?uo=4",
       "genre": "Entertainment",
       "price": "Free",
       "released": "2026-08-05",
       "country": "us",
-      "date": "2026-09-22",
-      "version": "1.3.0",
-      "rating": 4,
-      "ratingCount": 1,
+      "date": "2026-10-07",
+      "version": "1.4.1",
+      "rating": 4.83,
+      "ratingCount": 6,
       "ranks": {},
-      "latestNotes": "- Cuddli — the app has a new name.\n- More characters have been added to improve your experience.\n- You can now create your own characters.",
+      "latestNotes": "Bug fixes and improvements",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/a7/cb/b1a7cb4d-b0fb-0494-98f2-ad54752093b1/1242x2268-1.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ee/77/59/ee775995-a2b8-37f4-e0b4-72178038b000/111.jpg/320x480bb.jpg",
@@ -1118,6 +1118,158 @@
         }
       ]
     },
+    "chaptr": {
+      "key": "chaptr",
+      "name": "Chaptr",
+      "tier": "core",
+      "market": "海外",
+      "trackName": "Chaptr: Vertical Drama & Chat",
+      "seller": "Chaptr Inc.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/d5/78/3dd578d3-0359-c1d3-a980-f793175bbda4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/chaptr-vertical-drama-chat/id6790796501?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-07-23",
+      "country": "us",
+      "date": "2026-10-07",
+      "version": "1.0.8",
+      "rating": 5,
+      "ratingCount": 5,
+      "ranks": {},
+      "latestNotes": "Improved video viewing experience",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/3c/54/903c54a5-70ea-709f-7821-a9b3742c4db8/iphone-65-1242x2688.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/7e/a9/037ea945-e9f5-158f-a8d8-48049f227465/chaptr_3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/a9/c5/dfa9c5b9-6fcb-a085-3084-8823f30991b1/chaptr_6.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/8f/1f/8d8f1f0b-e148-e818-3498-d745cb6b9126/chaptr_4.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/d1/f4/85d1f471-dac2-595e-0d89-28d5de216a98/chaptr_5.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/0d/01/770d01b9-1ecc-f090-41b4-5034a4eb684c/chaptr_2_alternative.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/c0/2a/a1c02a31-9b9e-71db-ca81-9f328598826d/chaptr_7.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/a8/d5/50a8d567-c127-c30e-42c0-5b63b677cd38/chaptr_9.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/77/e0/5e77e00b-8ec4-a475-88d6-5f9ac05f50e0/chaptr_10.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/97/81/9a9781de-e9dd-79e7-9dbe-0bca3683b591/chaptr_8.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "35f7a804170c",
+          "text": "ive always imagined what it would be like to talk to characters from my favorite movies and this app actually makes that possible! The stories are really engaging and don’t feel cheap or low effort. Definitely a happy user",
+          "rating": 5
+        },
+        {
+          "h": "19ad7dd54386",
+          "text": "These stories are addictive! Can’t wait until they add more.",
+          "rating": 5
+        },
+        {
+          "h": "fec3e29556bc",
+          "text": "Very creative and entertaining content, love you can chat with the creators",
+          "rating": 5
+        },
+        {
+          "h": "1fc4149d8c22",
+          "text": "It has so many drama shorts and so interesting, with difference scenarios / themes!",
+          "rating": 5
+        }
+      ]
+    },
+    "dreem": {
+      "key": "dreem",
+      "name": "Dreem",
+      "tier": "core",
+      "market": "海外",
+      "trackName": "Dreem - Interactive Stories",
+      "seller": "CappyAI Inc.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/de/1e/cbde1e43-b7f0-4392-2c04-0c5c981ab5cd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/dreem-interactive-stories/id6760738406?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-06-24",
+      "country": "us",
+      "date": "2026-10-07",
+      "version": "1.3.3",
+      "rating": 4.95,
+      "ratingCount": 20,
+      "ranks": {},
+      "latestNotes": "Stories are is calling. Getting in is easier now.",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a1/66/a7/a166a72e-8209-70b6-7eb6-bc481e2afcac/20260634.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a9/46/06/a9460695-2625-2546-7efb-72a749237bee/20260630.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/5e/6f/0c5e6fb3-788a-3ace-36f2-a15344959041/20260629.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/7f/3f/ba7f3f4d-12dc-85d9-40ad-6a3a6bf69e3c/20260633.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/77/ce/7477ce8c-3a08-3949-6fc9-fa68bf09bf76/20260632.png/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "05d5a2f721be",
+          "text": "I’m giving this AI interactive short story platform a full five stars! I’ve watched countless short dramas and played lots of interactive games, but this combined gameplay style is completely new to me — it’s incredibly refreshing.\nWhat impresses me most is the interactive experience. Besides clicking choices to shift story branches, you can have deep, genuine conversations with AI characters. It perfectly mixes the joy of watching cinematic clips and playing narrative games, keeping me fully immersed without breaking the vibe at all.\nThe controls are simple and run smoothly, and all storyline",
+          "rating": 5
+        },
+        {
+          "h": "24b8ae37530a",
+          "text": "It’s a great app if you like studios like Telltale Games, Quantic Dream and others that create interactive games. Or if you want to feel as if you are inside the movie since now you have a power to interact with the world more and chat with characters from any story. Yes you heard it right if you liked a character in any of the stories you can go and chat with them as if they were alive. \nHappy Dreeming hope to see you soon in the app!",
+          "rating": 5
+        },
+        {
+          "h": "68eab31ee521",
+          "text": "This app isnt only about the character chatting like C.AI but it goes beyond to another level for instance I could watch a story under a world perspective for a character and after that I could move into character chatting where I could share all of my thoughts and life with. More than that all of these characters are so fascinating plussssss I could also create my own ones!!!",
+          "rating": 5
+        },
+        {
+          "h": "20ac4ab74fa2",
+          "text": "This app makes AI short story creation incredibly easy and fun. The interface is user-friendly, the tools are powerful, and the results look surprisingly professional. It saves a lot of time compared with traditional video editing, even for beginners. I’m excited to see how the app continues to improve. Highly recommended!",
+          "rating": 5
+        },
+        {
+          "h": "ea38e8a0012a",
+          "text": "Only this community is where I feel like home and there is no toxicity and I can easily collaborate w others! I just attended their contest and everyone is so good!!! The team Alex and Annie are especially so helpful!!! I love Dreem! They take in our feedback so well and updates so so fast!",
+          "rating": 5
+        },
+        {
+          "h": "fb975798f18c",
+          "text": "Okay, I'm loving this app. The format feels really new, and the content is actually original and great. It's nothing like those regular short dramas because I get to be the author and change the ending! Honestly, for someone like me who's always having weird little brainwaves, this is just a blast.",
+          "rating": 5
+        },
+        {
+          "h": "4f86563bbf62",
+          "text": "I was nervous to try this app at first, but it was so worth it! It’s definitely easier if you have a computer, but you can still use your phone too—it’s just a bit harder to understand & use my friends ☕️\n (I use my phone 😂) \n\nIt’s honestly so much fun watching your story’s come to life. The animations & effects are amazing-wayyy better than so many other apps I’ve tried. & it’s free! \n\nAnywayyy, idk about ya’ll, but I’ve had a lot of fun hanging out with the lil community, & bringing my ideas to life 🫶 May The Force Be With You 🫡",
+          "rating": 5
+        },
+        {
+          "h": "f14838cfe073",
+          "text": "Love the interactive stories, really immersive and completely got me hooked! I spent hours scrolling through episodes and then more chatting with the characters, it's soo addictive!!!",
+          "rating": 5
+        }
+      ]
+    },
+    "replot": {
+      "key": "replot",
+      "name": "REPLOT",
+      "tier": "core",
+      "market": "海外",
+      "trackName": "REPLOT: AI Interactive Stories",
+      "seller": "Coolplay GmbH",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/c1/60/4dc160e8-8cf8-69f3-3e5e-92e94638a1d7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/us/app/replot-ai-interactive-stories/id6759610601?uo=4",
+      "genre": "Entertainment",
+      "price": "Free",
+      "released": "2026-07-28",
+      "country": "us",
+      "date": "2026-10-07",
+      "version": "1.5.0",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {},
+      "latestNotes": "UI Improvements",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/29/be/d729bed3-af95-752b-c031-11cbacc5f40e/01_cinematic.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/45/6b/ae/456bae2b-72f7-b5db-1953-e8241e7f0853/02_worlds.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/d4/95/a7d49509-1b9e-b153-ffe7-e7e1cc8b2feb/03_alive.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/51/31/53/5131531d-3cf1-d6ab-1530-9ff8baac161b/04_choices.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b0/72/14/b072148c-40a7-7398-326a-9070e23fb287/05_decisions.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/43/0e/d2430e2d-16b1-b48f-e58d-9f630bcc69b0/06_consequences.png/320x480bb.jpg"
+      ],
+      "reviewSample": []
+    },
     "xiaoshijie": {
       "key": "xiaoshijie",
       "name": "小世界-AI互动故事",
@@ -1131,7 +1283,7 @@
       "price": "免费",
       "released": "2026-08-29",
       "country": "cn",
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "version": "1.3.0",
       "rating": null,
       "ratingCount": 0,
@@ -1160,7 +1312,7 @@
       "price": "免费",
       "released": "2026-04-09",
       "country": "cn",
-      "date": "2026-09-22",
+      "date": "2026-10-07",
       "version": "1.0.2",
       "rating": 3,
       "ratingCount": 4,
@@ -1191,18 +1343,18 @@
       "market": "大陆",
       "trackName": "互影派",
       "seller": "Guangzhou daoran Information Technology Co., Ltd",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/4d/cf/544dcf10-b113-1298-64e9-99fc9e1f8f07/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/40/d2/0440d208-c419-3295-4490-da17513ad5f3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "url": "https://apps.apple.com/cn/app/%E4%BA%92%E5%BD%B1%E6%B4%BE/id6756259201?uo=4",
       "genre": "Entertainment",
       "price": "免费",
       "released": "2025-12-30",
       "country": "cn",
-      "date": "2026-09-22",
-      "version": "1.1.7",
+      "date": "2026-10-07",
+      "version": "1.1.8",
       "rating": 4.83,
       "ratingCount": 42,
       "ranks": {},
-      "latestNotes": "优化功能",
+      "latestNotes": "新增影游",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/50/3d/61503db1-7595-9c96-1964-6678d1df0e3d/_U7b80_U4f53.jpg/320x480bb.jpg",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e6/01/eb/e601ebc2-5702-c538-d238-59623d4f91b9/_U7b80_U4f53.jpg/320x480bb.jpg",
@@ -1262,18 +1414,18 @@
       "market": "大陆(字节)",
       "trackName": "猫箱 - 和心动 AI 探索剧情宇宙",
       "seller": "Beijing Chuntian Zhiyun Technology Co., Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/79/a6/ef79a638-bf53-8e3d-84ca-96aeb422d6ab/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/34/9b/5c349b86-75dd-e10b-8fc6-e05fae5a8175/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E7%AE%B1-%E5%92%8C%E5%BF%83%E5%8A%A8-ai-%E6%8E%A2%E7%B4%A2%E5%89%A7%E6%83%85%E5%AE%87%E5%AE%99/id6475000292?uo=4",
       "genre": "Entertainment",
       "price": "免费",
       "released": "2024-03-12",
       "country": "cn",
-      "date": "2026-09-22",
-      "version": "2.27.0",
+      "date": "2026-10-07",
+      "version": "2.28.0",
       "rating": 4.66,
-      "ratingCount": 381297,
+      "ratingCount": 387020,
       "ranks": {
-        "cn/Entertainment/free": 53,
+        "cn/Entertainment/free": 39,
         "cn/Entertainment/grossing": 11
       },
       "latestNotes": "优化产品体验，修复产品问题",
@@ -1335,21 +1487,21 @@
       "market": "大陆",
       "trackName": "点点穿书-互动小说",
       "seller": "Hainan Jiujiufa Network Technology Co., Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/7d/83/ef7d83fd-4a5c-6fc1-2e6a-f740117bf897/AppIcon-1x_U007emarketing-0-8-0-P3-85-220-0.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/5e/81/fa5e812a-cfe9-b669-058a-c3370706cd71/AppIcon-1x_U007emarketing-0-8-0-P3-85-220-0.png/512x512bb.jpg",
       "url": "https://apps.apple.com/cn/app/%E7%82%B9%E7%82%B9%E7%A9%BF%E4%B9%A6-%E4%BA%92%E5%8A%A8%E5%B0%8F%E8%AF%B4/id1661119750?uo=4",
       "genre": "Book",
       "price": "免费",
       "released": "2023-03-07",
       "country": "cn",
-      "date": "2026-09-22",
-      "version": "3.9.91",
+      "date": "2026-10-07",
+      "version": "3.9.99",
       "rating": 4.29,
-      "ratingCount": 13286,
+      "ratingCount": 13326,
       "ranks": {
-        "cn/Book/free": 37,
-        "cn/Book/grossing": 26
+        "cn/Book/free": 14,
+        "cn/Book/grossing": 25
       },
-      "latestNotes": "【新版本介绍】\n1、精品书籍上新：《娇娇有孕:霸总爹地全员追妻》《兽世恋爱模拟器：深陷修罗场》《转职邪神后，天使和魅魔都想拯救我》\n2、绝美衣橱上新：《沦陷之夜：被怪物们强势宠爱》《穿书后不小心攻略了全宗门》《开局轮滑鞋，我在公路求生游戏封神》\n3、关于APP有任何建议，欢迎前往【我的】-【帮助与反馈】-【意见反馈】中告诉我们～",
+      "latestNotes": "【新版本介绍】\n1、精品书籍上新：《不离婚不分床，总裁带崽求复合》《养娃模拟器【自选性别】》《谁说修仙难？我能掠夺修为》\n2、绝美衣橱上新：《女明星模拟器：顶流人生》《穿成星际炮灰后，我被大佬们标记了》《重生高考后，清冷校花当众表白我》\n3、关于APP有任何建议，欢迎前往【我的】-【帮助与反馈】-【意见反馈】中告诉我们～",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/07/3d/41/073d4183-3245-dcb4-d3e1-913369e1a20d/752ecfef-6fe2-4ab5-87f7-75e900d5c6a4_iOS_U5e02_U573a_U56fe-_U9996_U98752.png/392x696bb.png",
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/16/a5/2316a5d9-60e8-efe7-a725-6018e2817076/b1cd14ef-53b7-4a43-8cdc-08e1c775e59f__U5e02_U573a_U56fe-_U738b_U5983_U6709_U559c-2.png/392x696bb.png",
@@ -1407,26 +1559,97 @@
       "market": "大陆",
       "trackName": "宙包——AI驱动的互动剧本创作平台",
       "seller": "Yuanzhi Universe (Fujian) Technology Innovation Co.,  LTD",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/6b/bc/1c6bbcdf-dbb0-7594-b00d-0608079dc0e4/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/9b/07/b39b07e1-26a9-2589-74ed-941a8c037eac/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
       "url": "https://apps.apple.com/cn/app/%E5%AE%99%E5%8C%85-ai%E9%A9%B1%E5%8A%A8%E7%9A%84%E4%BA%92%E5%8A%A8%E5%89%A7%E6%9C%AC%E5%88%9B%E4%BD%9C%E5%B9%B3%E5%8F%B0/id6759592778?uo=4",
       "genre": "Utilities",
       "price": "免费",
       "released": "2026-04-17",
       "country": "cn",
-      "date": "2026-09-22",
-      "version": "1.0",
-      "rating": null,
-      "ratingCount": 0,
+      "date": "2026-10-07",
+      "version": "1.1.0",
+      "rating": 5,
+      "ratingCount": 1,
       "ranks": {},
-      "latestNotes": "",
+      "latestNotes": "优化产品体验，修复已知 BUG。",
       "screenshots": [
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/48/c0/f548c06f-754f-649c-43d7-eac9647c2a68/1__U526f_U672c.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/b3/96/79b39607-3320-9353-ad77-a14aa090a7c8/2__U526f_U672c.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/2f/d3/e92fd318-afdb-1c6c-f364-a9bf3000b43b/3__U526f_U672c.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/87/9a/12879a75-415d-f1bf-a51f-10d0955af8b9/4__U526f_U672c.png/320x480bb.jpg",
-        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f3/05/d0/f305d01f-0a10-775e-5e77-e5679a4767bd/5__U526f_U672c.png/320x480bb.jpg"
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/d4/09/49d40944-338f-5067-5ca3-6775280f15e4/_U82f9_U679c_U4e0a_U67b6_U56fe-1.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/f1/a3/1af1a38e-5d42-fa55-fea6-2eb95379469c/_U82f9_U679c_U4e0a_U67b6_U56fe-2.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/fb/00/38fb008d-082c-2743-8740-59b98c900abb/_U82f9_U679c_U4e0a_U67b6_U56fe-3.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/14/6b/58/146b5840-296a-b185-8922-72e14c4a3c8e/_U82f9_U679c_U4e0a_U67b6_U56fe-4.jpg/320x480bb.jpg"
       ],
       "reviewSample": []
+    },
+    "xinshijie": {
+      "key": "xinshijie",
+      "name": "新世界：暗影成双",
+      "tier": "core",
+      "market": "大陆(ALT Lab)",
+      "trackName": "新世界：暗影成双",
+      "seller": "ALT Lab",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/e4/33/a6e4339b-c605-4e96-76ad-3ff5187fa68c/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg",
+      "url": "https://apps.apple.com/cn/app/%E6%96%B0%E4%B8%96%E7%95%8C-%E6%9A%97%E5%BD%B1%E6%88%90%E5%8F%8C/id6775828757?uo=4",
+      "genre": "Entertainment",
+      "price": "¥1.00",
+      "released": "2026-09-22",
+      "country": "cn",
+      "date": "2026-10-07",
+      "version": "1.0.6",
+      "rating": 3.73,
+      "ratingCount": 116,
+      "ranks": {
+        "cn/Entertainment/grossing": 84
+      },
+      "latestNotes": "- 修复特工们提出的【特别鸣谢】、【序章场景探索】、【尾声结局2】等局部资源丢失的问题\n- 修复【双人跟踪】环节，伪装键缺失、新手教学流程表现异常、资源异常等问题，现均已解决\n- 关于语音问题：部分特工出现的语音闪退问题，初步定位可能是部分软件冲突带来的，我们抓紧沟通第三方合作方，尽快为特工们解决。如果特工有遇到这种情况，可私信客服您的设备配置，让我们尽力为您解决\n- 新增部分资源滑动功能操作，希望能提升特工们的操作体验\n- 我们新增「邀请开麦」表情包，尽量敏捷地满足特工们想发出「语音邀请」的需求~欢迎随时取用～",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/97/ce/f197cef7-5663-b843-25b7-b4d0fe891012/1_U9996_U56fe2736.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/8e/ca/6d8ecaa7-6b44-5735-7f72-a147aeadfd41/2_U5bf9_U624b2736.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/89/24/4f8924ff-5459-f1cd-9efa-fb2caaedb787/3_U65b0_U6545_U4e8b2736.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/eb/b5/dd/ebb5ddd4-320d-ea1d-a14e-83523653714a/4_U4e00_U8d77_U73a92736.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2f/27/9e/2f279eea-9322-0aef-388b-c9b50b2bbdf4/_U82f9_U679c2736.jpg/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/c5/d2/17c5d2ba-2733-02e3-e83c-0c0b85126d9b/_U82f9_U679c2736.jpg/320x480bb.jpg"
+      ],
+      "reviewSample": [
+        {
+          "h": "ff347d092450",
+          "text": "我是典型的游戏黑洞，自己玩类似互动影游的没法驾驭，之前通关过《逃出生天》，之后一直没碰到同类型有质感的双人叙事作品。这次我玩路维城，老婆操控颜姝，有一段剧情印象很深：我俩各自看到的线索完全不一样，我这边拿到的是加密密信，她那边看到的是人物的隐秘口供。到解谜环节，我手里的信息没法直接看懂，必须把我看到的文字描述念给她听，再由她结合她那边的线索去推导答案。我俩对着屏幕一点点核对信息，讨论谁看到了什么，来回商量推测真相，这种必须互相沟通才能推进剧情的感觉特别奇妙。\n不是简单轮流点一下选项就完事，故事是民国冒险，真人实拍，电影感很强。游戏设计本身就逼着两个人交流，一边推进悬疑故事，一边慢慢磨合默契。玩游戏的过程不像单纯打游戏，更像两个人一起合拍一部电影。\n现在大部分游戏都是单人体验，能专门为两个人的陪伴感做设计，真的很难得。很推荐情侣一起玩，一边破案一边聊天，体验远超预期",
+          "rating": 5
+        },
+        {
+          "h": "742babdc8f70",
+          "text": "一款介于双人复杂造操作和双人纯看片之间的混合作品，个人认为最适合的受众应该是甜蜜情侣。游戏的核心还是想做好双人关系的，选的故事背景有点小众，讲的是那个时期上海商人的故事，背景信息不少，能看出来双人的情感关系、家国大义，尤其几个亦正亦邪的角色，不论是师父还是三叔，小角色也都有自己的亮点。从各种物料上也能看得出用心，这样的制作能力和用心程度，也包括演员的表演水平，换个故事背景可能比现在更吃香。现在也就当做了解历史来看，不过有两个人的互动在，也很有意思就是了。",
+          "rating": 5
+        },
+        {
+          "h": "46dff7da43a3",
+          "text": "之前就刷到过这游戏，双主角的设定和吸引我，但是朋友们都在忙，第一次找陌生人匹配，其实就像两个人共同参演一部互动电影，交流起来很自然体验还不错，喜欢剧情和轻操作可以冲！",
+          "rating": 5
+        },
+        {
+          "h": "4d062c8d2b5a",
+          "text": "作为重度单机游戏用户，对互动影游一直没有尝试的热情。之前听过的飞跃13号房、底特律这些游戏都是做云玩家。这次和老婆组队（她平时不玩游戏），结果体验非常好。主要是影视的质感很好，像在看大片，一些爆炸效果做得一般，但是男女主都很养眼，看着也舒服。整体非常推荐",
+          "rating": 5
+        },
+        {
+          "h": "37696d25941a",
+          "text": "双人互动影游，之前完全没遇到过，所以一上线就来玩了，真的很不错👍感觉超出了我的预期，我以为会是那种两人凑在一起选的，结果我们可以各自用自己的手机做选择🌚时而他影响我，时而我影响他，命运的齿轮因为我俩的小手不停的卡顿的感觉…非常奇妙 hhhhh 推荐所有好朋友们一起来互坑互助！",
+          "rating": 5
+        },
+        {
+          "h": "ce3ba64a04cd",
+          "text": "我玩的影游不多，但能明显感觉到做双人影游比单人影游要考虑的多很多很多，难度也高一大截。\n光是剧本，实拍环节就感觉够头疼了，不仅要提前考虑各种选择的后续，要想到男女主视角不一样时播放的内容不一样，还要做很多双人玩法，可以说是难度颇高，真的很厉害。",
+          "rating": 5
+        },
+        {
+          "h": "2e258fa3e91c",
+          "text": "现在都已经很少匹配到人了，进度玩不下去啊，不然白浪费了钱，是个不错的游戏，但也应该考虑到更多的适应人群",
+          "rating": 5
+        },
+        {
+          "h": "32b5b718c1c5",
+          "text": "双人互动太赞了！双人互动太赞了！双人互动太赞了！ 重要的事多说几遍！！我推荐所有人叫上你的姐妹酣畅淋漓的闯上这几关！默契度拉满的时候，我真的很想截图给全世界！！！谁懂你最好的朋友被验证是你默契度最高的人的那种爽感！！谁懂！！",
+          "rating": 5
+        }
+      ]
     },
     "dreamnow": {
       "key": "dreamnow",
@@ -1511,6 +1734,9 @@
       ],
       "mangguo": [
         "芒果 互动影游"
+      ],
+      "xinshijie": [
+        "新世界 暗影成双"
       ]
     },
     "general": [

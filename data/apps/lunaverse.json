@@ -2,6 +2,11 @@
   "key": "lunaverse",
   "versions": [
     {
+      "version": "1.0.6",
+      "date": "2026-09-29",
+      "notes": "Put your ideas into play: An improved Remix experience makes it easier to try a different take on the scene.\nExplore other players’ twists: Browse their Remixes and play through the changes they imagined.\nEarn rewards along the way: Collect Moons when you complete an episode for the first time, excluding the intro. Unlock more check-in rewards without losing progress if you miss a day.\nStay immersed: Refined dialogue presentation and interactions help each scene flow more naturally."
+    },
+    {
       "version": "1.0.5",
       "date": "2026-08-31",
       "notes": "Improved the overall user experience\nFixed known issues\nEnhanced app stability and performance"
@@ -14,9 +19,18 @@
       "rating": null,
       "ratingCount": 0,
       "ranks": {}
+    },
+    {
+      "date": "2026-10-07",
+      "version": "1.0.6",
+      "rating": 5,
+      "ratingCount": 2,
+      "ranks": {}
     }
   ],
-  "reviews": [],
+  "reviews": [
+    "a5823f602a4d"
+  ],
   "screenshots": [
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/26/a7/9226a723-315f-a0a8-db8e-946c06ec1300/appstore-1.png/320x480bb.jpg",
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/79/3d/68793d54-a77d-084d-a406-1afbaf78354f/appstore-2.png/320x480bb.jpg",
@@ -29,7 +43,7 @@
   "meta": {
     "trackName": "Lunaverse Stories",
     "seller": "MobAI, Inc",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/ac/70/35ac70f4-0f7f-15ed-ede1-0a52568f9721/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/25/86/5b258623-3b06-8b69-7c4a-0090c06467ec/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/lunaverse-stories/id6779913017?uo=4",
     "genre": "Entertainment",
     "price": "Free",

@@ -2,6 +2,11 @@
   "key": "saylo",
   "versions": [
     {
+      "version": "2.6.3",
+      "date": "2026-09-26",
+      "notes": "bug fix"
+    },
+    {
       "version": "2.6.2",
       "date": "2026-09-18",
       "notes": "bug fix"
@@ -13,6 +18,13 @@
       "version": "2.6.2",
       "rating": 3.89,
       "ratingCount": 1260,
+      "ranks": {}
+    },
+    {
+      "date": "2026-10-07",
+      "version": "2.6.3",
+      "rating": 3.9,
+      "ratingCount": 1279,
       "ranks": {}
     }
   ],
@@ -81,7 +93,7 @@
   "meta": {
     "trackName": "Saylo: Your AI Creative World",
     "seller": "X ORIGINAL(HONG KONG) LIMITED",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/78/b9/7178b95e-15ed-b847-6803-a1622c3c1076/AppIcon-0-0-1x_U007ephone-0-5-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/29/f7/e429f7eb-e5d1-03e4-71b0-fcd42efc157b/AppIcon-0-0-1x_U007ephone-0-5-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/saylo-your-ai-creative-world/id6479835900?uo=4",
     "genre": "Entertainment",
     "price": "Free",

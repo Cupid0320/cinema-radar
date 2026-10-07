@@ -2,6 +2,11 @@
   "key": "ooc",
   "versions": [
     {
+      "version": "0.1.22",
+      "date": "2026-10-01",
+      "notes": "Bug fixes and other improvements"
+    },
+    {
       "version": "0.1.20",
       "date": "2026-09-18",
       "notes": "Session Branching is here\nBranch off any message and start a new path from that exact point — everything up to then comes with you.\n\n- Go back to a turning point and try something new\n- Chase a different ending\n- Rescue a session that went sideways\n\nBranch as often as you like. Branching is free; messages still cost Credits.\nTap the branch icon under any message to start."
@@ -16,6 +21,16 @@
       "ranks": {
         "us/Entertainment/grossing": 41
       }
+    },
+    {
+      "date": "2026-10-07",
+      "version": "0.1.22",
+      "rating": 4.64,
+      "ratingCount": 7214,
+      "ranks": {
+        "us/Entertainment/free": 61,
+        "us/Entertainment/grossing": 36
+      }
     }
   ],
   "reviews": [
@@ -26,7 +41,8 @@
     "d6241fba471f",
     "ee4ef098c9b8",
     "04c5c0c07b47",
-    "daf67ab9c5db"
+    "daf67ab9c5db",
+    "4d82fe33371e"
   ],
   "screenshots": [
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d7/6d/67/d76d6765-e894-6483-508f-c8bfc43a0dd8/iOS6.5_1_U00281_U0029.png/320x480bb.jpg",
@@ -81,7 +97,7 @@
   "meta": {
     "trackName": "OOC: The Playable Anime",
     "seller": "New AI Entertainment Inc.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/e7/26/95e72672-68d2-425f-e4f9-a0474dfe4258/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/a9/f4/14a9f45b-57c9-aa06-e08a-a12bd76d03d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/ooc-the-playable-anime/id6761247061?uo=4",
     "genre": "Entertainment",
     "price": "Free",

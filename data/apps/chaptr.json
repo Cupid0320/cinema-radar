@@ -1,0 +1,70 @@
+{
+  "key": "chaptr",
+  "versions": [
+    {
+      "version": "1.0.8",
+      "date": "2026-10-01",
+      "notes": "Improved video viewing experience"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-10-07",
+      "version": "1.0.8",
+      "rating": 5,
+      "ratingCount": 5,
+      "ranks": {}
+    }
+  ],
+  "reviews": [
+    "35f7a804170c",
+    "19ad7dd54386",
+    "fec3e29556bc",
+    "1fc4149d8c22"
+  ],
+  "screenshots": [
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/3c/54/903c54a5-70ea-709f-7821-a9b3742c4db8/iphone-65-1242x2688.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/7e/a9/037ea945-e9f5-158f-a8d8-48049f227465/chaptr_3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/a9/c5/dfa9c5b9-6fcb-a085-3084-8823f30991b1/chaptr_6.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/8f/1f/8d8f1f0b-e148-e818-3498-d745cb6b9126/chaptr_4.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/d1/f4/85d1f471-dac2-595e-0d89-28d5de216a98/chaptr_5.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/0d/01/770d01b9-1ecc-f090-41b4-5034a4eb684c/chaptr_2_alternative.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/c0/2a/a1c02a31-9b9e-71db-ca81-9f328598826d/chaptr_7.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/a8/d5/50a8d567-c127-c30e-42c0-5b63b677cd38/chaptr_9.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/77/e0/5e77e00b-8ec4-a475-88d6-5f9ac05f50e0/chaptr_10.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/97/81/9a9781de-e9dd-79e7-9dbe-0bca3683b591/chaptr_8.png/320x480bb.jpg"
+  ],
+  "description": "Chaptr is a short drama app. Cinematic, Series in vertical episodes built for your phone — and a cast you can actually talk to.\n\nWatch a chapter in ninety seconds. Romance, revenge, werewolves, mafia heirs, magic academies, enemies who turn into something else. Every episode ends somewhere you didn't want it to end. That's the point.\n\nThen open the chat. The characters remember you — what you said, what you chose, how you treated them. The story doesn't stop when the episode does.\n\nWHAT YOU GET\n- Short vertical drama episodes, made for mobile\n- Original series across romance, fantasy, mafia, campus and revenge\n- Character chat with a cast that remembers your conversations\n- Anime, manhwa and painterly animated worlds alongside cinematic\n  live-action-style series\n- New episodes and new series added every week\n- Binge a full arc in one sitting, or one chapter at a time\n\nMade for people who grew up on webtoons, BookTok, fanfic and character roleplay and want the story to look like a film.\n\nCHAPTR PREMIUM SUBSCRIPTION\nChaptr Premium unlocks unlimited episode viewing and unlimited character chat. Available as an auto-renewable subscription in three lengths:\n• 1 Week — $9.99\n• 1 Month — $24.99\n• 1 Year — $99.99\n\nPayment is charged to your Apple Account at confirmation of purchase. The subscription renews automatically unless canceled at least 24 hours before the end of the current period. Manage or cancel anytime in your Apple Account settings.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nTerms of Service: https://chaptr.film/legal-pages/terms-conditions\nPrivacy Policy: https://chaptr.film/legal-pages/privacy-policy",
+  "reviewSample": [
+    {
+      "h": "35f7a804170c",
+      "text": "ive always imagined what it would be like to talk to characters from my favorite movies and this app actually makes that possible! The stories are really engaging and don’t feel cheap or low effort. Definitely a happy user",
+      "rating": 5
+    },
+    {
+      "h": "19ad7dd54386",
+      "text": "These stories are addictive! Can’t wait until they add more.",
+      "rating": 5
+    },
+    {
+      "h": "fec3e29556bc",
+      "text": "Very creative and entertaining content, love you can chat with the creators",
+      "rating": 5
+    },
+    {
+      "h": "1fc4149d8c22",
+      "text": "It has so many drama shorts and so interesting, with difference scenarios / themes!",
+      "rating": 5
+    }
+  ],
+  "meta": {
+    "trackName": "Chaptr: Vertical Drama & Chat",
+    "seller": "Chaptr Inc.",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/d5/78/3dd578d3-0359-c1d3-a980-f793175bbda4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "url": "https://apps.apple.com/us/app/chaptr-vertical-drama-chat/id6790796501?uo=4",
+    "genre": "Entertainment",
+    "price": "Free",
+    "released": "2026-07-23",
+    "country": "us"
+  }
+}

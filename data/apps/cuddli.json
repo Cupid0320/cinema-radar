@@ -2,6 +2,11 @@
   "key": "cuddli",
   "versions": [
     {
+      "version": "1.4.1",
+      "date": "2026-10-04",
+      "notes": "Bug fixes and improvements"
+    },
+    {
       "version": "1.3.0",
       "date": "2026-09-20",
       "notes": "- Cuddli — the app has a new name.\n- More characters have been added to improve your experience.\n- You can now create your own characters."
@@ -14,10 +19,20 @@
       "rating": 4,
       "ratingCount": 1,
       "ranks": {}
+    },
+    {
+      "date": "2026-10-07",
+      "version": "1.4.1",
+      "rating": 4.83,
+      "ratingCount": 6,
+      "ranks": {}
     }
   ],
   "reviews": [
-    "48a43aa8bae4"
+    "48a43aa8bae4",
+    "5424db817585",
+    "217d85e0d87f",
+    "e4c116989f9f"
   ],
   "screenshots": [
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/a7/cb/b1a7cb4d-b0fb-0494-98f2-ad54752093b1/1242x2268-1.jpg/320x480bb.jpg",
@@ -36,7 +51,7 @@
   "meta": {
     "trackName": "Cuddli AI: Character Stories",
     "seller": "LUDO HK LIMITED",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/1b/ac/a01bacd0-d59b-845f-e72e-d8b758302f4c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/ec/9c/7cec9c57-d246-37c9-5cc0-a1bb5b475795/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/cuddli-ai-character-stories/id6777919302?uo=4",
     "genre": "Entertainment",
     "price": "Free",

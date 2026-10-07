@@ -1,31 +1,24 @@
 {
   "competitors": {
     "inplay": {
-      "oneLiner": "AI 实时生成选项 + 可自由打字写「第三个选择」，Remix 社区；差评集中在生成失败/进度丢失",
-      "updated": "2026-09-22",
-      "videos": [
-        {
-          "id": "-aZKRsU9Ses",
-          "title": "InPlay | When Two Choices Are Not Enough, Type the Third",
-          "url": "https://www.youtube.com/watch?v=-aZKRsU9Ses"
-        }
-      ]
+      "oneLiner": "AI 实时生成选项 + 自由输入第三选择 + Remix 社区；已上订阅会员与创作者收益页；差评集中在生成失败/黑屏",
+      "updated": "2026-10-07"
     },
     "lunaverse": {
-      "oneLiner": "分集分支剧 + 检定/小游戏 + 角色私聊(Bubble)与角色朋友圈(Moments)",
-      "updated": "2026-09-22"
+      "oneLiner": "分集分支剧 + Remix（可玩他人改编）+ 角色私聊 + 签到奖励",
+      "updated": "2026-10-07"
     },
     "saganova": {
       "oneLiner": "AI 互动剧影院：原创互动剧（456 场景/23 结局）+ AI 短剧 + 扫脸克隆声音自己当主演",
       "updated": "2026-09-22"
     },
     "yoroll": {
-      "oneLiner": "「可玩视频」平台 + 创作工具；9 月上线 YoLive：弹幕投票、AI 实时生成视频的直播互动剧",
-      "updated": "2026-09-22"
+      "oneLiner": "「可玩视频」+ 角色聊天（角色有记忆）+ 即时操作；另有 YoLive 实时生成直播互动剧",
+      "updated": "2026-10-07"
     },
     "castloop": {
-      "oneLiner": "元象（Saylo 母公司）出品：电影化画面、选项 + 自由输入生成新分支、剧情树",
-      "updated": "2026-09-22"
+      "oneLiner": "元象出品：电影化互动剧 + 互动小说；CastLoop+ 会员享互动小说无限文本生成",
+      "updated": "2026-10-07"
     },
     "ooc": {
       "oneLiner": "Wrtn 的「可玩动漫」：文字+插画的 AI 叙事，月收入约 $7.7M，赛道收入标杆",
@@ -79,8 +72,8 @@
       "updated": "2026-09-22"
     },
     "picktwist": {
-      "oneLiner": "竖屏互动短剧，关键节点选择；MeChat 同厂",
-      "updated": "2026-09-22"
+      "oneLiner": "竖屏互动短剧，主打独家原创 + 每周上新；MeChat 同厂",
+      "updated": "2026-10-07"
     },
     "cuddli": {
       "oneLiner": "角色卡带动态视频背景 + 配音 + 分支剧情",
@@ -107,8 +100,8 @@
       "updated": "2026-09-22"
     },
     "zhoubao": {
-      "oneLiner": "AI 互动剧本创作平台",
-      "updated": "2026-09-22"
+      "oneLiner": "对话式 AI 互动剧本创作工具：先出方案审阅、确认后生成多故事线",
+      "updated": "2026-10-07"
     },
     "dreamnow": {
       "oneLiner": "腾讯 AIGC 内容与互动影游浏览平台（4 月上线）；同系还有造化工坊、TDream、代号 Craft",
@@ -125,6 +118,22 @@
     "mangguo": {
       "oneLiner": "芒果 TV AI 仿真人互动影游《公主请自重》《马上来财》（1500 万+ 播放）",
       "updated": "2026-09-22"
+    },
+    "chaptr": {
+      "oneLiner": "90 秒竖屏短剧 + 看完和角色聊天，角色记得你的选择",
+      "updated": "2026-10-07"
+    },
+    "dreem": {
+      "oneLiner": "电影感剧集 + 选择 + 角色聊天与关系养成",
+      "updated": "2026-10-07"
+    },
+    "replot": {
+      "oneLiner": "不给选项，打字说你要做什么，AI 续写并为每个瞬间配图",
+      "updated": "2026-10-07"
+    },
+    "xinshijie": {
+      "oneLiner": "双人合作真人互动影游（1941 上海谍战），两人各看一半真相，买断 29.8 元",
+      "updated": "2026-10-07"
     }
   },
   "candidates": [
@@ -269,6 +278,112 @@
       "verdict": "promoted",
       "note": "已纳入正式追踪",
       "date": "2026-09-22"
+    },
+    {
+      "id": 6748783645,
+      "name": "Oumi – Interactive Story Stage",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/oumi-interactive-story-stage/id6748783645?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/6c/12/706c1231-c445-e7d8-65f5-b1f27f99fe72/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Oumi：多人实时即兴演出互动故事（246 条评分）",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 6763489795,
+      "name": "Reelfork",
+      "country": "us",
+      "url": "https://apps.apple.com/cn/app/reelfork/id6763489795?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/0c/2c/7b0c2c0c-5c8a-093b-59ae-287ca9ce1d16/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Reelfork：短剧剧场",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 6796595468,
+      "name": "平行岛",
+      "country": "cn",
+      "url": "https://apps.apple.com/cn/app/%E5%B9%B3%E8%A1%8C%E5%B2%9B/id6796595468?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/0c/84/b60c84bf-ad3b-22a6-2bac-cdc5f5e8163b/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "平行岛：AI 角色互动平台",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 6772130776,
+      "name": "Sirena：陪伴AI角色聊天与故事创作及交流社区平台",
+      "country": "us",
+      "url": "https://apps.apple.com/cn/app/sirena-%E9%99%AA%E4%BC%B4ai%E8%A7%92%E8%89%B2%E8%81%8A%E5%A4%A9%E4%B8%8E%E6%95%85%E4%BA%8B%E5%88%9B%E4%BD%9C%E5%8F%8A%E4%BA%A4%E6%B5%81%E7%A4%BE%E5%8C%BA%E5%B9%B3%E5%8F%B0/id6772130776?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/6e/65/4f6e65cc-0e4a-b54b-bbc3-52bcda3aa196/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Sirena：坚持 SFW 的 AI 角色对话",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 6774590419,
+      "name": "Fizzz: AI Chat & Stories",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/fizzz-ai-chat-stories/id6774590419?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/74/31/23/74312335-7147-6e72-ccdb-c53be3131b6f/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Fizzz：AI 角色故事",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 6761447106,
+      "name": "Lilacs: AI Characters",
+      "country": "us",
+      "url": "https://apps.apple.com/cn/app/lilacs-ai-characters/id6761447106?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/9e/0a/509e0a79-02a4-7ef3-19da-1023493d5f77/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Lilacs：AI 角色平台",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 6780423105,
+      "name": "Afizzy - AI Character Chat",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/afizzy-ai-character-chat/id6780423105?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/fb/ad/edfbad8b-9896-fd81-f8b6-422d9934b771/affinyAppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Afizzy：AI 角色聊天",
+      "date": "2026-10-07"
+    },
+    {
+      "id": 6790796501,
+      "name": "Chaptr",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-10-07",
+      "url": "https://apps.apple.com/cn/app/chaptr-vertical-drama-chat/id6790796501?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/d5/78/3dd578d3-0359-c1d3-a980-f793175bbda4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg"
+    },
+    {
+      "id": 6760738406,
+      "name": "Dreem",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-10-07",
+      "url": "https://apps.apple.com/cn/app/dreem-interactive-stories/id6760738406?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/de/1e/cbde1e43-b7f0-4392-2c04-0c5c981ab5cd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg"
+    },
+    {
+      "id": 6759610601,
+      "name": "REPLOT",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-10-07",
+      "url": "https://apps.apple.com/us/app/replot-ai-interactive-stories/id6759610601?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/c1/60/4dc160e8-8cf8-69f3-3e5e-92e94638a1d7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg"
+    },
+    {
+      "id": 6775828757,
+      "name": "新世界：暗影成双",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-10-07",
+      "url": "https://apps.apple.com/cn/app/%E6%96%B0%E4%B8%96%E7%95%8C-%E6%9A%97%E5%BD%B1%E6%88%90%E5%8F%8C/id6775828757?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/e4/33/a6e4339b-c605-4e96-76ad-3ff5187fa68c/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg"
     }
   ],
   "xhs": []

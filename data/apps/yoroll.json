@@ -2,6 +2,11 @@
   "key": "yoroll",
   "versions": [
     {
+      "version": "1.0.10",
+      "date": "2026-10-07",
+      "notes": "Bug fixes and performance improvements."
+    },
+    {
       "version": "1.0.7",
       "date": "2026-09-07",
       "notes": "Bug fixes and stability improvements."
@@ -14,25 +19,33 @@
       "rating": null,
       "ratingCount": 0,
       "ranks": {}
+    },
+    {
+      "date": "2026-10-07",
+      "version": "1.0.10",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {}
     }
   ],
   "reviews": [],
   "screenshots": [
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/86/66/cc8666c0-f1f9-59ea-854e-c38456edd3e7/ios-_U82f1-1.jpg/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/41/3b/ce413b30-cc6a-73cb-36d9-1f206d79ca33/ios-_U82f1-2.jpg/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6a/18/32/6a1832e0-e59d-a8c6-5382-d9abe0a9af49/ios-_U82f1-3.jpg/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/63/b9/e763b93e-55fd-b6e8-a658-e4de743d8459/ios-_U82f1-4.jpg/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/33/da/9a33da40-5ba1-7903-6ec9-c8b4ec435fc2/ios-_U82f1-5.jpg/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/f9/36/a4f9363e-e51c-32fb-d781-da603cdf604b/ios-_U82f1-6.jpg/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/4c/4b/4e4c4bc3-f986-3659-dbce-2eea179964bc/ios-_U82f1-7.jpg/320x480bb.jpg"
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/b6/5a/6db65ada-450c-6690-6709-9922180885c0/ios-_U82f1-1.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/aa/b7/9b/aab79b6f-9375-7ad8-d29c-197f14a02af1/ios-_U82f1-2.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/e3/df/63e3df62-c6f5-e390-556d-a3442474fba6/ios-_U82f1-3.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8c/46/69/8c466910-4683-f608-7cde-df0e42f090a1/ios-_U82f1-4.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/79/16/9d7916dd-5cd2-cdbd-8123-33fc076c447c/ios-_U82f1-5.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/8b/85/858b85e4-a4dd-cf44-44db-6e2efac8fb95/ios-_U82f1-6.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/6c/d2/6b6cd2a4-8529-468c-cb5e-6c459528b4c6/ios-_U82f1-7.jpg/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/71/bb/3e71bb1b-c219-05af-997c-9e20f94a437f/ios-_U82f1-8.jpg/320x480bb.jpg"
   ],
-  "description": "Scroll like video. Play like a game.\nEvery choice rewrites the story and unlocks a different ending. This isn't watching — it's playing.\n\nYoroll is a Playable Video platform — every video is a story you can play your way into.\nDon't just scroll. Every choice you make changes where the story goes and which ending you reach. Swipe to start, finish a story in minutes, and the deeper you play, the more the story becomes yours.\nFrom mystery and survival to palace intrigue, there's something new every day. You've watched enough of everyone else's videos — come play your own.\nPlay, choose, change the story.\n\nNeed help or have feedback? Reach us at support@lineargame.ai\nPrivacy Policy: https://docs.yoroll.ai/yoroll-privacy-policy\nTerms of Service: https://docs.yoroll.ai/yoroll-term-of-use",
+  "description": "Yoroll — Playable Videos. Living Characters. Infinite Worlds.\nScroll like video. Play like a game.\nWatch stories. Talk to characters. Change the story. Play the world.\nYoroll is where stories stop being something you just watch — and become something you can step into.\nScroll through interactive videos, make choices that change what happens next, talk directly with characters, and explore worlds that respond to you.\n\nWatch stories.\nDiscover interactive dramas, adventures, mysteries, romance, survival, and more. Swipe in and start playing in seconds.\n\nTalk to characters.\nMeet characters you love, talk to them directly, and keep the story going beyond the screen. Every conversation can take your relationship somewhere new.\n\nChange the story.\nYour choices, conversations, and actions can change what happens next. Take a different path, discover new possibilities, and make the story your own.\n\nPlay the world.\nGo beyond watching and choosing. Step into interactive worlds where you can explore, act, and shape what happens around you.\nSome stories take only minutes. Others keep unfolding as you play.\nThere’s always another story to discover, another character to meet, and another world to step into.\n\nDon’t just watch the story. Play your way into it.\nNeed help or have feedback?\nReach us at support@yoroll.ai\nPrivacy Policy:\nhttps://docs.yoroll.ai/yoroll-privacy-policy\nTerms of Service:\nhttps://docs.yoroll.ai/yoroll-term-of-use",
   "reviewSample": [],
   "meta": {
-    "trackName": "Yoroll - Playable Video",
+    "trackName": "Yoroll - Watch, Chat & Play",
     "seller": "LinearGame Pte. Ltd.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/4c/8a/c64c8af1-64b2-04f3-a898-dbd8bf548804/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-    "url": "https://apps.apple.com/us/app/yoroll-playable-video/id6763028735?uo=4",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/d6/6a/a1d66ac9-f6f2-2ebd-4116-99c027d5617b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "url": "https://apps.apple.com/us/app/yoroll-watch-chat-play/id6763028735?uo=4",
     "genre": "Entertainment",
     "price": "Free",
     "released": "2026-07-13",

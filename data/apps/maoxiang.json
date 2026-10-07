@@ -2,6 +2,11 @@
   "key": "maoxiang",
   "versions": [
     {
+      "version": "2.28.0",
+      "date": "2026-09-23",
+      "notes": "优化产品体验，修复产品问题"
+    },
+    {
       "version": "2.27.0",
       "date": "2026-09-15",
       "notes": "优化产品体验，修复产品问题"
@@ -15,6 +20,16 @@
       "ratingCount": 381297,
       "ranks": {
         "cn/Entertainment/free": 53,
+        "cn/Entertainment/grossing": 11
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "version": "2.28.0",
+      "rating": 4.66,
+      "ratingCount": 387020,
+      "ranks": {
+        "cn/Entertainment/free": 39,
         "cn/Entertainment/grossing": 11
       }
     }
@@ -83,7 +98,7 @@
   "meta": {
     "trackName": "猫箱 - 和心动 AI 探索剧情宇宙",
     "seller": "Beijing Chuntian Zhiyun Technology Co., Ltd.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ef/79/a6/ef79a638-bf53-8e3d-84ca-96aeb422d6ab/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5c/34/9b/5c349b86-75dd-e10b-8fc6-e05fae5a8175/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/cn/app/%E7%8C%AB%E7%AE%B1-%E5%92%8C%E5%BF%83%E5%8A%A8-ai-%E6%8E%A2%E7%B4%A2%E5%89%A7%E6%83%85%E5%AE%87%E5%AE%99/id6475000292?uo=4",
     "genre": "Entertainment",
     "price": "免费",
