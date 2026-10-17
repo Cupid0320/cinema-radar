@@ -79,7 +79,16 @@ async function charts() {
   return { ranks, listed };
 }
 
-// ---------- YouTube（官方 RSS 目前 404，改解析网页 ytInitialData） ----------
+// ---------- YouTube ----------
+// 官方 Atom RSS 优先（2026-09 一度 404，10-17 复测恢复），失败再退回解析网页 ytInitialData。
+async function ytFeed(channelId) {
+  const xml = await get(`https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`);
+  return [...xml.matchAll(/<entry>[\s\S]*?<\/entry>/g)].map(m => {
+    const b = m[0], pick = t => (b.match(new RegExp(`<${t}[^>]*>([\\s\\S]*?)</${t}>`)) || [, ''])[1];
+    return { id: pick('yt:videoId'), title: pick('title'), channel: pick('name'), when: pick('published').slice(0, 10), views: (b.match(/views count="(\d+)"/) || [, ''])[1] };
+  }).filter(v => v.id);
+}
+
 function ytItems(html) {
   const m = html.match(/var ytInitialData = (\{.*?\});<\/script>/s);
   if (!m) return [];
@@ -212,11 +221,14 @@ for (const country of ['us', 'cn']) {
 for (const c of competitors) {
   if (c.tier !== 'core' && !isRich(c)) continue; // 纯文字的相邻竞品不追 YouTube，噪音太大
   const jobs = [];
-  for (const ch of c.youtube || []) jobs.push(['official', `https://www.youtube.com/channel/${ch}/videos`]);
+  for (const ch of c.youtube || []) jobs.push(['official', ch]); // official 传 channelId，走 RSS
   if (!c.market.startsWith('大陆')) jobs.push(['mention', `https://www.youtube.com/results?search_query=${encodeURIComponent(`"${c.name.split(':')[0]}" app`)}&sp=CAI%253D`]);
   for (const [kind, url] of jobs) {
     try {
-      let items = ytItems(await get(url));
+      let items;
+      if (kind === 'official') {
+        try { items = await ytFeed(url); } catch { items = ytItems(await get(`https://www.youtube.com/channel/${url}/videos`)); }
+      } else items = ytItems(await get(url));
       if (kind === 'mention') {
         const n = c.name.split(':')[0].toLowerCase();
         // 同名撞车很多（InPlay 足球交易、Yoroll 综艺），要求标题同时带品类词；且只要近几周的视频
@@ -258,6 +270,13 @@ for (const l of listed) {
 }
 // 近半年上架的才算「新竞品」；老 app 新出现在搜索结果里只做低优先级提示。首次运行全部记为已见，只把近半年的交给 agent 甄别。
 const RECENT = new Date(Date.now() - 180 * 864e5).toISOString().slice(0, 10);
+// 纯短剧/流媒体平台自动过滤：名字或描述像短剧，且没有任何互动信号
+const PURE_DRAMA = /short ?drama|mini series|reel|stream drama|微短剧|短剧|追剧/i;
+const INTERACTIVE = /interactive|choice|choose|branch|decide|AI|roleplay|互动|选择|分支|剧情/i;
+for (const [id, c] of candidates) {
+  const blob = `${c.name} ${c.desc || ''}`;
+  if (PURE_DRAMA.test(blob) && !INTERACTIVE.test(blob)) { candidates.delete(id); state.discoverySeen[id] = TODAY; }
+}
 const newCands = [...candidates.values()].filter(c => !state.discoverySeen[c.id]);
 newCands.forEach(c => state.discoverySeen[c.id] = TODAY);
 const recent = newCands.filter(c => !c.released || c.released >= RECENT || c.via.some(v => v.includes('#')));

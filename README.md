@@ -49,8 +49,9 @@ open ~/cinema-radar/site/index.html
 
 ## 已知的坑
 
-- **iTunes 评论 RSS 已失效**（返回空 feed），改为解析 `apps.apple.com` 网页里的内嵌 JSON，只能拿到页面展示的约 8 条。
-- **YouTube 频道 RSS 返回 404**，改为解析频道页/搜索页的 `ytInitialData`。YouTube 改版时 `ytItems()` 可能返回空。
+- **iTunes 评论 RSS 已失效**（返回空 feed，`page=`/`country=` 各种写法 2026-10-17 复测仍为 0 条），改为解析 `apps.apple.com` 网页里的内嵌 JSON，只能拿到页面展示的约 8 条。
+  `amp-api.apps.apple.com` 的评论接口需要 Bearer token，而商店页里已经取不到该 token（2026-10-17 复测），想突破 8 条得另找入口。
+- **YouTube 频道 RSS** 2026-09 一度全站 404，10-17 复测已恢复。现在优先走官方 Atom RSS，失败才退回解析 `ytInitialData`；搜索提及只能走网页解析。
 - **Reddit 对脚本返回 403**，交给 agent 用 WebSearch。
 - **小红书必须登录**才能看搜索结果；只能走 Claude in Chrome，且登录（扫码）必须用户本人做。
 - 名字撞车：InPlay（足球交易/电视）、Yoroll（综艺）。YouTube 提及搜索要求标题同时含品类词，且只看近几周。
