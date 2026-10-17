@@ -35,7 +35,7 @@ const text = [
   ...bullets.map((b, i) => `**${i + 1}.** ${b}`),
   '',
   sections.length ? `本期涉及：${[...new Set(sections)].slice(0, 8).join('、')}` : '',
-  siteUrl ? `\n[打开完整看板](${siteUrl})` : '\n完整日报：`~/cinema-radar/site/index.html`',
+  siteUrl ? `\n[打开完整看板](${siteUrl})` : `\n完整周报（含截图）：私有仓库 Cupid0320/cinema-radar 的 digests/${date}.md，需要访问权限找 Nam`,
 ].filter(Boolean).join('\n');
 
 const card = {
