@@ -1,6 +1,6 @@
 ---
-name: cinema-radar-daily
-description: 互动影院竞品日报：跑抓取脚本 → 解读变化 → 刷小红书 → 写中文日报 → 重渲染看板
+name: cinema-radar-weekly
+description: 互动影院竞品周报：跑抓取脚本 → 解读变化 → 刷小红书 → 写中文周报 → 重渲染看板 → 推飞书
 ---
 
 你在维护 `~/cinema-radar`：追踪 Tipsy「互动影院」（面向海外、AI 分支剧情 + Director 按需生成图/视频/BGM）的竞品。
@@ -20,25 +20,28 @@ description: 互动影院竞品日报：跑抓取脚本 → 解读变化 → 刷
    - `discovery_old`：老 app 新出现在搜索里，一般 ignore，除非明显同类。
 3. **网页搜索补充**（每天必做，控制在 6 次以内）：
    - `AI interactive drama app` / `interactive film AI` 近一周新闻；`AI互动剧` / `AI互动影游` 近一周新闻
-   - 对 core 竞品中今天有事件的，搜一次其名字 + news/融资
+   - 对 core 竞品中本周有事件的，搜一次其名字 + news/融资
    - Reddit 被脚本拦截，用 WebSearch `site:reddit.com <竞品名>` 看口碑
 4. **小红书**（用 Claude in Chrome，用户已登录）：
    - 打开 `https://www.xiaohongshu.com/search_result?keyword=<词>&sort=time_descending`，词来自 inbox.xhs（general + 各竞品）。
    - 用 `javascript_tool` 读 `section.note-item`（标题、作者、点赞、链接、封面图）。
-   - 未登录（出现扫码弹窗）→ 不要尝试登录，日报里注明「小红书未登录」，并发通知提醒用户扫码。
-   - 只收录近 7 天、与 AI 互动剧/影游相关的笔记，挑 3-8 条写进 `insights.json.xhs`（date/title/author/likes/url/image/note），日报里配封面图。
+   - 未登录（出现扫码弹窗）→ 不要尝试登录，周报里注明「小红书未登录」，并发通知提醒用户扫码。
+   - 只收录上期之后、与 AI 互动剧/影游相关的笔记，挑 3-8 条写进 `insights.json.xhs`（date/title/author/likes/url/image/note），周报里配封面图。
    - 从笔记里看到的新产品名 → 当作候选新竞品处理。
 5. 更新 `data/insights.json` 里受影响竞品的 `oneLiner`（定位变了才改）。
 6. 写 `digests/YYYY-MM-DD.md`（格式见下），然后 `node ~/cinema-radar/report.mjs`。
-7. `cd ~/cinema-radar && git add -A && git commit -qm "daily $(date +%F)"`（有 remote 再 push）。
-8. 若有 high 优先级事件，发一条桌面通知：一句话说最重要的事。
+7. `cd ~/cinema-radar && git add -A && git commit -qm "weekly $(date +%F)" && git push`（remote 是私有仓库 Cupid0320/cinema-radar）。
+8. `node ~/cinema-radar/notify.mjs` 推飞书（.env 里有 FEISHU_WEBHOOK 才会发；没配就跳过）。
+9. 若有 high 优先级事件，发一条桌面通知：一句话说最重要的事。
 
 ## 日报格式（中文，短）
 
 ```
-# 互动影院竞品日报 · YYYY-MM-DD
+# 互动影院竞品周报 · YYYY-MM-DD
 
-> **今天最值得看的**（1-3 条，一句话一条；没事就写「今日无重要动态」）
+> 覆盖 <上期日期> – <本期日期>
+
+> **本周三件事**（1-3 条，一句话一条；没事就写「本周无重要动态」）
 
 ## 一、竞品动态
 ### <竞品>：<一句话标题>
@@ -54,4 +57,5 @@ description: 互动影院竞品日报：跑抓取脚本 → 解读变化 → 刷
 ## 运行状况（仅有 errors 时）
 ```
 
-规则：没有变化的竞品不写；同一件事不跨天重复报（查前几天的 digests）；每条「对我们」必须具体，不写空话。
+规则：没有变化的竞品不写；同一件事不跨期重复报（查上一期 digest）；每条「对我们」必须具体，不写空话。
+跨期较长（如休假）时不用缩短窗口——所有变化都是与上次快照比对得出的，不会漏。

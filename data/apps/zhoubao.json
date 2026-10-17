@@ -2,6 +2,11 @@
   "key": "zhoubao",
   "versions": [
     {
+      "version": "1.2.0",
+      "date": "2026-10-12",
+      "notes": "优化产品体验，修复已知 BUG。"
+    },
+    {
       "version": "1.1.0",
       "date": "2026-09-24",
       "notes": "优化产品体验，修复已知 BUG。"
@@ -26,6 +31,13 @@
       "rating": 5,
       "ratingCount": 1,
       "ranks": {}
+    },
+    {
+      "date": "2026-10-17",
+      "version": "1.2.0",
+      "rating": 5,
+      "ratingCount": 1,
+      "ranks": {}
     }
   ],
   "reviews": [
@@ -42,7 +54,7 @@
   "meta": {
     "trackName": "宙包——AI驱动的互动剧本创作平台",
     "seller": "Yuanzhi Universe (Fujian) Technology Innovation Co.,  LTD",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/9b/07/b39b07e1-26a9-2589-74ed-941a8c037eac/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/ec/84/e3ec8488-feee-36fe-7cf8-cb5c873b4b23/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/cn/app/%E5%AE%99%E5%8C%85-ai%E9%A9%B1%E5%8A%A8%E7%9A%84%E4%BA%92%E5%8A%A8%E5%89%A7%E6%9C%AC%E5%88%9B%E4%BD%9C%E5%B9%B3%E5%8F%B0/id6759592778?uo=4",
     "genre": "Utilities",
     "price": "免费",

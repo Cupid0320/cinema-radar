@@ -2,6 +2,11 @@
   "key": "yoroll",
   "versions": [
     {
+      "version": "1.0.13",
+      "date": "2026-10-16",
+      "notes": "Bug fixes and performance improvements."
+    },
+    {
       "version": "1.0.10",
       "date": "2026-10-07",
       "notes": "Bug fixes and performance improvements."
@@ -26,6 +31,13 @@
       "rating": null,
       "ratingCount": 0,
       "ranks": {}
+    },
+    {
+      "date": "2026-10-17",
+      "version": "1.0.13",
+      "rating": 5,
+      "ratingCount": 1,
+      "ranks": {}
     }
   ],
   "reviews": [],
@@ -44,7 +56,7 @@
   "meta": {
     "trackName": "Yoroll - Watch, Chat & Play",
     "seller": "LinearGame Pte. Ltd.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/d6/6a/a1d66ac9-f6f2-2ebd-4116-99c027d5617b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1e/26/6b/1e266b22-dc6e-3d68-81a4-b8cf91c2b986/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/yoroll-watch-chat-play/id6763028735?uo=4",
     "genre": "Entertainment",
     "price": "Free",

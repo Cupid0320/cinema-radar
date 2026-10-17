@@ -25,6 +25,15 @@
       "ranks": {
         "us/Book/grossing": 61
       }
+    },
+    {
+      "date": "2026-10-17",
+      "version": "2.2.1",
+      "rating": 4.64,
+      "ratingCount": 1010,
+      "ranks": {
+        "us/Book/grossing": 68
+      }
     }
   ],
   "reviews": [

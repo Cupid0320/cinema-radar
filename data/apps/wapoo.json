@@ -2,6 +2,11 @@
   "key": "wapoo",
   "versions": [
     {
+      "version": "1.2.0",
+      "date": "2026-10-14",
+      "notes": "Wapoo got a whole new first impression.\nWe’ve reimagined your first moments in the app, so the fun starts right away.\nYour first Twist is calling. You in?"
+    },
+    {
       "version": "1.1.9",
       "date": "2026-10-01",
       "notes": "Smoother cash-out. Friend badges renewed.\nUpgraded payment service for a better withdrawal experience.\nFriend status at a glance — every connection counts."
@@ -26,6 +31,13 @@
       "rating": 5,
       "ratingCount": 12,
       "ranks": {}
+    },
+    {
+      "date": "2026-10-17",
+      "version": "1.2.0",
+      "rating": 5,
+      "ratingCount": 13,
+      "ranks": {}
     }
   ],
   "reviews": [
@@ -36,7 +48,8 @@
     "76983affb6aa",
     "0865fe304d02",
     "2c8ca1d337a8",
-    "964ba9a8b807"
+    "964ba9a8b807",
+    "0039210d17df"
   ],
   "screenshots": [
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/de/a3/81dea399-d532-3f12-a5e4-2da369dd3afb/6.5_inch-1.png/320x480bb.jpg",
@@ -90,7 +103,7 @@
   "meta": {
     "trackName": "Wapoo: Playable Social Video",
     "seller": "MINERVA COSMOS PTE. LTD.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/a6/0a/39a60ad5-4b90-26fa-16b0-bdbe72e83452/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/41/66/b6416618-9c5a-26c5-0e0f-5c7b8c90c53c/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.jpeg/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/wapoo-playable-social-video/id6752590312?uo=4",
     "genre": "Social Networking",
     "price": "Free",

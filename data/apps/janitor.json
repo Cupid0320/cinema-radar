@@ -2,6 +2,11 @@
   "key": "janitor",
   "versions": [
     {
+      "version": "2.7.0",
+      "date": "2026-10-14",
+      "notes": "Fixes for the character image gallery, avatar taps in public chats and bulk delete. Stability improvements."
+    },
+    {
       "version": "2.6.0",
       "date": "2026-09-30",
       "notes": "• New home screen with search built in and the creators you follow\n• Reworked settings: privacy and display, sign-in methods, active sessions, creator verification\n• Daylight, a new light theme\n• Option to hide the tab bar while scrolling\n• Bug fixes and performance improvements"
@@ -34,6 +39,17 @@
         "us/Book/grossing": 26,
         "cn/Book/grossing": 79
       }
+    },
+    {
+      "date": "2026-10-17",
+      "version": "2.7.0",
+      "rating": 4.52,
+      "ratingCount": 4872,
+      "ranks": {
+        "us/Book/free": 10,
+        "us/Book/grossing": 30,
+        "cn/Book/grossing": 69
+      }
     }
   ],
   "reviews": [
@@ -48,14 +64,14 @@
     "6de9bc030254"
   ],
   "screenshots": [
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c6/14/70/c6147042-684b-674e-a409-7c157e09b143/Screenshot_19_U002c5_9.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/b6/f6/b9b6f687-01ef-d0d1-fb4d-728af9967e63/Screenshot_19_U002c5_9_163.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f3/1e/fc/f31efccd-5dbf-6ed0-f85a-dbef47b865b9/Screenshot_19_U002c5_9_164.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/76/c5/6b76c5fe-71c2-e97f-b791-988dc500f335/Screenshot_19_U002c5_9_162.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d0/76/f0/d076f07f-00ea-10e3-bfbe-132ef2629519/Screenshot_19_U002c5_9_166.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/65/71/626571a2-086a-da5e-3959-dffdd0a1075a/Screenshot_19_U002c5_9_168.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/3a/12/8d3a12d5-004c-ff6d-e422-544a5234c6a8/Screenshot_19_U002c5_9_167.png/320x480bb.jpg",
-    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6d/5b/c5/6d5bc545-5efe-837d-e820-ba558998dccb/Screenshot_19_U002c5_9_165.png/320x480bb.jpg"
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cf/a7/93/cfa79344-1fba-29f0-f503-78df3fbc9190/slide-1.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/c7/ee/81c7ee57-be9a-d647-0609-24e6884811e1/slide-2.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/80/73/198073e8-3bce-bc64-1ffe-349ab820508b/slide-3.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/68/3c/89/683c898c-f997-a697-bf1b-7a7677feb111/slide-4.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/30/e1/2c30e1fd-3136-4c48-ea12-6641f4a2f44d/slide-5.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/70/c0/ff70c05b-866c-dcdb-5db9-d9cbf65b3563/slide-6.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/78/21/7b78216e-3245-edda-4c69-be95e220e361/slide-7.png/320x480bb.jpg",
+    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c4/25/26/c42526cc-f3c0-c747-b45c-54450f407553/slide-8.png/320x480bb.jpg"
   ],
   "description": "Janitor is where you step inside stories instead of just reading them. It's like if your favorite book let you talk to the characters and shape what happens next.\n\nBuilt for our diverse community – people who love romantasy, fanfiction, and interactive stories. Whether you're into arranged marriages with brooding bodyguards, enemies-to-lovers slow burns, or epic fantasy adventures, Janitor gives you the tools to create worlds and live inside them.\n\nTHE JANITORVERSE Millions of readers and writers building interactive fiction together. Romance writers crafting slow burns. Fantasy creators building entire universes. LGBTQ+ stories, fanfiction, original worlds – whatever you're into, it's here.\n\nPick a genre. Find content. Tap chat and see where it goes.\n\nWe'd love your feedback.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
   "reviewSample": [
@@ -103,7 +119,7 @@
   "meta": {
     "trackName": "Janitor: Interactive Stories",
     "seller": "JanitorAI, INC",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/a3/f0/a5a3f0e4-b2eb-752c-fba5-445e73fe4bf3/AppIcon-0-0-1x_U007ephone-0-8-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/46/bc/a146bce5-2c48-3ab5-aefd-a5aef1c46c1e/AppIcon-0-0-1x_U007ephone-0-8-0-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/janitor-interactive-stories/id6692609366?uo=4",
     "genre": "Book",
     "price": "Free",

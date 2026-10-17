@@ -2,6 +2,11 @@
   "key": "ooc",
   "versions": [
     {
+      "version": "0.1.24",
+      "date": "2026-10-14",
+      "notes": "Bug fixes and other improvements"
+    },
+    {
       "version": "0.1.22",
       "date": "2026-10-01",
       "notes": "Bug fixes and other improvements"
@@ -30,6 +35,16 @@
       "ranks": {
         "us/Entertainment/free": 61,
         "us/Entertainment/grossing": 36
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "version": "0.1.24",
+      "rating": 4.64,
+      "ratingCount": 8415,
+      "ranks": {
+        "us/Entertainment/free": 49,
+        "us/Entertainment/grossing": 35
       }
     }
   ],
@@ -97,7 +112,7 @@
   "meta": {
     "trackName": "OOC: The Playable Anime",
     "seller": "New AI Entertainment Inc.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/14/a9/f4/14a9f45b-57c9-aa06-e08a-a12bd76d03d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/03/86/3f038613-b72e-1506-3e85-e88f454ea2c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/ooc-the-playable-anime/id6761247061?uo=4",
     "genre": "Entertainment",
     "price": "Free",

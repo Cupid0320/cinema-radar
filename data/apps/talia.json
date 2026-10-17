@@ -2,6 +2,11 @@
   "key": "talia",
   "versions": [
     {
+      "version": "1.1.3",
+      "date": "2026-10-10",
+      "notes": "This update brings the core creator tools to your phone, so you can create directly from mobile.\n\n• Topology Templates: the branching structure of a story tree is now a reusable \"topology template\". Browse, search and apply community templates — creators can set a price; buy once, reuse forever.\n• Create on your phone: build scenes, rename your project, add a cover, and publish for review.\n• \"Use template\" on For You: tap to open the template behind any clip and make your own.\n• Share any scene's video or photo straight to For You."
+    },
+    {
       "version": "1.1.2",
       "date": "2026-09-17",
       "notes": "Explore your stories in a whole new way:\n\n• Pinch to zoom the story map — node titles stay crisp and readable at any scale\n• Story titles now appear beneath each node, hidden until you unlock them (no spoilers)\n• Creators can give a project its own gradient theme — carried across the story map and the game's home page\n• A gentle star-fall ambience now drifts behind every map\n• Saved progress is kept correctly separate for each account, plus performance and stability improvements"
@@ -21,6 +26,13 @@
       "rating": null,
       "ratingCount": 0,
       "ranks": {}
+    },
+    {
+      "date": "2026-10-17",
+      "version": "1.1.3",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {}
     }
   ],
   "reviews": [],
@@ -36,7 +48,7 @@
   "meta": {
     "trackName": "Talia – Interactive Cinema",
     "seller": "Shangyu Chen",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/91/89/db918936-94b4-5fd1-8102-c4a051e5ded7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/54/95/e554953d-f2b8-fc7d-a816-2e9b21e05730/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/talia-interactive-cinema/id6762088478?uo=4",
     "genre": "Entertainment",
     "price": "Free",

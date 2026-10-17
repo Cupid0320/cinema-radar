@@ -1,8 +1,8 @@
 {
   "competitors": {
     "inplay": {
-      "oneLiner": "AI 实时生成选项 + 自由输入第三选择 + Remix 社区；已上订阅会员与创作者收益页；差评集中在生成失败/黑屏",
-      "updated": "2026-10-07"
+      "oneLiner": "AI 选项 + 自由输入 + Remix 社区；订阅会员、创作者收益与素材工具链；差评集中在生成失败、黑屏、记忆不连贯",
+      "updated": "2026-10-17"
     },
     "lunaverse": {
       "oneLiner": "分集分支剧 + Remix（可玩他人改编）+ 角色私聊 + 签到奖励",
@@ -64,8 +64,8 @@
       "updated": "2026-09-22"
     },
     "talia": {
-      "oneLiner": "「口袋互动影院」：独立创作者设计分支世界，短视频信息流 + 剧情地图",
-      "updated": "2026-09-22"
+      "oneLiner": "「口袋互动影院」：创作者分支世界 + 剧情树「拓扑模板」可定价买卖，手机端可创作",
+      "updated": "2026-10-17"
     },
     "orbittoon": {
       "oneLiner": "电影感互动剧，《Moon Rain》10 集周更，角色可私聊",
@@ -76,8 +76,8 @@
       "updated": "2026-10-07"
     },
     "cuddli": {
-      "oneLiner": "角色卡带动态视频背景 + 配音 + 分支剧情",
-      "updated": "2026-09-22"
+      "oneLiner": "角色卡 + 动态视频背景 + 分支剧情；新手金币易得、能把用户形象放进画面，口碑上升（有用户从 Tipsy 转入）",
+      "updated": "2026-10-17"
     },
     "huyingpai": {
       "oneLiner": "真人实拍互动影游平台，作品单独购买，多端同步",
@@ -134,6 +134,14 @@
     "xinshijie": {
       "oneLiner": "双人合作真人互动影游（1941 上海谍战），两人各看一半真相，买断 29.8 元",
       "updated": "2026-10-07"
+    },
+    "ifdrama": {
+      "oneLiner": "选择后当场生成电影化画面，可自由输入；9/16 上架一月内 228 条评分 4.62",
+      "updated": "2026-10-17"
+    },
+    "johnjal": {
+      "oneLiner": "第一人称出演电影化剧情，内容全部自制自营",
+      "updated": "2026-10-17"
     }
   },
   "candidates": [
@@ -384,6 +392,94 @@
       "date": "2026-10-07",
       "url": "https://apps.apple.com/cn/app/%E6%96%B0%E4%B8%96%E7%95%8C-%E6%9A%97%E5%BD%B1%E6%88%90%E5%8F%8C/id6775828757?uo=4",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a6/e4/33/a6e4339b-c605-4e96-76ad-3ff5187fa68c/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg"
+    },
+    {
+      "id": 6813747023,
+      "name": "Tokomi - Your AI Has a Phone",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/tokomi-your-ai-has-a-phone/id6813747023?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/b1/a5/c7b1a571-2e66-b5fc-9491-4b14c5353f70/AppIcon-Intl-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Tokomi：角色有一部自己的手机（消息/相册/论坛/日程），与我们「小手机」思路撞上",
+      "date": "2026-10-17"
+    },
+    {
+      "id": 6792978953,
+      "name": "Peekie: Story & Mystery Games",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/peekie-story-mystery-games/id6792978953?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/69/32/5d6932f0-5560-6608-c4f0-61514d5ff99a/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Peekie：在陌生人手机里翻证据破案，美区娱乐免费榜 67",
+      "date": "2026-10-17"
+    },
+    {
+      "id": 6817265244,
+      "name": "Poli - AI Chat & Stories",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/poli-ai-chat-stories/id6817265244?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/83/40/1a/83401a8e-1685-36e4-59c7-4110aa473a10/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Poli：私密故事聊天",
+      "date": "2026-10-17"
+    },
+    {
+      "id": 6757490441,
+      "name": "XROLE: AI Roleplay Chat Game",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/xrole-ai-roleplay-chat-game/id6757490441?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/a8/c8/2da8c818-ae40-947d-606e-e6f324ac14cc/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "XROLE：互动故事 + 分支 + 角色聊天",
+      "date": "2026-10-17"
+    },
+    {
+      "id": 6793091107,
+      "name": "TaleTerra: Interactive Stories",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/taleterra-interactive-stories/id6793091107?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/82/93/f38293f9-3c92-e84f-fad9-2b08eba96c0f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "TaleTerra：进入故事扮演角色",
+      "date": "2026-10-17"
+    },
+    {
+      "id": 6780058528,
+      "name": "Runebook: AI Story Game",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/runebook-ai-story-game/id6780058528?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d5/3a/dc/d53adc8f-687f-5b59-9362-83a2eae3f9d9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "Runebook：会记事的开放世界 AI 故事游戏",
+      "date": "2026-10-17"
+    },
+    {
+      "id": 6799582432,
+      "name": "DramaChat: AI Romance Chat",
+      "country": "us",
+      "url": "https://apps.apple.com/us/app/dramachat-ai-romance-chat/id6799582432?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/37/b2/0737b27c-1432-4fc5-71d6-33d335061bf2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
+      "verdict": "watch",
+      "note": "DramaChat：以短信形式推进的恋爱剧",
+      "date": "2026-10-17"
+    },
+    {
+      "id": 6797708554,
+      "name": "IF Drama Chat",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-10-17",
+      "url": "https://apps.apple.com/us/app/if-drama-chat-ai-video/id6797708554?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/05/24/6f052489-888e-ce88-2e23-0129991359a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg"
+    },
+    {
+      "id": 6781978216,
+      "name": "Johnjal",
+      "verdict": "promoted",
+      "note": "已纳入正式追踪",
+      "date": "2026-10-17",
+      "url": "https://apps.apple.com/us/app/johnjal-interactive-story/id6781978216?uo=4",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/83/3f/db833f13-2f24-37e7-c568-a4d77dcd2b92/AppIcon-johnjal-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg"
     }
   ],
   "xhs": []

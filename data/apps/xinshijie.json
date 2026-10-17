@@ -16,6 +16,15 @@
       "ranks": {
         "cn/Entertainment/grossing": 84
       }
+    },
+    {
+      "date": "2026-10-17",
+      "version": "1.0.6",
+      "rating": 3.63,
+      "ratingCount": 199,
+      "ranks": {
+        "cn/Entertainment/grossing": 88
+      }
     }
   ],
   "reviews": [
@@ -26,7 +35,12 @@
     "37696d25941a",
     "ce3ba64a04cd",
     "2e258fa3e91c",
-    "32b5b718c1c5"
+    "32b5b718c1c5",
+    "44dcf28e9a04",
+    "5ed31070bdc5",
+    "a03f6bac326f",
+    "33ca4afa7991",
+    "89ee6a24513e"
   ],
   "screenshots": [
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/97/ce/f197cef7-5663-b843-25b7-b4d0fe891012/1_U9996_U56fe2736.jpg/320x480bb.jpg",

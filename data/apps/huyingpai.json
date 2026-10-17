@@ -26,6 +26,13 @@
       "rating": 4.83,
       "ratingCount": 42,
       "ranks": {}
+    },
+    {
+      "date": "2026-10-17",
+      "version": "1.1.8",
+      "rating": 4.83,
+      "ratingCount": 42,
+      "ranks": {}
     }
   ],
   "reviews": [
@@ -36,7 +43,11 @@
     "b15d1493a5bc",
     "6e0206c37432",
     "1e478196a687",
-    "3b25240eecfc"
+    "3b25240eecfc",
+    "bb44fb0c78e3",
+    "13a0d6f2e14c",
+    "9d3c6b36e4f3",
+    "7c7c129b8f75"
   ],
   "screenshots": [
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/61/50/3d/61503db1-7595-9c96-1964-6678d1df0e3d/_U7b80_U4f53.jpg/320x480bb.jpg",
@@ -97,7 +108,7 @@
     "url": "https://apps.apple.com/cn/app/%E4%BA%92%E5%BD%B1%E6%B4%BE/id6756259201?uo=4",
     "genre": "Entertainment",
     "price": "免费",
-    "released": "2025-12-30",
+    "released": "2026-01-13",
     "country": "cn"
   }
 }

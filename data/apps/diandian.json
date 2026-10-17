@@ -32,6 +32,16 @@
         "cn/Book/free": 14,
         "cn/Book/grossing": 25
       }
+    },
+    {
+      "date": "2026-10-17",
+      "version": "3.9.99",
+      "rating": 4.29,
+      "ratingCount": 13342,
+      "ranks": {
+        "cn/Book/free": 25,
+        "cn/Book/grossing": 25
+      }
     }
   ],
   "reviews": [
@@ -42,7 +52,9 @@
     "efedd7b6c9be",
     "ee9a10f36061",
     "51c450291b5a",
-    "ead929f195a5"
+    "ead929f195a5",
+    "525f96b9f614",
+    "ef3a6630a29a"
   ],
   "screenshots": [
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/07/3d/41/073d4183-3245-dcb4-d3e1-913369e1a20d/752ecfef-6fe2-4ab5-87f7-75e900d5c6a4_iOS_U5e02_U573a_U56fe-_U9996_U98752.png/392x696bb.png",

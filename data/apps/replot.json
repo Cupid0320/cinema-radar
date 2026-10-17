@@ -2,6 +2,11 @@
   "key": "replot",
   "versions": [
     {
+      "version": "1.5.1",
+      "date": "2026-10-11",
+      "notes": "You can now delete stories you created: press and hold a story under \"Your Own Stories\". Purchases are more reliable, plus small fixes."
+    },
+    {
       "version": "1.5.0",
       "date": "2026-09-02",
       "notes": "UI Improvements"
@@ -11,6 +16,13 @@
     {
       "date": "2026-10-07",
       "version": "1.5.0",
+      "rating": null,
+      "ratingCount": 0,
+      "ranks": {}
+    },
+    {
+      "date": "2026-10-17",
+      "version": "1.5.1",
       "rating": null,
       "ratingCount": 0,
       "ranks": {}
@@ -30,7 +42,7 @@
   "meta": {
     "trackName": "REPLOT: AI Interactive Stories",
     "seller": "Coolplay GmbH",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/c1/60/4dc160e8-8cf8-69f3-3e5e-92e94638a1d7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/fd/fa/71fdfa13-40e3-0df8-9ce6-f442da8e11d0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/replot-ai-interactive-stories/id6759610601?uo=4",
     "genre": "Entertainment",
     "price": "Free",

@@ -1,6 +1,6 @@
 # Cinema Radar · 互动影院竞品雷达
 
-每天追踪 Tipsy 互动影院的竞品：**出了什么新功能 / 新剧、榜单怎么变、用户怎么说、有没有新竞品冒出来**，产出中文日报 + 看板。
+每周追踪 Tipsy 互动影院的竞品：**出了什么新功能 / 新剧、榜单怎么变、用户怎么说、有没有新竞品冒出来**，产出中文周报 + 看板。
 
 ## 设计原则
 
@@ -18,8 +18,9 @@ agent 只负责看变化、判断意义、写日报。
 | `data/apps/<key>.json` | 每个竞品的版本史、每日评分/排名、截图、评论指纹 |
 | `data/insights.json` | agent 策展：一句话定位、候选新竞品、小红书笔记 |
 | `data/state.json` | 已见过的视频/候选 app（去重），上次运行时间 |
-| `digests/` | 每日日报 Markdown |
-| `task/SKILL.md` | 每日 agent 任务说明（定时任务读这个） |
+| `digests/` | 每期周报 Markdown |
+| `notify.mjs` | 把最新一期摘要推到飞书群机器人 |
+| `task/SKILL.md` | 每期 agent 任务说明（定时任务读这个） |
 
 ## 数据源与检测方式
 
@@ -35,7 +36,7 @@ agent 只负责看变化、判断意义、写日报。
 ## 命令
 
 ```bash
-node ~/cinema-radar/fetch.mjs     # 抓取，约 1.5 分钟
+node ~/cinema-radar/fetch.mjs     # 抓取，约 2 分钟
 node ~/cinema-radar/report.mjs    # 渲染看板
 open ~/cinema-radar/site/index.html
 ```
@@ -53,5 +54,10 @@ open ~/cinema-radar/site/index.html
 ## 部署（后续）
 
 - 公开链接：`npx surge ~/cinema-radar/site cinema-radar-nam.surge.sh`
-- 飞书：群机器人 webhook 推送日报摘要 + 看板链接（待接）
+- 飞书：`node notify.mjs`。在飞书群里添加「自定义机器人」拿到 webhook，写进 `.env`：
+  ```
+  FEISHU_WEBHOOK=https://open.feishu.cn/open-apis/bot/v2/hook/xxxx
+  CINEMA_RADAR_URL=https://cinema-radar-nam.surge.sh
+  ```
+  `node notify.mjs --dry` 可先看卡片 JSON 不发送。
 - 服务器：脚本只依赖 Node 18+；agent 部分用无界面的 Claude Code（`claude -p`）跑 `task/SKILL.md`，小红书需另想办法（服务器上没有用户的登录态）

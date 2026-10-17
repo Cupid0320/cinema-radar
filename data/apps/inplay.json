@@ -2,6 +2,11 @@
   "key": "inplay",
   "versions": [
     {
+      "version": "2.0.6",
+      "date": "2026-10-16",
+      "notes": "1.  Expanded  recommendations for story titles, outlines, events, images and music assets. Optimized prompts with legacy content compatibility.\n2.  Support direct upload of music assets. Audio links auto-filled with preview available, plus file type and size validation.\n3.  Fixed pagination bug in play history to resolve duplicate or missing records after replay."
+    },
+    {
       "version": "2.0.5",
       "date": "2026-09-30",
       "notes": "Membership & Subscription\n1. New membership entry point; improved plan pricing display\n2. Real-time subscription status, expiration date, and upgrade options\nBag & Content\n1. Tap any cover to start instantly from the Bookstore & Game pages\n2. Added a dedicated \"Earnings\" page\nRemix Creation\n1. Unlock \"Skip & Generate\" after 5 rounds\n2. Enter focused generation mode after 120 rounds\nExperience\n1. Bug fixes and stability improvements"
@@ -26,6 +31,13 @@
       "rating": 4.52,
       "ratingCount": 368,
       "ranks": {}
+    },
+    {
+      "date": "2026-10-17",
+      "version": "2.0.6",
+      "rating": 4.48,
+      "ratingCount": 398,
+      "ranks": {}
     }
   ],
   "reviews": [
@@ -39,7 +51,8 @@
     "0f8e11d68e41",
     "7fa2e402e1ff",
     "a87c663697c1",
-    "949851f6dbbc"
+    "949851f6dbbc",
+    "d95f87b09e8e"
   ],
   "screenshots": [
     "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/28/74/0b2874b5-eec3-8679-a2dd-f56310f8bff7/app_store1.png/320x480bb.jpg",
@@ -94,7 +107,7 @@
   "meta": {
     "trackName": "InPlay - Interactive Stories",
     "seller": "VICOO PTE. LTD.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/b2/c2/d8b2c24a-3c20-2eeb-c790-06bf9c47ac08/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f5/c6/ba/f5c6bad2-f8d4-3b1b-689a-a076f2632908/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/inplay-interactive-stories/id6773279322?uo=4",
     "genre": "Entertainment",
     "price": "Free",

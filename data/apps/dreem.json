@@ -2,6 +2,11 @@
   "key": "dreem",
   "versions": [
     {
+      "version": "1.3.4",
+      "date": "2026-10-14",
+      "notes": "The feed got better. Your next obsession awaits."
+    },
+    {
       "version": "1.3.3",
       "date": "2026-10-07",
       "notes": "Stories are is calling. Getting in is easier now."
@@ -11,6 +16,13 @@
     {
       "date": "2026-10-07",
       "version": "1.3.3",
+      "rating": 4.95,
+      "ratingCount": 20,
+      "ranks": {}
+    },
+    {
+      "date": "2026-10-17",
+      "version": "1.3.4",
       "rating": 4.95,
       "ratingCount": 20,
       "ranks": {}
@@ -79,7 +91,7 @@
   "meta": {
     "trackName": "Dreem - Interactive Stories",
     "seller": "CappyAI Inc.",
-    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/de/1e/cbde1e43-b7f0-4392-2c04-0c5c981ab5cd/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+    "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/74/52/dd7452b4-0e32-ac1d-e81d-faecb65555de/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
     "url": "https://apps.apple.com/us/app/dreem-interactive-stories/id6760738406?uo=4",
     "genre": "Entertainment",
     "price": "Free",

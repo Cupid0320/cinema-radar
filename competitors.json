@@ -353,6 +353,26 @@
       "xhs": [
         "新世界 暗影成双"
       ]
+    },
+    {
+      "key": "ifdrama",
+      "name": "IF Drama Chat",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6797708554
+      }
+    },
+    {
+      "key": "johnjal",
+      "name": "Johnjal",
+      "tier": "core",
+      "market": "海外",
+      "appstore": {
+        "country": "us",
+        "id": 6781978216
+      }
     }
   ]
 }
