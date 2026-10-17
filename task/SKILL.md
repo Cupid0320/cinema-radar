@@ -6,6 +6,10 @@ description: 互动影院竞品周报：跑抓取脚本 → 解读变化 → 刷
 你在维护 `~/cinema-radar`：追踪 Tipsy「互动影院」（面向海外、AI 分支剧情 + Director 按需生成图/视频/BGM）的竞品。
 分工原则：**检测用脚本，解读用 agent**。不要自己编数据；所有数字、版本、日期必须来自 inbox 或你实际打开的网页。
 
+**关注重心：多模态。** 本周报优先关注会**生成或播放视频、图像、语音、音乐**的竞品（competitors.json 里 `modality` 含 video/voice/music/image 且 tier=core）。
+纯文字的互动小说、AI 陪伴聊天（modality=["text"]，tier=adjacent）只在有重大动作时提一句：融资、换赛道、榜单异动、或开始上多模态能力。
+判定新候选同理：**不生成画面或声音的，一律 ignore 或 watch，不要 promote**。看到纯文字产品开始加图像/视频/配音，这本身就是值得报的信号。
+
 ## 步骤
 
 1. `node ~/cinema-radar/fetch.mjs`，读 `data/inbox.json`。`errors` 非空时在日报末尾「运行状况」里列出。
@@ -16,7 +20,7 @@ description: 互动影院竞品周报：跑抓取脚本 → 解读变化 → 刷
    - `rank`：只报进入/跌出榜单、或变动 ≥15 名的。
    - `reviews`：挑有信息量的（具体功能抱怨/夸奖），1-2 句概括，不整段搬。
    - `yt_official` / `yt_mention`：看标题判断是否真相关（同名撞车直接丢），相关的附缩略图 `https://i.ytimg.com/vi/<id>/hqdefault.jpg` + 链接。
-   - `discovery`：看名字+描述，判定 promote（直接竞品，加进 competitors.json）/ watch（放观察名单）/ ignore（纯短剧平台、陪伴聊天、工具类）。写进 `data/insights.json.candidates`。
+   - `discovery`：条目里 `rich=true` 的（描述含视频/画面/配音等信号）优先看。判定 promote（多模态直接竞品，加进 competitors.json，**必须写 `modality` 字段**）/ watch（有点关系但不是多模态）/ ignore（纯短剧平台、纯文字陪伴聊天、工具类）。写进 `data/insights.json.candidates`。
    - `discovery_old`：老 app 新出现在搜索里，一般 ignore，除非明显同类。
 3. **网页搜索补充**（每天必做，控制在 6 次以内）：
    - `AI interactive drama app` / `interactive film AI` 近一周新闻；`AI互动剧` / `AI互动影游` 近一周新闻

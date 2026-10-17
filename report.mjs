@@ -75,11 +75,11 @@ function card(c) {
   const shots = (a?.screenshots || []).slice(0, 6).map(s => `<a href="${esc(s)}" target="_blank"><img src="${esc(s)}" loading="lazy" alt=""></a>`).join('');
   const vers = (a?.versions || []).slice(0, 3).map(v => `<li><b>${esc(v.version)}</b> <span class="muted">${esc(v.date)}</span><div class="notes">${esc(v.notes).slice(0, 280) || '<span class="muted">（无更新说明）</span>'}</div></li>`).join('');
   const vids = (ins.videos || []).slice(0, 3).map(v => `<a class="vid" href="${esc(v.url)}" target="_blank"><img src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" loading="lazy" alt=""><span>${esc(v.title)}</span></a>`).join('');
-  return `<article class="card ${c.tier}" data-market="${c.market.startsWith('大陆') ? 'cn' : 'global'}" data-tier="${c.tier}">
+  return `<article class="card ${c.tier}" data-market="${c.market.startsWith('大陆') ? 'cn' : 'global'}" data-tier="${c.tier}" data-mod="${(c.modality || []).join(' ')}">
   <header>
     ${a?.meta?.icon ? `<img class="icon" src="${esc(a.meta.icon)}" alt="">` : `<div class="icon ph">${esc(c.name[0])}</div>`}
     <div><h3>${a?.meta?.url ? `<a href="${esc(a.meta.url)}" target="_blank">${esc(c.name)}</a>` : c.site ? `<a href="${esc(c.site)}" target="_blank">${esc(c.name)}</a>` : esc(c.name)}</h3>
-    <div class="tags"><span class="tag t-${c.tier}">${c.tier === 'core' ? '直接竞品' : '相邻'}</span><span class="tag">${esc(c.market)}</span>${a?.meta?.released ? `<span class="tag">上架 ${esc(a.meta.released)}</span>` : ''}</div></div>
+    <div class="tags"><span class="tag t-${c.tier}">${c.tier === 'core' ? '直接竞品' : '相邻'}</span><span class="tag">${esc(c.market)}</span>${(c.modality || []).filter(m => m !== 'text').map(m => `<span class="tag t-mod">${({ video: '视频', image: '图像', voice: '语音', music: '音乐' })[m] || m}</span>`).join('')}${a?.meta?.released ? `<span class="tag">上架 ${esc(a.meta.released)}</span>` : ''}</div></div>
   </header>
   ${ins.oneLiner ? `<p class="one">${esc(ins.oneLiner)}</p>` : ''}
   ${last ? `<div class="stats"><div><small>版本</small><b>${esc(last.version)}</b></div><div><small>评分</small><b>${last.rating ?? '—'}</b></div><div><small>评分数</small><b>${last.ratingCount.toLocaleString()}</b>${spark(a.history.map(h => h.ratingCount))}</div></div>` : '<p class="muted small">无 App Store 页面：靠小红书与网页追踪</p>'}
@@ -121,7 +121,7 @@ h2.sec{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--
 .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0}.card.core{border-top:3px solid var(--accent)}
 .card header{display:flex;gap:12px;align-items:center}.card h3{margin:0;font-size:16px}.card h3 a{text-decoration:none}
 .icon{width:48px;height:48px;border-radius:12px;flex:none;border:1px solid var(--line)}.icon.ph{display:grid;place-items:center;background:var(--chip);font-weight:700}
-.tags{display:flex;gap:4px;flex-wrap:wrap;margin-top:3px}.tag{font-size:11px;background:var(--chip);border-radius:5px;padding:1px 6px;color:var(--muted);margin-left:4px}.tags .tag{margin:0}.t-core{background:var(--accent-soft);color:var(--accent)}
+.tags{display:flex;gap:4px;flex-wrap:wrap;margin-top:3px}.tag{font-size:11px;background:var(--chip);border-radius:5px;padding:1px 6px;color:var(--muted);margin-left:4px}.tags .tag{margin:0}.t-core{background:var(--accent-soft);color:var(--accent)}.t-mod{background:transparent;border:1px solid var(--line)}
 .one{margin:10px 0 0;font-size:13.5px}
 .stats{display:flex;gap:18px;margin-top:12px}.stats small{display:block;color:var(--muted);font-size:11px}.stats b{font-size:15px}.spark{display:block;color:var(--accent);margin-top:2px}
 .ranks{margin-top:10px;display:flex;flex-wrap:wrap;gap:4px}.rank{font-size:12px;background:var(--chip);border-radius:6px;padding:2px 7px}
@@ -133,13 +133,13 @@ details{margin-top:10px;font-size:13px}summary{cursor:pointer;color:var(--muted)
 @media (max-width:420px){.grid{grid-template-columns:1fr}.digest{padding:4px 14px 14px}}
 </style></head><body><main>
 <h1>互动影院竞品雷达</h1>
-<p class="sub">追踪 ${competitors.length} 个竞品（${competitors.filter(c => c.tier === 'core').length} 个直接竞品）· 更新于 ${new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC</p>
+<p class="sub">追踪 ${competitors.length} 个竞品（${competitors.filter(c => c.tier === 'core').length} 个多模态直接竞品，${competitors.filter(c => (c.modality || []).includes('video')).length} 个含视频）· 更新于 ${new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC</p>
 
 <h2 class="sec">日报</h2>
 ${digests.length ? `<div class="dtabs">${digestTabs}</div>${digestBodies}` : '<p class="muted">还没有日报。</p>'}
 
 <h2 class="sec">竞品一览</h2>
-<div class="filters"><button class="dtab on" data-f="all">全部</button><button class="dtab" data-f="core">直接竞品</button><button class="dtab" data-f="global">海外</button><button class="dtab" data-f="cn">大陆</button></div>
+<div class="filters"><button class="dtab on" data-f="all">全部</button><button class="dtab" data-f="core">直接竞品</button><button class="dtab" data-f="global">海外</button><button class="dtab" data-f="cn">大陆</button><button class="dtab" data-f="video">含视频</button></div>
 <div class="grid">${ordered.map(card).join('\n')}</div>
 
 ${xhsRows ? `<h2 class="sec">小红书动态</h2><div class="xhsg">${xhsRows}</div>` : ''}
@@ -148,7 +148,7 @@ ${candRows ? `<h2 class="sec">新竞品候选</h2><ul class="cands">${candRows}<
 <script>
 document.querySelectorAll('.dtabs .dtab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.dtabs .dtab,.digest').forEach(e=>e.classList.toggle('on',e.dataset.d===b.dataset.d))});
 document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-f]').forEach(x=>x.classList.toggle('on',x===b));const f=b.dataset.f;
-document.querySelectorAll('.card').forEach(c=>c.style.display=(f==='all'||c.dataset.tier===f||c.dataset.market===f)?'':'none')});
+document.querySelectorAll('.card').forEach(c=>c.style.display=(f==='all'||c.dataset.tier===f||c.dataset.market===f||(c.dataset.mod||'').split(' ').includes(f))?'':'none')});
 </script></body></html>`;
 
 writeFileSync(join(ROOT, 'site', 'index.html'), html);

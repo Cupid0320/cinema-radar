@@ -1,6 +1,12 @@
 # Cinema Radar · 互动影院竞品雷达
 
-每周追踪 Tipsy 互动影院的竞品：**出了什么新功能 / 新剧、榜单怎么变、用户怎么说、有没有新竞品冒出来**，产出中文周报 + 看板。
+每周追踪 Tipsy 互动影院的竞品（**以多模态为重心**：会生成或播放视频、图像、语音、音乐的产品）：**出了什么新功能 / 新剧、榜单怎么变、用户怎么说、有没有新竞品冒出来**，产出中文周报 + 看板。
+
+## 关注重心
+
+**多模态优先。** core 竞品 = 会生成或播放视频、图像、语音、音乐的互动叙事产品；
+纯文字的互动小说和 AI 陪伴聊天归为 adjacent，只在有重大动作（融资、换赛道、榜单异动、开始上多模态）时才写进周报。
+事件优先级、YouTube 追踪范围、新竞品判定都按这个口径加权。
 
 ## 设计原则
 
@@ -11,7 +17,7 @@ agent 只负责看变化、判断意义、写日报。
 
 | 文件 | 作用 |
 |---|---|
-| `competitors.json` | 追踪名单（core 直接竞品 / adjacent 相邻），App Store id、YouTube 频道、小红书搜索词 |
+| `competitors.json` | 追踪名单（core 多模态直接竞品 / adjacent 相邻），`modality` 标记（video/image/voice/music/text）、App Store id、YouTube 频道、小红书搜索词 |
 | `discovery.json` | 新竞品发现：App Store 关键词、分类榜、小红书通用词、ignore 名单 |
 | `fetch.mjs` | 抓取 + 比对 → `data/inbox.json`（事件列表 + 快照） |
 | `report.mjs` | `data/` + `digests/` → `site/index.html` 单文件看板 |

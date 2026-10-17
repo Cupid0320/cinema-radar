@@ -105,6 +105,10 @@ function ytItems(html) {
 }
 
 const CATEGORY = /\bapp\b|\bai\b|story|stories|interactive|drama|trailer|review|gameplay|choice|互动|剧/i;
+// 本项目关注多模态互动影院：会生成/播放视频、图像、语音、音乐的竞品优先。
+const RICH = new Set(['video', 'voice', 'music']);
+const isRich = c => (c.modality || []).some(m => RICH.has(m));
+const prio = (c, high = 'high') => (c.tier === 'core' && isRich(c) ? high : c.tier === 'core' ? 'medium' : 'low');
 
 // ---------- 主流程 ----------
 const snapshots = {};
@@ -124,21 +128,21 @@ for (const country of ['us', 'cn']) {
 
     const shots = r.screenshotUrls || [];
     const appRanks = ranks[c.appstore.id] || {};
-    const base = { key: c.key, name: c.name, tier: c.tier, market: c.market };
+    const base = { key: c.key, name: c.name, tier: c.tier, market: c.market, modality: c.modality || [] };
 
     // 新版本
     if (!db.versions.find(v => v.version === r.version)) {
       const v = { version: r.version, date: (r.currentVersionReleaseDate || '').slice(0, 10), notes: r.releaseNotes || '' };
       db.versions.unshift(v);
-      if (db.history.length) emit({ ...base, type: 'version', priority: c.tier === 'core' ? 'high' : 'medium', ...v });
+      if (db.history.length) emit({ ...base, type: 'version', priority: prio(c), ...v });
     }
     // 截图变化 = 商店页主推卖点变了，常常意味着新功能
     if (db.screenshots.length && hash(shots.join()) !== hash(db.screenshots.join())) {
-      emit({ ...base, type: 'screenshots', priority: c.tier === 'core' ? 'high' : 'medium', added: shots.filter(s => !db.screenshots.includes(s)), before: db.screenshots });
+      emit({ ...base, type: 'screenshots', priority: prio(c), added: shots.filter(s => !db.screenshots.includes(s)), before: db.screenshots });
     }
     // 描述改写
     if (db.description && db.description !== r.description) {
-      emit({ ...base, type: 'description', priority: 'medium', before: db.description, after: r.description });
+      emit({ ...base, type: 'description', priority: prio(c, 'medium'), before: db.description, after: r.description });
     }
     // 排名变化：新上榜 / 掉榜 / 变动 ≥15 名
     const prev = db.history.at(-1)?.ranks || {};
@@ -170,6 +174,7 @@ for (const country of ['us', 'cn']) {
 
 // YouTube：官方频道新视频 + 全站按名字搜索的新视频（第三方测评/宣传）
 for (const c of competitors) {
+  if (c.tier !== 'core' && !isRich(c)) continue; // 纯文字的相邻竞品不追 YouTube，噪音太大
   const jobs = [];
   for (const ch of c.youtube || []) jobs.push(['official', `https://www.youtube.com/channel/${ch}/videos`]);
   if (!c.market.startsWith('大陆')) jobs.push(['mention', `https://www.youtube.com/results?search_query=${encodeURIComponent(`"${c.name.split(':')[0]}" app`)}&sp=CAI%253D`]);
@@ -183,7 +188,7 @@ for (const c of competitors) {
       }
       const fresh = items.filter(v => !state.videosSeen[v.id]);
       fresh.forEach(v => state.videosSeen[v.id] = TODAY);
-      if (fresh.length && !FIRST_RUN) emit({ key: c.key, name: c.name, tier: c.tier, market: c.market, type: kind === 'official' ? 'yt_official' : 'yt_mention', priority: kind === 'official' ? 'high' : 'medium', items: fresh.slice(0, 8).map(v => ({ ...v, url: `https://www.youtube.com/watch?v=${v.id}`, thumb: `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg` })) });
+      if (fresh.length && !FIRST_RUN) emit({ key: c.key, name: c.name, tier: c.tier, market: c.market, modality: c.modality || [], type: kind === 'official' ? 'yt_official' : 'yt_mention', priority: kind === 'official' ? prio(c) : 'medium', items: fresh.slice(0, 8).map(v => ({ ...v, url: `https://www.youtube.com/watch?v=${v.id}`, thumb: `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg` })) });
       if (FIRST_RUN && items.length) (snapshots[c.key] ||= { key: c.key, name: c.name, tier: c.tier, market: c.market }).videos = items.slice(0, 5).map(v => ({ ...v, url: `https://www.youtube.com/watch?v=${v.id}` }));
     } catch (e) { errors.push(`youtube ${c.name} ${kind}: ${e.message}`); }
     await sleep(800);
@@ -221,7 +226,9 @@ const newCands = [...candidates.values()].filter(c => !state.discoverySeen[c.id]
 newCands.forEach(c => state.discoverySeen[c.id] = TODAY);
 const recent = newCands.filter(c => !c.released || c.released >= RECENT || c.via.some(v => v.includes('#')));
 const older = newCands.filter(c => !recent.includes(c));
-if (recent.length) emit({ type: 'discovery', priority: 'medium', items: recent });
+const RICH_HINT = /video|cinematic|film|movie|voice|animated|scene|配音|语音|影像|视频|影游|实拍|画面/i;
+recent.forEach(c => c.rich = RICH_HINT.test(`${c.name} ${c.desc || ''}`));
+if (recent.length) emit({ type: 'discovery', priority: 'medium', items: recent.sort((a, b) => (b.rich ? 1 : 0) - (a.rich ? 1 : 0)) });
 if (older.length && !FIRST_RUN) emit({ type: 'discovery_old', priority: 'low', items: older });
 
 state.lastRunAt = new Date().toISOString();
