@@ -53,11 +53,11 @@ open ~/cinema-radar/site/index.html
 
 ## 部署（后续）
 
-- 公开链接：`npx surge ~/cinema-radar/site cinema-radar-nam.surge.sh`
+- 公开链接：暂不部署（2026-10-17 决定）。需要时：`npx surge ~/cinema-radar/site cinema-radar-nam.surge.sh`
 - 飞书：`node notify.mjs`。在飞书群里添加「自定义机器人」拿到 webhook，写进 `.env`：
   ```
   FEISHU_WEBHOOK=https://open.feishu.cn/open-apis/bot/v2/hook/xxxx
   CINEMA_RADAR_URL=https://cinema-radar-nam.surge.sh
   ```
   `node notify.mjs --dry` 可先看卡片 JSON 不发送。
-- 服务器：脚本只依赖 Node 18+；agent 部分用无界面的 Claude Code（`claude -p`）跑 `task/SKILL.md`，小红书需另想办法（服务器上没有用户的登录态）
+- 服务器：见 [DEPLOY.md](DEPLOY.md)（给研发的部署说明，含环境要求、cron、两种方案和排错）
