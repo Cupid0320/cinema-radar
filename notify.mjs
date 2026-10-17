@@ -15,7 +15,9 @@ if (existsSync(join(ROOT, '.env'))) {
 }
 const hook = process.env.FEISHU_WEBHOOK;
 const siteUrl = process.env.CINEMA_RADAR_URL || '';
+const repo = process.env.GITHUB_REPO || 'Cupid0320/cinema-radar';
 const DRY = process.argv.includes('--dry');
+const FORCE = process.argv.includes('--force');
 if (!hook && !DRY) { console.error('缺少 FEISHU_WEBHOOK（写进 .env 或用环境变量）'); process.exit(1); }
 
 const file = readdirSync(join(ROOT, 'digests')).filter(f => f.endsWith('.md')).sort().pop();
@@ -35,7 +37,7 @@ const text = [
   ...bullets.map((b, i) => `**${i + 1}.** ${b}`),
   '',
   sections.length ? `本期涉及：${[...new Set(sections)].slice(0, 8).join('、')}` : '',
-  siteUrl ? `\n[打开完整看板](${siteUrl})` : `\n完整周报（含截图）：私有仓库 Cupid0320/cinema-radar 的 digests/${date}.md，需要访问权限找 Nam`,
+  `\n[读完整周报（含截图）](https://github.com/${repo}/blob/master/digests/${date}.md)` + (siteUrl ? ` · [看板](${siteUrl})` : ''),
 ].filter(Boolean).join('\n');
 
 const card = {
@@ -47,6 +49,10 @@ const card = {
   },
 };
 
+// 没内容就不打扰群里：避免「又是一条没信息量的推送」的疲劳
+if (!bullets.length || /无重要动态/.test(md)) {
+  if (!FORCE) { console.log(`${date} 本期无重要动态，跳过推送（要强推加 --force）`); process.exit(0); }
+}
 if (DRY) { console.log(JSON.stringify(card, null, 2)); process.exit(0); }
 const r = await fetch(hook, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(card) });
 const body = await r.text();
