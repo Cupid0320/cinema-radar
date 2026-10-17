@@ -32,7 +32,12 @@
       "version": "1.0.6",
       "rating": 5,
       "ratingCount": 2,
-      "ranks": {}
+      "ranks": {},
+      "ig": {
+        "handle": "lunaversestories",
+        "followers": 17000,
+        "posts": 48
+      }
     }
   ],
   "reviews": [
@@ -56,5 +61,10 @@
     "price": "Free",
     "released": "2026-07-22",
     "country": "us"
+  },
+  "ig": {
+    "handle": "lunaversestories",
+    "followers": 17000,
+    "posts": 48
   }
 }

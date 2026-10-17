@@ -19,10 +19,12 @@ description: 互动影院竞品周报：跑抓取脚本 → 解读变化 → 刷
    - `description`：对比 before/after，只报新增的卖点。
    - `rank`：只报进入/跌出榜单、或变动 ≥15 名的。
    - `reviews`：挑有信息量的（具体功能抱怨/夸奖），1-2 句概括，不整段搬。
+   - `instagram`：粉丝数涨幅 ≥10% 或新增 ≥5 条帖子才会报。结合版本更新判断是在推新功能还是在买量。
    - `yt_official` / `yt_mention`：看标题判断是否真相关（同名撞车直接丢），相关的附缩略图 `https://i.ytimg.com/vi/<id>/hqdefault.jpg` + 链接。
    - `discovery`：条目里 `rich=true` 的（描述含视频/画面/配音等信号）优先看。判定 promote（多模态直接竞品，加进 competitors.json，**必须写 `modality` 字段**）/ watch（有点关系但不是多模态）/ ignore（纯短剧平台、纯文字陪伴聊天、工具类）。写进 `data/insights.json.candidates`。
    - `discovery_old`：老 app 新出现在搜索里，一般 ignore，除非明显同类。
-3. **网页搜索补充**（每天必做，控制在 6 次以内）：
+3. **网页搜索补充**（每期必做，控制在 6 次以内）：
+   - TikTok 对脚本返验证码，不抓。想看竞品 TikTok 动静时用 WebSearch `<竞品名> tiktok`，别去爬。
    - `AI interactive drama app` / `interactive film AI` 近一周新闻；`AI互动剧` / `AI互动影游` 近一周新闻
    - 对 core 竞品中本周有事件的，搜一次其名字 + news/融资
    - Reddit 被脚本拦截，用 WebSearch `site:reddit.com <竞品名>` 看口碑

@@ -37,7 +37,12 @@
       "version": "1.2.0",
       "rating": 5,
       "ratingCount": 13,
-      "ranks": {}
+      "ranks": {},
+      "ig": {
+        "handle": "wapoo.video",
+        "followers": 468,
+        "posts": 120
+      }
     }
   ],
   "reviews": [
@@ -109,5 +114,10 @@
     "price": "Free",
     "released": "2026-05-12",
     "country": "us"
+  },
+  "ig": {
+    "handle": "wapoo.video",
+    "followers": 468,
+    "posts": 120
   }
 }

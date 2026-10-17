@@ -110,6 +110,22 @@ const RICH = new Set(['video', 'voice', 'music']);
 const isRich = c => (c.modality || []).some(m => RICH.has(m));
 const prio = (c, high = 'high') => (c.tier === 'core' && isRich(c) ? high : c.tier === 'core' ? 'medium' : 'low');
 
+// ---------- Instagram（匿名只拿得到粉丝数/发帖数，拿不到帖子正文；TikTok 对脚本返验证码，不抓） ----------
+const num = t => {
+  const m = (t || '').replace(/,/g, '').match(/([\d.]+)([KMkm]?)/);
+  if (!m) return null;
+  return Math.round(+m[1] * ({ k: 1e3, m: 1e6 }[m[2].toLowerCase()] || 1));
+};
+async function instagram(handle) {
+  const html = await get(`https://www.instagram.com/${handle}/`);
+  const m = html.match(/<meta property="og:description" content="([^"]+)"/);
+  if (!m) return null;
+  const d = m[1];
+  const f = d.match(/([\d.,KMkm]+)\s+Followers/), p = d.match(/([\d.,KMkm]+)\s+Posts/);
+  if (!f) return null;
+  return { handle, followers: num(f[1]), posts: p ? num(p[1]) : null };
+}
+
 // ---------- 主流程 ----------
 const snapshots = {};
 const { ranks, listed } = await charts();
@@ -127,6 +143,7 @@ for (const country of ['us', 'cn']) {
     if (!r) { errors.push(`${c.name}: App Store 查不到 (id ${c.appstore.id}，可能下架)`); snapshots[c.key] = { name: c.name, missing: true }; continue; }
 
     const shots = r.screenshotUrls || [];
+    let row_ig = null;
     const appRanks = ranks[c.appstore.id] || {};
     const base = { key: c.key, name: c.name, tier: c.tier, market: c.market, modality: c.modality || [] };
 
@@ -162,10 +179,29 @@ for (const country of ['us', 'cn']) {
       db.reviews = [...new Set([...db.reviews, ...revs.map(x => x.h)])];
     } catch (e) { errors.push(`reviews ${c.name}: ${e.message}`); }
 
+    // Instagram：营销节奏信号
+    if (c.instagram) {
+      try {
+        const ig = await instagram(c.instagram);
+        if (ig) {
+          const prevIg = [...db.history].reverse().find(h => h.ig)?.ig;
+          db.ig = ig;
+          row_ig = ig;
+          if (prevIg) {
+            const growth = prevIg.followers ? (ig.followers - prevIg.followers) / prevIg.followers : 0;
+            const newPosts = (ig.posts || 0) - (prevIg.posts || 0);
+            if (growth >= 0.1 || newPosts >= 5) {
+              emit({ ...base, type: 'instagram', priority: prio(c, 'medium'), handle: c.instagram, followers: ig.followers, from: prevIg.followers, newPosts, url: `https://www.instagram.com/${c.instagram}/` });
+            }
+          }
+        }
+      } catch (e) { errors.push(`instagram ${c.name}: ${e.message}`); }
+    }
+
     db.screenshots = shots;
     db.description = r.description;
     db.meta = { trackName: r.trackName, seller: r.sellerName, icon: r.artworkUrl512 || r.artworkUrl100, url: r.trackViewUrl, genre: r.primaryGenreName, price: r.formattedPrice, released: (r.releaseDate || '').slice(0, 10), country };
-    const row = { date: TODAY, version: r.version, rating: r.averageUserRating ? +r.averageUserRating.toFixed(2) : null, ratingCount: r.userRatingCount || 0, ranks: appRanks };
+    const row = { date: TODAY, version: r.version, rating: r.averageUserRating ? +r.averageUserRating.toFixed(2) : null, ratingCount: r.userRatingCount || 0, ranks: appRanks, ...(row_ig ? { ig: row_ig } : {}) };
     db.history = db.history.filter(h => h.date !== TODAY).concat(row);
     writeJSON(p, db);
     snapshots[c.key] = { ...base, ...db.meta, ...row, latestNotes: db.versions[0]?.notes || '', screenshots: shots, reviewSample: db.reviewSample };
@@ -237,5 +273,5 @@ const inbox = { runAt: state.lastRunAt, firstRun: FIRST_RUN, events, snapshots, 
 writeJSON(join(ROOT, 'data', 'inbox.json'), inbox);
 
 const count = t => events.filter(e => e.type === t).length;
-console.log(`${FIRST_RUN ? '[首次运行·建立基线] ' : ''}events=${events.length} version=${count('version')} screenshots=${count('screenshots')} rank=${count('rank')} yt=${count('yt_official') + count('yt_mention')} discovery=${newCands.length} errors=${errors.length}`);
+console.log(`${FIRST_RUN ? '[首次运行·建立基线] ' : ''}events=${events.length} version=${count('version')} screenshots=${count('screenshots')} rank=${count('rank')} ig=${count('instagram')} yt=${count('yt_official') + count('yt_mention')} discovery=${newCands.length} errors=${errors.length}`);
 errors.forEach(e => console.log('  ! ' + e));

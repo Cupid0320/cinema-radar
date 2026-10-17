@@ -37,7 +37,12 @@
       "version": "2.0.6",
       "rating": 4.48,
       "ratingCount": 398,
-      "ranks": {}
+      "ranks": {},
+      "ig": {
+        "handle": "inplayapp",
+        "followers": 496,
+        "posts": 134
+      }
     }
   ],
   "reviews": [
@@ -113,5 +118,10 @@
     "price": "Free",
     "released": "2026-07-06",
     "country": "us"
+  },
+  "ig": {
+    "handle": "inplayapp",
+    "followers": 496,
+    "posts": 134
   }
 }

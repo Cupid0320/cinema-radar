@@ -82,7 +82,7 @@ function card(c) {
     <div class="tags"><span class="tag t-${c.tier}">${c.tier === 'core' ? '直接竞品' : '相邻'}</span><span class="tag">${esc(c.market)}</span>${(c.modality || []).filter(m => m !== 'text').map(m => `<span class="tag t-mod">${({ video: '视频', image: '图像', voice: '语音', music: '音乐' })[m] || m}</span>`).join('')}${a?.meta?.released ? `<span class="tag">上架 ${esc(a.meta.released)}</span>` : ''}</div></div>
   </header>
   ${ins.oneLiner ? `<p class="one">${esc(ins.oneLiner)}</p>` : ''}
-  ${last ? `<div class="stats"><div><small>版本</small><b>${esc(last.version)}</b></div><div><small>评分</small><b>${last.rating ?? '—'}</b></div><div><small>评分数</small><b>${last.ratingCount.toLocaleString()}</b>${spark(a.history.map(h => h.ratingCount))}</div></div>` : '<p class="muted small">无 App Store 页面：靠小红书与网页追踪</p>'}
+  ${last ? `<div class="stats"><div><small>版本</small><b>${esc(last.version)}</b></div><div><small>评分</small><b>${last.rating ?? '—'}</b></div><div><small>评分数</small><b>${last.ratingCount.toLocaleString()}</b>${spark(a.history.map(h => h.ratingCount))}</div>${a.ig ? `<div><small>IG 粉丝</small><b><a href="https://www.instagram.com/${esc(a.ig.handle)}/" target="_blank">${a.ig.followers.toLocaleString()}</a></b>${spark(a.history.map(h => h.ig?.followers ?? null))}</div>` : ''}</div>` : '<p class="muted small">无 App Store 页面：靠小红书与网页追踪</p>'}
   ${ranks ? `<div class="ranks">${ranks}</div>` : ''}
   ${shots ? `<div class="shots">${shots}</div>` : ''}
   ${vers ? `<details><summary>最近版本</summary><ul class="vers">${vers}</ul></details>` : ''}

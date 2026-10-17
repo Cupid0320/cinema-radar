@@ -37,7 +37,12 @@
       "version": "1.5.0",
       "rating": 4.92,
       "ratingCount": 13,
-      "ranks": {}
+      "ranks": {},
+      "ig": {
+        "handle": "cuddliai",
+        "followers": 2710,
+        "posts": 29
+      }
     }
   ],
   "reviews": [
@@ -74,5 +79,10 @@
     "price": "Free",
     "released": "2026-08-05",
     "country": "us"
+  },
+  "ig": {
+    "handle": "cuddliai",
+    "followers": 2710,
+    "posts": 29
   }
 }

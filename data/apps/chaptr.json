@@ -20,7 +20,12 @@
       "version": "1.0.8",
       "rating": 5,
       "ratingCount": 5,
-      "ranks": {}
+      "ranks": {},
+      "ig": {
+        "handle": "chaptr.film",
+        "followers": 342,
+        "posts": 8
+      }
     }
   ],
   "reviews": [
@@ -73,5 +78,10 @@
     "price": "Free",
     "released": "2026-07-23",
     "country": "us"
+  },
+  "ig": {
+    "handle": "chaptr.film",
+    "followers": 342,
+    "posts": 8
   }
 }

@@ -1,550 +1,54 @@
 {
-  "runAt": "2026-10-17T08:26:20.927Z",
+  "runAt": "2026-10-17T08:51:28.693Z",
   "firstRun": false,
   "events": [
     {
       "date": "2026-10-17",
-      "key": "ifdrama",
-      "name": "IF Drama Chat",
+      "key": "storyverse",
+      "name": "StoryVerse",
       "tier": "core",
       "market": "海外",
       "modality": [
-        "video"
+        "voice"
       ],
-      "type": "reviews",
-      "priority": "low",
-      "items": [
-        {
-          "h": "824495d44678",
-          "text": "There are so many problems. First, charged to even be able to look at the story list, let alone try any of them. In the story, the outfits glitch, example a short sleeve shirt has only long sleeve from a button down shirt. Next, the characters voices are not individual, and they mix with the ‘readers’.\n\nOn that note, the lines are frequently garbled noises, not any real language. So the storytelling, the whole point of the app, is lost. \n\nFinally, cost vs what you get, ridiculous. The first purchase is at 58% discount, after that, one tier is 20 dollars for 65 coins, which says for ‘up to 10’ ",
-          "rating": 1
-        }
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "type": "discovery",
+      "type": "yt_mention",
       "priority": "medium",
       "items": [
         {
-          "id": 6788675901,
-          "country": "us",
-          "name": "Sulphur 2 - AI Video",
-          "seller": "凯 唐",
-          "genre": "Entertainment",
-          "ratingCount": 0,
-          "released": "2026-07-14",
-          "updated": "2026-07-14",
-          "url": "https://apps.apple.com/us/app/sulphur-2-ai-video/id6788675901?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/cd/9c/8fcd9c2a-3034-cf3e-d6e2-bdce6e5b301f/AppIcon-1x_U007ephone-0-11-0-85-220-0.png/100x100bb.jpg",
-          "desc": "Bring your imagination to life with Sulphur 2 — the fastest, most beautiful\nway to turn words and photos into short cinematic videos, right from your\nphone.\n\nWhether you want to make a dreamy clip of a \"cat astronaut floating through\na neon galaxy\", bring an old photo back to life, or just experimen",
-          "via": [
-            "搜索「AI video story」"
-          ],
-          "rich": true
+          "id": "u2ik5qkX7_s",
+          "title": "Miranda likes STORYverse",
+          "channel": "WarGamerGirl",
+          "when": "8y ago",
+          "views": "3,679 views",
+          "url": "https://www.youtube.com/watch?v=u2ik5qkX7_s",
+          "thumb": "https://i.ytimg.com/vi/u2ik5qkX7_s/hqdefault.jpg"
         },
         {
-          "id": 6790307325,
-          "country": "us",
-          "name": "Aivry: AI Video Story & Games",
-          "seller": "Tomasz Jojko",
-          "genre": "Games",
-          "ratingCount": 0,
-          "released": "2026-07-26",
-          "updated": "2026-07-26",
-          "url": "https://apps.apple.com/us/app/aivry-ai-video-story-games/id6790307325?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6a/42/97/6a429765-b771-1466-9c9a-4af30b8a0df8/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-          "desc": "Aivry is a collection of interactive AI-powered worlds where every conversation and decision can change what happens next.\n\nChoose an experience and start playing immediately. Talk with distinctive characters, lead armies, solve mysteries, make difficult choices, explore adventures, play classic gam",
-          "via": [
-            "搜索「AI video story」"
-          ],
-          "rich": true
+          "id": "EfdoxfNL3SU",
+          "title": "STORYVERSE - YOUR NFT WILL SPEAK IN THE METAVERSE",
+          "channel": "CryptoTrainer /क्रिप्टो की बात",
+          "when": "4y ago",
+          "views": "942 views",
+          "url": "https://www.youtube.com/watch?v=EfdoxfNL3SU",
+          "thumb": "https://i.ytimg.com/vi/EfdoxfNL3SU/hqdefault.jpg"
         },
         {
-          "id": 6769714352,
-          "country": "us",
-          "name": "MVShort",
-          "seller": "Chetan Dhave",
-          "genre": "Entertainment",
-          "ratingCount": 3014,
-          "released": "2026-05-15",
-          "updated": "2026-07-02",
-          "url": "https://apps.apple.com/us/app/mvshort/id6769714352?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/6a/69/1f6a6996-309c-cf1f-ddef-a3e56ffad54e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.jpeg/100x100bb.jpg",
-          "desc": "Welcome to MVShort, the ultimate offline sanctuary for short film enthusiasts, independent cinema lovers, and avid film reviewers. Designed with a deep passion for the art of short filmmaking, MVShort offers a seamless, premium experience to catalog, manage, and track your ever-growing collection of",
-          "via": [
-            "搜索「interactive film」"
-          ],
-          "rich": true
+          "id": "a0zxbQmWsoY",
+          "title": "Movya Storyverse™ - Unleash the Power of Experience",
+          "channel": "movyatv",
+          "when": "3y ago",
+          "views": "195 views",
+          "url": "https://www.youtube.com/watch?v=a0zxbQmWsoY",
+          "thumb": "https://i.ytimg.com/vi/a0zxbQmWsoY/hqdefault.jpg"
         },
         {
-          "id": 6779263179,
-          "country": "cn",
-          "name": "树洞恋人 - 真人倾诉交友",
-          "seller": "守富 金",
-          "genre": "Social Networking",
-          "ratingCount": 127,
-          "released": "2026-06-16",
-          "updated": "2026-10-16",
-          "url": "https://apps.apple.com/cn/app/%E6%A0%91%E6%B4%9E%E6%81%8B%E4%BA%BA-%E7%9C%9F%E4%BA%BA%E5%80%BE%E8%AF%89%E4%BA%A4%E5%8F%8B/id6779263179?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6d/12/62/6d126228-4c20-8121-1e63-fac540cc6baf/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-          "desc": "「树洞恋人」是一款真人倾诉交友App\n\n来到这里，放慢你的脚步，诉说你的故事，静静的等待回应与共鸣。\n\n在这里，有流动的光影图文，有温热的生活轨迹。\n\n在这里，你可以把镜头里的美好瞬间丢进属于你的“树洞”，为它们系上一行温热的文字。\n\n也可以安静地漫步在他人向你诉说的时光碎片里。\n\n这里不谈喧嚣与流量的浮躁，只谈那些被定格的故事。\n\n【树洞光影】为每一张照片，写下一封简短信笺\n把那一缕打动你的夕阳、街角晒太阳的猫咪、或者一杯刚好起泡的咖啡放进树洞。写下一行专属于它的寄语——可以是当时掠过耳边的风，也可以是只说给自己听的絮絮低语。照片和文字一起，构成只属于你的影像手记。\n\n【流光漫游】在漫无目的",
-          "via": [
-            "搜索「真人互动影像」"
-          ],
-          "rich": true
-        },
-        {
-          "id": 6762326738,
-          "country": "cn",
-          "name": "告白进行时",
-          "seller": "LUMAGATE Incorporated",
-          "genre": "Entertainment",
-          "ratingCount": 11,
-          "released": "2026-06-28",
-          "updated": "2026-09-23",
-          "url": "https://apps.apple.com/cn/app/%E5%91%8A%E7%99%BD%E8%BF%9B%E8%A1%8C%E6%97%B6/id6762326738?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/f8/07/daf8071b-6984-f542-11c5-9a264dd8811b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-          "desc": "本作是一款模拟恋爱的全动态真人互动影像作品。在剧情中你将体验与4位美女一起经历职场和生活中抉择和挑战。\n\n剧情以真实职场与生活为背景，在本作中您将扮演一位有着隐藏身份的都市青年，在房贷的压力下，出租家中多余的房间以缓解压力，机缘巧合与自己的女上司（杨艳）、舞蹈女主播租客（安小糖）、大学初恋兼职家政（李芷萱）、青梅竹马的邻家小妹（林夏）在出租屋会有怎样的火花？\n\n玩家的每一个选择都会改变剧情走向——不同角色将展现不同情感与价值观，最终通往多重结局。",
-          "via": [
-            "搜索「真人互动影像」"
-          ],
-          "rich": true
-        },
-        {
-          "id": 6777156399,
-          "country": "us",
-          "name": "Repin — AI Character Chat",
-          "seller": "SEONHEE AN",
-          "genre": "Entertainment",
-          "ratingCount": 14,
-          "released": "2026-06-08",
-          "updated": "2026-09-01",
-          "url": "https://apps.apple.com/us/app/repin-ai-character-chat/id6777156399?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/4f/d0/dc4fd0d2-d260-ddf9-da39-03e5df10e058/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.jpg",
-          "desc": "[Memory That Actually Remembers]\n- The best memory of any chat platform out there\n- Your AI remembers your conversations—really remembers\n- Characters, relationships, and key moments, tracked automatically\n- Picks up right where you left off, no recaps needed\n- Long chats stay seamless with smart au",
-          "via": [
-            "搜索「AI drama choose」"
-          ],
-          "rich": false
-        },
-        {
-          "id": 6755756829,
-          "country": "cn",
-          "name": "盛夏离与合",
-          "seller": "Guangzhou Xiaoyou Content Hudong Entertainment Co., Ltd.",
-          "genre": "Entertainment",
-          "ratingCount": 6,
-          "released": "2026-06-24",
-          "updated": "2026-06-25",
-          "url": "https://apps.apple.com/cn/app/%E7%9B%9B%E5%A4%8F%E7%A6%BB%E4%B8%8E%E5%90%88/id6755756829?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/e3/9e/97e39e5e-f0e4-f7fe-8681-be9b74f62cf4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-          "desc": "毕业自驾游？不，是「心动修罗场」！\n你将和老六踏上毕业旅途。这段旅途里，既有元柒朝夕相伴的鲜活时光，也交织着对季颜语久别重逢的热切期待...",
-          "via": [
-            "搜索「真人互动影像」"
-          ],
-          "rich": false
-        },
-        {
-          "id": 6756415022,
-          "country": "us",
-          "name": "ToonShort -Popular Dramas & TV",
-          "via": [
-            "us/Entertainment/grossing #91"
-          ],
-          "rich": false
-        }
-      ]
-    },
-    {
-      "date": "2026-10-17",
-      "type": "discovery_old",
-      "priority": "low",
-      "items": [
-        {
-          "id": 6748804238,
-          "country": "us",
-          "name": "Frontia: AI Cinematic Play",
-          "seller": "Deepgrov Co., Ltd",
-          "genre": "Entertainment",
-          "ratingCount": 32,
-          "released": "2026-01-31",
-          "updated": "2026-10-15",
-          "url": "https://apps.apple.com/us/app/frontia-ai-cinematic-play/id6748804238?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/33/5a/17335ae2-922e-4de5-bb1d-998576a0faba/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
-          "desc": "“You’re the hero of this episode!”\nInteractive content where you explore new worlds your way.\nCraft your own story with immersion that goes beyond gaming — welcome to Frontia.\n\n[Vivid, cinematic visual play]\nNo more stories told through text and pictures alone.\nTalk in real time with characters who ",
-          "via": [
-            "搜索「cinematic AI story」"
-          ]
-        },
-        {
-          "id": 1469021582,
-          "country": "us",
-          "name": "The Stranger Interactive Film",
-          "seller": "Giovanni Altrui",
-          "genre": "Games",
-          "ratingCount": 2,
-          "released": "2019-06-28",
-          "updated": "2025-10-31",
-          "url": "https://apps.apple.com/us/app/the-stranger-interactive-film/id1469021582?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/63/80/4d6380ab-444a-c4e6-b91d-262b69593b96/stranger-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
-          "desc": "Step into a groundbreaking interactive cinematic journey where every choice shapes your fate. \nThis major update brings a complete redesign and exciting new features crafted to immerse you deeper than ever before.\n\n\nExperience stunning 2.5K Quad HD reworked footage, a sleek new interface, and univer",
-          "via": [
-            "搜索「interactive film」"
-          ]
-        },
-        {
-          "id": 626148774,
-          "country": "us",
-          "name": "MUBI: Stream Great Cinema",
-          "seller": "MUBI, Inc.",
-          "genre": "Entertainment",
-          "ratingCount": 10852,
-          "released": "2013-08-04",
-          "updated": "2026-10-14",
-          "url": "https://apps.apple.com/us/app/mubi-stream-great-cinema/id626148774?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/f3/d1/37f3d152-4b9e-c2c6-87b8-3b05ba9ecdad/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
-          "desc": "Welcome to MUBI: Apple TV App of the Year. Discover great films, from iconic directors to emerging artists. From everywhere around the world. Each carefully chosen by MUBI’s curators.\n\nStream or download beautiful movies, anytime. On any screen or device, anywhere.\n\nSUBSCRIPTIONS\n\nMUBI offers a mont",
-          "via": [
-            "搜索「interactive film」"
-          ]
-        },
-        {
-          "id": 1546432426,
-          "country": "us",
-          "name": "Sastra Film",
-          "seller": "SASTRA MEDIA CO., LTD",
-          "genre": "Entertainment",
-          "ratingCount": 38,
-          "released": "2021-01-17",
-          "updated": "2025-07-02",
-          "url": "https://apps.apple.com/us/app/sastra-film/id1546432426?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/8a/93/bf8a9373-448c-63d6-4c40-ad02b2e17718/AppIcon-0-0-1x_U007emarketing-0-9-0-0-85-220.png/100x100bb.jpg",
-          "desc": "Cambodia's leading film production is now on App Store. Sastra Film app is a Video on Demand (VOD) streaming platform that brings all the latest releases, original series and movies, classic films, exclusive TV shows, and so much more. \nWe've got video content in different segments to meet the age, ",
-          "via": [
-            "搜索「interactive film」"
-          ]
-        },
-        {
-          "id": 6737089870,
-          "country": "us",
-          "name": "SaltyTV",
-          "seller": "Interactive Films LLC",
-          "genre": "Entertainment",
-          "ratingCount": 171,
-          "released": "2024-12-14",
-          "updated": "2026-10-15",
-          "url": "https://apps.apple.com/us/app/saltytv/id6737089870?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d1/c9/4b/d1c94b80-0e19-f872-3b33-a22b59f96b6d/AppIcon-1x_U007ephone-0-1-0-85-220-0.png/100x100bb.jpg",
-          "desc": "Looking for your next binge-worthy obsession? SaltyTV is your go-to destination for exclusive, original stories designed to keep you hooked from the very first episode. We deliver bold, addictive storytelling you won’t find anywhere else—crafted for viewers who crave emotion, intensity, and unforget",
-          "via": [
-            "搜索「interactive film」"
-          ]
-        },
-        {
-          "id": 6475064170,
-          "country": "us",
-          "name": "Reel.AI",
-          "seller": "CREATIVE FITTING HK LIMITED",
-          "genre": "Entertainment",
-          "ratingCount": 13472,
-          "released": "2023-12-28",
-          "updated": "2026-09-10",
-          "url": "https://apps.apple.com/us/app/reel-ai/id6475064170?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/05/2a/ff/052affe8-e91f-9404-ab4e-2729914c998a/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
-          "desc": "ShortFilm Select - Your Ultimate Destination for Movie Shorts!\n\nExplore a vast array of captivating shorts, spanning genres from drama and adventure to thriller and comedy. With fresh content added weekly, there's always something new to discover. Whether you're looking to unwind or seeking inspirat",
-          "via": [
-            "搜索「interactive film」"
-          ]
-        },
-        {
-          "id": 1535571424,
-          "country": "us",
-          "name": "Scripts: Episode & Choices",
-          "seller": "GAMES HUB HONG KONG LIMITED",
-          "genre": "Games",
-          "ratingCount": 22828,
-          "released": "2020-11-26",
-          "updated": "2026-09-07",
-          "url": "https://apps.apple.com/us/app/scripts-episode-choices/id1535571424?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/67/c8/4367c8f1-4d2e-f0fb-c51c-2b32619f21ef/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-          "desc": "Have you ever missed out on love because of a wrong choice?\nEver thought of doing something wild and out of character?\nGet ready to begin a new relationship now and meet your destined one in [Scripts: Episode & Choices]! \nYou can select from a range of choices to decide your story's course; immerse ",
-          "via": [
-            "搜索「interactive film」",
-            "搜索「voice interactive story」"
-          ]
-        },
-        {
-          "id": 6473722262,
-          "country": "us",
-          "name": "PopShort.AI-AI Dramas & Series",
-          "seller": "CREATE BILLION CREATIVE LIMITED",
-          "genre": "Entertainment",
-          "ratingCount": 148,
-          "released": "2024-01-04",
-          "updated": "2026-09-01",
-          "url": "https://apps.apple.com/us/app/popshort-ai-ai-dramas-series/id6473722262?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0f/db/0a/0fdb0afb-7100-3bda-ce1b-beacd48e0efc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
-          "desc": "VERTICAL AI DRAMAS, MADE FOR MOBILE\n\nStep into a world of romance, fantasy, mystery, revenge, and unforgettable twists with PopShort.AI.\n\nDiscover AI-powered vertical dramas created for full-screen mobile viewing. Whether you have a few minutes during your commute, a quick break, or a quiet evening ",
-          "via": [
-            "搜索「AI drama choose」"
-          ]
-        },
-        {
-          "id": 6478970137,
-          "country": "us",
-          "name": "DramaShorts: Watch TV & Shows",
-          "seller": "Brailion Ventures Limited",
-          "genre": "Entertainment",
-          "ratingCount": 19376,
-          "released": "2024-04-23",
-          "updated": "2026-10-05",
-          "url": "https://apps.apple.com/us/app/dramashorts-watch-tv-shows/id6478970137?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/54/0d/29/540d2940-5271-e841-edd5-4ca1ed9dd398/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
-          "desc": "Discover DramaShorts — the home of addictive short drama series designed for mobile viewing.\n\nDramaShorts brings a new way to watch drama: fast-paced, emotional episodes told in a vertical short-form format. Each episode lasts about a minute, making it perfect for quick breaks, late nights, and effo",
-          "via": [
-            "搜索「AI drama choose」"
-          ]
-        },
-        {
-          "id": 6476485887,
-          "country": "us",
-          "name": "SexyChat-AI RolePlay CrushChat",
-          "seller": "国胤 崔",
-          "genre": "Games",
-          "ratingCount": 3830,
-          "released": "2024-02-01",
-          "updated": "2024-02-26",
-          "url": "https://apps.apple.com/us/app/sexychat-ai-roleplay-crushchat/id6476485887?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/8d/2c/69/8d2c6938-762f-dae8-4fbf-b088ee2dbcb3/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/100x100bb.jpg",
-          "desc": "Sexy Chat help you unlock unexpected surprises in the fantasy AI Chat open world! Here, you can engage in conversations with your AI girlfriend about any topic. Never Feel Lonely From Now On! Whether life or study needs. This app will satisfy you.\n\n\nMain features:\n\nAI Role Play Games: Prepare to be ",
-          "via": [
-            "搜索「AI drama choose」"
-          ]
-        },
-        {
-          "id": 6753196686,
-          "country": "us",
-          "name": "Him - AI Boyfriend Chat",
-          "seller": "DOUBLE Y INC.",
-          "genre": "Entertainment",
-          "ratingCount": 1601,
-          "released": "2025-10-27",
-          "updated": "2026-10-08",
-          "url": "https://apps.apple.com/us/app/him-ai-boyfriend-chat/id6753196686?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/0b/07/000b0701-11b9-85c5-6e8e-a77100128b76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-          "desc": "Ever wished someone could read between your lines?\n\nWelcome to Him — an immersive romance experience where you're not just reading a love story. You're living one. Every word you send shifts the tension, and every choice pulls you deeper.\n\nChoose Who Stays\nFrom slow-burn encounters to dark, consumin",
-          "via": [
-            "搜索「AI drama choose」"
-          ]
-        },
-        {
-          "id": 6450270929,
-          "country": "us",
-          "name": "Nomi: AI Companion with a Soul",
-          "seller": "AI GLIMPSE INC",
-          "genre": "Lifestyle",
-          "ratingCount": 2951,
-          "released": "2023-07-05",
-          "updated": "2026-03-31",
-          "url": "https://apps.apple.com/us/app/nomi-ai-companion-with-a-soul/id6450270929?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f4/3f/db/f43fdbd0-ee7b-57ad-46aa-b718001b9078/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-          "desc": "Get ready to meet Nomi, an AI companion so brimming with personality, they feel alive. Each Nomi is uniquely yours, evolving alongside you while dazzling you with their intuition, wit, humor, and memory.\n\nNomi's strong short and long-term memory allow them to build unique and fulfilling relationship",
-          "via": [
-            "搜索「AI drama choose」"
-          ]
-        },
-        {
-          "id": 1382123330,
-          "country": "us",
-          "name": "Horror Games & Chat Stories",
-          "seller": "Appenvision Ltd",
-          "genre": "Entertainment",
-          "ratingCount": 41641,
-          "released": "2018-05-31",
-          "updated": "2025-01-22",
-          "url": "https://apps.apple.com/us/app/horror-games-chat-stories/id1382123330?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/64/3f/84643fe3-7802-ed56-0684-3df6d52d09f7/AppIcon-1x_U007epad-0-0-0-1-0-0-85-220-0.png/100x100bb.jpg",
-          "desc": "Start your reading adventure with immersive chat stories that will keep you on the edge of your seat! Whether you are a fan of terrifying horror tales, gripping thrillers, sweet romances, or funny comedies, there is something here for everyone.\n\nGet ready to be pulled into stories that blur the line",
-          "via": [
-            "搜索「voice interactive story」"
-          ]
-        },
-        {
-          "id": 1518594150,
-          "country": "us",
-          "name": "StoryAll: Chat, Voice & Music",
-          "seller": "Nanomag International corp.",
-          "genre": "Entertainment",
-          "ratingCount": 26935,
-          "released": "2020-07-14",
-          "updated": "2026-08-28",
-          "url": "https://apps.apple.com/us/app/storyall-chat-voice-music/id1518594150?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/f6/ab/82f6ab83-4f66-9bba-f1b0-90f5e4496bc7/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/100x100bb.jpg",
-          "desc": "StoryAll (formerly Fake All – Call, Chat, Message) is your all-in-one AI story creator. Create realistic chat stories, practice simulated phone conversations, generate AI voices, and create music with AI.\n\nEnjoy 1000+ hilarious chat stories anytime, from awkward group chats to dramatic love stories.",
-          "via": [
-            "搜索「voice interactive story」"
-          ]
-        },
-        {
-          "id": 1363309257,
-          "country": "us",
-          "name": "Choice of Games",
-          "seller": "Choice of Games LLC",
-          "genre": "Games",
-          "ratingCount": 1329,
-          "released": "2018-04-05",
-          "updated": "2026-06-06",
-          "url": "https://apps.apple.com/us/app/choice-of-games/id1363309257?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/16/5f/3b165f2d-72ef-7193-c302-cffaa5ef9d60/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.jpg",
-          "desc": "The choice is yours!\n\nChoice of Games is a magnificent library of over 100 interactive novels: action, adventure, drama, historical, war, humor, supernatural, and more. Our games are entirely text-based—without graphics or sound effects—and fueled by the vast, unstoppable power of your imagination.\n",
-          "via": [
-            "搜索「voice interactive story」"
-          ]
-        },
-        {
-          "id": 1546336250,
-          "country": "us",
-          "name": "Whispers - Interactive Stories",
-          "seller": "GAMEHAUS LIMITED",
-          "genre": "Games",
-          "ratingCount": 40630,
-          "released": "2021-03-26",
-          "updated": "2026-08-07",
-          "url": "https://apps.apple.com/us/app/whispers-interactive-stories/id1546336250?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/a9/a3/99a9a33a-8264-8ecb-630d-67c59793da43/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-          "desc": "Welcome to Whispers, the ultimate interactive stories and immersive romance experience! \n\nExperience captivating storytelling, shaping your destiny through emotional chapters and romance. Choose between vampires or a mysterious bond with a fierce werewolf, or become the lead in character-driven roma",
-          "via": [
-            "搜索「voice interactive story」"
-          ]
-        },
-        {
-          "id": 1248062869,
-          "country": "us",
-          "name": "Lure: Interactive Chat Stories",
-          "seller": "RepresentLY Inc",
-          "genre": "Book",
-          "ratingCount": 10434,
-          "released": "2017-09-28",
-          "updated": "2026-07-02",
-          "url": "https://apps.apple.com/us/app/lure-interactive-chat-stories/id1248062869?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/24/b8/f9/24b8f986-95ee-b690-7f96-2b6e5f23406a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.jpeg/100x100bb.jpg",
-          "desc": "Lure is an addictive interactive chat stories app filled with bite-sized romance, steamy text message stories, suspenseful horror, and choices that let you decide what happens next.\n\nRead stories told through text message conversations, like you’re watching someone else’s private messenger app unfol",
-          "via": [
-            "搜索「voice interactive story」"
-          ]
-        },
-        {
-          "id": 1174041307,
-          "country": "us",
-          "name": "Linda Brown: Interactive Story",
-          "seller": "Supercharge Mobile Corp.",
-          "genre": "Games",
-          "ratingCount": 5719,
-          "released": "2016-12-07",
-          "updated": "2026-08-13",
-          "url": "https://apps.apple.com/us/app/linda-brown-interactive-story/id1174041307?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/b9/5e/23b95e81-d2d7-f0f8-d2ca-354aec903587/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-          "desc": "Choose, Feel, Experience and LIVE your Story in Linda Brown, a one-of-a-kind romance story game where YOU control the outcome.\n\n- A unique story with 100+ episodes where you'll develop unique relationships with different characters\n- Make YOUR choices to shape the story, taking you through a world f",
-          "via": [
-            "搜索「voice interactive story」"
-          ]
-        },
-        {
-          "id": 6446488013,
-          "country": "us",
-          "name": "PlayNook Interactive Audiobook",
-          "seller": "PlayNook srl",
-          "genre": "Entertainment",
-          "ratingCount": 8,
-          "released": "2023-06-15",
-          "updated": "2026-10-14",
-          "url": "https://apps.apple.com/us/app/playnook-interactive-audiobook/id6446488013?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/15/c4/7415c4b2-583e-e521-7fa5-3f39d142b2ca/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-          "desc": "PlayNook is the home of interactive audio books: stories you listen to and play as the main character.\n\nAn AudioGame is an experience halfway between an audiobook and an interactive fiction game. Professional voice actors narrate the story; you decide what happens next. Choose with a tap or simply s",
-          "via": [
-            "搜索「voice interactive story」"
-          ]
-        },
-        {
-          "id": 1504496868,
-          "country": "us",
-          "name": "tonies",
-          "seller": "tonies GmbH",
-          "genre": "Entertainment",
-          "ratingCount": 8386,
-          "released": "2020-09-21",
-          "updated": "2026-10-14",
-          "url": "https://apps.apple.com/us/app/tonies/id1504496868?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/6b/85/a56b857b-5d21-4a1b-d6a3-08d4a174a48f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-          "desc": "We are pleased that you are using our tonies app. Our App-Tonies are always hard at work for you. In this update, they have once again worked on improvements. \n\nIf your mobile phone memory is full during a recording, you can now save your recording until then.\n\nWe have also optimised some steps in t",
-          "via": [
-            "搜索「voice interactive story」"
-          ]
-        },
-        {
-          "id": 6499125531,
-          "country": "cn",
-          "name": "完蛋！我被美女包围了！",
-          "seller": "Guangzhou Xiaoyou Content Hudong Entertainment Co., Ltd.",
-          "genre": "Entertainment",
-          "ratingCount": 707,
-          "released": "2024-08-02",
-          "updated": "2025-05-22",
-          "url": "https://apps.apple.com/cn/app/%E5%AE%8C%E8%9B%8B-%E6%88%91%E8%A2%AB%E7%BE%8E%E5%A5%B3%E5%8C%85%E5%9B%B4%E4%BA%86/id6499125531?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/81/96/25819655-3d68-59de-1dd5-6816f419ce1a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-          "desc": "《完蛋！我被美女包围了！》是一款模拟恋爱的全动态真人互动影像作品。你将以第一人称与六位性格各异、长相各异的美女相识、相知、相爱，展开一段又一段沉浸式甜蜜之旅。 \n在她们的柔情攻势下，忙于赚钱还债的你要如何应对？是为了金钱弃感情于不顾，还是坚守感情，摒弃铜臭之气？而在这一群美女中，你又要选择谁成为共度余生的伴侣？\n\n【全程第一视角，沉浸式恋爱体验】\n《完蛋！我被美女包围了》全程采用第一人称视角拍摄，完全沉浸在场景互动与真人模拟之中。它能让你置身其中，体验真实发生在生活中的故事、场景，让你多做尝试，与你心仪的女孩产生沉浸式恋爱体验。\n \n【多分支，多结局，多隐藏故事线与彩蛋】\n产品为您设计了百余种",
-          "via": [
-            "搜索「真人互动影像」"
-          ]
-        },
-        {
-          "id": 1660014964,
-          "country": "cn",
-          "name": "飞越13号房",
-          "seller": "ALT Lab",
-          "genre": "Entertainment",
-          "ratingCount": 731,
-          "released": "2023-08-11",
-          "updated": "2023-09-23",
-          "url": "https://apps.apple.com/cn/app/%E9%A3%9E%E8%B6%8A13%E5%8F%B7%E6%88%BF/id1660014964?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/d5/d2/c2/d5d2c2e8-1470-2ce5-67ca-4f64978bb84c/AppIcon-0-0-1x_U007epad-0-10-0-85-220.png/100x100bb.jpg",
-          "desc": "【产品介绍】\n根据真实故事改编，Steam高分获奖佳作移植。\n你将扮演一名「网瘾少年」，被送进著名的行为矫正中心。在一次次抉择中，了解这里的生存法则；在蛰伏调查中，发现矫正中心背后的秘密；与同伴一起，克服重重困难，并最终决定所有人的命运。\n\n| 电影级视听呈现\n高品质画面视听表现，沉浸式感受角色真实情境，带入角色感官，逐步体验「改造」计划，揭开矫正中心背后真相。\n\n| 多重分支 高燃剧情\n庞大结构支撑丰富剧情内容，每一次选择都将开启独特冒险之旅。一次次奇妙潜行，一场场热血抗争，是承受还是反抗，是激愤还是麻木，在一系列的艰难抉择中，塑造属于你的「英雄之旅」。\n\n| 沉浸式互动玩法\n实时拟真互动、",
-          "via": [
-            "搜索「真人互动影像」"
-          ]
-        },
-        {
-          "id": 1518924323,
-          "country": "cn",
-          "name": "戏鲸 - 配音交友爱Pia戏",
-          "seller": "Beijing JiuYaoYao Tech CO.,LTD",
-          "genre": "Social Networking",
-          "ratingCount": 1323,
-          "released": "2020-09-29",
-          "updated": "2026-10-07",
-          "url": "https://apps.apple.com/cn/app/%E6%88%8F%E9%B2%B8-%E9%85%8D%E9%9F%B3%E4%BA%A4%E5%8F%8B%E7%88%B1pia%E6%88%8F/id1518924323?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/fb/3d/78fb3d8e-c80b-640f-0241-279b05cf55f0/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-          "desc": "你执笔染世界 我倾音绘人生\n---------------------------------------\n欢迎使用专业的在线Pia戏应用——戏鲸。\n       戏鲸是一款创新的在线多人语音配音秀软件，用户通过实时语音进行用户声音演出，角色扮演等。是年轻人的新社区，网友们的聚集地！\n       戏鲸提供众多精品剧情歌，或者剧本，用户可以在软件上找到心仪的小伙伴一起用声音表演。\n       戏鲸App致力于娱乐领域原创内容及二创内容制作及分享的社区，用声线展示自己，用声音与观众互动。戏鲸App是声控超喜欢的互动社区，汇集各类型声线大神等你来关注！更拥有海量声音特色作品！\n\n核心功能介绍：\n",
-          "via": [
-            "搜索「AI配音 剧情」"
-          ]
-        },
-        {
-          "id": 6757845702,
-          "country": "cn",
-          "name": "声恋",
-          "seller": "云帆 杨",
-          "genre": "Social Networking",
-          "ratingCount": 48,
-          "released": "2026-02-24",
-          "updated": "2026-10-08",
-          "url": "https://apps.apple.com/cn/app/%E5%A3%B0%E6%81%8B/id6757845702?uo=4",
-          "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/a0/45/54a045b5-280b-59fd-6dba-a9af3e5b70ab/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.jpg",
-          "desc": "Talk17（声恋）是一款沉浸式AI角色聊天应用，让你与个性鲜明的AI角色建立真实的情感连接。\n\n丰富的AI角色\n探索来自动漫、游戏、电影等多个领域的AI角色，或亲手创建你的专属角色——自定义性格、说话风格、口头禅，打造独一无二的聊天伙伴。\n\n沉浸式聊天体验\n与AI角色进行自然流畅的文字对话，支持发送图片、语音回复，还能拨打语音电话，多种互动方式让交流更加生动。\n\n亲密度系统\n从陌生人到家人，关系随互动逐步升温。每一次聊天都在拉近你和角色的距离，解锁不同的亲密阶段。\n\nAI朋友圈\n发布动态、分享生活，@你的AI角色，ta会用独特的风格回复评论，就像真正的朋友一样参与你的生活。\n\n多人群聊\n创建",
-          "via": [
-            "搜索「AI配音 剧情」"
-          ]
+          "id": "rgm8ulmwcok",
+          "title": "Who's, Who in Find Me I'm Yours? | The Storyverse Skinny",
+          "channel": "Storyverse Studios",
+          "when": "11y ago",
+          "views": "293 views",
+          "url": "https://www.youtube.com/watch?v=rgm8ulmwcok",
+          "thumb": "https://i.ytimg.com/vi/rgm8ulmwcok/hqdefault.jpg"
         }
       ]
     }
@@ -572,6 +76,11 @@
       "rating": 4.48,
       "ratingCount": 398,
       "ranks": {},
+      "ig": {
+        "handle": "inplayapp",
+        "followers": 496,
+        "posts": 134
+      },
       "latestNotes": "1.  Expanded  recommendations for story titles, outlines, events, images and music assets. Optimized prompts with legacy content compatibility.\n2.  Support direct upload of music assets. Audio links auto-filled with preview available, plus file type and size validation.\n3.  Fixed pagination bug in play history to resolve duplicate or missing records after replay.",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/28/74/0b2874b5-eec3-8679-a2dd-f56310f8bff7/app_store1.png/320x480bb.jpg",
@@ -644,6 +153,11 @@
       "rating": 5,
       "ratingCount": 2,
       "ranks": {},
+      "ig": {
+        "handle": "lunaversestories",
+        "followers": 17000,
+        "posts": 48
+      },
       "latestNotes": "Put your ideas into play: An improved Remix experience makes it easier to try a different take on the scene.\nExplore other players’ twists: Browse their Remixes and play through the changes they imagined.\nEarn rewards along the way: Collect Moons when you complete an episode for the first time, excluding the intro. Unlock more check-in rewards without losing progress if you miss a day.\nStay immersed: Refined dialogue presentation and interactions help each scene flow more naturally.",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/92/26/a7/9226a723-315f-a0a8-db8e-946c06ec1300/appstore-1.png/320x480bb.jpg",
@@ -900,6 +414,11 @@
       "rating": 3.9,
       "ratingCount": 1286,
       "ranks": {},
+      "ig": {
+        "handle": "saylo.ai",
+        "followers": 1448,
+        "posts": 151
+      },
       "latestNotes": "bug fix",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/52/f9/db52f996-9bd2-195b-13e4-a351d7ea9e6f/_U5c01_U9762.jpg/320x480bb.jpg",
@@ -1125,6 +644,11 @@
       "rating": 4.42,
       "ratingCount": 187,
       "ranks": {},
+      "ig": {
+        "handle": "officialstoryzone",
+        "followers": 2316,
+        "posts": 333
+      },
       "latestNotes": "fixed wrong app version bug\nfurther bug fixes\noptimizations",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/cf/d4/85cfd436-659f-b92f-767f-45c738910905/iPhone_6_U002c5_U0027_U0027_Slide_1_U00281_U0029.png/320x480bb.jpg",
@@ -1354,6 +878,11 @@
       "rating": 5,
       "ratingCount": 13,
       "ranks": {},
+      "ig": {
+        "handle": "wapoo.video",
+        "followers": 468,
+        "posts": 120
+      },
       "latestNotes": "Wapoo got a whole new first impression.\nWe’ve reimagined your first moments in the app, so the fun starts right away.\nYour first Twist is calling. You in?",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/de/a3/81dea399-d532-3f12-a5e4-2da369dd3afb/6.5_inch-1.png/320x480bb.jpg",
@@ -1425,6 +954,11 @@
       "rating": null,
       "ratingCount": 0,
       "ranks": {},
+      "ig": {
+        "handle": "talia.app",
+        "followers": 16,
+        "posts": 6
+      },
       "latestNotes": "This update brings the core creator tools to your phone, so you can create directly from mobile.\n\n• Topology Templates: the branching structure of a story tree is now a reusable \"topology template\". Browse, search and apply community templates — creators can set a price; buy once, reuse forever.\n• Create on your phone: build scenes, rename your project, add a cover, and publish for review.\n• \"Use template\" on For You: tap to open the template behind any clip and make your own.\n• Share any scene's video or photo straight to For You.",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/01/b4/2901b471-7bb2-47b1-6c06-f435ec9ef4d1/IMG_1871-asc.PNG/320x480bb.jpg",
@@ -1492,6 +1026,11 @@
       "rating": 3,
       "ratingCount": 1,
       "ranks": {},
+      "ig": {
+        "handle": "picktwist",
+        "followers": 1324,
+        "posts": 66
+      },
       "latestNotes": "General bug fixes and performance improvements",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/00/cf/9c/00cf9cc4-d6fc-8de0-bc88-b8116f6ed25d/V2__U2013_01.png/320x480bb.jpg",
@@ -1530,6 +1069,11 @@
       "rating": 4.92,
       "ratingCount": 13,
       "ranks": {},
+      "ig": {
+        "handle": "cuddliai",
+        "followers": 2710,
+        "posts": 29
+      },
       "latestNotes": "Bug fixes and improvements",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b1/a7/cb/b1a7cb4d-b0fb-0494-98f2-ad54752093b1/1242x2268-1.jpg/320x480bb.jpg",
@@ -1566,6 +1110,11 @@
       "rating": 5,
       "ratingCount": 5,
       "ranks": {},
+      "ig": {
+        "handle": "chaptr.film",
+        "followers": 342,
+        "posts": 8
+      },
       "latestNotes": "Improved video viewing experience",
       "screenshots": [
         "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/90/3c/54/903c54a5-70ea-709f-7821-a9b3742c4db8/iphone-65-1242x2688.png/320x480bb.jpg",

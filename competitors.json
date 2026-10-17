@@ -1,5 +1,5 @@
 {
-  "_doc": "tier: core=直接竞品(多模态互动影院：会生成/播放视频、图像、语音、音乐), adjacent=相邻(纯文字互动小说/角色扮演，只在有重大动作时报)。modality: video|image|voice|music|text。appstore.country: us|cn。youtube: 官方频道 channelId。xhs: 小红书搜索词。",
+  "_doc": "tier: core=直接竞品(多模态互动影院：会生成/播放视频、图像、语音、音乐), adjacent=相邻(纯文字互动小说/角色扮演，只在有重大动作时报)。modality: video|image|voice|music|text。appstore.country: us|cn。youtube: 官方频道 channelId。xhs: 小红书搜索词。 instagram: 官方 IG 用户名，只追粉丝数/发帖数（匿名可见），不抓帖子正文。TikTok 对脚本返验证码，不抓。",
   "competitors": [
     {
       "key": "inplay",
@@ -20,7 +20,8 @@
       "modality": [
         "image",
         "music"
-      ]
+      ],
+      "instagram": "inplayapp"
     },
     {
       "key": "lunaverse",
@@ -37,7 +38,8 @@
       ],
       "modality": [
         "image"
-      ]
+      ],
+      "instagram": "lunaversestories"
     },
     {
       "key": "saganova",
@@ -127,7 +129,8 @@
       },
       "modality": [
         "image"
-      ]
+      ],
+      "instagram": "saylo.ai"
     },
     {
       "key": "talefy",
@@ -167,7 +170,8 @@
       },
       "modality": [
         "image"
-      ]
+      ],
+      "instagram": "officialstoryzone"
     },
     {
       "key": "janitor",
@@ -206,7 +210,8 @@
       },
       "modality": [
         "video"
-      ]
+      ],
+      "instagram": "wapoo.video"
     },
     {
       "key": "talia",
@@ -219,7 +224,8 @@
       },
       "modality": [
         "video"
-      ]
+      ],
+      "instagram": "talia.app"
     },
     {
       "key": "orbittoon",
@@ -246,7 +252,8 @@
       },
       "modality": [
         "video"
-      ]
+      ],
+      "instagram": "picktwist"
     },
     {
       "key": "cuddli",
@@ -260,7 +267,8 @@
       "modality": [
         "video",
         "voice"
-      ]
+      ],
+      "instagram": "cuddliai"
     },
     {
       "key": "xiaoshijie",
@@ -414,7 +422,8 @@
       },
       "modality": [
         "video"
-      ]
+      ],
+      "instagram": "chaptr.film"
     },
     {
       "key": "dreem",

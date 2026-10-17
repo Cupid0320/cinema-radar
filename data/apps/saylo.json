@@ -32,7 +32,12 @@
       "version": "2.6.3",
       "rating": 3.9,
       "ratingCount": 1286,
-      "ranks": {}
+      "ranks": {},
+      "ig": {
+        "handle": "saylo.ai",
+        "followers": 1448,
+        "posts": 151
+      }
     }
   ],
   "reviews": [
@@ -106,5 +111,10 @@
     "price": "Free",
     "released": "2024-05-01",
     "country": "us"
+  },
+  "ig": {
+    "handle": "saylo.ai",
+    "followers": 1448,
+    "posts": 151
   }
 }
